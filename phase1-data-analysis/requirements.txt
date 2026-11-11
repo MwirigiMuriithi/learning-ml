@@ -1,0 +1,9 @@
+# Phase 1 · Data Analysis & Exploration
+numpy>=1.26
+pandas>=2.2          # tested with 2.2 and 3.x
+matplotlib>=3.7
+seaborn>=0.13
+openpyxl>=3.1        # lets pandas read .xlsx files
+tzdata               # time-zone database (needed on Windows)
+jupyterlab>=4.0
+ipykernel

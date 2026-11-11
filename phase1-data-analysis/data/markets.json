@@ -1,0 +1,224 @@
+[
+  {
+    "market": "Wakulima Market",
+    "county": "Nairobi",
+    "type": "wholesale",
+    "location": {
+      "lat": -1.281,
+      "lon": 36.83
+    },
+    "opens": {
+      "days": "Daily",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Bananas",
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Maize",
+      "Onions",
+      "Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "market": "City Market",
+    "county": "Nairobi",
+    "type": "retail",
+    "location": {
+      "lat": -1.2833,
+      "lon": 36.8219
+    },
+    "opens": {
+      "days": "Mon-Sat",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Maize",
+      "Onions",
+      "Potatoes"
+    ]
+  },
+  {
+    "market": "Kongowea Market",
+    "county": "Mombasa",
+    "type": "wholesale",
+    "location": {
+      "lat": -4.0,
+      "lon": 39.683
+    },
+    "opens": {
+      "days": "Daily",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Bananas",
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Maize",
+      "Onions",
+      "Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "market": "Kibuye Market",
+    "county": "Kisumu",
+    "type": "wholesale",
+    "location": {
+      "lat": -0.1022,
+      "lon": 34.75
+    },
+    "opens": {
+      "days": "Daily",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Bananas",
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Maize",
+      "Onions",
+      "Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "market": "Nakuru Municipal Market",
+    "county": "Nakuru",
+    "type": "wholesale",
+    "location": {
+      "lat": -0.2833,
+      "lon": 36.0667
+    },
+    "opens": {
+      "days": "Daily",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Bananas",
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Maize",
+      "Onions",
+      "Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "market": "Eldoret Municipal Market",
+    "county": "Uasin Gishu",
+    "type": "wholesale",
+    "location": {
+      "lat": 0.5143,
+      "lon": 35.2698
+    },
+    "opens": {
+      "days": "Daily",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Bananas",
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Maize",
+      "Onions",
+      "Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "market": "Meru Municipal Market",
+    "county": "Meru",
+    "type": "retail",
+    "location": {
+      "lat": 0.0467,
+      "lon": 37.65
+    },
+    "opens": {
+      "days": "Mon-Sat",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Bananas",
+      "Beans",
+      "Kale",
+      "Maize",
+      "Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "market": "Thika Market",
+    "county": "Kiambu",
+    "type": "retail",
+    "location": {
+      "lat": -1.0333,
+      "lon": 37.0693
+    },
+    "opens": {
+      "days": "Mon-Sat",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Onions",
+      "Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "market": "Karatina Market",
+    "county": "Nyeri",
+    "type": "wholesale",
+    "location": {
+      "lat": -0.4833,
+      "lon": 37.1333
+    },
+    "opens": {
+      "days": "Daily",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Bananas",
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Maize",
+      "Onions",
+      "Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "market": "Machakos Market",
+    "county": "Machakos",
+    "type": "retail",
+    "location": {
+      "lat": -1.5177,
+      "lon": 37.2634
+    },
+    "opens": {
+      "days": "Mon-Sat",
+      "hour": 6
+    },
+    "crops_traded": [
+      "Bananas",
+      "Beans",
+      "Cabbage",
+      "Kale",
+      "Maize",
+      "Potatoes"
+    ]
+  }
+]

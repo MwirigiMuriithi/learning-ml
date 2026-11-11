@@ -1,0 +1,45 @@
+feature,source,engineered,treatment
+num__rainfall_mm,rainfall_mm,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__avg_temp_c,avg_temp_c,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__soil_ph,soil_ph,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__nitrogen_ppm,nitrogen_ppm,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__phosphorus_ppm,phosphorus_ppm,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__potassium_ppm,potassium_ppm,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__organic_matter_pct,organic_matter_pct,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__fertilizer_kg_ha,fertilizer_kg_ha,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__irrigation,irrigation,False,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__plant_year,plant_year,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__plant_month_sin,plant_month_sin,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__plant_month_cos,plant_month_cos,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__log_farm_size,log_farm_size,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__npk_total,npk_total,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__n_to_p_ratio,n_to_p_ratio,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__moisture_index,moisture_index,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__fert_x_irrigation,fert_x_irrigation,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__rain_gap_sq,rain_gap_sq,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__temp_gap_sq,temp_gap_sq,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+num__ph_gap_sq,ph_gap_sq,True,"median-impute -> cap (Winsorizer, fitted on train) -> standardise"
+nom__crop_Beans,crop_Beans,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__crop_Maize,crop_Maize,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__crop_Potato,crop_Potato,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__crop_Sorghum,crop_Sorghum,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__crop_Wheat,crop_Wheat,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Bungoma,county_Bungoma,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Kakamega,county_Kakamega,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Kiambu,county_Kiambu,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Kisii,county_Kisii,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Machakos,county_Machakos,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Meru,county_Meru,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Nakuru,county_Nakuru,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Nyeri,county_Nyeri,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Trans Nzoia,county_Trans Nzoia,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__county_Uasin Gishu,county_Uasin Gishu,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__soil_type_Clay,soil_type_Clay,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__soil_type_Loam,soil_type_Loam,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__soil_type_Sandy,soil_type_Sandy,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__soil_type_Silt,soil_type_Silt,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__soil_type_Volcanic,soil_type_Volcanic,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__rain_season_Long,rain_season_Long,False,mode-impute -> one-hot (unknown -> all zeros)
+nom__rain_season_Short,rain_season_Short,False,mode-impute -> one-hot (unknown -> all zeros)
+ord__experience,experience,False,mode-impute -> ordinal with explicit order
+ord__pest_pressure,pest_pressure,False,mode-impute -> ordinal with explicit order
