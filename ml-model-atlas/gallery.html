@@ -1,0 +1,781 @@
+<!doctype html><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>ML Model Atlas</title><style>:root{--bg:#fff;--fg:#1d2330;--mut:#667;--card:#f5f6f9;--ac:#3b6fb6}@media(prefers-color-scheme:dark){:root{--bg:#14171d;--fg:#e6e8ee;--mut:#9aa3b2;--card:#1d222b;--ac:#7aa7e6}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 system-ui,sans-serif;display:flex}nav{width:300px;flex:none;height:100vh;overflow:auto;position:sticky;top:0;padding:16px;background:var(--card);font-size:13px}
+nav h4{margin:16px 0 4px;color:var(--mut);text-transform:uppercase;font-size:11px;letter-spacing:.05em}nav a{display:block;padding:3px 0;color:var(--fg);text-decoration:none}nav a:hover{color:var(--ac)}
+main{max-width:1000px;padding:24px 40px;min-width:0}section{padding:28px 0;border-bottom:1px solid var(--card)}h2{margin:0 0 4px}h3{margin:22px 0 6px;color:var(--ac)}.fam{color:var(--mut);font-size:13px;margin-bottom:12px}
+.media img{max-width:100%;border-radius:8px;border:1px solid var(--card);margin:6px 0;display:block;background:#fff}pre{background:var(--card);padding:12px;border-radius:8px;overflow:auto;font-size:13px}code{background:var(--card);padding:1px 5px;border-radius:4px}pre code{padding:0}
+@media(max-width:800px){body{display:block}nav{width:auto;height:auto;position:static}main{padding:16px}}</style><nav><b style='font-size:16px'>ML Model Atlas</b><div style='color:var(--mut)'>Every model: theory · code · animation · notebook</div><h4>Part 0 · Foundations</h4><a href='#00_gradient_descent_optimizers'>00 · Gradient Descent &amp; Optimizers</a><a href='#01_bias_variance_overfitting'>01 · Bias, Variance &amp; Overfitting</a><a href='#02_classification_metrics_roc'>02 · Classification Metrics, Thresholds &amp; ROC</a><h4>Part 1 · Classical supervised learning</h4><a href='#03_linear_regression'>03 · Linear Regression</a><a href='#04_regularization_ridge_lasso'>04 · Regularization: Ridge, Lasso &amp; Elastic Net</a><a href='#05_logistic_regression'>05 · Logistic Regression</a><a href='#06_perceptron'>06 · The Perceptron</a><a href='#07_k_nearest_neighbors'>07 · k-Nearest Neighbors (k-NN)</a><a href='#08_naive_bayes'>08 · Naive Bayes</a><a href='#09_discriminant_analysis_lda_qda'>09 · Linear &amp; Quadratic Discriminant Analysis (LDA / QDA)</a><a href='#10_support_vector_machine'>10 · Support Vector Machines (SVM) &amp; the Kernel Trick</a><a href='#11_decision_tree'>11 · Decision Trees (CART)</a><a href='#12_random_forest'>12 · Random Forest (Bagging)</a><a href='#13_adaboost'>13 · AdaBoost</a><a href='#14_gradient_boosting'>14 · Gradient Boosting (GBM / XGBoost / LightGBM idea)</a><h4>Part 2 · Neural networks &amp; deep learning</h4><a href='#15_neural_network_backprop'>15 · Neural Networks (MLP) &amp; Backpropagation</a><a href='#16_convolutional_neural_network'>16 · Convolutional Neural Networks (CNN)</a><a href='#17_recurrent_neural_network'>17 · Recurrent Neural Networks (RNN) &amp; Backprop-Through-Time</a><a href='#18_lstm_gru_gated_memory'>18 · LSTM &amp; GRU: Gated Memory</a><a href='#19_attention_transformer'>19 · Attention &amp; the Transformer</a><h4>Part 3 · Generative models &amp; representation learning</h4><a href='#20_autoencoder'>20 · Autoencoders</a><a href='#21_variational_autoencoder'>21 · Variational Autoencoder (VAE)</a><a href='#22_generative_adversarial_network'>22 · Generative Adversarial Networks (GAN)</a><h4>Part 4 · Unsupervised learning</h4><a href='#23_k_means'>23 · K-Means Clustering</a><a href='#24_hierarchical_clustering'>24 · Hierarchical (Agglomerative) Clustering</a><a href='#25_dbscan'>25 · DBSCAN (Density-Based Clustering)</a><a href='#26_gaussian_mixture_em'>26 · Gaussian Mixture Models &amp; the EM Algorithm</a><a href='#27_pca'>27 · Principal Component Analysis (PCA)</a><a href='#28_tsne'>28 · t-SNE (Non-linear Embedding for Visualization)</a><a href='#29_self_organizing_map'>29 · Self-Organizing Map (SOM / Kohonen map)</a><a href='#30_isolation_forest_anomaly_detection'>30 · Isolation Forest (Anomaly Detection)</a><a href='#31_apriori_association_rules'>31 · Association Rules &amp; the Apriori Algorithm</a><h4>Part 5 · Sequences, probability, recommenders, forecasting &amp; RL</h4><a href='#32_hidden_markov_model'>32 · Hidden Markov Models (HMM): Viterbi &amp; Baum-Welch</a><a href='#33_gaussian_process'>33 · Gaussian Processes (GP) Regression</a><a href='#34_matrix_factorization_recommender'>34 · Matrix Factorization &amp; Recommender Systems</a><a href='#35_time_series_forecasting'>35 · Time-Series Forecasting: Smoothing, Holt-Winters &amp; Autoregression</a><a href='#36_reinforcement_learning'>36 · Reinforcement Learning: Q-Learning &amp; Bandits</a></nav><main><h1>ML Model Atlas</h1><p>Start anywhere: each lesson explains the model, shows how it learns as an animation, links to the interactive Jupyter notebook, and provides from-scratch NumPy code. Run <code>python run_all.py</code> to regenerate the animations.</p><section id='00_gradient_descent_optimizers'><h2>00 · Gradient Descent &amp; Optimizers</h2><div class='fam'>Foundations · Optimization · <a href='notebooks/00_gradient_descent_optimizers.ipynb'><code>notebooks/00_gradient_descent_optimizers.ipynb</code></a> · <code>lessons/00_gradient_descent_optimizers.py</code></div><div class='media'><img loading='lazy' src='outputs/00_gradient_descent_optimizers.gif' alt='00_gradient_descent_optimizers.gif'></div><p><b>Family:</b> Foundations · Optimization</p>
+<h3>Definition</h3>
+<p>Nearly every model in this course learns by *minimizing a loss function* L(θ) that measures how wrong the model is. <b>Gradient descent</b> repeatedly nudges the parameters θ in the direction that reduces the loss fastest (the negative gradient). Optimizers are different rules for *how big* and *in which direction* each nudge is.</p>
+<h3>Intuition</h3>
+<p>Picture a hiker in thick fog on a hillside who can only feel the slope under their feet. Plain gradient descent takes a step straight downhill. In a long narrow valley the slope mostly points at the valley *walls*, so the hiker zig-zags. Momentum remembers where it has been heading and glides along the valley floor. RMSprop/Adam rescale each direction so steep directions take small steps and flat directions take big ones.</p>
+<h3>The math</h3>
+<pre>SGD       θ ← θ − η·g
+Momentum  v ← β·v + g          θ ← θ − η·v
+RMSprop   s ← ρ·s + (1−ρ)·g²  θ ← θ − η·g / (√s + ε)
+Adam      m ← β1·m + (1−β1)·g ;  v ← β2·v + (1−β2)·g²
+          θ ← θ − η · m̂ / (√v̂ + ε)      (m̂, v̂ are bias-corrected)
+g = ∇L(θ) (+ noise when computed on a mini-batch)</pre>
+<h3>When to use what</h3>
+<ul>
+<li><b>SGD (+momentum)</b>: the workhorse for CNNs; generalizes very well, needs a tuned learning rate schedule.</li>
+<li><b>Adam / AdamW</b>: the default for transformers, RNNs, GANs, anything noisy or badly scaled.</li>
+<li><b>Learning rate η</b> is the most important hyper-parameter in deep learning: too big diverges, too small crawls.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Four optimizers start at the same point on the loss surface f(x,y) = x²/20 + y² (a narrow valley, 20× flatter along x), all receiving the same noisy gradients (like random mini-batches). Right: loss vs step on a log scale.</p>
+<h3>Try this</h3>
+<ul>
+<li>Change SGD&#x27;s learning rate to 1.05 and watch it diverge (η·curvature &gt; 2).</li>
+<li>Remove the noise and compare. Which optimizers are most robust to it?</li>
+<li>Replace the surface with the Rosenbrock function f = (1−x)² + 100(y−x²)².</li>
+</ul></section><section id='01_bias_variance_overfitting'><h2>01 · Bias, Variance &amp; Overfitting</h2><div class='fam'>Foundations · Generalization · <a href='notebooks/01_bias_variance_overfitting.ipynb'><code>notebooks/01_bias_variance_overfitting.ipynb</code></a> · <code>lessons/01_bias_variance_overfitting.py</code></div><div class='media'><img loading='lazy' src='outputs/01_bias_variance_overfitting.gif' alt='01_bias_variance_overfitting.gif'></div><p><b>Family:</b> Foundations · Generalization</p>
+<h3>Definition</h3>
+<p>A model&#x27;s expected test error decomposes into three parts: <b>bias²</b> (error from wrong assumptions: the model is too simple to capture the truth), <b>variance</b> (error from sensitivity to the particular training sample: the model is too flexible) and <b>irreducible noise</b>. *Overfitting* = low training error but high test error (variance too high); *underfitting* = both errors high (bias too high).</p>
+<h3>Intuition</h3>
+<p>Fit a straight line to a wavy signal: every training set gives nearly the same wrong line (high bias, low variance). Fit a degree-15 polynomial to 25 noisy points: it threads every point, and a *different* training set gives a wildly different curve (low bias, high variance). The sweet spot is in between.</p>
+<h3>The math</h3>
+<pre>E[(y − f̂(x))²] = Bias²[f̂(x)] + Var[f̂(x)] + σ²
+Bias[f̂(x)] = E[f̂(x)] − f(x)          Var[f̂(x)] = E[(f̂(x) − E[f̂(x)])²]</pre>
+<h3>How to fight each problem</h3>
+<ul>
+<li><b>High variance:</b> more data, regularization (lesson 04), simpler model, bagging (lesson 12), early stopping, dropout.</li>
+<li><b>High bias:</b> richer features, more flexible model, boosting (lesson 14), less regularization.</li>
+<li><b>Always</b> measure on data the model has not seen (hold-out set or k-fold cross-validation).</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>We draw many different training sets from the same noisy process and fit polynomials of growing degree to each. Left: thin lines = individual fits (their spread is *variance*), thick line = their average, dashed = truth (the gap is *bias*). Right: the measured bias², variance and test error as complexity grows (log scale).</p>
+<h3>Try this</h3>
+<ul>
+<li>Make the training sets bigger (<code>data.curve(100, ...)</code>): how does the best degree change?</li>
+<li>Increase <code>noise</code>. Why does the noise floor (dotted) rise but the bias/variance curves keep their shape?</li>
+</ul></section><section id='02_classification_metrics_roc'><h2>02 · Classification Metrics, Thresholds &amp; ROC</h2><div class='fam'>Foundations · Evaluation · <a href='notebooks/02_classification_metrics_roc.ipynb'><code>notebooks/02_classification_metrics_roc.ipynb</code></a> · <code>lessons/02_classification_metrics_roc.py</code></div><div class='media'><img loading='lazy' src='outputs/02_classification_metrics_roc.gif' alt='02_classification_metrics_roc.gif'></div><p><b>Family:</b> Foundations · Evaluation</p>
+<h3>Definition</h3>
+<p>A probabilistic classifier outputs a *score* per example. Turning scores into decisions needs a <b>threshold</b>, and every threshold produces a different <b>confusion matrix</b> (TP, FP, FN, TN). Metrics summarize it; the <b>ROC curve</b> shows all thresholds at once and <b>AUC</b> is the probability that a random positive is scored above a random negative.</p>
+<h3>Intuition</h3>
+<p>Loan officer: lower the approval-risk threshold and you catch more true defaulters (recall ↑) but flag more good customers (precision ↓). There is no free lunch; you pick the trade-off that matches the *cost* of each mistake.</p>
+<h3>The math</h3>
+<pre>accuracy  = (TP+TN)/N                precision = TP/(TP+FP)
+recall (TPR) = TP/(TP+FN)            specificity = TN/(TN+FP)
+FPR = FP/(FP+TN) = 1 − specificity   F1 = 2·precision·recall/(precision+recall)
+ROC: plot TPR against FPR as the threshold sweeps from 1 to 0.   AUC = area under it (0.5 = coin flip, 1 = perfect)</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>With imbalanced classes accuracy lies; use precision/recall, PR-AUC or cost-weighted metrics.</li>
+<li>Choose the threshold on a validation set, using real business costs.</li>
+<li>Always cross-validate: split into k folds, train on k−1, test on the held-out fold, average.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>A logistic-regression model (trained inside this file) scores 2000 synthetic loan applicants. As the decision threshold slides from strict to lenient: the score histograms with the cut line, the moving point on the ROC curve, and the live confusion matrix with all metrics.</p>
+<h3>Try this</h3>
+<ul>
+<li>Make the classes more imbalanced (change the default rate) and compare accuracy to F1.</li>
+<li>Add a cost matrix (a missed default costs 10× a false alarm) and find the cost-minimizing threshold.</li>
+</ul></section><section id='03_linear_regression'><h2>03 · Linear Regression</h2><div class='fam'>Supervised · Regression · <a href='notebooks/03_linear_regression.ipynb'><code>notebooks/03_linear_regression.ipynb</code></a> · <code>lessons/03_linear_regression.py</code></div><div class='media'><img loading='lazy' src='outputs/03_linear_regression.gif' alt='03_linear_regression.gif'></div><p><b>Family:</b> Supervised · Regression</p>
+<h3>Definition</h3>
+<p>Linear regression models a numeric target as a weighted sum of the input features plus a bias: ŷ = w·x + b. Training finds the weights that minimize the mean squared error between predictions and truth.</p>
+<h3>Intuition</h3>
+<p>Draw the straight line that passes as close as possible to all the points, where &quot;close&quot; means the *sum of squared vertical distances (residuals)* is as small as it can be. Squaring punishes big misses and makes the math smooth.</p>
+<h3>The math</h3>
+<pre>Loss      L(w,b) = 1/(2n) Σ (w·xᵢ + b − yᵢ)²
+Gradient  ∂L/∂w = 1/n Σ (ŷᵢ − yᵢ)·xᵢ        ∂L/∂b = 1/n Σ (ŷᵢ − yᵢ)
+Update    w ← w − η ∂L/∂w ,  b ← b − η ∂L/∂b
+Closed form (normal equation): w = (XᵀX)⁻¹ Xᵀ y</pre>
+<h3>Assumptions &amp; pitfalls</h3>
+<ul>
+<li>Linear relationship; independent errors with constant variance; no extreme multicollinearity.</li>
+<li>Sensitive to outliers (squared error). Scale features before gradient descent.</li>
+<li>Coefficients are only interpretable when features are not heavily correlated.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Left: the line rotating and shifting toward the data, red segments are the residuals being squared. Right: the loss surface over (w,b) with the optimizer&#x27;s path sliding down the elongated valley. Afterwards the script fits a 4-feature *house price* model both ways (gradient descent vs normal equation) and prints the coefficients.</p>
+<h3>Try this</h3>
+<ul>
+<li>Standardize x before descending: the valley becomes round and convergence is far faster.</li>
+<li>Add one huge outlier to the data and watch the line get dragged toward it.</li>
+</ul></section><section id='04_regularization_ridge_lasso'><h2>04 · Regularization: Ridge, Lasso &amp; Elastic Net</h2><div class='fam'>Supervised · Regression (penalized linear models) · <a href='notebooks/04_regularization_ridge_lasso.ipynb'><code>notebooks/04_regularization_ridge_lasso.ipynb</code></a> · <code>lessons/04_regularization_ridge_lasso.py</code></div><div class='media'><img loading='lazy' src='outputs/04_regularization_ridge_lasso.gif' alt='04_regularization_ridge_lasso.gif'></div><p><b>Family:</b> Supervised · Regression (penalized linear models)</p>
+<h3>Definition</h3>
+<p>Regularization adds a penalty on the size of the weights to the loss so the model cannot over-use any feature. <b>Ridge (L2)</b> shrinks all weights smoothly toward zero; <b>Lasso (L1)</b> can set weights *exactly* to zero (automatic feature selection); <b>Elastic Net</b> mixes both.</p>
+<h3>Intuition</h3>
+<p>With many correlated or noisy features, unpenalized regression happily assigns large opposing weights that fit noise. The penalty is a budget: weights must &quot;pay&quot; for being large, so only features that truly help earn a big weight. The L1 penalty has corners on the axes, so the optimum often lands exactly on a corner, which means a zero weight.</p>
+<h3>The math</h3>
+<pre>minimize   1/(2n) ||y − Xw||²  +  λ [ α·||w||₁ + (1−α)/2·||w||₂² ]
+Ridge (α=0): w = (XᵀX/n + λI)⁻¹ Xᵀy/n
+Lasso/Elastic Net via coordinate descent:  wⱼ ← S(ρⱼ, λα) / (1 + λ(1−α)),
+ρⱼ = 1/n Xⱼᵀ(residual + Xⱼwⱼ),  S(r,t) = sign(r)·max(|r|−t, 0)   (soft-thresholding)</pre>
+<h3>Practical tips</h3>
+<ul>
+<li><b>Always standardize features</b> first, otherwise the penalty is unfair across units.</li>
+<li>Choose λ by cross-validation (the U-shaped test-error curve on the right).</li>
+<li>Lasso arbitrarily picks one of several correlated features; Elastic Net keeps groups together.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>We use the 4 real house-price features plus 6 pure-noise columns. As λ grows: left, ridge paths shrink gradually; middle, lasso paths hit zero one by one, noise features first; right, test error forms a U shape.</p>
+<h3>Try this</h3>
+<ul>
+<li>Change <code>alpha</code> for the elastic net and see how the path shape morphs between ridge and lasso.</li>
+<li>Make training smaller (50 rows) and see how much more regularization helps.</li>
+</ul></section><section id='05_logistic_regression'><h2>05 · Logistic Regression</h2><div class='fam'>Supervised · Classification (linear) · <a href='notebooks/05_logistic_regression.ipynb'><code>notebooks/05_logistic_regression.ipynb</code></a> · <code>lessons/05_logistic_regression.py</code></div><div class='media'><img loading='lazy' src='outputs/05_logistic_regression.gif' alt='05_logistic_regression.gif'></div><p><b>Family:</b> Supervised · Classification (linear)</p>
+<h3>Definition</h3>
+<p>Despite the name, logistic regression is a *classifier*. It computes a linear score z = w·x + b and squashes it through the sigmoid σ(z) = 1/(1+e⁻ᶻ) to get a probability P(y=1 | x). The decision boundary (P = 0.5) is the straight line w·x + b = 0.</p>
+<h3>Intuition</h3>
+<p>Linear regression extended to probabilities. Far on one side of the line the model is confident (P≈0 or 1); near the line it is unsure (P≈0.5). Training pushes the line to put defaulters on one side and good borrowers on the other, punishing *confident mistakes* very hard.</p>
+<h3>The math</h3>
+<pre>P(y=1|x) = σ(w·x + b)
+Loss (binary cross-entropy / negative log-likelihood):  L = −1/n Σ [ y log p + (1−y) log(1−p) ]
+Gradient (beautifully simple):  ∂L/∂w = 1/n Σ (pᵢ − yᵢ) xᵢ ,   ∂L/∂b = 1/n Σ (pᵢ − yᵢ)
+Multi-class: softmax instead of sigmoid.  Regularize with an L2/L1 penalty exactly like lesson 04.</pre>
+<h3>Strengths &amp; weaknesses</h3>
+<ul>
+<li>Fast, convex (a single global optimum), well-calibrated probabilities, interpretable (odds ratio = e^w).</li>
+<li>Only linear boundaries unless you add polynomial/interaction features; needs scaled inputs for gradient descent.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Loan-default data (income vs debt ratio). Watch the probability map (blue = repay, orange = default) and the black P=0.5 decision line rotate from a random starting guess to the best separator; right: loss falls, accuracy rises.</p>
+<h3>Try this</h3>
+<ul>
+<li>Add <code>debt_ratio**2</code> as a third feature (needs a 3-D weight vector) and see a curved boundary appear in the original space.</li>
+<li>Change the learning rate: where does training become unstable?</li>
+</ul></section><section id='06_perceptron'><h2>06 · The Perceptron</h2><div class='fam'>Supervised · Classification (linear), the ancestor of neural networks · <a href='notebooks/06_perceptron.ipynb'><code>notebooks/06_perceptron.ipynb</code></a> · <code>lessons/06_perceptron.py</code></div><div class='media'><img loading='lazy' src='outputs/06_perceptron.gif' alt='06_perceptron.gif'></div><p><b>Family:</b> Supervised · Classification (linear), the ancestor of neural networks</p>
+<h3>Definition</h3>
+<p>The perceptron (Rosenblatt, 1958) is a single artificial neuron: ŷ = sign(w·x + b). It learns by looking at one example at a time and, <b>only when it makes a mistake</b>, nudging the boundary toward classifying that example correctly.</p>
+<h3>Intuition</h3>
+<p>If a point is on the wrong side of the line, pull the line toward it (add the point&#x27;s vector to w if it is a positive example, subtract if it is negative). Repeat. If the classes can be separated by a line, this is *guaranteed* to stop.</p>
+<h3>The math</h3>
+<pre>ŷ = sign(w·x + b)           labels y ∈ {−1, +1}
+if y (w·x + b) ≤ 0 :        w ← w + η y x ,   b ← b + η y        (otherwise do nothing)
+Perceptron convergence theorem: if a separating margin γ exists and ||x|| ≤ R, at most (R/γ)² mistakes are ever made.</pre>
+<h3>Limitations (and why they matter)</h3>
+<ul>
+<li>If the data is <b>not</b> linearly separable (like XOR) it never converges and keeps oscillating.</li>
+<p>That failure (Minsky &amp; Papert, 1969) motivated multi-layer networks (lesson 15).</p>
+<li>No probabilities, and the final line is just *some* separator, not the best one (SVMs, lesson 10, fix that).</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>One frame per weight update. Left: linearly separable customers; the circled point is the mistake being fixed and the boundary jumps until it separates the classes. Right: XOR data, where no line works and the boundary keeps flailing.</p>
+<h3>Try this</h3>
+<ul>
+<li>Run with a very small and a very large η: does the number of mistakes change? (Hint: with b=0 start, η is just a scale!)</li>
+<li>Add the feature x₁·x₂ to the XOR data and watch the perceptron suddenly succeed (feature engineering!).</li>
+</ul></section><section id='07_k_nearest_neighbors'><h2>07 · k-Nearest Neighbors (k-NN)</h2><div class='fam'>Supervised · Classification / Regression (instance-based, non-parametric) · <a href='notebooks/07_k_nearest_neighbors.ipynb'><code>notebooks/07_k_nearest_neighbors.ipynb</code></a> · <code>lessons/07_k_nearest_neighbors.py</code></div><div class='media'><img loading='lazy' src='outputs/07_k_nearest_neighbors.gif' alt='07_k_nearest_neighbors.gif'><img loading='lazy' src='outputs/07_k_nearest_neighbors_query.gif' alt='07_k_nearest_neighbors_query.gif'></div><p><b>Family:</b> Supervised · Classification / Regression (instance-based, non-parametric)</p>
+<h3>Definition</h3>
+<p>k-NN does no training at all. To classify a new point it finds the k most similar stored examples (nearest by distance) and takes a majority vote (classification) or an average (regression). The &quot;model&quot; *is* the training data.</p>
+<h3>Intuition</h3>
+<p>&quot;Tell me who your neighbours are and I&#x27;ll tell you who you are.&quot; A small k follows every quirk of the data (low bias, high variance); a large k blurs everything toward the global majority (high bias, low variance).</p>
+<h3>The math</h3>
+<pre>d(x, xᵢ) = ||x − xᵢ||₂      (or Manhattan, cosine, ...)
+ŷ(x) = argmax_c  Σ_{i ∈ N_k(x)} 1[yᵢ = c]            regression: ŷ = mean of the k neighbours&#x27; y
+Weighted variant: each neighbour votes with weight 1/d.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li><b>Scale features</b> (distance is dominated by large-range features). Beware the curse of dimensionality.</li>
+<li>Prediction cost grows with the dataset (use KD-trees / approximate NN such as FAISS or HNSW).</li>
+<li>k chosen by cross-validation; odd k avoids ties in binary problems.</li>
+</ul>
+<h3>What the animations show</h3>
+<p>1. <code>07_k_nearest_neighbors.gif</code>: the decision regions for k = 1 … 61 on noisy moons, plus train/test accuracy. k=1 is a jagged island map with 100 % training accuracy; huge k is too smooth. 2. <code>07_k_nearest_neighbors_query.gif</code>: a query point glides through the data; lines connect it to its 5 neighbours who vote.</p>
+<h3>Try this</h3>
+<ul>
+<li>Multiply one feature by 100 before computing distances: watch the model ignore the other feature.</li>
+<li>Implement distance-weighted voting and compare accuracy at k = 15.</li>
+</ul></section><section id='08_naive_bayes'><h2>08 · Naive Bayes</h2><div class='fam'>Supervised · Classification (probabilistic, generative) · <a href='notebooks/08_naive_bayes.ipynb'><code>notebooks/08_naive_bayes.ipynb</code></a> · <code>lessons/08_naive_bayes.py</code></div><div class='media'><img loading='lazy' src='outputs/08_naive_bayes.gif' alt='08_naive_bayes.gif'></div><p><b>Family:</b> Supervised · Classification (probabilistic, generative)</p>
+<h3>Definition</h3>
+<p>Naive Bayes applies <b>Bayes&#x27; theorem</b> to classification and makes one big simplifying (&quot;naive&quot;) assumption: given the class, all features are independent. It models how each class *generates* its features, then inverts that to get P(class | features).</p>
+<h3>Intuition</h3>
+<p>A spam filter learns: spam emails usually have many links and lots of CAPS; ham rarely does. For a new email, multiply how plausible each observed feature is under &quot;spam&quot; by the spam prior, do the same for &quot;ham&quot;, and normalise. The independence assumption is false (links and CAPS correlate) but the ranking of classes is often still right, so it works surprisingly well.</p>
+<h3>The math</h3>
+<pre>P(c | x) ∝ P(c) · Π_j P(x_j | c)
+Gaussian NB:   P(x_j | c) = N(x_j ; μ_cj , σ²_cj)     (parameters = per-class mean and variance, just counts!)
+Compute in log-space:  log P(c) + Σ_j log P(x_j | c)   to avoid underflow.
+Text (multinomial NB): P(word | c) = (count + α) / (total + α·V)   with Laplace smoothing α.</pre>
+<h3>Strengths &amp; weaknesses</h3>
+<ul>
+<li>Extremely fast, works with tiny datasets and huge feature spaces (text), naturally multi-class, online-updatable.</li>
+<li>Probabilities are poorly calibrated (over-confident); can&#x27;t learn feature interactions.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Spam data (links vs CAPS ratio). As more training emails arrive (4 → 400) watch the fitted per-class Gaussians (ellipses = 2σ) sharpen, the posterior map stabilise, and (right) the 1-D likelihoods P(links | class).</p>
+<h3>Try this</h3>
+<ul>
+<li>Print the log-posterior terms for a custom email and see which feature dominated the decision.</li>
+<li>Break the assumption: duplicate a feature 5× and watch the classifier become over-confident.</li>
+</ul></section><section id='09_discriminant_analysis_lda_qda'><h2>09 · Linear &amp; Quadratic Discriminant Analysis (LDA / QDA)</h2><div class='fam'>Supervised · Classification (generative, Gaussian class models) · <a href='notebooks/09_discriminant_analysis_lda_qda.ipynb'><code>notebooks/09_discriminant_analysis_lda_qda.ipynb</code></a> · <code>lessons/09_discriminant_analysis_lda_qda.py</code></div><div class='media'><img loading='lazy' src='outputs/09_discriminant_analysis_lda_qda.gif' alt='09_discriminant_analysis_lda_qda.gif'></div><p><b>Family:</b> Supervised · Classification (generative, Gaussian class models)</p>
+<h3>Definition</h3>
+<p>LDA and QDA model each class as a multivariate Gaussian N(μ_c, Σ_c) and classify with Bayes&#x27; rule. <b>LDA</b> assumes all classes share the *same* covariance matrix, which gives a <b>linear</b> boundary. <b>QDA</b> lets every class have its own covariance, which gives a <b>quadratic (curved)</b> boundary.</p>
+<h3>Intuition</h3>
+<p>Unlike naive Bayes, these models keep correlations between features (tilted ellipses, not axis-aligned ones). LDA pools all the data to estimate one shape, which is stable with few samples. QDA is more flexible but needs more data (it estimates d² numbers per class).</p>
+<h3>The math</h3>
+<pre>discriminant  δ_c(x) = −½ log|Σ_c| − ½ (x−μ_c)ᵀ Σ_c⁻¹ (x−μ_c) + log π_c        predict argmax_c δ_c(x)
+LDA: Σ_c = Σ (pooled)  =&gt;  the quadratic terms cancel, leaving the linear  w·x + b
+LDA doubles as supervised dimensionality reduction: project onto the directions maximizing between-class / within-class scatter.</pre>
+<h3>When to use</h3>
+<ul>
+<li>Small data + roughly Gaussian classes: LDA is hard to beat. Classes with clearly different spreads: QDA.</li>
+<li>Regularized discriminant analysis (shrink Σ_c toward Σ) interpolates between the two.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Two classes whose covariances start identical and gradually become different (t: 0 → 1). Left: LDA&#x27;s straight boundary cannot adapt; right: QDA&#x27;s boundary curves around the narrower class. Ellipses = fitted 2σ class shapes.</p>
+<h3>Try this</h3>
+<ul>
+<li>Make the means identical but the covariances different: LDA fails completely, QDA still works.</li>
+<li>Shrink Σ_c toward the pooled Σ with a factor λ and plot accuracy vs λ.</li>
+</ul></section><section id='10_support_vector_machine'><h2>10 · Support Vector Machines (SVM) &amp; the Kernel Trick</h2><div class='fam'>Supervised · Classification (margin-based) · <a href='notebooks/10_support_vector_machine.ipynb'><code>notebooks/10_support_vector_machine.ipynb</code></a> · <code>lessons/10_support_vector_machine.py</code></div><div class='media'><img loading='lazy' src='outputs/10_support_vector_machine.gif' alt='10_support_vector_machine.gif'><img loading='lazy' src='outputs/10_support_vector_machine_hyper.gif' alt='10_support_vector_machine_hyper.gif'></div><p><b>Family:</b> Supervised · Classification (margin-based)</p>
+<h3>Definition</h3>
+<p>An SVM finds the decision boundary with the <b>largest margin</b>: the widest street separating the two classes. Only the points touching the street edges, the <b>support vectors</b>, matter; every other point could be deleted without changing the model. The <b>kernel trick</b> lets the same algorithm draw curved boundaries by implicitly mapping points into a high-dimensional space.</p>
+<h3>Intuition</h3>
+<p>Many lines separate two classes, but the one farthest from both is the most robust to noise. If the classes overlap, the <b>soft margin</b> parameter C says how much you are willing to pay for points inside the street or misclassified (small C = wide, tolerant street; large C = strict, may overfit).</p>
+<h3>The math</h3>
+<pre>Primal (soft margin):  min ½||w||² + C Σ max(0, 1 − yᵢ(w·xᵢ + b))        (hinge loss)
+Dual:                  max Σ αᵢ − ½ Σᵢⱼ αᵢ αⱼ yᵢ yⱼ K(xᵢ,xⱼ)    s.t.  0 ≤ αᵢ ≤ C
+Decision:              f(x) = Σ αᵢ yᵢ K(xᵢ, x) + b           support vectors = points with αᵢ &gt; 0
+Kernels:               linear  K = x·x&#x27; ;  RBF  K = exp(−γ||x − x&#x27;||²) ;  polynomial  K = (x·x&#x27; + 1)ᵈ
+Here we absorb b into the kernel (K+1) and solve the dual by coordinate ascent, one αᵢ at a time:
+                       αᵢ ← clip(αᵢ + (1 − yᵢ f(xᵢ)) / Qᵢᵢ , 0, C)</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Scale features. Tune C and γ together by grid search. Great on small/medium data; O(n²–n³) training cost.</li>
+<li>Large γ = every point is its own island (overfit). Small γ ≈ linear.</li>
+</ul>
+<h3>What the animations show</h3>
+<p>1. <code>10_support_vector_machine.gif</code>: dual coordinate ascent epoch by epoch. Left: linear kernel on overlapping blobs; right: RBF kernel on moons. Solid line = boundary f=0, dashed = margins f=±1, ringed points = support vectors. 2. <code>10_support_vector_machine_hyper.gif</code>: how γ (flexibility) changes the RBF boundary from nearly linear to overfit.</p>
+<h3>Try this</h3>
+<ul>
+<li>Plot accuracy against C on a log scale for both datasets.</li>
+<li>Use the polynomial kernel (degree 3) on the circles dataset.</li>
+</ul></section><section id='11_decision_tree'><h2>11 · Decision Trees (CART)</h2><div class='fam'>Supervised · Classification &amp; Regression (non-linear, rule-based) · <a href='notebooks/11_decision_tree.ipynb'><code>notebooks/11_decision_tree.ipynb</code></a> · <code>lessons/11_decision_tree.py</code></div><div class='media'><img loading='lazy' src='outputs/11_decision_tree.gif' alt='11_decision_tree.gif'><img loading='lazy' src='outputs/11_decision_tree_regression.gif' alt='11_decision_tree_regression.gif'></div><p><b>Family:</b> Supervised · Classification &amp; Regression (non-linear, rule-based)</p>
+<h3>Definition</h3>
+<p>A decision tree asks a sequence of yes/no questions about single features (&quot;is income ≤ 43?&quot;), splitting the data into ever purer groups, until a leaf makes a prediction (majority class, or the mean for regression). It is the same as a set of if/else rules and is the most human-readable ML model.</p>
+<h3>Intuition</h3>
+<p>Twenty-questions for data. At each node, try every feature and every threshold and choose the split that makes the two children as *pure* as possible. Recurse until a depth limit or until nodes are pure. Deep trees memorise the training set, so depth/leaf-size is the main complexity dial (and the reason for pruning).</p>
+<h3>The math</h3>
+<pre>Gini impurity   G = 1 − Σ_c p_c²              Entropy   H = − Σ_c p_c log p_c
+Best split      argmin over (feature j, threshold t) of   n_L·G(L) + n_R·G(R)
+Regression      same recipe with variance (SSE) instead of Gini; leaf = mean of y
+Feature importance = total impurity reduction attributed to that feature.</pre>
+<h3>Strengths &amp; weaknesses</h3>
+<ul>
+<li>No scaling needed, handles mixed types/missing values (with tweaks), captures interactions, interpretable.</li>
+<li>Unstable (small data changes → different tree), axis-aligned boundaries only, overfits easily.</li>
+<p>Ensembles (lessons 12–14) fix instability.</p>
+</ul>
+<h3>What the animations show</h3>
+<p>1. <code>11_decision_tree.gif</code>: the tree grows level by level on noisy moons; black lines are the chosen split thresholds (thicker = earlier), shaded regions are the predictions. Right: train accuracy keeps climbing while test accuracy peaks then falls. 2. <code>11_decision_tree_regression.gif</code>: a regression tree approximating a smooth curve with staircase steps. The console prints the rules of a depth-3 tree on loan data.</p>
+<h3>Try this</h3>
+<ul>
+<li>Set <code>min_samples=10</code> to prune: does the test curve flatten instead of falling?</li>
+<li>Replace Gini by entropy in <code>trees.py</code> and compare trees.</li>
+</ul></section><section id='12_random_forest'><h2>12 · Random Forest (Bagging)</h2><div class='fam'>Supervised · Classification &amp; Regression (ensemble, variance reduction) · <a href='notebooks/12_random_forest.ipynb'><code>notebooks/12_random_forest.ipynb</code></a> · <code>lessons/12_random_forest.py</code></div><div class='media'><img loading='lazy' src='outputs/12_random_forest.gif' alt='12_random_forest.gif'></div><p><b>Family:</b> Supervised · Classification &amp; Regression (ensemble, variance reduction)</p>
+<h3>Definition</h3>
+<p>A random forest trains many *deep* decision trees, each on a different <b>bootstrap sample</b> (rows drawn with replacement) and each split considering only a <b>random subset of features</b>, then averages their votes. This is <b>bagging</b> plus feature randomness.</p>
+<h3>Intuition</h3>
+<p>One deep tree has low bias but very high variance. Averaging many *different* high-variance trees cancels their individual mistakes: the errors are partly independent, so the average is far steadier. Randomness decorrelates the trees, which is what makes averaging effective (variance of the mean ≈ ρσ² + (1−ρ)σ²/B).</p>
+<h3>The math</h3>
+<pre>for b = 1..B:  draw bootstrap sample D_b (n rows with replacement), grow tree T_b (random m features per split)
+prediction:    classification = majority vote / mean of probabilities ;  regression = mean
+Out-of-bag (OOB) estimate: each row is left out of ≈ 36.8 % of the trees, so score it with only those trees -&gt; a free validation score.
+Feature importance: mean impurity decrease, or permutation importance.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Few hyper-parameters, hard to overfit by adding trees, strong default for tabular data, no scaling needed.</li>
+<li>Slower/larger than a single tree; less interpretable; poor at extrapolating beyond the training range.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Left: the forest&#x27;s averaged probability map as trees are added (1 → 60), smoothing from a jagged single-tree map into a gentle boundary. Middle: the newest single tree on its own (jagged!). Right: test accuracy and OOB accuracy converge.</p>
+<h3>Try this</h3>
+<ul>
+<li>Set <code>max_features=None</code> (all features): trees become more correlated; does the forest improve as quickly?</li>
+<li>Compare with a single depth-12 tree&#x27;s test accuracy.</li>
+</ul></section><section id='13_adaboost'><h2>13 · AdaBoost</h2><div class='fam'>Supervised · Classification (ensemble, boosting) · <a href='notebooks/13_adaboost.ipynb'><code>notebooks/13_adaboost.ipynb</code></a> · <code>lessons/13_adaboost.py</code></div><div class='media'><img loading='lazy' src='outputs/13_adaboost.gif' alt='13_adaboost.gif'></div><p><b>Family:</b> Supervised · Classification (ensemble, boosting)</p>
+<h3>Definition</h3>
+<p>AdaBoost builds a strong classifier from many <b>weak learners</b> (here, one-split &quot;stumps&quot; barely better than guessing) trained *sequentially*. After each round it <b>raises the weights of the examples that were misclassified</b> so the next stump is forced to focus on the hard cases. The final prediction is a weighted vote.</p>
+<h3>Intuition</h3>
+<p>A team of mediocre specialists. The first stump draws one line. Points it got wrong become heavier (they appear bigger on screen), so the second stump concentrates on them, and so on. Stumps that were more accurate get a louder voice (larger α).</p>
+<h3>The math</h3>
+<pre>init   wᵢ = 1/n
+for t = 1..T:  fit stump h_t on weighted data;   ε_t = Σ wᵢ·1[h_t(xᵢ) ≠ yᵢ]
+               α_t = ½ ln((1 − ε_t)/ε_t)
+               wᵢ ← wᵢ · exp(−α_t yᵢ h_t(xᵢ)) , then normalise      (y, h ∈ {−1,+1})
+final  H(x) = sign( Σ_t α_t h_t(x) )
+AdaBoost = gradient boosting on the exponential loss; sensitive to label noise and outliers (they get exponentially heavy).</pre>
+<h3>What the animation shows</h3>
+<p>A ring-shaped class that no single vertical/horizontal line can separate. Left: point size = current weight, black line = the newest stump, background = the ensemble&#x27;s current decision. Right: the ensemble&#x27;s accuracy climbs while each stump&#x27;s own weighted error stays close to 0.5.</p>
+<h3>Try this</h3>
+<ul>
+<li>Add 10 % label noise and watch the weights explode on the flipped points.</li>
+<li>Replace stumps by depth-2 trees and compare how many rounds are needed.</li>
+</ul></section><section id='14_gradient_boosting'><h2>14 · Gradient Boosting (GBM / XGBoost / LightGBM idea)</h2><div class='fam'>Supervised · Regression &amp; Classification (ensemble, boosting) · <a href='notebooks/14_gradient_boosting.ipynb'><code>notebooks/14_gradient_boosting.ipynb</code></a> · <code>lessons/14_gradient_boosting.py</code></div><div class='media'><img loading='lazy' src='outputs/14_gradient_boosting.gif' alt='14_gradient_boosting.gif'><img loading='lazy' src='outputs/14_gradient_boosting_classification.gif' alt='14_gradient_boosting_classification.gif'></div><p><b>Family:</b> Supervised · Regression &amp; Classification (ensemble, boosting)</p>
+<h3>Definition</h3>
+<p>Gradient boosting builds a model as a sum of small trees added one at a time, where each new tree is trained to predict the <b>negative gradient of the loss</b> (for squared error: simply the *residuals*, the current mistakes). It is gradient descent performed in function space.</p>
+<h3>Intuition</h3>
+<p>Start with a crude guess (the mean). Look at what is still wrong (residuals), fit a small tree to explain part of that error, add a fraction (the learning rate) of it, and repeat. Each tree is a small correction, and many corrections add up to a sharp, accurate model.</p>
+<h3>The math</h3>
+<pre>F₀(x) = mean(y)       (classification: log-odds of the base rate)
+for m = 1..M:
+    rᵢ = −∂L(yᵢ, F(xᵢ))/∂F(xᵢ)           squared error: rᵢ = yᵢ − F(xᵢ);   log-loss: rᵢ = yᵢ − σ(F(xᵢ))
+    fit a shallow tree h_m to the pseudo-residuals r
+    F_m(x) = F_{m−1}(x) + η · h_m(x)       η = learning rate (shrinkage), typically 0.01–0.3
+XGBoost/LightGBM add: second-order (Newton) steps, regularized leaf values, histogram splits, subsampling.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Usually the best off-the-shelf model for tabular data. Tune learning rate × number of trees, tree depth (3–8), subsampling; use early stopping.</li>
+<li>Smaller η + more trees = better but slower. Sensitive to noisy labels if too many rounds.</li>
+</ul>
+<h3>What the animations show</h3>
+<p>1. <code>14_gradient_boosting.gif</code> (regression): left, prediction F_m hugging the curve; middle, the *residuals* and the small tree fitted to them; right, train/test error. The residuals shrink and become noise. 2. <code>14_gradient_boosting_classification.gif</code>: the same idea with log-loss on moons: the probability map sculpts itself round by round.</p>
+<h3>Try this</h3>
+<ul>
+<li>Raise the learning rate to 1.0 and watch test error bounce (overfitting quickly).</li>
+<li>Use depth-1 stumps vs depth-4 trees at the same number of rounds.</li>
+</ul></section><section id='15_neural_network_backprop'><h2>15 · Neural Networks (MLP) &amp; Backpropagation</h2><div class='fam'>Supervised · Deep learning (multi-layer perceptron) · <a href='notebooks/15_neural_network_backprop.ipynb'><code>notebooks/15_neural_network_backprop.ipynb</code></a> · <code>lessons/15_neural_network_backprop.py</code></div><div class='media'><img loading='lazy' src='outputs/15_neural_network_backprop.gif' alt='15_neural_network_backprop.gif'></div><p><b>Family:</b> Supervised · Deep learning (multi-layer perceptron)</p>
+<h3>Definition</h3>
+<p>A multi-layer perceptron stacks layers of neurons. Each layer computes a linear map followed by a non-linear activation, so the network can bend space and learn *any* smooth decision boundary (universal approximation). <b>Backpropagation</b> is the chain rule applied efficiently from the loss back to every weight, and gradient descent then updates them all.</p>
+<h3>Intuition</h3>
+<p>The first layers learn to re-describe the inputs (bend and stretch the plane) so that the last layer, a plain linear classifier, can separate the classes. Without non-linear activations, stacked layers collapse into one linear layer.</p>
+<h3>The math (2 hidden layers, tanh, softmax + cross-entropy)</h3>
+<pre>a1 = tanh(X W1 + b1)      a2 = tanh(a1 W2 + b2)      z = a2 W3 + b3      p = softmax(z)
+L = −1/n Σ log p[i, yᵢ]
+Backward:  dz  = (p − onehot(y)) / n
+           dW3 = a2ᵀ dz            da2 = dz W3ᵀ      dz2 = da2 ⊙ (1 − a2²)
+           dW2 = a1ᵀ dz2           da1 = dz2 W2ᵀ     dz1 = da1 ⊙ (1 − a1²)
+           dW1 = Xᵀ dz1            (biases: column sums)        then  W ← W − η·dW (here with Adam)
+This file writes every line of that by hand and verifies it against numerical gradients.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Standardize inputs; initialize with Xavier/He scaling; ReLU/GELU for deep nets; Adam is a strong default.</li>
+<li>Overfitting control: weight decay, dropout, early stopping, more data. Batch/layer norm stabilize deep nets.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>A 3-arm spiral, which no linear model can classify. Left: the decision regions the network carves out over training; right: loss and accuracy curves. Early on the boundaries are almost straight lines; then they twist to follow the spirals.</p>
+<h3>Try this</h3>
+<ul>
+<li>Reduce hidden size to 4 units: what is the best the network can do?</li>
+<li>Swap tanh for ReLU (remember the derivative changes to 1[z&gt;0]).</li>
+</ul></section><section id='16_convolutional_neural_network'><h2>16 · Convolutional Neural Networks (CNN)</h2><div class='fam'>Supervised · Deep learning for images / grids · <a href='notebooks/16_convolutional_neural_network.ipynb'><code>notebooks/16_convolutional_neural_network.ipynb</code></a> · <code>lessons/16_convolutional_neural_network.py</code></div><div class='media'><img loading='lazy' src='outputs/16_convolutional_neural_network.gif' alt='16_convolutional_neural_network.gif'></div><p><b>Family:</b> Supervised · Deep learning for images / grids</p>
+<h3>Definition</h3>
+<p>A CNN processes images with <b>convolution</b> layers: small learnable filters (here 3×3) slide across the image, and each filter produces a *feature map* showing where its pattern occurs. <b>Pooling</b> shrinks the maps and adds tolerance to small shifts. Dense layers at the end classify. Weight sharing makes CNNs far more efficient than fully-connected nets on images.</p>
+<h3>Intuition</h3>
+<p>A filter is a tiny pattern detector (an edge, a corner, a stroke direction). Sliding it over the picture asks &quot;is this pattern here?&quot; at every position. Stacking layers builds from edges → textures → parts → objects. We train on 8×8 images of strokes (horizontal, vertical, two diagonals) and <b>watch the filters turn into oriented-edge detectors by themselves</b>.</p>
+<h3>The math</h3>
+<pre>conv:   Z[f,i,j] = Σ_{k,l} W[f,k,l] · X[i+k, j+l] + b_f          (cross-correlation; &quot;valid&quot; padding)
+ReLU:   A = max(Z, 0)             max-pool 2×2:  M[f,i,j] = max of the 2×2 block of A
+dense:  logits = flatten(M) W₂ + b₂ ;   softmax + cross-entropy
+Backprop through the layers by hand:  dense → un-flatten → route the gradient to the arg-max of each pooling window
+→ multiply by 1[Z&gt;0] → dW[f] = Σ over positions of  dZ[f,i,j] · (image patch at i,j)
+Output size = (N − K + 2P)/S + 1.</pre>
+<h3>What the animation shows</h3>
+<p>Top row: the four 3×3 filters evolving from random noise. Middle row: the input image and the four feature maps after ReLU (bright = filter fired). Bottom: loss/accuracy curves. The sample cycles through the four classes so you can see which filter reacts to which stroke direction.</p>
+<h3>Try this</h3>
+<ul>
+<li>Increase filters to 8, or add a second conv layer.</li>
+<li>Shift the test strokes by two pixels: translation tolerance comes from conv + pooling.</li>
+</ul></section><section id='17_recurrent_neural_network'><h2>17 · Recurrent Neural Networks (RNN) &amp; Backprop-Through-Time</h2><div class='fam'>Supervised · Deep learning for sequences · <a href='notebooks/17_recurrent_neural_network.ipynb'><code>notebooks/17_recurrent_neural_network.ipynb</code></a> · <code>lessons/17_recurrent_neural_network.py</code></div><div class='media'><img loading='lazy' src='outputs/17_recurrent_neural_network.gif' alt='17_recurrent_neural_network.gif'></div><p><b>Family:</b> Supervised · Deep learning for sequences</p>
+<h3>Definition</h3>
+<p>An RNN reads a sequence one element at a time and keeps a <b>hidden state</b> hₜ, a running summary of everything seen so far. The same weights are reused at every time step, so it handles sequences of any length (time series, text, sensor streams).</p>
+<h3>Intuition</h3>
+<p>Reading a sentence word by word while keeping a mental note of the story so far. At each step the note is updated from the new word and the previous note. To train, we &quot;unroll&quot; the network through time (one copy per step, sharing weights) and backpropagate through all the copies: <b>backpropagation through time (BPTT)</b>.</p>
+<h3>The math</h3>
+<pre>hₜ = tanh(xₜ Wₓₕ + hₜ₋₁ Wₕₕ + b)           ŷₜ = hₜ W_y + b_y
+L = 1/T Σₜ (ŷₜ − yₜ)²                       gradient flows backwards through every hₜ
+∂L/∂Wₕₕ = Σₜ  ... Π (Wₕₕᵀ · diag(1 − h²)) ...      repeated multiplication =&gt; gradients vanish (&lt;1) or explode (&gt;1)
+Fixes: gradient clipping (used here), gated cells (LSTM/GRU, lesson 18), attention (lesson 19).
+This file uses the autograd engine in mlatlas/nn.py, so BPTT is automatic; read the 6-line forward pass.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Clip gradient norm. Use LSTM/GRU for anything with long-range dependencies. Transformers have mostly replaced RNNs for text.</li>
+<li>For forecasting, teacher forcing (feed the true previous value) is used in training; at inference you feed back predictions.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>A noisy two-frequency &quot;seasonal demand&quot; signal. Top-left: the RNN&#x27;s one-step-ahead prediction (red) improving over the true signal (black). Right: the heat-map of the 16 hidden units over time (the network&#x27;s memory), bottom-left: loss curve.</p>
+<h3>Try this</h3>
+<ul>
+<li>Make the sequence length 60 and watch training get harder (vanishing gradients).</li>
+<li>Replace tanh by ReLU and turn clipping off.</li>
+</ul></section><section id='18_lstm_gru_gated_memory'><h2>18 · LSTM &amp; GRU: Gated Memory</h2><div class='fam'>Supervised · Deep learning for sequences · <a href='notebooks/18_lstm_gru_gated_memory.ipynb'><code>notebooks/18_lstm_gru_gated_memory.ipynb</code></a> · <code>lessons/18_lstm_gru_gated_memory.py</code></div><div class='media'><img loading='lazy' src='outputs/18_lstm_gru_gated_memory.gif' alt='18_lstm_gru_gated_memory.gif'></div><p><b>Family:</b> Supervised · Deep learning for sequences</p>
+<h3>Definition</h3>
+<p>LSTM (Hochreiter &amp; Schmidhuber, 1997) and GRU (Cho et al., 2014) are recurrent cells with <b>gates</b>: learned sigmoid switches that decide what to write into memory, what to keep and what to reveal. They solve the vanishing-gradient problem of plain RNNs because the memory (cell state) can be carried across many steps almost untouched, giving gradients a &quot;highway&quot;.</p>
+<h3>Intuition</h3>
+<p>A plain RNN rewrites its whole memory every step, so an early signal is quickly overwritten. An LSTM has a notebook (cell state cₜ) with three controls: the <b>forget gate</b> (erase old notes?), the <b>input gate</b> (write new notes?), the <b>output gate</b> (read the notes out now?). Here the task is a pure memory test: *the first input is a +1 or −1 signal, followed by 29 steps of random noise; at the end, report the sign of the first input.*</p>
+<h3>The math (LSTM)</h3>
+<pre>[i, f, o, g] = [x, h] W + b         i,f,o = σ(·)   g = tanh(·)
+cₜ = f ⊙ cₜ₋₁ + i ⊙ g               (additive update = gradient highway)
+hₜ = o ⊙ tanh(cₜ)
+GRU (fewer parameters, no separate cell):  z = σ([x,h]Wz) , r = σ([x,h]Wr) , h̃ = tanh([x, r⊙h]W) , h = (1−z)⊙h + z⊙h̃
+Forget-gate bias initialised to +1 so the cell remembers by default.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>LSTM/GRU are the standard for sequential data when transformers are overkill (streams, small data, on-device).</li>
+<li>GRU is faster and often equal in accuracy; LSTM can be better for very long dependencies.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Left: test accuracy during training for a vanilla RNN, GRU and LSTM on the memory task (50 % = guessing). Right: the LSTM&#x27;s <b>input, forget, output gates and cell state</b> over the 30 time steps for one sequence. Watch the cell state lock in the first signal and the forget gate stay open.</p>
+<h3>Try this</h3>
+<ul>
+<li>Lengthen the noise to 100 steps: which model still learns?</li>
+<li>Set the forget bias to 0 and see how much slower the LSTM trains.</li>
+</ul></section><section id='19_attention_transformer'><h2>19 · Attention &amp; the Transformer</h2><div class='fam'>Supervised · Deep learning (sequence → sequence, language, vision) · <a href='notebooks/19_attention_transformer.ipynb'><code>notebooks/19_attention_transformer.ipynb</code></a> · <code>lessons/19_attention_transformer.py</code></div><div class='media'><img loading='lazy' src='outputs/19_attention_transformer.gif' alt='19_attention_transformer.gif'><img loading='lazy' src='outputs/19_attention_transformer_math.png' alt='19_attention_transformer_math.png'></div><p><b>Family:</b> Supervised · Deep learning (sequence → sequence, language, vision)</p>
+<h3>Definition</h3>
+<p><b>Attention</b> lets every position in a sequence look at every other position and pull in the information it needs, weighted by relevance. A <b>Transformer</b> stacks attention + feed-forward blocks with residual connections and layer normalization. There is no recurrence, so all positions are processed in parallel, which is what lets models scale to GPT/BERT size.</p>
+<h3>Intuition</h3>
+<p>Each token asks a question (<b>query</b>), advertises what it contains (<b>key</b>) and carries a payload (<b>value</b>). Similarity between a query and every key decides how much of each value is mixed in (softmax weights). In this lesson the model must find *the one flagged digit* in a sequence of 8 digits and report it. We train a tiny 1-layer transformer encoder and <b>watch its attention learn to lock onto the flagged token</b>.</p>
+<h3>The math</h3>
+<pre>Q = XW_q ,  K = XW_k ,  V = XW_v
+Attention(Q,K,V) = softmax( Q Kᵀ / √d ) V               (√d keeps the softmax from saturating)
+Multi-head: run h attention &quot;heads&quot; on d/h-dimensional slices, concatenate, project with W_o
+Block:  X ← LayerNorm(X + Attention(X))      X ← LayerNorm(X + FFN(X)),   FFN = ReLU(XW₁+b₁)W₂ + b₂
+Position: attention is order-blind, so add positional information (sinusoidal  sin/cos(pos/10000^(2i/d))  or learned).
+Causal mask (GPT-style) sets future positions&#x27; scores to −∞.
+Cost: O(n²) in sequence length, the reason for long-context research (sparse/linear attention, FlashAttention).</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Warm-up + Adam(W), pre-LayerNorm, dropout, large batches. Pretrain on lots of data, then fine-tune.</li>
+<li>Also dominates vision (ViT), audio, protein folding and more.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Rows are 6 fixed test sequences; columns the 8 digit positions (the red frame marks the flagged one). The colour shows how strongly the classification token attends to each position. Initially attention is spread out; as training progresses it snaps onto the flagged digit. Right: loss and accuracy. A static figure <code>19_attention_transformer_math.png</code> shows positional encoding and the Q·Kᵀ → softmax maths on a toy example.</p>
+<h3>Try this</h3>
+<ul>
+<li>Remove the flag embedding: can the model still solve the task? (It cannot, and the attention shows why.)</li>
+<li>Add a second head by splitting d into two halves (see <code>multi_head_attention</code> in this file).</li>
+</ul></section><section id='20_autoencoder'><h2>20 · Autoencoders</h2><div class='fam'>Unsupervised · Representation learning / dimensionality reduction · <a href='notebooks/20_autoencoder.ipynb'><code>notebooks/20_autoencoder.ipynb</code></a> · <code>lessons/20_autoencoder.py</code></div><div class='media'><img loading='lazy' src='outputs/20_autoencoder.gif' alt='20_autoencoder.gif'></div><p><b>Family:</b> Unsupervised · Representation learning / dimensionality reduction</p>
+<h3>Definition</h3>
+<p>An autoencoder is a neural network trained to <b>reconstruct its own input</b> through a narrow <b>bottleneck</b>. The *encoder* compresses x into a short code z; the *decoder* rebuilds x̂ from z. No labels are needed: the target is the input itself.</p>
+<h3>Intuition</h3>
+<p>If the data really lives on a low-dimensional surface (a curve in 2-D), the bottleneck forces the network to discover coordinates *along* that surface. Here noisy sensor points lie on a bent arc; a 1-number bottleneck must learn &quot;how far along the arc am I?&quot;. It is a <b>non-linear PCA</b>: with linear layers it recovers PCA exactly.</p>
+<h3>The math</h3>
+<pre>z = enc(x) = W₂ tanh(W₁x + b₁) + b₂          x̂ = dec(z)
+L = 1/n Σ ||x − x̂||²
+Variants: denoising AE (corrupt x, reconstruct clean x), sparse AE (penalty on z), contractive AE, convolutional AE, VAE (lesson 21).
+Uses: compression, denoising, anomaly detection (large reconstruction error = unusual), feature learning, pre-training.</pre>
+<h3>What the animation shows</h3>
+<p>Left: data (grey), each point&#x27;s reconstruction (coloured by its latent value z) and the decoder&#x27;s learned curve (black), the manifold it discovered. Middle: histogram of the 1-D codes. Right: reconstruction loss. The decoder curve starts as a blob near the mean and unfolds along the arc.</p>
+<h3>Try this</h3>
+<ul>
+<li>Use a 2-D bottleneck on the same data: reconstruction becomes perfect, but is the code still meaningful?</li>
+<li>Add 20 off-curve points and compare their reconstruction error to inliers: that is anomaly detection.</li>
+</ul></section><section id='21_variational_autoencoder'><h2>21 · Variational Autoencoder (VAE)</h2><div class='fam'>Unsupervised · Generative model · <a href='notebooks/21_variational_autoencoder.ipynb'><code>notebooks/21_variational_autoencoder.ipynb</code></a> · <code>lessons/21_variational_autoencoder.py</code></div><div class='media'><img loading='lazy' src='outputs/21_variational_autoencoder.gif' alt='21_variational_autoencoder.gif'></div><p><b>Family:</b> Unsupervised · Generative model</p>
+<h3>Definition</h3>
+<p>A VAE is an autoencoder whose code is a *probability distribution*, not a point: the encoder outputs a mean μ and variance σ² and we sample z ~ N(μ, σ²). An extra loss pulls those distributions toward a standard normal prior N(0, I). The latent space becomes smooth and dense, so <b>sampling z from the prior and decoding generates brand-new, realistic data</b>.</p>
+<h3>Intuition</h3>
+<p>A plain autoencoder can scatter codes anywhere, leaving holes where the decoder produces garbage. The VAE&#x27;s KL penalty packs all codes into one tidy blob around the origin, and sampling noise forces nearby codes to decode to similar outputs. Here the data is two interleaved moons; we learn a 2-D latent space and then generate new moon points from pure noise.</p>
+<h3>The math</h3>
+<pre>encoder: x -&gt; (μ, log σ²)          reparameterization trick:  z = μ + σ ⊙ ε ,  ε ~ N(0, I)   (makes sampling differentiable)
+decoder: z -&gt; x̂
+ELBO loss:  L = E||x − x̂||² / (2s²)  +  KL( N(μ,σ²) || N(0,I) ),   KL = −½ Σ (1 + log σ² − μ² − σ²)
+Trade-off: reconstruction (accuracy) vs KL (regularity). β-VAE scales the KL term to disentangle factors.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Output tends to be blurry for images (Gaussian likelihood); VQ-VAE and diffusion models improve on that.</li>
+<li>Watch for &quot;posterior collapse&quot; (KL → 0, decoder ignores z): anneal β from 0 up.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Left: the 2-D latent space; every training point&#x27;s encoded mean, coloured by moon, and the N(0,1) prior circle. Middle: data (grey) vs points *generated from random noise* (red). Right: reconstruction and KL loss terms. Early generations are a blob; later they concentrate around the two moons. Notice that some samples still land in the gap between them: a VAE trades sharpness for coverage, one reason GANs and diffusion models give crisper samples.</p>
+<h3>Try this</h3>
+<ul>
+<li>Walk a straight line in latent space between a point of each moon and decode it (latent interpolation).</li>
+<li>Set the KL weight to 0 (plain AE) and sample from the prior: how many generated points are off the moons?</li>
+</ul></section><section id='22_generative_adversarial_network'><h2>22 · Generative Adversarial Networks (GAN)</h2><div class='fam'>Unsupervised · Generative model (adversarial training) · <a href='notebooks/22_generative_adversarial_network.ipynb'><code>notebooks/22_generative_adversarial_network.ipynb</code></a> · <code>lessons/22_generative_adversarial_network.py</code></div><div class='media'><img loading='lazy' src='outputs/22_generative_adversarial_network.gif' alt='22_generative_adversarial_network.gif'></div><p><b>Family:</b> Unsupervised · Generative model (adversarial training)</p>
+<h3>Definition</h3>
+<p>A GAN trains two networks in a game. The <b>generator G</b> turns random noise into fake samples; the <b>discriminator D</b> tries to tell real samples from fakes. G is rewarded when D is fooled; D is rewarded when it is not. At equilibrium G&#x27;s samples match the real distribution and D can only guess (output 0.5).</p>
+<h3>Intuition</h3>
+<p>A counterfeiter and a detective. As the detective gets better at spotting fakes, the counterfeiter must make better ones. We use the simplest possible setting, 1-D data, so you can see everything: the real data are two bumps (e.g. commuter arrival times: morning and evening rush), and G must learn to map a single bell-curve of noise onto *two* bumps.</p>
+<h3>The math</h3>
+<pre>D(x) = P(x is real)          G(z), z ~ N(0, I)
+min_G max_D  E_x[log D(x)] + E_z[log(1 − D(G(z)))]
+In practice D minimizes BCE(real→1, fake→0); G uses the &quot;non-saturating&quot; loss  −log D(G(z))  (stronger gradients early on).
+Optimal discriminator for fixed G:  D*(x) = p_data(x) / (p_data(x) + p_G(x))     -&gt;  the green curve below
+Note: the generated bumps come out a little narrower/spikier than the real ones, a mild form of mode collapse that is typical of plain GANs.
+Known troubles: mode collapse (G covers only one bump), oscillating training, vanishing gradients. Remedies: WGAN, spectral norm, careful lr.</pre>
+<h3>What the animation shows</h3>
+<p>Left: histogram of real data (grey) vs generated samples (orange) with the discriminator&#x27;s belief D(x) (green line). Middle: the generator&#x27;s learned mapping z → G(z); it must become a staircase to make two bumps from one (the noise has 4 dimensions so it can also spread each bump). Right: the two losses oscillating (healthy for GANs).</p>
+<h3>Try this</h3>
+<ul>
+<li>Move the bumps further apart (±3) and see if mode collapse appears.</li>
+<li>Train D 5 steps per G step (WGAN-style) and compare stability.</li>
+</ul></section><section id='23_k_means'><h2>23 · K-Means Clustering</h2><div class='fam'>Unsupervised · Clustering (centroid-based) · <a href='notebooks/23_k_means.ipynb'><code>notebooks/23_k_means.ipynb</code></a> · <code>lessons/23_k_means.py</code></div><div class='media'><img loading='lazy' src='outputs/23_k_means.gif' alt='23_k_means.gif'></div><p><b>Family:</b> Unsupervised · Clustering (centroid-based)</p>
+<h3>Definition</h3>
+<p>K-means partitions n points into k clusters by repeatedly (1) assigning each point to its nearest <b>centroid</b> and (2) moving each centroid to the mean of the points assigned to it (Lloyd&#x27;s algorithm). It minimizes the within-cluster sum of squares (inertia).</p>
+<h3>Intuition</h3>
+<p>Place k pins on the map at random. Every customer goes to the nearest pin; then move each pin to the centre of its customers; the borders (Voronoi cells) shift, so repeat. It always converges, but maybe to a *local* optimum, so initialisation matters (k-means++ spreads the starting pins).</p>
+<h3>The math</h3>
+<pre>assign:  cᵢ = argmin_k ||xᵢ − μ_k||²              update:  μ_k = mean{ xᵢ : cᵢ = k }
+objective (inertia): J = Σᵢ ||xᵢ − μ_{cᵢ}||²   (never increases; guaranteed to converge)
+Choosing k: elbow method (where J stops dropping fast), silhouette score, gap statistic, or business needs.
+k-means++: first centre uniformly at random, each next centre sampled with probability ∝ D(x)² (distance to nearest chosen centre).</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Scale features; assumes round, similarly sized clusters; sensitive to outliers (use k-medoids / GMM / DBSCAN otherwise).</li>
+<li>Use for customer segmentation, colour quantization, vector quantization, initialising other models.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Mall customers (annual income vs spending score) with a deliberately bad random start. Each iteration has two frames: <b>assign</b> (points recolour) then <b>update</b> (centroids jump to the cluster means, arrows show the move). Right: inertia plummets then flat-lines. The console prints the elbow curve and compares k-means++.</p>
+<h3>Try this</h3>
+<ul>
+<li>Set k=3 and k=8 and look at the segments.</li>
+<li>Run 20 random restarts and keep the best inertia.</li>
+</ul></section><section id='24_hierarchical_clustering'><h2>24 · Hierarchical (Agglomerative) Clustering</h2><div class='fam'>Unsupervised · Clustering (tree-based) · <a href='notebooks/24_hierarchical_clustering.ipynb'><code>notebooks/24_hierarchical_clustering.ipynb</code></a> · <code>lessons/24_hierarchical_clustering.py</code></div><div class='media'><img loading='lazy' src='outputs/24_hierarchical_clustering.gif' alt='24_hierarchical_clustering.gif'></div><p><b>Family:</b> Unsupervised · Clustering (tree-based)</p>
+<h3>Definition</h3>
+<p>Start with every point as its own cluster, then repeatedly <b>merge the two closest clusters</b> until only one remains. The sequence of merges forms a tree, the <b>dendrogram</b>. Cutting the tree at a chosen height gives any number of clusters, so you do not need to choose k in advance.</p>
+<h3>Intuition</h3>
+<p>Building a family tree from similarity: the two most similar customers pair up first, then similar pairs merge, and so on. The *height* of a merge is how far apart the two groups were; a very tall merge signals &quot;these really are different groups&quot;, so cut just below it.</p>
+<h3>The math</h3>
+<pre>cluster distance (&quot;linkage&quot;):
+  single    d(A,B) = min d(a,b)          (can chain; finds elongated clusters)
+  complete  d(A,B) = max d(a,b)          (compact clusters)
+  average   d(A,B) = mean d(a,b)
+  ward      merge the pair giving the smallest increase in total within-cluster variance:  Δ = |A||B|/(|A|+|B|) ||μ_A − μ_B||²
+naive cost O(n³), O(n² log n) with priority queues. Needs the full distance matrix (so ≈ up to tens of thousands of points).</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Great for small data, taxonomies, gene expression, and when you want to explore several granularities. Use scaling.</li>
+<li>Ward ≈ k-means-like compact clusters; single linkage for chains.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>36 customers; each frame performs one merge. Left: current clusters (singletons grey, merged clusters coloured, the newest merge circled). Right: the dendrogram growing from the bottom, with the red link as the latest merge.</p>
+<h3>Try this</h3>
+<ul>
+<li>Switch <code>linkage=&quot;single&quot;</code> and see long chain-like merges.</li>
+<li>Draw a horizontal cut at distance h and count clusters.</li>
+</ul></section><section id='25_dbscan'><h2>25 · DBSCAN (Density-Based Clustering)</h2><div class='fam'>Unsupervised · Clustering (density-based) + outlier detection · <a href='notebooks/25_dbscan.ipynb'><code>notebooks/25_dbscan.ipynb</code></a> · <code>lessons/25_dbscan.py</code></div><div class='media'><img loading='lazy' src='outputs/25_dbscan.gif' alt='25_dbscan.gif'></div><p><b>Family:</b> Unsupervised · Clustering (density-based) + outlier detection</p>
+<h3>Definition</h3>
+<p>DBSCAN groups points that are packed closely together and labels isolated points as <b>noise</b>. It needs two numbers: a radius <b>ε</b> and a minimum neighbourhood size <b>minPts</b>. Clusters can have *any shape*, and the number of clusters is discovered, not chosen.</p>
+<h3>Intuition</h3>
+<p>Think of a crowd at a festival: dense crowds are clusters, lone wanderers are noise. A <b>core point</b> has ≥ minPts neighbours within ε. A cluster grows by hopping from core point to core point (density-reachability); <b>border points</b> are within ε of a core point but not dense themselves.</p>
+<h3>The math</h3>
+<pre>N_ε(p) = { q : ||p − q|| ≤ ε }          p is core  ⇔  |N_ε(p)| ≥ minPts
+expand: start at an unvisited core point, give it a new cluster id, and recursively add all points in the neighbourhoods of the core points reached.
+Choosing ε: plot the sorted distance of every point to its k-th nearest neighbour (k = minPts) and pick the &quot;knee&quot; (right panel).
+Complexity O(n log n) with a spatial index. HDBSCAN removes the single-ε limitation (varying densities).</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Scale features first. Struggles with varying density and high dimensions. Great for geospatial data, anomaly detection and non-convex shapes (k-means fails on moons).</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Two moons + scattered noise. As the algorithm visits points, the circle shows the ε-neighbourhood being examined. Filled dots = core points, hollow = border points, black × = noise; colours = clusters, spreading along each moon. Right: the k-distance plot used to pick ε.</p>
+<h3>Try this</h3>
+<ul>
+<li>Halve ε: clusters shatter. Double it: the moons merge.</li>
+<li>Compare with k-means (k=2) on the same data.</li>
+</ul></section><section id='26_gaussian_mixture_em'><h2>26 · Gaussian Mixture Models &amp; the EM Algorithm</h2><div class='fam'>Unsupervised · Clustering / density estimation (probabilistic) · <a href='notebooks/26_gaussian_mixture_em.ipynb'><code>notebooks/26_gaussian_mixture_em.ipynb</code></a> · <code>lessons/26_gaussian_mixture_em.py</code></div><div class='media'><img loading='lazy' src='outputs/26_gaussian_mixture_em.gif' alt='26_gaussian_mixture_em.gif'></div><p><b>Family:</b> Unsupervised · Clustering / density estimation (probabilistic)</p>
+<h3>Definition</h3>
+<p>A Gaussian Mixture Model says the data was generated by choosing one of K hidden Gaussian components (with probability π_k) and drawing a point from it. Unlike k-means, clusters can be elliptical, differently sized, and assignments are <b>soft</b>: each point has a probability of belonging to every component. It is fitted by <b>Expectation-Maximization (EM)</b>.</p>
+<h3>Intuition</h3>
+<p>Chicken-and-egg: if you knew which component produced each point, estimating the Gaussians would be easy; if you knew the Gaussians, assigning points would be easy. EM alternates: guess soft assignments with the current Gaussians (E-step), then re-fit the Gaussians using those soft assignments (M-step). The likelihood never decreases.</p>
+<h3>The math</h3>
+<pre>p(x) = Σ_k π_k N(x | μ_k, Σ_k)
+E-step:  r_ik = π_k N(xᵢ|μ_k,Σ_k) / Σ_j π_j N(xᵢ|μ_j,Σ_j)           (responsibility of component k for point i)
+M-step:  N_k = Σᵢ r_ik ;  π_k = N_k/n ;  μ_k = Σ r_ik xᵢ / N_k ;  Σ_k = Σ r_ik (xᵢ−μ_k)(xᵢ−μ_k)ᵀ / N_k
+log-likelihood  ℓ = Σᵢ log Σ_k π_k N(xᵢ|…): rises monotonically; EM finds a local optimum.
+Choosing K: BIC = −2ℓ + p·ln n (printed below). k-means is the special case of equal spherical covariances and hard assignments.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Initialise with k-means; regularise covariances (add εI) to avoid collapse onto a single point; restart several times.</li>
+<li>Used for soft clustering, density estimation, anomaly detection (low p(x)), speaker/background modelling.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Three overlapping, differently-shaped clusters. Each frame is one EM iteration: ellipses (1σ and 2σ) move/rotate/stretch to fit; point colours blend by responsibility (mixed colours = uncertain). Right: the log-likelihood increasing. The console prints BIC for K = 1…6.</p>
+<h3>Try this</h3>
+<ul>
+<li>Fit K=2 and K=5 and compare the BIC.</li>
+<li>Initialise two means at the same point: what happens?</li>
+</ul></section><section id='27_pca'><h2>27 · Principal Component Analysis (PCA)</h2><div class='fam'>Unsupervised · Dimensionality reduction / feature extraction · <a href='notebooks/27_pca.ipynb'><code>notebooks/27_pca.ipynb</code></a> · <code>lessons/27_pca.py</code></div><div class='media'><img loading='lazy' src='outputs/27_pca.gif' alt='27_pca.gif'><img loading='lazy' src='outputs/27_pca_3d.gif' alt='27_pca_3d.gif'></div><p><b>Family:</b> Unsupervised · Dimensionality reduction / feature extraction</p>
+<h3>Definition</h3>
+<p>PCA finds new orthogonal axes (principal components) ordered by how much of the data&#x27;s <b>variance</b> each one captures. Keeping only the first few components compresses the data with minimal information loss, and makes high-dimensional data visualizable.</p>
+<h3>Intuition</h3>
+<p>Hold a flashlight to a 3-D cloud so its shadow on the wall is as *spread out* as possible: that direction is PC1. Equivalently, PC1 is the line that leaves the smallest total squared distance from the points to their projections (the residual lines in the animation). The two views are the same by Pythagoras: variance kept + error = total.</p>
+<h3>The math</h3>
+<pre>centre X;  covariance C = XᵀX/(n−1);   eigen-decomposition C v_k = λ_k v_k   (or SVD: X = U S Vᵀ, λ_k = s_k²/(n−1))
+projection  Z = X V_k        reconstruction  X̂ = Z V_kᵀ + mean        explained variance ratio  λ_k / Σλ
+The projection onto unit vector u has variance uᵀCu, maximised by the top eigenvector.
+Relatives: kernel PCA (non-linear), probabilistic PCA/factor analysis, ICA, truncated SVD (LSA), t-SNE/UMAP (visual, non-linear), autoencoders.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Standardize variables of different units first. Choose components via the scree plot (cumulative variance ≥ 90–95 %).</li>
+<li>Components are linear mixes: harder to interpret; PCA ignores labels (LDA is the supervised cousin).</li>
+</ul>
+<h3>What the animations show</h3>
+<p>1. <code>27_pca.gif</code>: a line rotates through the 2-D cloud. Left: projections and residuals. Right: projected variance (peaks at the PC1 angle) and reconstruction error (lowest there). 2. <code>27_pca_3d.gif</code>: a 3-D cloud of body measurements rotates; the best-fit plane (PC1-PC2) and projected points are shown.</p>
+<h3>Try this</h3>
+<ul>
+<li>Compare PCA of raw vs standardized house-price data.</li>
+<li>Reconstruct the 8×8 shape images from 2, 5, 10 components.</li>
+</ul></section><section id='28_tsne'><h2>28 · t-SNE (Non-linear Embedding for Visualization)</h2><div class='fam'>Unsupervised · Dimensionality reduction (visualization) · <a href='notebooks/28_tsne.ipynb'><code>notebooks/28_tsne.ipynb</code></a> · <code>lessons/28_tsne.py</code></div><div class='media'><img loading='lazy' src='outputs/28_tsne.gif' alt='28_tsne.gif'></div><p><b>Family:</b> Unsupervised · Dimensionality reduction (visualization)</p>
+<h3>Definition</h3>
+<p>t-SNE maps high-dimensional points to 2-D so that <b>neighbours stay neighbours</b>. It converts distances into neighbour probabilities in both spaces and moves the 2-D points until the two probability distributions match (minimizing KL divergence).</p>
+<h3>Intuition</h3>
+<p>Imagine points repelling each other in the plane, but each pair also attached by a spring whose strength is how similar they were in the original space. Similar points get pulled together into clusters, dissimilar ones pushed apart. Heavy-tailed (Student-t) similarities in 2-D give clusters room to separate (&quot;crowding problem&quot;).</p>
+<h3>The math</h3>
+<pre>High-D:  p_{j|i} = exp(−||xᵢ−xⱼ||²/2σᵢ²) / Σ_k exp(−||xᵢ−x_k||²/2σᵢ²) ,   P = (p_{j|i} + p_{i|j}) / 2n
+         σᵢ chosen per point by binary search so the effective neighbour count = perplexity (≈ 5–50)
+Low-D:   q_ij = (1 + ||yᵢ−yⱼ||²)⁻¹ / Σ_{k≠l} (1 + ||y_k−y_l||²)⁻¹
+Cost:    KL(P||Q) = Σ p_ij log(p_ij/q_ij)          gradient:  4 Σⱼ (p_ij − q_ij)(yᵢ−yⱼ)(1+||yᵢ−yⱼ||²)⁻¹
+Tricks: early exaggeration (×12 for 100 iterations), momentum, adaptive gains.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>For <b>visualization only</b>: distances between clusters and cluster sizes are not meaningful; run with several perplexities and seeds. UMAP is faster and preserves more global structure.</li>
+<li>Do not use t-SNE coordinates as features for a model.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>240 noisy 8×8 stroke images (64-D, 4 classes). Left: PCA&#x27;s 2-D linear projection (static) for contrast. Middle: the t-SNE embedding unfolding from a random blob into 4 clusters. Right: the KL divergence falling.</p>
+<h3>Try this</h3>
+<ul>
+<li>Try perplexity 5 and 100.</li>
+<li>Run t-SNE on <code>data.mall_customers</code> plus 5 random noise columns.</li>
+</ul></section><section id='29_self_organizing_map'><h2>29 · Self-Organizing Map (SOM / Kohonen map)</h2><div class='fam'>Unsupervised · Neural clustering &amp; topology-preserving visualization · <a href='notebooks/29_self_organizing_map.ipynb'><code>notebooks/29_self_organizing_map.ipynb</code></a> · <code>lessons/29_self_organizing_map.py</code></div><div class='media'><img loading='lazy' src='outputs/29_self_organizing_map.gif' alt='29_self_organizing_map.gif'></div><p><b>Family:</b> Unsupervised · Neural clustering &amp; topology-preserving visualization</p>
+<h3>Definition</h3>
+<p>A SOM is a grid of neurons, each holding a weight vector living in the same space as the data. Training shows data points one by one; the <b>best-matching unit (BMU)</b> and its grid neighbours are pulled toward the point. The result is a 2-D map in which <b>similar inputs land on nearby cells</b>: clustering and visualization in one.</p>
+<h3>Intuition</h3>
+<p>Spread a stretchy fishing net over a cloud of points and keep tugging it toward random points. Early on, tugs are big and affect a wide area (the net finds the overall shape); later tugs are small and local (fine tuning). Here the &quot;points&quot; are random colours: the map organizes itself into a smooth colour atlas, with red next to orange, never next to cyan.</p>
+<h3>The math</h3>
+<pre>BMU:       c = argmin_k ||x − w_k||
+update:    w_k ← w_k + η(t) · h(k, c, t) · (x − w_k)
+neighbourhood  h = exp(−||pos_k − pos_c||² / 2σ(t)²)         η(t) = η₀ e^{−t/τ} ,  σ(t) = σ₀ e^{−t/τ}
+Quantization error = mean ||x − w_BMU||.  U-matrix (distance between neighbouring cells) reveals cluster borders.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Good for exploratory visualization of high-dimensional records (customers, sensor profiles, genes). Hex grids, toroidal maps and batch training are common variants.</li>
+<li>Modern alternatives for visualization: UMAP, t-SNE. SOM&#x27;s advantage is a fixed, reusable grid map.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>Left: the 14×14 map&#x27;s weights shown as colours, with the BMU of the current sample ringed and the neighbourhood radius drawn. Right: the roughness (average colour difference between neighbouring cells) collapsing as the map organizes itself.</p>
+<h3>Try this</h3>
+<ul>
+<li>Feed it 3-D points from <code>data.mall_customers</code> plus a third feature; colour cells by the dominant segment.</li>
+<li>Make the grid 4×4 and see it behave like k-means with 16 clusters.</li>
+</ul></section><section id='30_isolation_forest_anomaly_detection'><h2>30 · Isolation Forest (Anomaly Detection)</h2><div class='fam'>Unsupervised · Anomaly / outlier detection · <a href='notebooks/30_isolation_forest_anomaly_detection.ipynb'><code>notebooks/30_isolation_forest_anomaly_detection.ipynb</code></a> · <code>lessons/30_isolation_forest_anomaly_detection.py</code></div><div class='media'><img loading='lazy' src='outputs/30_isolation_forest_anomaly_detection.gif' alt='30_isolation_forest_anomaly_detection.gif'><img loading='lazy' src='outputs/30_isolation_forest_anomaly_detection_forest.gif' alt='30_isolation_forest_anomaly_detection_forest.gif'></div><p><b>Family:</b> Unsupervised · Anomaly / outlier detection</p>
+<h3>Definition</h3>
+<p>Isolation Forest detects anomalies by how *easy they are to isolate*. It builds many random trees: pick a random feature, pick a random split value between the min and max, and recurse until each point sits alone. Anomalies are few and different, so random cuts separate them in <b>very few splits</b>; normal points deep inside the crowd need many.</p>
+<h3>Intuition</h3>
+<p>Play &quot;20 questions&quot; with random questions. To single out a faulty machine whose temperature is far from everyone else, one or two cuts suffice. To single out one typical machine in the middle of a dense cloud you must keep cutting. Short average path length ⇒ anomaly.</p>
+<h3>The math</h3>
+<pre>path length h(x) = number of edges from the root to the leaf that isolates x   (+ c(size) correction for unfinished leaves)
+c(n) = 2(ln(n−1) + 0.5772) − 2(n−1)/n         expected path length in an unsuccessful BST search (the normaliser)
+anomaly score  s(x) = 2^{ −E[h(x)] / c(ψ) }    -&gt;  near 1: anomaly,  well below 0.5: normal,  ≈ 0.5: no clear anomaly
+Each tree uses a small random subsample ψ (e.g. 256), which makes it fast (linear time) and robust to &quot;swamping&quot;.
+Related: LOF (local density), One-Class SVM, autoencoder reconstruction error (lesson 20), Gaussian mixture density (lesson 26).</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Choose the score threshold from the expected contamination rate or business cost; no labels needed.</li>
+<li>Axis-parallel cuts can create artefacts (Extended Isolation Forest fixes it). Works well on tabular sensor/finance/log features.</li>
+</ul>
+<h3>What the animations show</h3>
+<p>1. <code>30_isolation_forest_anomaly_detection.gif</code>: random cuts isolating an <b>outlier</b> (left, ~3 cuts) vs a <b>normal point</b> (right, many cuts). The red region is the isolated cell. 2. <code>30_isolation_forest_anomaly_detection_forest.gif</code>: adding trees one by one; the anomaly-score map stabilises and the true faults light up.</p>
+<h3>Try this</h3>
+<ul>
+<li>Add a tight second cluster of 12 anomalies. Does &quot;few and different&quot; still hold? (masking)</li>
+<li>Compare the AUC of Isolation Forest vs a single Gaussian fit.</li>
+</ul></section><section id='31_apriori_association_rules'><h2>31 · Association Rules &amp; the Apriori Algorithm</h2><div class='fam'>Unsupervised · Pattern mining (market-basket analysis) · <a href='notebooks/31_apriori_association_rules.ipynb'><code>notebooks/31_apriori_association_rules.ipynb</code></a> · <code>lessons/31_apriori_association_rules.py</code></div><div class='media'><img loading='lazy' src='outputs/31_apriori_association_rules.gif' alt='31_apriori_association_rules.gif'></div><p><b>Family:</b> Unsupervised · Pattern mining (market-basket analysis)</p>
+<h3>Definition</h3>
+<p>Association-rule mining finds items that frequently occur together in transactions and states them as rules &quot;if {bread} then {butter}&quot;. <b>Apriori</b> finds all *frequent itemsets* efficiently by growing them level by level and pruning with one key fact: <b>a set can only be frequent if all its subsets are frequent</b>.</p>
+<h3>Intuition</h3>
+<p>Count single items first; throw away rare ones. Only combine survivors into pairs; count and prune; combine surviving pairs into triples, and so on. Whole branches of the search space are never counted. Then turn frequent sets into rules and rank them by how much they beat chance (lift).</p>
+<h3>The math</h3>
+<pre>support(A)        = P(A) = (# baskets containing A) / N
+confidence(A→B)   = support(A∪B) / support(A) = P(B | A)
+lift(A→B)         = confidence / support(B)     (&gt;1: positively associated, 1: independent, &lt;1: substitutes)
+Apriori principle: support(S) ≤ support(T) for any T ⊂ S   ⇒  prune a candidate if any subset is infrequent.
+Faster alternatives: FP-Growth, Eclat. Applications: recommendations, store layout, cross-selling, log/alert correlation, web-usage mining.</pre>
+<h3>Practical tips</h3>
+<ul>
+<li>Choose min-support to the order of &quot;enough baskets to matter&quot;; sort rules by lift, not only confidence (popular items inflate confidence).</li>
+<li>Association is not causation. Beware of many spurious rules at tiny support.</li>
+</ul>
+<h3>What the animation shows</h3>
+<p>600 synthetic supermarket baskets with planted patterns (bread→butter→jam, coffee→sugar, diapers→beer, chips→soda). Each stage grows the bars of candidate itemsets; those below the dashed min-support line turn grey and are pruned. The last frames plot every discovered rule: support vs confidence, coloured by lift.</p>
+<h3>Try this</h3>
+<ul>
+<li>Lower min support to 2 % and watch the number of candidates explode.</li>
+<li>Add the rule &quot;tea → lemon&quot; to <code>data.baskets</code> and confirm Apriori finds it.</li>
+</ul></section><section id='32_hidden_markov_model'><h2>32 · Hidden Markov Models (HMM): Viterbi &amp; Baum-Welch</h2><div class='fam'>Probabilistic sequence models (supervised or unsupervised) · <a href='notebooks/32_hidden_markov_model.ipynb'><code>notebooks/32_hidden_markov_model.ipynb</code></a> · <code>lessons/32_hidden_markov_model.py</code></div><div class='media'><img loading='lazy' src='outputs/32_hidden_markov_model.gif' alt='32_hidden_markov_model.gif'><img loading='lazy' src='outputs/32_hidden_markov_model_viterbi.gif' alt='32_hidden_markov_model_viterbi.gif'></div><p><b>Family:</b> Probabilistic sequence models (supervised or unsupervised)</p>
+<h3>Definition</h3>
+<p>An HMM assumes a system moves through <b>hidden states</b> (not observed) following a Markov chain, and each state emits an <b>observable</b> symbol/measurement. From the visible sequence you can: <b>evaluate</b> its likelihood (forward algorithm), <b>decode</b> the most likely hidden path (Viterbi), and <b>learn</b> the parameters (Baum-Welch = EM).</p>
+<h3>Intuition</h3>
+<p>You never see the weather where your friend lives, only what they did each day (walk, shop, clean). Rainy days make cleaning likely, sunny days walking. From a week of activities you can infer the likely weather pattern. In engineering: hidden machine health (healthy/degraded/failing) from vibration readings; speech phonemes from audio; gene regions from DNA.</p>
+<h3>The math</h3>
+<pre>parameters  π (initial probs), A_ij = P(sₜ₊₁=j | sₜ=i) (transitions), B_i(o) = P(o | state i) (emissions)
+Forward:   αₜ(j) = [Σ_i αₜ₋₁(i) A_ij] · B_j(oₜ)                  P(o) = Σ_j α_T(j)      (O(T·N²))
+Viterbi:   δₜ(j) = max_i [δₜ₋₁(i) A_ij] · B_j(oₜ) ,  ψₜ(j) = argmax_i ... ;  backtrack from argmax δ_T
+Baum-Welch (EM):  E-step: γₜ(i)=P(sₜ=i|o), ξₜ(i,j)=P(sₜ=i,sₜ₊₁=j|o) via forward-backward;
+                  M-step: A_ij = Σξ/Σγ ,  B_i(o)=Σ_{t:oₜ=o} γₜ(i)/Σγₜ(i)
+Use log-probabilities or scaling to avoid underflow. Modern relatives: CRFs, Kalman filters (continuous states), RNNs/transformers.</pre>
+<h3>What the animations show</h3>
+<p>1. <code>32_hidden_markov_model_viterbi.gif</code>: the Viterbi trellis built column by column for the observation sequence walk, shop, clean, clean, walk, shop, shop, clean; best-predecessor arrows; then the backtracked hidden path in red. 2. <code>32_hidden_markov_model.gif</code>: Baum-Welch learning a 3-state model from 1500 emitted symbols starting from near-uniform random guesses; learned transition/emission heat-maps (states re-ordered to match the truth) converge to the true ones as the log-likelihood rises.</p>
+<h3>Try this</h3>
+<ul>
+<li>Add a 3rd observation symbol or a 3rd hidden state to the Viterbi example.</li>
+<li>Use fewer training symbols (100) and watch Baum-Welch overfit/local optima.</li>
+</ul></section><section id='33_gaussian_process'><h2>33 · Gaussian Processes (GP) Regression</h2><div class='fam'>Supervised · Bayesian non-parametric regression · <a href='notebooks/33_gaussian_process.ipynb'><code>notebooks/33_gaussian_process.ipynb</code></a> · <code>lessons/33_gaussian_process.py</code></div><div class='media'><img loading='lazy' src='outputs/33_gaussian_process.gif' alt='33_gaussian_process.gif'></div><p><b>Family:</b> Supervised · Bayesian non-parametric regression</p>
+<h3>Definition</h3>
+<p>A Gaussian process is a distribution over *functions*. You choose a <b>kernel</b> that says how similar the outputs at two inputs should be; conditioning on the observed points gives, at every new input, a full Gaussian predictive distribution: a <b>mean</b> and a <b>calibrated uncertainty</b>. It is regression that knows what it does not know.</p>
+<h3>Intuition</h3>
+<p>Draw random smooth curves (the prior). Every time you observe a data point, throw away all the curves that miss it. What remains is a bundle of plausible functions: tight near data, fanning out away from it. The kernel&#x27;s <b>length-scale</b> decides how wiggly the plausible functions are.</p>
+<h3>The math</h3>
+<pre>f ~ GP(0, k),    k(x,x&#x27;) = σ_f² exp(−(x−x&#x27;)²/2ℓ²)               (RBF kernel)
+data (X, y) with noise σ_n:   K = k(X,X) + σ_n² I
+posterior mean   μ(x*) = k(x*,X) K⁻¹ y
+posterior var    σ²(x*) = k(x*,x*) − k(x*,X) K⁻¹ k(X,x*)
+hyper-parameters (ℓ, σ_f, σ_n) are chosen by maximizing the marginal likelihood  log p(y) = −½ yᵀK⁻¹y − ½ log|K| − (n/2) log 2π.
+Cost O(n³) in the number of points (sparse GPs / inducing points help). Uses: Bayesian optimization, surrogate models, geostatistics (kriging), small-data science.</pre>
+<h3>What the animation shows</h3>
+<p>Phase 1: observations arrive one at a time: the mean (red), the ±2σ band and five posterior function samples (thin) tighten around the data. Phase 2: with all data fixed, the length-scale ℓ sweeps from tiny (overfits, wiggly) to huge (underfits, flat), with the marginal likelihood shown so you can see why it picks a middle value.</p>
+<h3>Try this</h3>
+<ul>
+<li>Swap the RBF for a periodic kernel and fit the seasonal sales data.</li>
+<li>Add 20 noisy points to the same location and watch σ shrink only slightly (noise ≠ ignorance).</li>
+</ul></section><section id='34_matrix_factorization_recommender'><h2>34 · Matrix Factorization &amp; Recommender Systems</h2><div class='fam'>Unsupervised/supervised hybrid · Collaborative filtering · <a href='notebooks/34_matrix_factorization_recommender.ipynb'><code>notebooks/34_matrix_factorization_recommender.ipynb</code></a> · <code>lessons/34_matrix_factorization_recommender.py</code></div><div class='media'><img loading='lazy' src='outputs/34_matrix_factorization_recommender.gif' alt='34_matrix_factorization_recommender.gif'></div><p><b>Family:</b> Unsupervised/supervised hybrid · Collaborative filtering</p>
+<h3>Definition</h3>
+<p>A recommender predicts ratings people *haven&#x27;t given yet*. <b>Matrix factorization</b> approximates the (mostly empty) user×item rating matrix R by the product of two thin matrices: user vectors U and item vectors V. The rating of user u for item i is predicted by the dot product u·v_i. Each dimension is a learned &quot;taste&quot; (e.g. action vs romance).</p>
+<h3>Intuition</h3>
+<p>Users and items live in the same small &quot;taste space&quot;. If your vector points the same way as a movie&#x27;s vector, you&#x27;ll probably like it. We never tell the model what the dimensions mean: fitting only the *observed* ratings makes similar users and similar items drift together. Here the true taste space is 2-D, so we can literally watch users and movies organise on a map.</p>
+<h3>The math</h3>
+<pre>R̂_ui = μ + U_u · V_i                       (add user/item biases b_u + b_i in practice)
+minimize over U, V:   Σ_{(u,i) observed} (R_ui − R̂_ui)²  +  λ (||U||² + ||V||²)
+SGD:      e = R_ui − U_u·V_i ;  U_u ← U_u + η (e V_i − λ U_u) ;  V_i ← V_i + η (e U_u − λ V_i)
+Alternating least squares (ALS) solves each side in closed form and parallelizes well.
+Evaluate on **held-out ratings** (RMSE). Cold-start problem: no history for new users/items → use content features.
+Beyond: implicit feedback (clicks), factorization machines, two-tower neural networks, transformers for sequences.</pre>
+<h3>What the animation shows</h3>
+<p>Panels: (1) the observed ratings (grey = missing), (2) the model&#x27;s completed matrix as it trains, (3) the 2-D taste space with users (circles) and movies (triangles), (4) train/test RMSE. The completed matrix fills in plausible values for the grey cells, and test RMSE drops without seeing those entries.</p>
+<h3>Try this</h3>
+<ul>
+<li>Use 1 or 5 latent factors and compare held-out RMSE (under/overfitting!).</li>
+<li>Increase λ and see how embeddings shrink toward the centre.</li>
+</ul></section><section id='35_time_series_forecasting'><h2>35 · Time-Series Forecasting: Smoothing, Holt-Winters &amp; Autoregression</h2><div class='fam'>Supervised · Forecasting · <a href='notebooks/35_time_series_forecasting.ipynb'><code>notebooks/35_time_series_forecasting.ipynb</code></a> · <code>lessons/35_time_series_forecasting.py</code></div><div class='media'><img loading='lazy' src='outputs/35_time_series_forecasting.gif' alt='35_time_series_forecasting.gif'></div><p><b>Family:</b> Supervised · Forecasting</p>
+<h3>Definition</h3>
+<p>Time-series models predict future values from the past, exploiting <b>trend</b> (long-run direction), <b>seasonality</b> (repeating cycles) and <b>autocorrelation</b> (today depends on yesterday). We compare three classics on monthly sales: the <b>seasonal-naive</b> baseline, <b>Holt-Winters</b> (triple exponential smoothing) and an <b>autoregressive AR(p)</b> model fitted by least squares.</p>
+<h3>Intuition</h3>
+<ul>
+<li>Seasonal naive: &quot;next March will look like last March.&quot; Hard to beat on simple data.</li>
+<li>Holt-Winters: keep three running estimates, a *level*, a *trend*, and 12 *seasonal offsets*, each updated by exponential smoothing: recent data counts more.</li>
+<li>AR(p): regress today on the last p values; with p ≥ 12 it can learn the yearly cycle and the trend from the data itself.</li>
+<p>Always evaluate with <b>walk-forward (rolling-origin) validation</b>: never shuffle time series, and never train on the future.</p>
+</ul>
+<h3>The math</h3>
+<pre>Holt-Winters (additive):   ℓₜ = α(yₜ − sₜ₋ₘ) + (1−α)(ℓₜ₋₁ + bₜ₋₁)
+                           bₜ = β(ℓₜ − ℓₜ₋₁) + (1−β) bₜ₋₁          sₜ = γ(yₜ − ℓₜ) + (1−γ) sₜ₋ₘ
+                           forecast  ŷₜ₊ₕ = ℓₜ + h·bₜ + sₜ₊ₕ₋ₘ
+AR(p):  yₜ = c + φ₁yₜ₋₁ + … + φ_p yₜ₋p + εₜ          fitted by least squares; multi-step forecasts feed predictions back in.
+ARIMA(p,d,q) = AR + differencing d times (removes trend) + moving-average errors q; SARIMA adds seasonal terms.
+Metrics: MAE, RMSE, MAPE, MASE (scaled vs naive).  Modern: Prophet, ETS, gradient boosting on lag features, N-BEATS, transformers.</pre>
+<h3>What the animation shows</h3>
+<p>The forecast origin walks forward through the history. Top: the next 12 months predicted by each method against the truth. Bottom: running average MAE of each method across origins so far.</p>
+<h3>Try this</h3>
+<ul>
+<li>Increase the noise in <code>data.time_series</code> and see which method degrades most.</li>
+<li>Change p of the AR model (4, 12, 24).</li>
+</ul></section><section id='36_reinforcement_learning'><h2>36 · Reinforcement Learning: Q-Learning &amp; Bandits</h2><div class='fam'>Reinforcement learning (learning from rewards by interaction) · <a href='notebooks/36_reinforcement_learning.ipynb'><code>notebooks/36_reinforcement_learning.ipynb</code></a> · <code>lessons/36_reinforcement_learning.py</code></div><div class='media'><img loading='lazy' src='outputs/36_reinforcement_learning.gif' alt='36_reinforcement_learning.gif'><img loading='lazy' src='outputs/36_reinforcement_learning_bandits.gif' alt='36_reinforcement_learning_bandits.gif'></div><p><b>Family:</b> Reinforcement learning (learning from rewards by interaction)</p>
+<h3>Definition</h3>
+<p>An <b>agent</b> interacts with an <b>environment</b>: it observes a state, takes an action, receives a reward and a new state. The goal is a <b>policy</b> maximizing the long-run (discounted) reward. There is no labelled dataset; the agent must <b>explore</b> to discover what pays off and <b>exploit</b> what it already knows.</p>
+<h3>Intuition</h3>
+<p>*Cliff walking*: the agent must get from the start (bottom-left) to the goal (bottom-right). Each step costs −1 (so shorter is better); stepping on the cliff costs −100 and teleports back to the start. Q-learning learns a table Q(state, action) = &quot;how good is this move from here, assuming I act well afterwards&quot;. Early on the agent stumbles; later its greedy arrows form a route. *Bandits* are the one-state special case: several slot machines with unknown payout rates; pull them to maximise winnings (A/B testing, ad selection).</p>
+<h3>The math</h3>
+<pre>Return G = Σ γᵗ rₜ              Q*(s,a) = E[r + γ max_a&#x27; Q*(s&#x27;,a&#x27;)]        (Bellman optimality)
+Q-learning update:   Q(s,a) ← Q(s,a) + α [ r + γ max_a&#x27; Q(s&#x27;,a&#x27;) − Q(s,a) ]          (off-policy, model-free)
+ε-greedy exploration: random action with prob ε, else argmax Q.     SARSA uses the action actually taken next (safer path near the cliff).
+Bandit strategies:  ε-greedy ;  UCB1:  argmax μ̂ₐ + √(2 ln t / nₐ) ;  Thompson sampling: sample p̂ₐ ~ Beta(1+wins, 1+losses), pull the argmax.
+Regret = Σ (best arm mean − chosen arm mean).      Deep RL replaces the table with a neural network (DQN) or learns the policy directly (policy gradients, PPO, actor-critic).</pre>
+<h3>What the animations show</h3>
+<p>1. <code>36_reinforcement_learning.gif</code>: left, the value of each grid cell (max Q) with arrows for the greedy policy and the greedy path (dashed); right, reward per episode. Early policies fall off the cliff, later ones find the shortest safe-ish path. 2. <code>36_reinforcement_learning_bandits.gif</code>: three bandit strategies on 5 slot machines: pull counts per arm and cumulative regret. Smart exploration (UCB, Thompson) beats naive ε-greedy.</p>
+<h3>Try this</h3>
+<ul>
+<li>Implement SARSA and compare the learned path to Q-learning&#x27;s.</li>
+<li>Change ε to 0.3, or decay it over time.</li>
+</ul></section></main>
