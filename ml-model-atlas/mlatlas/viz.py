@@ -1,8 +1,16 @@
 """Shared plotting + animation helpers."""
 import os
+import sys
 import numpy as np
 import matplotlib
-matplotlib.use("Agg")
+
+# Only force headless 'Agg' backend when running CLI scripts outside Jupyter/IPython
+if "ipykernel" not in sys.modules and "IPython" not in sys.modules:
+    try:
+        matplotlib.use("Agg")
+    except Exception:
+        pass
+
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 from matplotlib.colors import LinearSegmentedColormap, ListedColormap
