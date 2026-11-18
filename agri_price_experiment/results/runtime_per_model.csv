@@ -1,0 +1,25 @@
+variant,training_rows,fit_seconds_mean,predict_seconds_mean
+ARIMA (non-seasonal),,0.81,
+Decision Tree [E0],2207.333,0.015,0.004
+Decision Tree [E4],2207.333,0.033,0.005
+HistGradientBoosting [E0],2207.333,0.21,0.009
+HistGradientBoosting [E1],2207.333,0.162,0.009
+HistGradientBoosting [E2],2207.333,0.216,0.009
+HistGradientBoosting [E3],2207.333,0.263,0.013
+HistGradientBoosting [E4],2207.333,0.266,0.01
+LightGBM [E0],2207.333,0.083,0.007
+LightGBM [E4],2207.333,0.176,0.009
+Random Forest [E0],2207.333,1.549,0.021
+Random Forest [E1],2207.333,3.454,0.022
+Random Forest [E2],2207.333,4.35,0.023
+Random Forest [E3],2207.333,5.004,0.022
+Random Forest [E4],2207.333,5.448,0.026
+Ridge + crop interactions [E4],2207.333,0.028,0.006
+Ridge [E0],2207.333,0.012,0.005
+Ridge [E1],2207.333,0.015,0.005
+Ridge [E2],2207.333,0.014,0.005
+Ridge [E3],2207.333,0.016,0.005
+Ridge [E4],2207.333,0.016,0.005
+SARIMA,,35.026,
+XGBoost [E0],2207.333,0.099,0.006
+XGBoost [E4],2207.333,0.21,0.006

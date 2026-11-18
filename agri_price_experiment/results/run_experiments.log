@@ -1,0 +1,35 @@
+[clean|handled] validation done (96s)
+[clean|handled] test done (221s)
+[realistic|handled] validation done (137s)
+[realistic|handled] test done (311s)
+[realistic|raw] validation done (107s)
+[realistic|raw] test done (241s)
+[stressed|handled] validation done (105s)
+[stressed|handled] test done (233s)
+[stressed|raw] validation done (100s)
+[stressed|raw] test done (222s)
+main done
+cv-ablation ridge E0 done
+cv-ablation ridge E1 done
+cv-ablation ridge E2 done
+cv-ablation ridge E3 done
+cv-ablation ridge E4 done
+cv-ablation random_forest E0 done
+cv-ablation random_forest E1 done
+cv-ablation random_forest E2 done
+cv-ablation random_forest E3 done
+cv-ablation random_forest E4 done
+cv-ablation hist_gb E0 done
+cv-ablation hist_gb E1 done
+cv-ablation hist_gb E2 done
+cv-ablation hist_gb E3 done
+cv-ablation hist_gb E4 done
+ablation done
+generalisation h=1 done
+generalisation h=2 done
+generalisation h=4 done
+generalisation done
+intervals h=1 done
+intervals h=2 done
+intervals h=4 done
+intervals done

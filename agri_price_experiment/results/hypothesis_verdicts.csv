@@ -1,0 +1,6 @@
+ID,Hypothesis,Verdict,Key evidence (test set)
+H1,Exogenous variables beat price-history-only on at least some series,Supported,E4 beats E0 on 16 / 20 series for RF; significant at all three horizons for Ridge and RF
+H2,Tree ensembles beat a linear model,Not supported as a general claim (mixed),"RF/HGB win at h=4 (significant), Ridge wins at h=2 (significant), tie at h=1; Ridge with crop interactions is best overall"
+H3,4-week forecasts less accurate than 1-week,Supported,every non-seasonal model: MAE(h=4)/MAE(h=1) = 1.70-2.25
+H4,Seasonal naive hard to beat for strongly seasonal series,Partly supported (true for the one strongly seasonal crop only),only Maize (seasonal R2 0.84); there seasonal naive beats naive by 28.2%
+H5,"Corruption/missingness reduce accuracy, especially without handling",Supported (clean < realistic < stressed with handling; ignoring data quality is far worse),mean MAE clean 5.81/5.54 -> realistic 6.16/5.78 -> stressed 6.74/6.21 (Naive/RF)

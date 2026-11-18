@@ -1,0 +1,265 @@
+# =============================================================================
+# Agricultural Market Price Prediction - experiment & generator configuration
+# Every number that shapes the synthetic world or the experiment lives here.
+# Same config + same seed  =>  identical data, events and results.
+# =============================================================================
+experiment:
+  name: agri_price_v1
+  seed: 42
+  start_date: "2023-01-02"        # Monday; week 1
+  n_weeks: 156
+  burn_in_weeks: 60               # simulated before week 1 and discarded
+  horizons: [1, 2, 4]
+  splits:                         # partition is decided by FORECAST-ORIGIN week
+    train_end: 104
+    val_end: 130
+    test_end: 156
+  rolling_origin:                 # expanding window, 5 folds
+    first_train_end: 65
+    step: 13
+    block: 13
+  min_origin_week: 13             # origins earlier than this are not used (lag_13 needs history)
+
+markets:                          # illustrative only - NOT real Kenyan statistics
+  MKT-01: {name: Nairobi, demand_level: 1.25, distance_km: 160, alpha: 0.10, noise_mult: 0.85, shock_sens: 0.9, rain_mult: 1.00, temp_base: 19.0}
+  MKT-02: {name: Nakuru,  demand_level: 0.85, distance_km: 90,  alpha: 0.02, noise_mult: 1.00, shock_sens: 1.0, rain_mult: 1.00, temp_base: 18.0}
+  MKT-03: {name: Eldoret, demand_level: 0.80, distance_km: 60,  alpha: -0.09, noise_mult: 1.10, shock_sens: 1.3, rain_mult: 1.30, temp_base: 17.0}
+  MKT-04: {name: Kisumu,  demand_level: 0.95, distance_km: 220, alpha: 0.04, noise_mult: 1.15, shock_sens: 1.1, rain_mult: 1.40, temp_base: 24.0}
+  MKT-05: {name: Mombasa, demand_level: 1.10, distance_km: 480, alpha: 0.14, noise_mult: 1.00, shock_sens: 0.9, rain_mult: 1.10, temp_base: 27.5}
+
+# market connectivity: row = receiving market, entries = source market weights (sum to 1)
+network:
+  MKT-01: {MKT-02: 0.50, MKT-03: 0.35, MKT-04: 0.15}
+  MKT-02: {MKT-03: 0.75, MKT-04: 0.25}
+  MKT-03: {MKT-02: 0.60, MKT-04: 0.40}
+  MKT-04: {MKT-03: 0.60, MKT-02: 0.40}
+  MKT-05: {MKT-01: 0.45, MKT-02: 0.30, MKT-03: 0.25}
+
+# small market-crop premium adjustments (log points) on top of market alpha
+alpha_mc_adjust:
+  "MKT-03|CRP-01": -0.04
+  "MKT-05|CRP-04": 0.05
+  "MKT-04|CRP-03": 0.04
+  "MKT-01|CRP-02": 0.03
+
+crops:
+  CRP-01:
+    name: Maize
+    base_price: 50.0              # KES/kg
+    phi: 0.92                     # persistence (partial adjustment: 1-phi per week)
+    sigma: 0.014                  # weekly log-price disturbance
+    season_amp: 0.13              # annual price-seasonality amplitude (log)
+    season_amp2: 0.03
+    harvest_peak_doy: 320         # supply peak -> price trough ~6 months later
+    harvest_amp: 0.30
+    base_tonnes: {MKT-01: 900, MKT-02: 600, MKT-03: 700, MKT-04: 400, MKT-05: 500}
+    arr_sigma: 0.08
+    arr_rho: 0.75
+    storage_lambda: 0.70          # storable: price reacts to smoothed supply anomaly
+    beta_supply: -0.16            # long-run elasticities
+    scarcity_kappa: 1.5
+    beta_demand: 0.10
+    beta_transport: 0.22
+    beta_regional: -0.10
+    gamma_drought: 0.05
+    weather_lag_weeks: 10
+    a_rain: 0.12
+    a_drought: 0.10
+    a_temp: 0.0
+    delta_spill: 0.25
+  CRP-02:
+    name: Tomatoes
+    base_price: 72.0
+    phi: 0.55
+    sigma: 0.060
+    season_amp: 0.15
+    season_amp2: 0.03
+    harvest_peak_doy: 190
+    harvest_amp: 0.18
+    base_tonnes: {MKT-01: 450, MKT-02: 300, MKT-03: 200, MKT-04: 250, MKT-05: 300}
+    arr_sigma: 0.18
+    arr_rho: 0.60
+    storage_lambda: 0.0           # perishable: immediate reaction
+    beta_supply: -0.36
+    scarcity_kappa: 3.0
+    beta_demand: 0.28
+    beta_transport: 0.22
+    beta_regional: -0.18
+    gamma_drought: 0.03
+    weather_lag_weeks: 3
+    a_rain: 0.18
+    a_drought: 0.20
+    a_temp: 0.02
+    delta_spill: 0.20
+  CRP-03:
+    name: Irish potatoes
+    base_price: 44.0
+    phi: 0.80
+    sigma: 0.030
+    season_amp: 0.14
+    season_amp2: 0.07
+    harvest_peak_doy: 215
+    harvest_amp: 0.28
+    base_tonnes: {MKT-01: 600, MKT-02: 450, MKT-03: 650, MKT-04: 200, MKT-05: 250}
+    arr_sigma: 0.12
+    arr_rho: 0.65
+    storage_lambda: 0.40
+    beta_supply: -0.30
+    scarcity_kappa: 2.0
+    beta_demand: 0.15
+    beta_transport: 0.30
+    beta_regional: -0.14
+    gamma_drought: 0.03
+    weather_lag_weeks: 6
+    a_rain: 0.15
+    a_drought: 0.14
+    a_temp: 0.0
+    delta_spill: 0.22
+  CRP-04:
+    name: Onions
+    base_price: 78.0
+    phi: 0.90
+    sigma: 0.022
+    season_amp: 0.11
+    season_amp2: 0.02
+    harvest_peak_doy: 250
+    harvest_amp: 0.20
+    base_tonnes: {MKT-01: 350, MKT-02: 250, MKT-03: 150, MKT-04: 200, MKT-05: 300}
+    arr_sigma: 0.10
+    arr_rho: 0.70
+    storage_lambda: 0.50
+    beta_supply: -0.26
+    scarcity_kappa: 1.5
+    beta_demand: 0.12
+    beta_transport: 0.20
+    beta_regional: -0.12
+    gamma_drought: 0.04
+    weather_lag_weeks: 6
+    a_rain: 0.10
+    a_drought: 0.12
+    a_temp: 0.0
+    delta_spill: 0.20
+
+weather:
+  rain_rho: 0.35
+  rain_sigma: 0.60
+  rain_shared_weight: 0.5
+  temp_seasonal_amp: 1.5
+  temp_noise_sigma: 0.6
+  temp_rho: 0.7
+  tomato_temp_threshold_c: 25.0
+
+demand:
+  seasonal_amp: 0.04
+  noise_sigma: 0.03
+  noise_rho: 0.7
+  holiday_boost: {CRP-01: 0.04, CRP-02: 0.10, CRP-03: 0.05, CRP-04: 0.06}
+  easter_dates: ["2023-04-09", "2024-03-31", "2025-04-20"]
+  christmas_window_days: 10
+
+logistics:
+  fuel_rho: 0.95
+  fuel_sigma: 0.012
+  rate_kes_per_tonne_km: {CRP-01: 12.0, CRP-02: 16.0, CRP-03: 13.0, CRP-04: 12.0}
+  transport_noise_sigma: 0.03
+  regional_arrival_kappa: 0.35    # destination arrivals respond to source-market supply (1-wk lag)
+
+# ---------------------------------------------------------------------------
+# Documented event & shock calendar (week numbers are 1-based, inclusive).
+# new_in_test: true => shock type/strength not seen in training
+# tail: extra weeks after `end` during which the event is regarded as "active"
+# ---------------------------------------------------------------------------
+events:
+  - {id: EV01, type: harvest_glut, markets: [MKT-02, MKT-03], crops: [CRP-01], start: 38, end: 42, intensity: 0.60, tail: 2, description: "Maize harvest glut in production corridor"}
+  - {id: EV02, type: harvest_glut, markets: [MKT-02, MKT-03], crops: [CRP-02], start: 70, end: 72, intensity: 0.80, tail: 2, description: "Tomato glut after unusually high arrivals"}
+  - {id: EV03, type: drought, markets: [MKT-02, MKT-03, MKT-04], crops: all, start: 55, end: 62, intensity: 0.70, tail: 8, description: "Dry-season drought; arrivals fall with a lag"}
+  - {id: EV04, type: flood, markets: [MKT-04, MKT-05], crops: all, start: 16, end: 18, intensity: 1.00, tail: 3, description: "Heavy rainfall, route disruption"}
+  - {id: EV05, type: fuel_step, markets: all, crops: all, start: 85, end: 85, intensity: 0.25, half_life: 10, tail: 15, description: "Fuel-price increase, gradual easing"}
+  - {id: EV06, type: demand_surge, markets: [MKT-01, MKT-05], crops: all, start: 49, end: 51, intensity: 0.25, tail: 1, description: "Pre-festive demand surge"}
+  - {id: EV07, type: import_supply_shock, markets: all, crops: [CRP-04], start: 90, end: 93, intensity: 0.50, tail: 3, description: "Onion import surge"}
+  - {id: EV08, type: cross_market_disruption, markets: [MKT-03], crops: all, start: 112, end: 115, intensity: 0.60, tail: 2, description: "Eldoret route/source unavailable; spillover to connected markets"}
+  - {id: EV09, type: demand_surge, markets: [MKT-01], crops: all, start: 118, end: 120, intensity: 0.30, tail: 1, description: "Demand surge in Nairobi"}
+  - {id: EV10, type: flood, markets: [MKT-04, MKT-02], crops: all, start: 121, end: 123, intensity: 0.80, tail: 3, description: "Flood in validation window"}
+  - {id: EV11, type: harvest_glut, markets: [MKT-02, MKT-03], crops: [CRP-03], start: 124, end: 127, intensity: 0.70, tail: 2, description: "Potato glut"}
+  - {id: EV12, type: drought, markets: [MKT-02, MKT-03, MKT-04], crops: all, start: 134, end: 145, intensity: 0.95, tail: 8, new_in_test: true, description: "NEW stronger and longer drought in test window"}
+  - {id: EV13, type: structural_transport_shift, markets: all, crops: all, start: 140, end: 156, intensity: 0.35, tail: 0, new_in_test: true, description: "Lasting transport-cost regime shift (+35%, no easing)"}
+  - {id: EV14, type: harvest_glut, markets: [MKT-03, MKT-02], crops: [CRP-02], start: 147, end: 149, intensity: 1.00, tail: 2, new_in_test: true, description: "Stronger tomato glut in test window"}
+  - {id: EV15, type: import_supply_shock, markets: all, crops: [CRP-04], start: 150, end: 152, intensity: 0.90, tail: 3, new_in_test: true, description: "Stronger onion import shock"}
+  - {id: EV16, type: demand_surge, markets: [MKT-01, MKT-05], crops: all, start: 154, end: 156, intensity: 0.25, tail: 0, description: "Festive demand surge"}
+
+# ---------------------------------------------------------------------------
+# Data-quality scenarios (degradation layer on top of the same clean latent world)
+# ---------------------------------------------------------------------------
+scenarios:
+  clean:
+    price_noise_sigma: 0.004
+    indicator_noise_sigma: 0.0
+    price_missing_random_rate: 0.0
+    price_missing_gap_rate: 0.0
+    price_gap_len: [2, 3]
+    price_gap_series: []
+    market_missing_mult: {}
+    indicator_missing: {}
+    indicator_gap_rate: 0.0
+    outlier_rate: 0.0
+    delayed_markets: []
+    delay_prob: 0.0
+    outages: []
+  realistic:
+    price_noise_sigma: 0.02
+    indicator_noise_sigma: 0.03
+    price_missing_random_rate: 0.022
+    price_missing_gap_rate: 0.015
+    price_gap_len: [2, 3]
+    price_gap_series: ["MKT-04|CRP-02", "MKT-04|CRP-03", "MKT-05|CRP-02", "MKT-05|CRP-04", "MKT-02|CRP-01", "MKT-03|CRP-03"]
+    market_missing_mult: {MKT-04: 1.8, MKT-05: 1.4, MKT-01: 0.6}
+    indicator_missing: {market_arrivals_tonnes: 0.08, estimated_demand_index: 0.06, rainfall_mm: 0.05, temperature_c: 0.05, drought_index: 0.05, fuel_cost_index: 0.05, transport_cost_kes_tonne: 0.07, regional_supply_index: 0.06}
+    indicator_gap_rate: 0.0
+    outlier_rate: 0.0075
+    delayed_markets: [MKT-04, MKT-05]
+    delay_prob: 0.30
+    outages: []
+  stressed:
+    price_noise_sigma: 0.035
+    indicator_noise_sigma: 0.05
+    price_missing_random_rate: 0.025
+    price_missing_gap_rate: 0.020
+    price_gap_len: [4, 8]
+    price_gap_series: ["MKT-04|CRP-02", "MKT-04|CRP-03", "MKT-05|CRP-02", "MKT-05|CRP-04", "MKT-02|CRP-01", "MKT-03|CRP-03", "MKT-01|CRP-04", "MKT-03|CRP-02"]
+    market_missing_mult: {MKT-04: 1.8, MKT-05: 1.4, MKT-01: 0.6}
+    indicator_missing: {market_arrivals_tonnes: 0.12, estimated_demand_index: 0.10, rainfall_mm: 0.08, temperature_c: 0.08, drought_index: 0.08, fuel_cost_index: 0.08, transport_cost_kes_tonne: 0.10, regional_supply_index: 0.10}
+    indicator_gap_rate: 0.01      # extra contiguous 2-4 week indicator gaps
+    outlier_rate: 0.010
+    delayed_markets: [MKT-04, MKT-05, MKT-02, MKT-03]
+    delay_prob: 0.45
+    outages:                      # market-specific reporting outages (all fields incl. price)
+      - {market: MKT-04, start: 120, end: 127}
+      - {market: MKT-05, start: 141, end: 147}
+
+data_quality_handling:            # causal cleaning used when handling=on
+  outlier_log_threshold: 0.70
+  outlier_ref_window: 5
+  indicator_locf_max_age: 4
+  price_locf_max_age: 8
+
+models:
+  moving_average_windows: [4, 8]
+  sarima:
+    nonseasonal_orders: [[1, 0, 0], [1, 0, 1], [2, 0, 0]]
+    seasonal_period: 52
+    seasonal_order: [1, 0, 0]
+  grids:
+    ridge: {alpha: [1.0, 10.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0]}
+    decision_tree: {max_depth: [2, 3, 5, 8], min_samples_leaf: [10, 30]}
+    random_forest: {max_depth: [6, null], min_samples_leaf: [3, 10], max_features: [0.5, 1.0]}
+    hist_gb: {learning_rate: [0.01, 0.03, 0.08], max_iter: [100, 200, 300], max_depth: [3, 6]}
+  rf_n_estimators: 200
+  random_state: 42
+
+advanced:
+  enabled: true                   # XGBoost + LightGBM (Stage 5)
+  xgboost: {n_estimators: 300, learning_rate: 0.05, max_depth: [2, 3, 5], subsample: 0.8, colsample_bytree: 0.8}
+  lightgbm: {n_estimators: 300, learning_rate: 0.05, num_leaves: [4, 7, 15], min_child_samples: 20, subsample: 0.8, colsample_bytree: 0.8}
+
+generalisation:
+  held_out_pairs: ["MKT-01|CRP-02", "MKT-03|CRP-01", "MKT-04|CRP-04", "MKT-05|CRP-03"]

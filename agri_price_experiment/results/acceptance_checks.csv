@@ -1,0 +1,11 @@
+check,criterion,passed,detail
+Coverage,Exactly 5 markets x 4 crops x 156 weeks before row-level corruption,True,3120 rows in each of 3 scenarios
+Uniqueness,No duplicate market_id + crop_id + week_start keys,True,0 duplicate keys
+Price validity,All prices positive; extremes explained by events or labelled errors,True,"clean: latent>0=True, implausible-but-unflagged=0, labelled errors=0; realistic: latent>0=True, implausible-but-unflagged=0, labelled errors=23; stressed: latent>0=True, implausible-but-unflagged=0, labelled errors=28"
+Seasonality,"At least some crops show recurring annual patterns, not identical across crops",True,CRP-01: R2=0.84 amp=0.123 peak-doy=138; CRP-02: R2=0.33 amp=0.170 peak-doy=357; CRP-03: R2=0.63 amp=0.153 peak-doy=22; CRP-04: R2=0.68 amp=0.100 peak-doy=57
+Market differences,Markets have distinct price levels and volatility,True,min across crops of log-level spread = 0.237; min vol max/min ratio = 1.22
+Shock behaviour,Documented shocks move the relevant variables plausibly,True,"16/16 events pass; EV12 drought: potato arrivals in drought markets vs controls (diff-in-diff) = 0.72x, measured 8+ weeks after onset (delayed weather-to-supply effect); EV08 source disruption: Nairobi regional supply index = 0.83x baseline (1-week-lag spillover)"
+Persistence,"Prices exhibit continuity, not independent weekly draws",True,"lag-1 autocorrelation of log price: min=0.87, mean=0.94 (shuffled benchmark ~0.06)"
+Missingness,Rates match the selected scenario,True,"realistic: price missing 3.72% (3-5%), errors 0.74% (0.5-1%), indicator missing 5.0%-9.9% (5-10%) | clean has no missing: True; stressed price missing 6.54% > realistic: True"
+No hidden leakage,All features reconstructable from information available at the forecast origin,True,"banned columns in feature sets: none; truncation test (cut weeks 60/100/130): handled max|diff|=0.0e+00, raw max|diff|=0.0e+00"
+Reproducibility,Same configuration and seed generate the same data and event schedule,False,"world identical=False, degraded panel identical=False, different seed differs=True"

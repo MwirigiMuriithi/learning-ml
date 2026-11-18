@@ -1,0 +1,17 @@
+event_id,event_type,expectation,measured_ratio,passed
+EV01,harvest_glut,arrivals ratio > 1.25,2.105,True
+EV02,harvest_glut,arrivals ratio > 1.25,3.74,True
+EV03,drought,rainfall ratio < 0.6,0.573,True
+EV04,flood,rainfall ratio > 2.0,8.9,True
+EV05,fuel_step,fuel index ratio > 1.12,1.227,True
+EV06,demand_surge,demand ratio > 1.10,1.293,True
+EV07,import_supply_shock,arrivals ratio > 1.25,1.798,True
+EV08,cross_market_disruption,source arrivals ratio < 0.65,0.396,True
+EV09,demand_surge,demand ratio > 1.10,1.367,True
+EV10,flood,rainfall ratio > 2.0,15.763,True
+EV11,harvest_glut,arrivals ratio > 1.25,2.853,True
+EV12,drought,rainfall ratio < 0.6,0.243,True
+EV13,structural_transport_shift,fuel index ratio > 1.25,1.335,True
+EV14,harvest_glut,arrivals ratio > 1.25,1.254,True
+EV15,import_supply_shock,arrivals ratio > 1.25,1.803,True
+EV16,demand_surge,demand ratio > 1.10,1.306,True

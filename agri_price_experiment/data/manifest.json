@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "config": "/home/claude/agri_price_experiment/config/experiment_config.yaml",
+  "config_sha256": "64d31799a4c55b3fa20e32ba21bb19a2fc5ce8d26f0a7baf9dd90c1b072f4f4b",
+  "files": {
+    "synthetic_panel_clean.csv": {
+      "rows": 3120,
+      "sha256": "9b3d8ee2a620430ff86cd88306888a20a1c3dec484fc4417f6b344603f65d7fe"
+    },
+    "synthetic_panel_realistic.csv": {
+      "rows": 3120,
+      "sha256": "3a9903cce5f1b9198739fa18d0e516270d4b1a236f621610079f8cccc1f09026"
+    },
+    "synthetic_panel_stressed.csv": {
+      "rows": 3120,
+      "sha256": "c1838888362fd12e0ced9c928d1e41509103fc614ef94b6a5d2bbab48dd7c1e3"
+    },
+    "events_schedule.csv": {
+      "sha256": "027a290bc70400eaeb77c675cf3065890ab609a6f61d8b041396d3c37c569b76"
+    },
+    "data_quality_annotations.csv": {
+      "sha256": "5febeb47558002a958b100112cfa16325b52b7459961f7d8c72a026a48fa08f1"
+    },
+    "clean_world_audit.csv": {
+      "sha256": "33fec58e3185012af341ac9cb01cd45e1c5767498184a2afef0a2a54177852fe"
+    }
+  }
+}

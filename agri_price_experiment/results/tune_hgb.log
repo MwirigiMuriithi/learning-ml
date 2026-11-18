@@ -1,0 +1,7 @@
+tuned hist_gb        E0 h=1  best={"learning_rate": 0.01, "max_depth": 6, "max_iter": 100}  cv_mae=3.214  (13s)
+tuned hist_gb        E0 h=2  best={"learning_rate": 0.01, "max_depth": 3, "max_iter": 300}  cv_mae=4.106  (14s)
+tuned hist_gb        E0 h=4  best={"learning_rate": 0.01, "max_depth": 6, "max_iter": 200}  cv_mae=5.231  (15s)
+tuned hist_gb        E4 h=1  best={"learning_rate": 0.08, "max_depth": 3, "max_iter": 100}  cv_mae=2.935  (24s)
+tuned hist_gb        E4 h=2  best={"learning_rate": 0.03, "max_depth": 6, "max_iter": 200}  cv_mae=3.658  (24s)
+tuned hist_gb        E4 h=4  best={"learning_rate": 0.03, "max_depth": 3, "max_iter": 200}  cv_mae=5.003  (25s)
+done

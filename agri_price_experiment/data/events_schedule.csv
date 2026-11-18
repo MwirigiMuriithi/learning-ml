@@ -1,0 +1,17 @@
+event_id,event_type,markets,crops,start_week,end_week,effect_tail_weeks,intensity,half_life_weeks,partition,new_in_test,is_structural_change,description
+EV01,harvest_glut,MKT-02|MKT-03,CRP-01,38,42,2,0.6,,train,False,False,Maize harvest glut in production corridor
+EV02,harvest_glut,MKT-02|MKT-03,CRP-02,70,72,2,0.8,,train,False,False,Tomato glut after unusually high arrivals
+EV03,drought,MKT-02|MKT-03|MKT-04,CRP-01|CRP-02|CRP-03|CRP-04,55,62,8,0.7,,train,False,False,Dry-season drought; arrivals fall with a lag
+EV04,flood,MKT-04|MKT-05,CRP-01|CRP-02|CRP-03|CRP-04,16,18,3,1.0,,train,False,False,"Heavy rainfall, route disruption"
+EV05,fuel_step,MKT-01|MKT-02|MKT-03|MKT-04|MKT-05,CRP-01|CRP-02|CRP-03|CRP-04,85,85,15,0.25,10.0,train,False,False,"Fuel-price increase, gradual easing"
+EV06,demand_surge,MKT-01|MKT-05,CRP-01|CRP-02|CRP-03|CRP-04,49,51,1,0.25,,train,False,False,Pre-festive demand surge
+EV07,import_supply_shock,MKT-01|MKT-02|MKT-03|MKT-04|MKT-05,CRP-04,90,93,3,0.5,,train,False,False,Onion import surge
+EV08,cross_market_disruption,MKT-03,CRP-01|CRP-02|CRP-03|CRP-04,112,115,2,0.6,,validation,False,False,Eldoret route/source unavailable; spillover to connected markets
+EV09,demand_surge,MKT-01,CRP-01|CRP-02|CRP-03|CRP-04,118,120,1,0.3,,validation,False,False,Demand surge in Nairobi
+EV10,flood,MKT-04|MKT-02,CRP-01|CRP-02|CRP-03|CRP-04,121,123,3,0.8,,validation,False,False,Flood in validation window
+EV11,harvest_glut,MKT-02|MKT-03,CRP-03,124,127,2,0.7,,validation,False,False,Potato glut
+EV12,drought,MKT-02|MKT-03|MKT-04,CRP-01|CRP-02|CRP-03|CRP-04,134,145,8,0.95,,test,True,False,NEW stronger and longer drought in test window
+EV13,structural_transport_shift,MKT-01|MKT-02|MKT-03|MKT-04|MKT-05,CRP-01|CRP-02|CRP-03|CRP-04,140,156,0,0.35,,test,True,True,"Lasting transport-cost regime shift (+35%, no easing)"
+EV14,harvest_glut,MKT-03|MKT-02,CRP-02,147,149,2,1.0,,test,True,False,Stronger tomato glut in test window
+EV15,import_supply_shock,MKT-01|MKT-02|MKT-03|MKT-04|MKT-05,CRP-04,150,152,3,0.9,,test,True,False,Stronger onion import shock
+EV16,demand_surge,MKT-01|MKT-05,CRP-01|CRP-02|CRP-03|CRP-04,154,156,0,0.25,,test,False,False,Festive demand surge

@@ -1,0 +1,67 @@
+{
+  "best_variant": "Random Forest [E4]",
+  "best_ml": "Random Forest [E4]",
+  "ma_choice": "Moving average (4w)",
+  "selection": {
+    "strongest_baseline": "Naive",
+    "validation_gain_over_strongest_baseline": 0.1965,
+    "rolling_folds_won": 5,
+    "rolling_folds_total": 5,
+    "complex_model_justified": true,
+    "recommended_model": "Random Forest [E4]"
+  },
+  "H1": {
+    "verdict": "supported",
+    "detail": [
+      {
+        "model": "Ridge",
+        "horizons_better": 3,
+        "horizons_sig": 3,
+        "mean_improvement_pct": 10.317
+      },
+      {
+        "model": "Random Forest",
+        "horizons_better": 3,
+        "horizons_sig": 3,
+        "mean_improvement_pct": 9.886
+      },
+      {
+        "model": "HistGradientBoosting",
+        "horizons_better": 3,
+        "horizons_sig": 2,
+        "mean_improvement_pct": 7.613
+      }
+    ]
+  },
+  "H2": {
+    "verdict": "not supported"
+  },
+  "H3": {
+    "verdict": "supported"
+  },
+  "H4": {
+    "verdict": "supported",
+    "seasonal_naive_skill_by_crop": {
+      "Maize": 0.2692194742016626,
+      "Tomatoes": -0.9137982013059012,
+      "Irish potatoes": -1.1555992894471099,
+      "Onions": -0.9724831953996196
+    }
+  },
+  "H5": {
+    "degradation_verdict": "supported",
+    "handling_verdict": "supported",
+    "mean_MAE_by_scenario": {
+      "clean": 6.567026664899702,
+      "realistic": 6.834653083841717,
+      "stressed": 7.359122343546355,
+      "realistic_raw": 10.402364143845812,
+      "stressed_raw": 9.870154908367166
+    }
+  },
+  "test_skill_best_ml_by_h": {
+    "1": 0.06197937964303846,
+    "2": 0.03468430769082098,
+    "4": 0.08069676963181738
+  }
+}
