@@ -1,0 +1,49 @@
+product,category
+Maize,Cereal
+Wheat,Cereal
+Rice,Cereal
+Sorghum,Cereal
+Millet,Cereal
+Barley,Cereal
+Beans,Legume
+Green Grams,Legume
+Cowpeas,Legume
+Pigeon Peas,Legume
+Groundnuts,Legume
+Soybeans,Legume
+Tomatoes,Vegetable
+Kale,Vegetable
+Cabbage,Vegetable
+Onions,Vegetable
+Spinach,Vegetable
+Capsicum,Vegetable
+Carrots,Vegetable
+French Beans,Vegetable
+Indigenous Vegetables,Vegetable
+Bananas,Fruit
+Mangoes,Fruit
+Avocado,Fruit
+Oranges,Fruit
+Pineapples,Fruit
+Watermelon,Fruit
+Passion Fruit,Fruit
+Papaya,Fruit
+Potatoes,Root & Tuber
+Cassava,Root & Tuber
+Sweet Potatoes,Root & Tuber
+Arrowroot,Root & Tuber
+Yams,Root & Tuber
+Tea,Cash Crop
+Coffee,Cash Crop
+Cotton,Cash Crop
+Sugarcane,Cash Crop
+Pyrethrum,Cash Crop
+Macadamia,Cash Crop
+Milk,Livestock Product
+Eggs,Livestock Product
+Beef,Livestock Product
+Goat Meat,Livestock Product
+Chicken,Livestock Product
+Honey,Livestock Product
+Tilapia,Livestock Product
+Hides & Skins,Livestock Product

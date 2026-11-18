@@ -1,0 +1,801 @@
+customer_id,true_segment
+C0104,Loyal Big Spenders
+C0632,Frugal Savers
+C0544,Wealthy Occasional
+C0287,Bargain Hunters
+C0306,Young Trendy
+C0075,Loyal Big Spenders
+C0617,Frugal Savers
+C0640,Frugal Savers
+C0559,Wealthy Occasional
+C0046,Loyal Big Spenders
+C0577,Frugal Savers
+C0391,Young Trendy
+C0451,Young Trendy
+C0697,Frugal Savers
+C0375,Young Trendy
+C0184,Bargain Hunters
+C0434,Young Trendy
+C0591,Frugal Savers
+C0302,Young Trendy
+C0674,Frugal Savers
+C0514,Wealthy Occasional
+C0610,Frugal Savers
+C0725,Lapsed Customers
+C0427,Young Trendy
+C0221,Bargain Hunters
+C0059,Loyal Big Spenders
+C0463,Wealthy Occasional
+C0379,Young Trendy
+C0791,Lapsed Customers
+C0167,Bargain Hunters
+C0190,Bargain Hunters
+C0218,Bargain Hunters
+C0288,Bargain Hunters
+C0175,Bargain Hunters
+C0315,Young Trendy
+C0532,Wealthy Occasional
+C0480,Wealthy Occasional
+C0780,Lapsed Customers
+C0316,Young Trendy
+C0281,Bargain Hunters
+C0225,Bargain Hunters
+C0071,Loyal Big Spenders
+C0633,Frugal Savers
+C0479,Wealthy Occasional
+C0058,Loyal Big Spenders
+C0611,Frugal Savers
+C0328,Young Trendy
+C0354,Young Trendy
+C0348,Young Trendy
+C0157,Bargain Hunters
+C0258,Bargain Hunters
+C0616,Frugal Savers
+C0500,Wealthy Occasional
+C0155,Bargain Hunters
+C0062,Loyal Big Spenders
+C0205,Bargain Hunters
+C0080,Loyal Big Spenders
+C0473,Wealthy Occasional
+C0182,Bargain Hunters
+C0599,Frugal Savers
+C0128,Bargain Hunters
+C0255,Bargain Hunters
+C0091,Loyal Big Spenders
+C0384,Young Trendy
+C0471,Wealthy Occasional
+C0100,Loyal Big Spenders
+C0754,Lapsed Customers
+C0063,Loyal Big Spenders
+C0795,Lapsed Customers
+C0659,Frugal Savers
+C0737,Lapsed Customers
+C0346,Young Trendy
+C0207,Bargain Hunters
+C0095,Loyal Big Spenders
+C0092,Loyal Big Spenders
+C0115,Loyal Big Spenders
+C0443,Young Trendy
+C0313,Young Trendy
+C0626,Frugal Savers
+C0681,Frugal Savers
+C0161,Bargain Hunters
+C0706,Lapsed Customers
+C0301,Young Trendy
+C0251,Bargain Hunters
+C0187,Bargain Hunters
+C0441,Young Trendy
+C0488,Wealthy Occasional
+C0707,Lapsed Customers
+C0171,Bargain Hunters
+C0352,Young Trendy
+C0538,Wealthy Occasional
+C0601,Frugal Savers
+C0144,Bargain Hunters
+C0199,Bargain Hunters
+C0522,Wealthy Occasional
+C0531,Wealthy Occasional
+C0557,Wealthy Occasional
+C0257,Bargain Hunters
+C0448,Young Trendy
+C0424,Young Trendy
+C0260,Bargain Hunters
+C0533,Wealthy Occasional
+C0039,Loyal Big Spenders
+C0478,Wealthy Occasional
+C0797,Lapsed Customers
+C0195,Bargain Hunters
+C0573,Frugal Savers
+C0120,Loyal Big Spenders
+C0108,Loyal Big Spenders
+C0408,Young Trendy
+C0489,Wealthy Occasional
+C0608,Frugal Savers
+C0413,Young Trendy
+C0721,Lapsed Customers
+C0453,Young Trendy
+C0076,Loyal Big Spenders
+C0259,Bargain Hunters
+C0160,Bargain Hunters
+C0717,Lapsed Customers
+C0385,Young Trendy
+C0117,Loyal Big Spenders
+C0396,Young Trendy
+C0683,Frugal Savers
+C0241,Bargain Hunters
+C0417,Young Trendy
+C0723,Lapsed Customers
+C0206,Bargain Hunters
+C0420,Young Trendy
+C0252,Bargain Hunters
+C0359,Young Trendy
+C0792,Lapsed Customers
+C0668,Frugal Savers
+C0381,Young Trendy
+C0720,Lapsed Customers
+C0760,Lapsed Customers
+C0435,Young Trendy
+C0101,Loyal Big Spenders
+C0649,Frugal Savers
+C0699,Frugal Savers
+C0164,Bargain Hunters
+C0174,Bargain Hunters
+C0138,Bargain Hunters
+C0180,Bargain Hunters
+C0647,Frugal Savers
+C0547,Wealthy Occasional
+C0325,Young Trendy
+C0350,Young Trendy
+C0556,Wealthy Occasional
+C0572,Frugal Savers
+C0374,Young Trendy
+C0119,Loyal Big Spenders
+C0133,Bargain Hunters
+C0365,Young Trendy
+C0216,Bargain Hunters
+C0701,Frugal Savers
+C0646,Frugal Savers
+C0430,Young Trendy
+C0051,Loyal Big Spenders
+C0631,Frugal Savers
+C0030,Loyal Big Spenders
+C0040,Loyal Big Spenders
+C0548,Wealthy Occasional
+C0766,Lapsed Customers
+C0710,Lapsed Customers
+C0777,Lapsed Customers
+C0387,Young Trendy
+C0565,Frugal Savers
+C0107,Loyal Big Spenders
+C0124,Bargain Hunters
+C0638,Frugal Savers
+C0787,Lapsed Customers
+C0017,Loyal Big Spenders
+C0165,Bargain Hunters
+C0099,Loyal Big Spenders
+C0793,Lapsed Customers
+C0267,Bargain Hunters
+C0081,Loyal Big Spenders
+C0324,Young Trendy
+C0773,Lapsed Customers
+C0083,Loyal Big Spenders
+C0567,Frugal Savers
+C0509,Wealthy Occasional
+C0524,Wealthy Occasional
+C0322,Young Trendy
+C0627,Frugal Savers
+C0771,Lapsed Customers
+C0226,Bargain Hunters
+C0653,Frugal Savers
+C0269,Bargain Hunters
+C0680,Frugal Savers
+C0191,Bargain Hunters
+C0482,Wealthy Occasional
+C0276,Bargain Hunters
+C0054,Loyal Big Spenders
+C0628,Frugal Savers
+C0685,Frugal Savers
+C0700,Frugal Savers
+C0726,Lapsed Customers
+C0607,Frugal Savers
+C0606,Frugal Savers
+C0116,Loyal Big Spenders
+C0309,Young Trendy
+C0111,Loyal Big Spenders
+C0536,Wealthy Occasional
+C0759,Lapsed Customers
+C0015,Loyal Big Spenders
+C0671,Frugal Savers
+C0682,Frugal Savers
+C0197,Bargain Hunters
+C0109,Loyal Big Spenders
+C0006,Loyal Big Spenders
+C0371,Young Trendy
+C0613,Frugal Savers
+C0695,Frugal Savers
+C0545,Wealthy Occasional
+C0529,Wealthy Occasional
+C0110,Loyal Big Spenders
+C0383,Young Trendy
+C0558,Wealthy Occasional
+C0660,Frugal Savers
+C0487,Wealthy Occasional
+C0196,Bargain Hunters
+C0636,Frugal Savers
+C0118,Loyal Big Spenders
+C0666,Frugal Savers
+C0570,Frugal Savers
+C0048,Loyal Big Spenders
+C0689,Frugal Savers
+C0246,Bargain Hunters
+C0734,Lapsed Customers
+C0658,Frugal Savers
+C0414,Young Trendy
+C0729,Lapsed Customers
+C0578,Frugal Savers
+C0401,Young Trendy
+C0400,Young Trendy
+C0595,Frugal Savers
+C0244,Bargain Hunters
+C0594,Frugal Savers
+C0497,Wealthy Occasional
+C0722,Lapsed Customers
+C0690,Frugal Savers
+C0222,Bargain Hunters
+C0629,Frugal Savers
+C0278,Bargain Hunters
+C0041,Loyal Big Spenders
+C0561,Frugal Savers
+C0228,Bargain Hunters
+C0340,Young Trendy
+C0730,Lapsed Customers
+C0291,Bargain Hunters
+C0372,Young Trendy
+C0005,Loyal Big Spenders
+C0483,Wealthy Occasional
+C0016,Loyal Big Spenders
+C0775,Lapsed Customers
+C0353,Young Trendy
+C0481,Wealthy Occasional
+C0032,Loyal Big Spenders
+C0312,Young Trendy
+C0223,Bargain Hunters
+C0334,Young Trendy
+C0126,Bargain Hunters
+C0234,Bargain Hunters
+C0229,Bargain Hunters
+C0785,Lapsed Customers
+C0392,Young Trendy
+C0724,Lapsed Customers
+C0407,Young Trendy
+C0341,Young Trendy
+C0637,Frugal Savers
+C0655,Frugal Savers
+C0642,Frugal Savers
+C0743,Lapsed Customers
+C0675,Frugal Savers
+C0554,Wealthy Occasional
+C0670,Frugal Savers
+C0549,Wealthy Occasional
+C0688,Frugal Savers
+C0177,Bargain Hunters
+C0719,Lapsed Customers
+C0183,Bargain Hunters
+C0462,Wealthy Occasional
+C0712,Lapsed Customers
+C0546,Wealthy Occasional
+C0518,Wealthy Occasional
+C0757,Lapsed Customers
+C0231,Bargain Hunters
+C0436,Young Trendy
+C0129,Bargain Hunters
+C0001,Loyal Big Spenders
+C0337,Young Trendy
+C0566,Frugal Savers
+C0394,Young Trendy
+C0452,Young Trendy
+C0665,Frugal Savers
+C0361,Young Trendy
+C0149,Bargain Hunters
+C0612,Frugal Savers
+C0130,Bargain Hunters
+C0135,Bargain Hunters
+C0521,Wealthy Occasional
+C0539,Wealthy Occasional
+C0131,Bargain Hunters
+C0061,Loyal Big Spenders
+C0134,Bargain Hunters
+C0270,Bargain Hunters
+C0418,Young Trendy
+C0098,Loyal Big Spenders
+C0283,Bargain Hunters
+C0639,Frugal Savers
+C0495,Wealthy Occasional
+C0078,Loyal Big Spenders
+C0618,Frugal Savers
+C0173,Bargain Hunters
+C0735,Lapsed Customers
+C0648,Frugal Savers
+C0428,Young Trendy
+C0510,Wealthy Occasional
+C0676,Frugal Savers
+C0437,Young Trendy
+C0444,Young Trendy
+C0357,Young Trendy
+C0439,Young Trendy
+C0507,Wealthy Occasional
+C0335,Young Trendy
+C0742,Lapsed Customers
+C0790,Lapsed Customers
+C0336,Young Trendy
+C0236,Bargain Hunters
+C0053,Loyal Big Spenders
+C0070,Loyal Big Spenders
+C0201,Bargain Hunters
+C0233,Bargain Hunters
+C0705,Lapsed Customers
+C0299,Young Trendy
+C0755,Lapsed Customers
+C0272,Bargain Hunters
+C0162,Bargain Hunters
+C0498,Wealthy Occasional
+C0331,Young Trendy
+C0474,Wealthy Occasional
+C0661,Frugal Savers
+C0307,Young Trendy
+C0402,Young Trendy
+C0716,Lapsed Customers
+C0022,Loyal Big Spenders
+C0036,Loyal Big Spenders
+C0713,Lapsed Customers
+C0746,Lapsed Customers
+C0106,Loyal Big Spenders
+C0731,Lapsed Customers
+C0530,Wealthy Occasional
+C0491,Wealthy Occasional
+C0511,Wealthy Occasional
+C0220,Bargain Hunters
+C0297,Young Trendy
+C0020,Loyal Big Spenders
+C0415,Young Trendy
+C0586,Frugal Savers
+C0018,Loyal Big Spenders
+C0762,Lapsed Customers
+C0344,Young Trendy
+C0667,Frugal Savers
+C0026,Loyal Big Spenders
+C0634,Frugal Savers
+C0019,Loyal Big Spenders
+C0422,Young Trendy
+C0158,Bargain Hunters
+C0782,Lapsed Customers
+C0189,Bargain Hunters
+C0622,Frugal Savers
+C0679,Frugal Savers
+C0564,Frugal Savers
+C0423,Young Trendy
+C0140,Bargain Hunters
+C0749,Lapsed Customers
+C0010,Loyal Big Spenders
+C0390,Young Trendy
+C0031,Loyal Big Spenders
+C0786,Lapsed Customers
+C0416,Young Trendy
+C0389,Young Trendy
+C0300,Young Trendy
+C0571,Frugal Savers
+C0598,Frugal Savers
+C0574,Frugal Savers
+C0393,Young Trendy
+C0399,Young Trendy
+C0064,Loyal Big Spenders
+C0097,Loyal Big Spenders
+C0753,Lapsed Customers
+C0576,Frugal Savers
+C0476,Wealthy Occasional
+C0425,Young Trendy
+C0744,Lapsed Customers
+C0694,Frugal Savers
+C0127,Bargain Hunters
+C0266,Bargain Hunters
+C0625,Frugal Savers
+C0553,Wealthy Occasional
+C0520,Wealthy Occasional
+C0582,Frugal Savers
+C0349,Young Trendy
+C0072,Loyal Big Spenders
+C0330,Young Trendy
+C0624,Frugal Savers
+C0490,Wealthy Occasional
+C0652,Frugal Savers
+C0277,Bargain Hunters
+C0102,Loyal Big Spenders
+C0261,Bargain Hunters
+C0136,Bargain Hunters
+C0455,Young Trendy
+C0318,Young Trendy
+C0343,Young Trendy
+C0788,Lapsed Customers
+C0087,Loyal Big Spenders
+C0242,Bargain Hunters
+C0200,Bargain Hunters
+C0263,Bargain Hunters
+C0012,Loyal Big Spenders
+C0526,Wealthy Occasional
+C0783,Lapsed Customers
+C0123,Bargain Hunters
+C0597,Frugal Savers
+C0271,Bargain Hunters
+C0410,Young Trendy
+C0470,Wealthy Occasional
+C0405,Young Trendy
+C0466,Wealthy Occasional
+C0738,Lapsed Customers
+C0750,Lapsed Customers
+C0319,Young Trendy
+C0215,Bargain Hunters
+C0709,Lapsed Customers
+C0238,Bargain Hunters
+C0388,Young Trendy
+C0426,Young Trendy
+C0398,Young Trendy
+C0656,Frugal Savers
+C0711,Lapsed Customers
+C0290,Bargain Hunters
+C0515,Wealthy Occasional
+C0232,Bargain Hunters
+C0748,Lapsed Customers
+C0714,Lapsed Customers
+C0264,Bargain Hunters
+C0294,Bargain Hunters
+C0560,Wealthy Occasional
+C0772,Lapsed Customers
+C0800,Lapsed Customers
+C0284,Bargain Hunters
+C0615,Frugal Savers
+C0419,Young Trendy
+C0286,Bargain Hunters
+C0397,Young Trendy
+C0503,Wealthy Occasional
+C0268,Bargain Hunters
+C0630,Frugal Savers
+C0467,Wealthy Occasional
+C0555,Wealthy Occasional
+C0651,Frugal Savers
+C0326,Young Trendy
+C0412,Young Trendy
+C0440,Young Trendy
+C0562,Frugal Savers
+C0602,Frugal Savers
+C0224,Bargain Hunters
+C0643,Frugal Savers
+C0588,Frugal Savers
+C0047,Loyal Big Spenders
+C0519,Wealthy Occasional
+C0237,Bargain Hunters
+C0245,Bargain Hunters
+C0770,Lapsed Customers
+C0089,Loyal Big Spenders
+C0093,Loyal Big Spenders
+C0796,Lapsed Customers
+C0739,Lapsed Customers
+C0194,Bargain Hunters
+C0282,Bargain Hunters
+C0292,Bargain Hunters
+C0764,Lapsed Customers
+C0581,Frugal Savers
+C0635,Frugal Savers
+C0502,Wealthy Occasional
+C0784,Lapsed Customers
+C0143,Bargain Hunters
+C0275,Bargain Hunters
+C0472,Wealthy Occasional
+C0193,Bargain Hunters
+C0170,Bargain Hunters
+C0279,Bargain Hunters
+C0077,Loyal Big Spenders
+C0247,Bargain Hunters
+C0431,Young Trendy
+C0528,Wealthy Occasional
+C0364,Young Trendy
+C0213,Bargain Hunters
+C0154,Bargain Hunters
+C0376,Young Trendy
+C0327,Young Trendy
+C0446,Young Trendy
+C0289,Bargain Hunters
+C0525,Wealthy Occasional
+C0105,Loyal Big Spenders
+C0132,Bargain Hunters
+C0464,Wealthy Occasional
+C0763,Lapsed Customers
+C0370,Young Trendy
+C0250,Bargain Hunters
+C0657,Frugal Savers
+C0024,Loyal Big Spenders
+C0540,Wealthy Occasional
+C0204,Bargain Hunters
+C0450,Young Trendy
+C0663,Frugal Savers
+C0113,Loyal Big Spenders
+C0505,Wealthy Occasional
+C0438,Young Trendy
+C0732,Lapsed Customers
+C0038,Loyal Big Spenders
+C0090,Loyal Big Spenders
+C0049,Loyal Big Spenders
+C0687,Frugal Savers
+C0013,Loyal Big Spenders
+C0406,Young Trendy
+C0103,Loyal Big Spenders
+C0704,Frugal Savers
+C0798,Lapsed Customers
+C0745,Lapsed Customers
+C0034,Loyal Big Spenders
+C0192,Bargain Hunters
+C0494,Wealthy Occasional
+C0620,Frugal Savers
+C0002,Loyal Big Spenders
+C0769,Lapsed Customers
+C0799,Lapsed Customers
+C0033,Loyal Big Spenders
+C0150,Bargain Hunters
+C0380,Young Trendy
+C0499,Wealthy Occasional
+C0433,Young Trendy
+C0122,Bargain Hunters
+C0004,Loyal Big Spenders
+C0445,Young Trendy
+C0447,Young Trendy
+C0085,Loyal Big Spenders
+C0239,Bargain Hunters
+C0035,Loyal Big Spenders
+C0285,Bargain Hunters
+C0459,Wealthy Occasional
+C0569,Frugal Savers
+C0508,Wealthy Occasional
+C0504,Wealthy Occasional
+C0691,Frugal Savers
+C0765,Lapsed Customers
+C0209,Bargain Hunters
+C0686,Frugal Savers
+C0042,Loyal Big Spenders
+C0485,Wealthy Occasional
+C0386,Young Trendy
+C0696,Frugal Savers
+C0718,Lapsed Customers
+C0094,Loyal Big Spenders
+C0403,Young Trendy
+C0698,Frugal Savers
+C0756,Lapsed Customers
+C0752,Lapsed Customers
+C0461,Wealthy Occasional
+C0501,Wealthy Occasional
+C0084,Loyal Big Spenders
+C0153,Bargain Hunters
+C0767,Lapsed Customers
+C0055,Loyal Big Spenders
+C0758,Lapsed Customers
+C0550,Wealthy Occasional
+C0781,Lapsed Customers
+C0579,Frugal Savers
+C0320,Young Trendy
+C0310,Young Trendy
+C0477,Wealthy Occasional
+C0321,Young Trendy
+C0240,Bargain Hunters
+C0733,Lapsed Customers
+C0262,Bargain Hunters
+C0176,Bargain Hunters
+C0212,Bargain Hunters
+C0568,Frugal Savers
+C0702,Frugal Savers
+C0214,Bargain Hunters
+C0028,Loyal Big Spenders
+C0296,Bargain Hunters
+C0715,Lapsed Customers
+C0367,Young Trendy
+C0280,Bargain Hunters
+C0082,Loyal Big Spenders
+C0304,Young Trendy
+C0137,Bargain Hunters
+C0086,Loyal Big Spenders
+C0345,Young Trendy
+C0007,Loyal Big Spenders
+C0600,Frugal Savers
+C0202,Bargain Hunters
+C0044,Loyal Big Spenders
+C0009,Loyal Big Spenders
+C0178,Bargain Hunters
+C0411,Young Trendy
+C0605,Frugal Savers
+C0592,Frugal Savers
+C0088,Loyal Big Spenders
+C0139,Bargain Hunters
+C0541,Wealthy Occasional
+C0469,Wealthy Occasional
+C0378,Young Trendy
+C0065,Loyal Big Spenders
+C0303,Young Trendy
+C0590,Frugal Savers
+C0432,Young Trendy
+C0074,Loyal Big Spenders
+C0703,Frugal Savers
+C0512,Wealthy Occasional
+C0692,Frugal Savers
+C0768,Lapsed Customers
+C0493,Wealthy Occasional
+C0355,Young Trendy
+C0219,Bargain Hunters
+C0593,Frugal Savers
+C0672,Frugal Savers
+C0552,Wealthy Occasional
+C0619,Frugal Savers
+C0457,Wealthy Occasional
+C0186,Bargain Hunters
+C0789,Lapsed Customers
+C0181,Bargain Hunters
+C0029,Loyal Big Spenders
+C0641,Frugal Savers
+C0159,Bargain Hunters
+C0185,Bargain Hunters
+C0253,Bargain Hunters
+C0003,Loyal Big Spenders
+C0492,Wealthy Occasional
+C0404,Young Trendy
+C0708,Lapsed Customers
+C0147,Bargain Hunters
+C0358,Young Trendy
+C0168,Bargain Hunters
+C0203,Bargain Hunters
+C0727,Lapsed Customers
+C0338,Young Trendy
+C0523,Wealthy Occasional
+C0614,Frugal Savers
+C0188,Bargain Hunters
+C0125,Bargain Hunters
+C0761,Lapsed Customers
+C0339,Young Trendy
+C0152,Bargain Hunters
+C0506,Wealthy Occasional
+C0037,Loyal Big Spenders
+C0678,Frugal Savers
+C0513,Wealthy Occasional
+C0043,Loyal Big Spenders
+C0249,Bargain Hunters
+C0664,Frugal Savers
+C0589,Frugal Savers
+C0210,Bargain Hunters
+C0621,Frugal Savers
+C0366,Young Trendy
+C0475,Wealthy Occasional
+C0274,Bargain Hunters
+C0011,Loyal Big Spenders
+C0736,Lapsed Customers
+C0151,Bargain Hunters
+C0645,Frugal Savers
+C0409,Young Trendy
+C0148,Bargain Hunters
+C0172,Bargain Hunters
+C0052,Loyal Big Spenders
+C0684,Frugal Savers
+C0644,Frugal Savers
+C0362,Young Trendy
+C0317,Young Trendy
+C0069,Loyal Big Spenders
+C0693,Frugal Savers
+C0314,Young Trendy
+C0227,Bargain Hunters
+C0527,Wealthy Occasional
+C0332,Young Trendy
+C0442,Young Trendy
+C0468,Wealthy Occasional
+C0356,Young Trendy
+C0145,Bargain Hunters
+C0179,Bargain Hunters
+C0298,Young Trendy
+C0585,Frugal Savers
+C0256,Bargain Hunters
+C0217,Bargain Hunters
+C0329,Young Trendy
+C0273,Bargain Hunters
+C0535,Wealthy Occasional
+C0323,Young Trendy
+C0449,Young Trendy
+C0254,Bargain Hunters
+C0604,Frugal Savers
+C0121,Bargain Hunters
+C0351,Young Trendy
+C0575,Frugal Savers
+C0673,Frugal Savers
+C0774,Lapsed Customers
+C0460,Wealthy Occasional
+C0534,Wealthy Occasional
+C0311,Young Trendy
+C0609,Frugal Savers
+C0517,Wealthy Occasional
+C0368,Young Trendy
+C0603,Frugal Savers
+C0779,Lapsed Customers
+C0079,Loyal Big Spenders
+C0023,Loyal Big Spenders
+C0230,Bargain Hunters
+C0163,Bargain Hunters
+C0027,Loyal Big Spenders
+C0008,Loyal Big Spenders
+C0776,Lapsed Customers
+C0045,Loyal Big Spenders
+C0166,Bargain Hunters
+C0551,Wealthy Occasional
+C0580,Frugal Savers
+C0429,Young Trendy
+C0465,Wealthy Occasional
+C0025,Loyal Big Spenders
+C0014,Loyal Big Spenders
+C0235,Bargain Hunters
+C0347,Young Trendy
+C0623,Frugal Savers
+C0751,Lapsed Customers
+C0377,Young Trendy
+C0050,Loyal Big Spenders
+C0208,Bargain Hunters
+C0669,Frugal Savers
+C0740,Lapsed Customers
+C0677,Frugal Savers
+C0142,Bargain Hunters
+C0395,Young Trendy
+C0794,Lapsed Customers
+C0516,Wealthy Occasional
+C0308,Young Trendy
+C0747,Lapsed Customers
+C0068,Loyal Big Spenders
+C0293,Bargain Hunters
+C0114,Loyal Big Spenders
+C0778,Lapsed Customers
+C0583,Frugal Savers
+C0156,Bargain Hunters
+C0537,Wealthy Occasional
+C0584,Frugal Savers
+C0373,Young Trendy
+C0650,Frugal Savers
+C0486,Wealthy Occasional
+C0728,Lapsed Customers
+C0543,Wealthy Occasional
+C0563,Frugal Savers
+C0198,Bargain Hunters
+C0169,Bargain Hunters
+C0369,Young Trendy
+C0333,Young Trendy
+C0363,Young Trendy
+C0484,Wealthy Occasional
+C0421,Young Trendy
+C0112,Loyal Big Spenders
+C0542,Wealthy Occasional
+C0295,Bargain Hunters
+C0456,Young Trendy
+C0654,Frugal Savers
+C0454,Young Trendy
+C0382,Young Trendy
+C0662,Frugal Savers
+C0146,Bargain Hunters
+C0096,Loyal Big Spenders
+C0066,Loyal Big Spenders
+C0496,Wealthy Occasional
+C0587,Frugal Savers
+C0243,Bargain Hunters
+C0021,Loyal Big Spenders
+C0248,Bargain Hunters
+C0067,Loyal Big Spenders
+C0060,Loyal Big Spenders
+C0596,Frugal Savers
+C0265,Bargain Hunters
+C0056,Loyal Big Spenders
+C0057,Loyal Big Spenders
+C0360,Young Trendy
+C0073,Loyal Big Spenders
+C0741,Lapsed Customers
+C0141,Bargain Hunters
+C0305,Young Trendy
+C0211,Bargain Hunters
+C0458,Wealthy Occasional
+C0342,Young Trendy

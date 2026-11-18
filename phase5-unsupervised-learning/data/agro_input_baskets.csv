@@ -1,0 +1,7385 @@
+transaction_id,item
+A00001,DAP Fertilizer
+A00001,Fungicide
+A00001,Potato Seed
+A00002,Tools (Hoe/Panga)
+A00003,CAN Fertilizer
+A00004,Drinkers & Feeders
+A00004,Poultry Feed
+A00004,Veterinary Drugs
+A00005,Foliar Feed
+A00005,Pesticide
+A00005,Vegetable Seeds
+A00006,Acaricide
+A00006,Dairy Meal
+A00007,DAP Fertilizer
+A00007,Hybrid Maize Seed
+A00008,Knapsack Sprayer
+A00008,Pesticide
+A00008,Protective Gloves
+A00009,Herbicide
+A00010,DAP Fertilizer
+A00010,Hybrid Maize Seed
+A00011,CAN Fertilizer
+A00011,Herbicide
+A00011,Hybrid Maize Seed
+A00012,Tools (Hoe/Panga)
+A00013,Dairy Meal
+A00013,Herbicide
+A00014,Drip Kit
+A00014,Fungicide
+A00014,Vegetable Seeds
+A00015,CAN Fertilizer
+A00015,DAP Fertilizer
+A00015,Hybrid Maize Seed
+A00016,Drip Kit
+A00016,Foliar Feed
+A00016,Tools (Hoe/Panga)
+A00016,Vegetable Seeds
+A00017,Acaricide
+A00018,DAP Fertilizer
+A00018,Hybrid Maize Seed
+A00019,Acaricide
+A00019,Dairy Meal
+A00019,Veterinary Drugs
+A00020,DAP Fertilizer
+A00020,Hybrid Maize Seed
+A00020,Veterinary Drugs
+A00021,Fungicide
+A00021,Knapsack Sprayer
+A00021,Pesticide
+A00021,Protective Gloves
+A00022,Acaricide
+A00022,Dairy Meal
+A00022,Mineral Lick
+A00022,Veterinary Drugs
+A00023,Herbicide
+A00024,Tools (Hoe/Panga)
+A00025,CAN Fertilizer
+A00025,Hybrid Maize Seed
+A00026,Foliar Feed
+A00026,Pesticide
+A00026,Vegetable Seeds
+A00026,Veterinary Drugs
+A00027,Poultry Feed
+A00027,Veterinary Drugs
+A00028,Foliar Feed
+A00028,Fungicide
+A00028,Pesticide
+A00028,Vegetable Seeds
+A00029,Knapsack Sprayer
+A00029,Pesticide
+A00029,Protective Gloves
+A00030,CAN Fertilizer
+A00030,DAP Fertilizer
+A00030,Hybrid Maize Seed
+A00031,Dairy Meal
+A00031,Mineral Lick
+A00032,Fungicide
+A00032,Pesticide
+A00033,CAN Fertilizer
+A00033,Hybrid Maize Seed
+A00034,Chick Starter
+A00034,Drinkers & Feeders
+A00034,Poultry Feed
+A00034,Veterinary Drugs
+A00035,DAP Fertilizer
+A00035,Fungicide
+A00036,Dairy Meal
+A00036,Veterinary Drugs
+A00037,CAN Fertilizer
+A00038,Acaricide
+A00038,Dairy Meal
+A00038,Mineral Lick
+A00038,Veterinary Drugs
+A00039,Fungicide
+A00039,Potato Seed
+A00039,Tools (Hoe/Panga)
+A00040,CAN Fertilizer
+A00041,DAP Fertilizer
+A00041,Hybrid Maize Seed
+A00041,Tools (Hoe/Panga)
+A00042,Drip Kit
+A00042,Foliar Feed
+A00042,Fungicide
+A00042,Pesticide
+A00042,Vegetable Seeds
+A00043,Drip Kit
+A00043,Fungicide
+A00043,Pesticide
+A00043,Vegetable Seeds
+A00044,Dairy Meal
+A00044,Fungicide
+A00044,Pesticide
+A00044,Protective Gloves
+A00045,Chick Starter
+A00045,Drinkers & Feeders
+A00046,DAP Fertilizer
+A00046,Fungicide
+A00046,Pesticide
+A00046,Potato Seed
+A00047,Drinkers & Feeders
+A00047,Poultry Feed
+A00047,Veterinary Drugs
+A00048,Chick Starter
+A00048,Drinkers & Feeders
+A00048,Poultry Feed
+A00048,Veterinary Drugs
+A00049,Chick Starter
+A00049,Poultry Feed
+A00050,Vegetable Seeds
+A00051,Tools (Hoe/Panga)
+A00051,Water Pump
+A00051,Wheelbarrow
+A00052,Dairy Meal
+A00052,Fungicide
+A00052,Pesticide
+A00052,Protective Gloves
+A00053,CAN Fertilizer
+A00053,DAP Fertilizer
+A00053,Herbicide
+A00053,Hybrid Maize Seed
+A00054,Fungicide
+A00054,Vegetable Seeds
+A00055,Herbicide
+A00056,DAP Fertilizer
+A00056,Potato Seed
+A00057,Protective Gloves
+A00057,Tools (Hoe/Panga)
+A00057,Veterinary Drugs
+A00058,CAN Fertilizer
+A00058,Hybrid Maize Seed
+A00059,Potato Seed
+A00060,Dairy Meal
+A00060,Mineral Lick
+A00060,Veterinary Drugs
+A00061,DAP Fertilizer
+A00061,Hybrid Maize Seed
+A00062,Knapsack Sprayer
+A00062,Pesticide
+A00063,Vegetable Seeds
+A00064,Protective Gloves
+A00064,Tools (Hoe/Panga)
+A00064,Wheelbarrow
+A00065,Poultry Feed
+A00065,Veterinary Drugs
+A00066,Dairy Meal
+A00066,Mineral Lick
+A00066,Veterinary Drugs
+A00067,Pesticide
+A00068,Protective Gloves
+A00068,Vegetable Seeds
+A00069,Knapsack Sprayer
+A00069,Pesticide
+A00069,Protective Gloves
+A00070,Chick Starter
+A00070,Drinkers & Feeders
+A00070,Poultry Feed
+A00071,Acaricide
+A00072,Fungicide
+A00072,Knapsack Sprayer
+A00072,Protective Gloves
+A00073,DAP Fertilizer
+A00073,Pesticide
+A00073,Potato Seed
+A00074,Fungicide
+A00074,Pesticide
+A00074,Vegetable Seeds
+A00075,Water Pump
+A00076,Knapsack Sprayer
+A00076,Pesticide
+A00077,CAN Fertilizer
+A00077,DAP Fertilizer
+A00077,Hybrid Maize Seed
+A00078,CAN Fertilizer
+A00079,DAP Fertilizer
+A00080,Chick Starter
+A00080,Drinkers & Feeders
+A00080,Poultry Feed
+A00080,Veterinary Drugs
+A00081,Foliar Feed
+A00081,Vegetable Seeds
+A00082,CAN Fertilizer
+A00083,DAP Fertilizer
+A00083,Pesticide
+A00083,Tools (Hoe/Panga)
+A00083,Water Pump
+A00084,Veterinary Drugs
+A00085,Drip Kit
+A00085,Fungicide
+A00085,Vegetable Seeds
+A00086,Chick Starter
+A00086,Poultry Feed
+A00087,Chick Starter
+A00088,CAN Fertilizer
+A00088,DAP Fertilizer
+A00088,Hybrid Maize Seed
+A00089,CAN Fertilizer
+A00089,DAP Fertilizer
+A00089,Hybrid Maize Seed
+A00090,Herbicide
+A00090,Hybrid Maize Seed
+A00091,DAP Fertilizer
+A00091,Hybrid Maize Seed
+A00092,Drinkers & Feeders
+A00092,Poultry Feed
+A00093,Knapsack Sprayer
+A00093,Pesticide
+A00093,Protective Gloves
+A00093,Tools (Hoe/Panga)
+A00094,Dairy Meal
+A00094,Mineral Lick
+A00095,Dairy Meal
+A00096,CAN Fertilizer
+A00096,Herbicide
+A00097,Herbicide
+A00098,DAP Fertilizer
+A00098,Fungicide
+A00098,Pesticide
+A00098,Potato Seed
+A00099,CAN Fertilizer
+A00099,DAP Fertilizer
+A00099,Hybrid Maize Seed
+A00100,Herbicide
+A00101,Acaricide
+A00101,Dairy Meal
+A00101,Mineral Lick
+A00102,Drip Kit
+A00102,Foliar Feed
+A00102,Vegetable Seeds
+A00103,Drip Kit
+A00103,Foliar Feed
+A00103,Vegetable Seeds
+A00104,CAN Fertilizer
+A00104,Herbicide
+A00105,Mineral Lick
+A00105,Veterinary Drugs
+A00106,DAP Fertilizer
+A00106,Fungicide
+A00106,Herbicide
+A00106,Potato Seed
+A00107,DAP Fertilizer
+A00107,Poultry Feed
+A00107,Veterinary Drugs
+A00108,CAN Fertilizer
+A00108,Protective Gloves
+A00109,Tools (Hoe/Panga)
+A00109,Wheelbarrow
+A00110,Pesticide
+A00111,CAN Fertilizer
+A00111,Herbicide
+A00112,Chick Starter
+A00112,Poultry Feed
+A00113,CAN Fertilizer
+A00113,Hybrid Maize Seed
+A00114,Poultry Feed
+A00114,Veterinary Drugs
+A00115,Tools (Hoe/Panga)
+A00116,Dairy Meal
+A00116,Mineral Lick
+A00117,Foliar Feed
+A00117,Pesticide
+A00117,Vegetable Seeds
+A00118,Herbicide
+A00119,Fungicide
+A00119,Potato Seed
+A00120,Chick Starter
+A00120,Poultry Feed
+A00120,Tools (Hoe/Panga)
+A00120,Veterinary Drugs
+A00121,Dairy Meal
+A00121,Mineral Lick
+A00122,Tools (Hoe/Panga)
+A00122,Water Pump
+A00123,Acaricide
+A00123,Dairy Meal
+A00123,Veterinary Drugs
+A00124,Fungicide
+A00124,Pesticide
+A00124,Protective Gloves
+A00125,CAN Fertilizer
+A00126,Fungicide
+A00126,Pesticide
+A00127,Acaricide
+A00127,Dairy Meal
+A00128,DAP Fertilizer
+A00128,Hybrid Maize Seed
+A00129,Dairy Meal
+A00130,Fungicide
+A00130,Pesticide
+A00130,Vegetable Seeds
+A00131,Foliar Feed
+A00131,Pesticide
+A00131,Vegetable Seeds
+A00132,DAP Fertilizer
+A00132,Fungicide
+A00132,Pesticide
+A00132,Potato Seed
+A00133,Foliar Feed
+A00133,Fungicide
+A00133,Vegetable Seeds
+A00134,CAN Fertilizer
+A00134,Herbicide
+A00135,Herbicide
+A00136,Poultry Feed
+A00136,Veterinary Drugs
+A00137,Drip Kit
+A00137,Foliar Feed
+A00137,Pesticide
+A00137,Vegetable Seeds
+A00138,Acaricide
+A00138,Dairy Meal
+A00138,Mineral Lick
+A00138,Veterinary Drugs
+A00139,Tools (Hoe/Panga)
+A00140,Foliar Feed
+A00140,Fungicide
+A00140,Pesticide
+A00140,Vegetable Seeds
+A00141,DAP Fertilizer
+A00141,Hybrid Maize Seed
+A00142,Pesticide
+A00142,Potato Seed
+A00143,DAP Fertilizer
+A00143,Fungicide
+A00143,Pesticide
+A00144,Foliar Feed
+A00144,Vegetable Seeds
+A00145,Herbicide
+A00146,Protective Gloves
+A00147,Protective Gloves
+A00147,Tools (Hoe/Panga)
+A00147,Vegetable Seeds
+A00148,CAN Fertilizer
+A00149,Drinkers & Feeders
+A00149,Poultry Feed
+A00150,CAN Fertilizer
+A00150,DAP Fertilizer
+A00151,Knapsack Sprayer
+A00151,Pesticide
+A00151,Protective Gloves
+A00151,Veterinary Drugs
+A00152,Drip Kit
+A00152,Pesticide
+A00152,Vegetable Seeds
+A00153,CAN Fertilizer
+A00153,Herbicide
+A00153,Veterinary Drugs
+A00154,Dairy Meal
+A00154,Veterinary Drugs
+A00155,DAP Fertilizer
+A00155,Tools (Hoe/Panga)
+A00156,DAP Fertilizer
+A00156,Potato Seed
+A00157,Chick Starter
+A00157,Drinkers & Feeders
+A00157,Veterinary Drugs
+A00158,Hybrid Maize Seed
+A00159,Vegetable Seeds
+A00160,Chick Starter
+A00160,Poultry Feed
+A00161,Acaricide
+A00161,Dairy Meal
+A00161,Veterinary Drugs
+A00162,Fungicide
+A00162,Pesticide
+A00162,Protective Gloves
+A00163,Knapsack Sprayer
+A00163,Pesticide
+A00163,Protective Gloves
+A00164,DAP Fertilizer
+A00164,Fungicide
+A00164,Pesticide
+A00164,Potato Seed
+A00165,Drinkers & Feeders
+A00165,Poultry Feed
+A00165,Veterinary Drugs
+A00166,DAP Fertilizer
+A00166,Fungicide
+A00166,Pesticide
+A00167,Wheelbarrow
+A00168,Pesticide
+A00168,Protective Gloves
+A00169,CAN Fertilizer
+A00169,Herbicide
+A00169,Hybrid Maize Seed
+A00170,Pesticide
+A00171,Foliar Feed
+A00171,Vegetable Seeds
+A00172,Drip Kit
+A00172,Pesticide
+A00172,Vegetable Seeds
+A00173,Drip Kit
+A00173,Foliar Feed
+A00173,Fungicide
+A00173,Vegetable Seeds
+A00174,CAN Fertilizer
+A00174,Herbicide
+A00175,CAN Fertilizer
+A00175,Herbicide
+A00175,Hybrid Maize Seed
+A00176,Fungicide
+A00176,Pesticide
+A00176,Potato Seed
+A00177,CAN Fertilizer
+A00177,Herbicide
+A00177,Pesticide
+A00178,Acaricide
+A00178,Dairy Meal
+A00178,Mineral Lick
+A00179,Poultry Feed
+A00180,Protective Gloves
+A00180,Tools (Hoe/Panga)
+A00181,CAN Fertilizer
+A00181,DAP Fertilizer
+A00181,Hybrid Maize Seed
+A00182,Chick Starter
+A00182,Drinkers & Feeders
+A00182,Poultry Feed
+A00182,Vegetable Seeds
+A00182,Veterinary Drugs
+A00183,Drinkers & Feeders
+A00183,Poultry Feed
+A00184,CAN Fertilizer
+A00184,DAP Fertilizer
+A00184,Hybrid Maize Seed
+A00185,Knapsack Sprayer
+A00185,Pesticide
+A00185,Protective Gloves
+A00185,Tools (Hoe/Panga)
+A00186,Poultry Feed
+A00187,Mineral Lick
+A00188,Fungicide
+A00188,Knapsack Sprayer
+A00188,Pesticide
+A00188,Protective Gloves
+A00189,Tools (Hoe/Panga)
+A00189,Water Pump
+A00189,Wheelbarrow
+A00190,CAN Fertilizer
+A00190,DAP Fertilizer
+A00190,Herbicide
+A00190,Hybrid Maize Seed
+A00190,Protective Gloves
+A00191,DAP Fertilizer
+A00191,Hybrid Maize Seed
+A00192,DAP Fertilizer
+A00192,Hybrid Maize Seed
+A00193,DAP Fertilizer
+A00194,Tools (Hoe/Panga)
+A00195,Tools (Hoe/Panga)
+A00196,Acaricide
+A00196,Dairy Meal
+A00196,Mineral Lick
+A00196,Veterinary Drugs
+A00197,Fungicide
+A00197,Knapsack Sprayer
+A00197,Pesticide
+A00197,Protective Gloves
+A00198,Acaricide
+A00198,Dairy Meal
+A00198,Mineral Lick
+A00198,Veterinary Drugs
+A00199,Chick Starter
+A00199,Drinkers & Feeders
+A00199,Poultry Feed
+A00200,DAP Fertilizer
+A00200,Herbicide
+A00200,Hybrid Maize Seed
+A00201,Herbicide
+A00202,Dairy Meal
+A00203,Drinkers & Feeders
+A00203,Poultry Feed
+A00203,Veterinary Drugs
+A00204,Drinkers & Feeders
+A00204,Poultry Feed
+A00204,Vegetable Seeds
+A00205,Foliar Feed
+A00206,CAN Fertilizer
+A00206,DAP Fertilizer
+A00206,Herbicide
+A00206,Hybrid Maize Seed
+A00207,DAP Fertilizer
+A00207,Hybrid Maize Seed
+A00208,Foliar Feed
+A00208,Pesticide
+A00208,Vegetable Seeds
+A00209,Poultry Feed
+A00210,CAN Fertilizer
+A00211,Acaricide
+A00212,Drip Kit
+A00212,Foliar Feed
+A00212,Vegetable Seeds
+A00213,Acaricide
+A00213,Dairy Meal
+A00213,Mineral Lick
+A00214,Knapsack Sprayer
+A00214,Pesticide
+A00214,Protective Gloves
+A00215,Foliar Feed
+A00215,Pesticide
+A00215,Vegetable Seeds
+A00216,DAP Fertilizer
+A00216,Hybrid Maize Seed
+A00217,Fungicide
+A00217,Potato Seed
+A00218,Dairy Meal
+A00219,CAN Fertilizer
+A00219,DAP Fertilizer
+A00219,Hybrid Maize Seed
+A00220,Dairy Meal
+A00221,CAN Fertilizer
+A00221,DAP Fertilizer
+A00221,Hybrid Maize Seed
+A00222,Poultry Feed
+A00223,Chick Starter
+A00223,Poultry Feed
+A00224,Fungicide
+A00224,Vegetable Seeds
+A00225,Foliar Feed
+A00225,Vegetable Seeds
+A00226,CAN Fertilizer
+A00227,DAP Fertilizer
+A00227,Fungicide
+A00227,Potato Seed
+A00228,Vegetable Seeds
+A00229,DAP Fertilizer
+A00229,Fungicide
+A00229,Potato Seed
+A00230,Dairy Meal
+A00230,Mineral Lick
+A00231,DAP Fertilizer
+A00231,Fungicide
+A00231,Pesticide
+A00231,Potato Seed
+A00232,DAP Fertilizer
+A00232,Hybrid Maize Seed
+A00233,Protective Gloves
+A00233,Vegetable Seeds
+A00234,Veterinary Drugs
+A00235,Poultry Feed
+A00235,Veterinary Drugs
+A00236,Fungicide
+A00236,Knapsack Sprayer
+A00236,Pesticide
+A00237,Fungicide
+A00237,Knapsack Sprayer
+A00237,Pesticide
+A00237,Protective Gloves
+A00238,Tools (Hoe/Panga)
+A00239,Protective Gloves
+A00240,Fungicide
+A00240,Pesticide
+A00240,Protective Gloves
+A00241,Tools (Hoe/Panga)
+A00241,Wheelbarrow
+A00242,DAP Fertilizer
+A00242,Fungicide
+A00242,Potato Seed
+A00242,Protective Gloves
+A00243,Chick Starter
+A00243,Poultry Feed
+A00244,Potato Seed
+A00245,Fungicide
+A00245,Pesticide
+A00245,Potato Seed
+A00246,Fungicide
+A00247,Pesticide
+A00247,Protective Gloves
+A00248,DAP Fertilizer
+A00248,Hybrid Maize Seed
+A00249,Pesticide
+A00249,Tools (Hoe/Panga)
+A00249,Veterinary Drugs
+A00249,Wheelbarrow
+A00250,Fungicide
+A00250,Pesticide
+A00250,Protective Gloves
+A00251,Knapsack Sprayer
+A00251,Pesticide
+A00251,Protective Gloves
+A00252,Tools (Hoe/Panga)
+A00253,CAN Fertilizer
+A00253,Herbicide
+A00254,Protective Gloves
+A00254,Tools (Hoe/Panga)
+A00255,Pesticide
+A00255,Poultry Feed
+A00256,Foliar Feed
+A00256,Fungicide
+A00256,Pesticide
+A00256,Vegetable Seeds
+A00257,CAN Fertilizer
+A00258,Vegetable Seeds
+A00259,CAN Fertilizer
+A00259,DAP Fertilizer
+A00259,Hybrid Maize Seed
+A00260,Chick Starter
+A00260,Poultry Feed
+A00261,Pesticide
+A00261,Vegetable Seeds
+A00262,Dairy Meal
+A00262,Mineral Lick
+A00262,Veterinary Drugs
+A00263,Chick Starter
+A00263,DAP Fertilizer
+A00263,Poultry Feed
+A00264,Chick Starter
+A00264,Drinkers & Feeders
+A00264,Poultry Feed
+A00264,Veterinary Drugs
+A00265,DAP Fertilizer
+A00265,Hybrid Maize Seed
+A00266,DAP Fertilizer
+A00266,Herbicide
+A00266,Hybrid Maize Seed
+A00266,Vegetable Seeds
+A00267,Tools (Hoe/Panga)
+A00267,Wheelbarrow
+A00268,Acaricide
+A00268,Dairy Meal
+A00268,Herbicide
+A00268,Veterinary Drugs
+A00269,Knapsack Sprayer
+A00269,Pesticide
+A00269,Protective Gloves
+A00270,Fungicide
+A00270,Pesticide
+A00270,Vegetable Seeds
+A00271,Acaricide
+A00271,Dairy Meal
+A00271,Mineral Lick
+A00272,Dairy Meal
+A00273,Herbicide
+A00273,Veterinary Drugs
+A00274,CAN Fertilizer
+A00274,DAP Fertilizer
+A00274,Hybrid Maize Seed
+A00274,Pesticide
+A00275,CAN Fertilizer
+A00275,Herbicide
+A00276,Dairy Meal
+A00276,Mineral Lick
+A00277,Dairy Meal
+A00277,Mineral Lick
+A00277,Protective Gloves
+A00277,Veterinary Drugs
+A00278,DAP Fertilizer
+A00278,Hybrid Maize Seed
+A00279,DAP Fertilizer
+A00279,Herbicide
+A00279,Hybrid Maize Seed
+A00279,Veterinary Drugs
+A00280,Dairy Meal
+A00280,Protective Gloves
+A00280,Veterinary Drugs
+A00281,DAP Fertilizer
+A00281,Hybrid Maize Seed
+A00282,CAN Fertilizer
+A00283,Fungicide
+A00283,Knapsack Sprayer
+A00283,Pesticide
+A00283,Protective Gloves
+A00284,Drip Kit
+A00284,Tools (Hoe/Panga)
+A00285,Drinkers & Feeders
+A00285,Poultry Feed
+A00285,Veterinary Drugs
+A00286,CAN Fertilizer
+A00286,DAP Fertilizer
+A00286,Hybrid Maize Seed
+A00287,Dairy Meal
+A00287,Mineral Lick
+A00288,DAP Fertilizer
+A00289,Fungicide
+A00289,Herbicide
+A00289,Protective Gloves
+A00290,Chick Starter
+A00290,Drinkers & Feeders
+A00291,CAN Fertilizer
+A00291,Hybrid Maize Seed
+A00292,Drip Kit
+A00292,Fungicide
+A00292,Pesticide
+A00292,Vegetable Seeds
+A00293,Knapsack Sprayer
+A00293,Pesticide
+A00293,Protective Gloves
+A00294,Acaricide
+A00294,Dairy Meal
+A00295,Fungicide
+A00295,Pesticide
+A00295,Protective Gloves
+A00295,Veterinary Drugs
+A00296,Dairy Meal
+A00296,Mineral Lick
+A00296,Veterinary Drugs
+A00297,Chick Starter
+A00297,Poultry Feed
+A00297,Veterinary Drugs
+A00298,DAP Fertilizer
+A00298,Fungicide
+A00298,Potato Seed
+A00299,CAN Fertilizer
+A00299,Hybrid Maize Seed
+A00300,Fungicide
+A00300,Pesticide
+A00300,Vegetable Seeds
+A00301,Tools (Hoe/Panga)
+A00302,Dairy Meal
+A00302,Veterinary Drugs
+A00303,CAN Fertilizer
+A00303,Herbicide
+A00303,Hybrid Maize Seed
+A00304,Pesticide
+A00305,Drip Kit
+A00305,Foliar Feed
+A00305,Fungicide
+A00305,Pesticide
+A00305,Vegetable Seeds
+A00306,DAP Fertilizer
+A00306,Fungicide
+A00306,Herbicide
+A00306,Potato Seed
+A00307,CAN Fertilizer
+A00307,Herbicide
+A00308,Wheelbarrow
+A00309,CAN Fertilizer
+A00309,Hybrid Maize Seed
+A00310,Dairy Meal
+A00310,Mineral Lick
+A00310,Veterinary Drugs
+A00311,Fungicide
+A00311,Pesticide
+A00311,Protective Gloves
+A00312,Protective Gloves
+A00312,Tools (Hoe/Panga)
+A00313,Fungicide
+A00313,Pesticide
+A00313,Potato Seed
+A00314,DAP Fertilizer
+A00314,Knapsack Sprayer
+A00314,Pesticide
+A00314,Protective Gloves
+A00315,CAN Fertilizer
+A00315,DAP Fertilizer
+A00315,Hybrid Maize Seed
+A00316,Pesticide
+A00317,Fungicide
+A00317,Knapsack Sprayer
+A00317,Pesticide
+A00317,Protective Gloves
+A00318,Tools (Hoe/Panga)
+A00319,CAN Fertilizer
+A00319,DAP Fertilizer
+A00319,Hybrid Maize Seed
+A00320,Drip Kit
+A00320,Vegetable Seeds
+A00321,Fungicide
+A00321,Pesticide
+A00321,Protective Gloves
+A00322,Acaricide
+A00322,Dairy Meal
+A00322,Mineral Lick
+A00322,Veterinary Drugs
+A00323,DAP Fertilizer
+A00323,Protective Gloves
+A00323,Tools (Hoe/Panga)
+A00324,Pesticide
+A00324,Protective Gloves
+A00325,Hybrid Maize Seed
+A00326,CAN Fertilizer
+A00326,DAP Fertilizer
+A00326,Herbicide
+A00327,Knapsack Sprayer
+A00327,Pesticide
+A00328,DAP Fertilizer
+A00328,Hybrid Maize Seed
+A00329,Foliar Feed
+A00329,Protective Gloves
+A00329,Vegetable Seeds
+A00330,Dairy Meal
+A00331,DAP Fertilizer
+A00331,Hybrid Maize Seed
+A00332,CAN Fertilizer
+A00332,DAP Fertilizer
+A00332,Hybrid Maize Seed
+A00333,Chick Starter
+A00333,Drinkers & Feeders
+A00333,Poultry Feed
+A00333,Protective Gloves
+A00333,Veterinary Drugs
+A00334,Tools (Hoe/Panga)
+A00334,Veterinary Drugs
+A00335,CAN Fertilizer
+A00335,DAP Fertilizer
+A00335,Herbicide
+A00335,Hybrid Maize Seed
+A00336,Acaricide
+A00336,Veterinary Drugs
+A00337,Foliar Feed
+A00337,Fungicide
+A00337,Pesticide
+A00337,Vegetable Seeds
+A00338,Dairy Meal
+A00338,Mineral Lick
+A00339,Pesticide
+A00339,Poultry Feed
+A00340,Herbicide
+A00340,Pesticide
+A00340,Protective Gloves
+A00341,Herbicide
+A00342,Chick Starter
+A00342,Herbicide
+A00342,Veterinary Drugs
+A00343,DAP Fertilizer
+A00343,Fungicide
+A00343,Pesticide
+A00344,Dairy Meal
+A00345,Dairy Meal
+A00346,CAN Fertilizer
+A00346,Herbicide
+A00347,DAP Fertilizer
+A00347,Hybrid Maize Seed
+A00348,Protective Gloves
+A00349,Chick Starter
+A00349,Drinkers & Feeders
+A00349,Poultry Feed
+A00350,Pesticide
+A00350,Protective Gloves
+A00351,Wheelbarrow
+A00352,Pesticide
+A00352,Vegetable Seeds
+A00353,Drinkers & Feeders
+A00353,Veterinary Drugs
+A00354,DAP Fertilizer
+A00354,Fungicide
+A00354,Pesticide
+A00354,Potato Seed
+A00355,Drinkers & Feeders
+A00355,Veterinary Drugs
+A00356,Tools (Hoe/Panga)
+A00357,Acaricide
+A00357,Dairy Meal
+A00358,Drinkers & Feeders
+A00358,Poultry Feed
+A00359,DAP Fertilizer
+A00360,Tools (Hoe/Panga)
+A00361,Drip Kit
+A00361,Foliar Feed
+A00361,Fungicide
+A00361,Pesticide
+A00361,Vegetable Seeds
+A00362,Herbicide
+A00363,Dairy Meal
+A00363,Mineral Lick
+A00364,Drinkers & Feeders
+A00364,Poultry Feed
+A00364,Veterinary Drugs
+A00365,Fungicide
+A00365,Pesticide
+A00366,Vegetable Seeds
+A00367,CAN Fertilizer
+A00367,DAP Fertilizer
+A00367,Herbicide
+A00367,Hybrid Maize Seed
+A00368,CAN Fertilizer
+A00368,DAP Fertilizer
+A00368,Hybrid Maize Seed
+A00369,CAN Fertilizer
+A00369,Herbicide
+A00370,DAP Fertilizer
+A00370,Fungicide
+A00370,Potato Seed
+A00371,Acaricide
+A00371,Dairy Meal
+A00371,Mineral Lick
+A00371,Veterinary Drugs
+A00372,DAP Fertilizer
+A00372,Hybrid Maize Seed
+A00373,CAN Fertilizer
+A00373,Herbicide
+A00373,Hybrid Maize Seed
+A00373,Pesticide
+A00373,Veterinary Drugs
+A00374,Tools (Hoe/Panga)
+A00375,Drip Kit
+A00375,Foliar Feed
+A00375,Pesticide
+A00375,Vegetable Seeds
+A00376,Drip Kit
+A00376,Foliar Feed
+A00376,Fungicide
+A00376,Vegetable Seeds
+A00377,Protective Gloves
+A00377,Tools (Hoe/Panga)
+A00378,CAN Fertilizer
+A00378,DAP Fertilizer
+A00378,Hybrid Maize Seed
+A00379,CAN Fertilizer
+A00379,DAP Fertilizer
+A00379,Hybrid Maize Seed
+A00380,Knapsack Sprayer
+A00380,Pesticide
+A00380,Protective Gloves
+A00381,DAP Fertilizer
+A00381,Potato Seed
+A00382,CAN Fertilizer
+A00382,Herbicide
+A00382,Veterinary Drugs
+A00383,Dairy Meal
+A00384,DAP Fertilizer
+A00384,Hybrid Maize Seed
+A00385,Acaricide
+A00385,Dairy Meal
+A00385,Mineral Lick
+A00386,Tools (Hoe/Panga)
+A00386,Wheelbarrow
+A00387,Fungicide
+A00387,Pesticide
+A00387,Protective Gloves
+A00388,Tools (Hoe/Panga)
+A00388,Wheelbarrow
+A00389,Drip Kit
+A00389,Fungicide
+A00389,Vegetable Seeds
+A00390,Acaricide
+A00390,Dairy Meal
+A00390,Veterinary Drugs
+A00391,Protective Gloves
+A00392,Potato Seed
+A00393,Tools (Hoe/Panga)
+A00394,Fungicide
+A00394,Knapsack Sprayer
+A00394,Pesticide
+A00394,Protective Gloves
+A00395,Poultry Feed
+A00396,CAN Fertilizer
+A00397,Protective Gloves
+A00397,Tools (Hoe/Panga)
+A00397,Water Pump
+A00398,DAP Fertilizer
+A00398,Herbicide
+A00398,Hybrid Maize Seed
+A00398,Veterinary Drugs
+A00399,DAP Fertilizer
+A00399,Fungicide
+A00399,Potato Seed
+A00399,Veterinary Drugs
+A00400,CAN Fertilizer
+A00400,DAP Fertilizer
+A00401,CAN Fertilizer
+A00401,DAP Fertilizer
+A00401,Hybrid Maize Seed
+A00402,CAN Fertilizer
+A00402,Herbicide
+A00403,Foliar Feed
+A00403,Vegetable Seeds
+A00404,Tools (Hoe/Panga)
+A00405,Vegetable Seeds
+A00406,CAN Fertilizer
+A00406,Herbicide
+A00407,Dairy Meal
+A00408,Foliar Feed
+A00408,Fungicide
+A00408,Pesticide
+A00409,Pesticide
+A00409,Protective Gloves
+A00410,CAN Fertilizer
+A00410,Herbicide
+A00410,Hybrid Maize Seed
+A00411,CAN Fertilizer
+A00411,Herbicide
+A00412,Herbicide
+A00412,Pesticide
+A00412,Protective Gloves
+A00413,CAN Fertilizer
+A00413,Hybrid Maize Seed
+A00414,CAN Fertilizer
+A00414,DAP Fertilizer
+A00414,Hybrid Maize Seed
+A00415,Knapsack Sprayer
+A00415,Pesticide
+A00416,CAN Fertilizer
+A00416,DAP Fertilizer
+A00416,Hybrid Maize Seed
+A00417,Chick Starter
+A00417,Poultry Feed
+A00418,DAP Fertilizer
+A00418,Pesticide
+A00419,Fungicide
+A00419,Knapsack Sprayer
+A00419,Pesticide
+A00419,Protective Gloves
+A00420,Pesticide
+A00420,Potato Seed
+A00421,Tools (Hoe/Panga)
+A00422,Pesticide
+A00422,Potato Seed
+A00423,CAN Fertilizer
+A00423,DAP Fertilizer
+A00423,Hybrid Maize Seed
+A00424,CAN Fertilizer
+A00424,DAP Fertilizer
+A00424,Hybrid Maize Seed
+A00425,CAN Fertilizer
+A00426,Foliar Feed
+A00426,Fungicide
+A00426,Vegetable Seeds
+A00427,Protective Gloves
+A00427,Wheelbarrow
+A00428,Fungicide
+A00428,Pesticide
+A00429,Drip Kit
+A00429,Vegetable Seeds
+A00430,CAN Fertilizer
+A00430,Herbicide
+A00431,Pesticide
+A00431,Protective Gloves
+A00432,DAP Fertilizer
+A00433,CAN Fertilizer
+A00434,CAN Fertilizer
+A00434,DAP Fertilizer
+A00434,Hybrid Maize Seed
+A00435,CAN Fertilizer
+A00435,Hybrid Maize Seed
+A00436,Dairy Meal
+A00436,Veterinary Drugs
+A00437,Dairy Meal
+A00437,Mineral Lick
+A00437,Veterinary Drugs
+A00438,CAN Fertilizer
+A00438,Herbicide
+A00439,DAP Fertilizer
+A00439,Hybrid Maize Seed
+A00440,DAP Fertilizer
+A00440,Fungicide
+A00440,Potato Seed
+A00441,CAN Fertilizer
+A00441,DAP Fertilizer
+A00441,Hybrid Maize Seed
+A00441,Tools (Hoe/Panga)
+A00442,DAP Fertilizer
+A00442,Potato Seed
+A00443,Dairy Meal
+A00443,Veterinary Drugs
+A00444,CAN Fertilizer
+A00444,DAP Fertilizer
+A00445,Acaricide
+A00445,Dairy Meal
+A00445,Mineral Lick
+A00446,CAN Fertilizer
+A00446,Hybrid Maize Seed
+A00447,Tools (Hoe/Panga)
+A00448,Dairy Meal
+A00448,Veterinary Drugs
+A00449,Vegetable Seeds
+A00450,CAN Fertilizer
+A00451,Hybrid Maize Seed
+A00452,Tools (Hoe/Panga)
+A00452,Water Pump
+A00453,CAN Fertilizer
+A00453,DAP Fertilizer
+A00453,Hybrid Maize Seed
+A00454,Knapsack Sprayer
+A00454,Pesticide
+A00454,Protective Gloves
+A00455,CAN Fertilizer
+A00455,Hybrid Maize Seed
+A00456,DAP Fertilizer
+A00456,Fungicide
+A00456,Pesticide
+A00456,Potato Seed
+A00456,Protective Gloves
+A00456,Tools (Hoe/Panga)
+A00457,Drip Kit
+A00457,Vegetable Seeds
+A00458,Poultry Feed
+A00459,DAP Fertilizer
+A00459,Fungicide
+A00459,Potato Seed
+A00460,CAN Fertilizer
+A00460,Herbicide
+A00461,CAN Fertilizer
+A00461,DAP Fertilizer
+A00461,Hybrid Maize Seed
+A00462,Protective Gloves
+A00462,Tools (Hoe/Panga)
+A00463,DAP Fertilizer
+A00463,Hybrid Maize Seed
+A00464,Acaricide
+A00464,Dairy Meal
+A00464,Mineral Lick
+A00465,CAN Fertilizer
+A00465,DAP Fertilizer
+A00465,Hybrid Maize Seed
+A00466,Fungicide
+A00466,Knapsack Sprayer
+A00466,Pesticide
+A00466,Protective Gloves
+A00467,DAP Fertilizer
+A00467,Fungicide
+A00468,DAP Fertilizer
+A00468,Fungicide
+A00468,Pesticide
+A00468,Potato Seed
+A00469,Hybrid Maize Seed
+A00470,Tools (Hoe/Panga)
+A00471,DAP Fertilizer
+A00471,Potato Seed
+A00472,CAN Fertilizer
+A00472,DAP Fertilizer
+A00472,Hybrid Maize Seed
+A00472,Vegetable Seeds
+A00473,CAN Fertilizer
+A00473,Herbicide
+A00474,DAP Fertilizer
+A00474,Herbicide
+A00474,Hybrid Maize Seed
+A00475,Foliar Feed
+A00475,Fungicide
+A00475,Pesticide
+A00475,Vegetable Seeds
+A00476,Fungicide
+A00476,Vegetable Seeds
+A00477,DAP Fertilizer
+A00477,Hybrid Maize Seed
+A00477,Tools (Hoe/Panga)
+A00478,DAP Fertilizer
+A00478,Drinkers & Feeders
+A00478,Poultry Feed
+A00479,Pesticide
+A00479,Vegetable Seeds
+A00480,Dairy Meal
+A00480,Mineral Lick
+A00481,Foliar Feed
+A00481,Fungicide
+A00482,DAP Fertilizer
+A00482,Fungicide
+A00482,Potato Seed
+A00482,Protective Gloves
+A00483,DAP Fertilizer
+A00483,Fungicide
+A00483,Potato Seed
+A00484,Chick Starter
+A00484,Drinkers & Feeders
+A00484,Poultry Feed
+A00484,Veterinary Drugs
+A00485,Fungicide
+A00485,Knapsack Sprayer
+A00485,Pesticide
+A00485,Protective Gloves
+A00486,CAN Fertilizer
+A00486,DAP Fertilizer
+A00486,Hybrid Maize Seed
+A00487,Potato Seed
+A00488,DAP Fertilizer
+A00488,Hybrid Maize Seed
+A00488,Protective Gloves
+A00488,Vegetable Seeds
+A00489,Hybrid Maize Seed
+A00490,CAN Fertilizer
+A00490,DAP Fertilizer
+A00490,Herbicide
+A00490,Hybrid Maize Seed
+A00491,Acaricide
+A00491,Dairy Meal
+A00491,Mineral Lick
+A00492,Chick Starter
+A00492,Drinkers & Feeders
+A00492,Poultry Feed
+A00492,Veterinary Drugs
+A00493,Fungicide
+A00493,Pesticide
+A00494,Acaricide
+A00494,Dairy Meal
+A00494,Mineral Lick
+A00495,Acaricide
+A00495,Dairy Meal
+A00495,Mineral Lick
+A00496,CAN Fertilizer
+A00496,DAP Fertilizer
+A00496,Hybrid Maize Seed
+A00497,Acaricide
+A00497,Dairy Meal
+A00497,Mineral Lick
+A00497,Veterinary Drugs
+A00498,DAP Fertilizer
+A00498,Fungicide
+A00498,Potato Seed
+A00499,Dairy Meal
+A00499,Vegetable Seeds
+A00500,CAN Fertilizer
+A00500,DAP Fertilizer
+A00500,Hybrid Maize Seed
+A00501,CAN Fertilizer
+A00501,DAP Fertilizer
+A00501,Herbicide
+A00501,Hybrid Maize Seed
+A00502,DAP Fertilizer
+A00502,Fungicide
+A00502,Potato Seed
+A00503,CAN Fertilizer
+A00503,DAP Fertilizer
+A00503,Herbicide
+A00503,Hybrid Maize Seed
+A00504,Tools (Hoe/Panga)
+A00504,Water Pump
+A00504,Wheelbarrow
+A00505,Foliar Feed
+A00505,Vegetable Seeds
+A00506,Vegetable Seeds
+A00507,DAP Fertilizer
+A00507,Fungicide
+A00507,Potato Seed
+A00508,DAP Fertilizer
+A00508,Hybrid Maize Seed
+A00509,Fungicide
+A00509,Knapsack Sprayer
+A00509,Pesticide
+A00510,Acaricide
+A00510,Dairy Meal
+A00511,Drip Kit
+A00511,Foliar Feed
+A00511,Vegetable Seeds
+A00512,Drinkers & Feeders
+A00512,Poultry Feed
+A00513,DAP Fertilizer
+A00513,Fungicide
+A00513,Pesticide
+A00513,Potato Seed
+A00514,Protective Gloves
+A00515,CAN Fertilizer
+A00516,Poultry Feed
+A00516,Protective Gloves
+A00516,Veterinary Drugs
+A00517,Acaricide
+A00517,Dairy Meal
+A00517,Mineral Lick
+A00517,Veterinary Drugs
+A00518,Drip Kit
+A00518,Foliar Feed
+A00518,Vegetable Seeds
+A00519,Herbicide
+A00520,CAN Fertilizer
+A00521,Tools (Hoe/Panga)
+A00522,CAN Fertilizer
+A00522,Herbicide
+A00522,Hybrid Maize Seed
+A00523,DAP Fertilizer
+A00524,Fungicide
+A00524,Knapsack Sprayer
+A00524,Pesticide
+A00525,DAP Fertilizer
+A00526,Poultry Feed
+A00526,Tools (Hoe/Panga)
+A00527,Chick Starter
+A00527,Drinkers & Feeders
+A00527,Poultry Feed
+A00528,Acaricide
+A00528,Dairy Meal
+A00528,Mineral Lick
+A00529,Foliar Feed
+A00530,Poultry Feed
+A00531,Acaricide
+A00531,Dairy Meal
+A00531,Mineral Lick
+A00531,Veterinary Drugs
+A00532,CAN Fertilizer
+A00533,Drip Kit
+A00533,Foliar Feed
+A00533,Fungicide
+A00533,Vegetable Seeds
+A00534,Dairy Meal
+A00534,Veterinary Drugs
+A00535,CAN Fertilizer
+A00535,Hybrid Maize Seed
+A00535,Veterinary Drugs
+A00536,Drip Kit
+A00536,Fungicide
+A00536,Pesticide
+A00536,Vegetable Seeds
+A00537,CAN Fertilizer
+A00537,Hybrid Maize Seed
+A00538,Fungicide
+A00538,Pesticide
+A00538,Protective Gloves
+A00539,Tools (Hoe/Panga)
+A00540,Dairy Meal
+A00540,Drinkers & Feeders
+A00540,Poultry Feed
+A00540,Veterinary Drugs
+A00541,DAP Fertilizer
+A00541,Hybrid Maize Seed
+A00541,Vegetable Seeds
+A00542,Fungicide
+A00542,Pesticide
+A00542,Potato Seed
+A00543,Foliar Feed
+A00543,Pesticide
+A00544,Pesticide
+A00545,Drip Kit
+A00545,Foliar Feed
+A00545,Fungicide
+A00546,Tools (Hoe/Panga)
+A00547,Knapsack Sprayer
+A00548,Drip Kit
+A00548,Fungicide
+A00548,Pesticide
+A00548,Vegetable Seeds
+A00549,Knapsack Sprayer
+A00549,Pesticide
+A00549,Protective Gloves
+A00550,Protective Gloves
+A00550,Tools (Hoe/Panga)
+A00551,Drip Kit
+A00551,Fungicide
+A00551,Pesticide
+A00551,Vegetable Seeds
+A00552,Fungicide
+A00552,Knapsack Sprayer
+A00552,Pesticide
+A00552,Protective Gloves
+A00553,Dairy Meal
+A00553,Mineral Lick
+A00553,Protective Gloves
+A00554,DAP Fertilizer
+A00554,Drinkers & Feeders
+A00554,Poultry Feed
+A00555,DAP Fertilizer
+A00555,Hybrid Maize Seed
+A00556,Fungicide
+A00556,Vegetable Seeds
+A00557,DAP Fertilizer
+A00557,Fungicide
+A00557,Pesticide
+A00557,Potato Seed
+A00557,Veterinary Drugs
+A00558,DAP Fertilizer
+A00558,Pesticide
+A00558,Potato Seed
+A00559,Fungicide
+A00559,Pesticide
+A00559,Potato Seed
+A00560,Foliar Feed
+A00560,Fungicide
+A00560,Herbicide
+A00560,Vegetable Seeds
+A00561,Chick Starter
+A00561,Drinkers & Feeders
+A00561,Herbicide
+A00561,Poultry Feed
+A00561,Veterinary Drugs
+A00562,Acaricide
+A00562,Veterinary Drugs
+A00563,Tools (Hoe/Panga)
+A00564,Chick Starter
+A00564,Poultry Feed
+A00564,Veterinary Drugs
+A00565,CAN Fertilizer
+A00565,DAP Fertilizer
+A00565,Hybrid Maize Seed
+A00566,Dairy Meal
+A00566,Mineral Lick
+A00566,Pesticide
+A00566,Veterinary Drugs
+A00567,DAP Fertilizer
+A00567,Hybrid Maize Seed
+A00568,Drip Kit
+A00568,Foliar Feed
+A00568,Pesticide
+A00568,Vegetable Seeds
+A00569,Dairy Meal
+A00569,Foliar Feed
+A00569,Vegetable Seeds
+A00570,DAP Fertilizer
+A00570,Potato Seed
+A00571,Fungicide
+A00571,Pesticide
+A00571,Potato Seed
+A00572,CAN Fertilizer
+A00572,DAP Fertilizer
+A00572,Herbicide
+A00572,Hybrid Maize Seed
+A00573,Tools (Hoe/Panga)
+A00574,CAN Fertilizer
+A00574,DAP Fertilizer
+A00574,Hybrid Maize Seed
+A00575,Fungicide
+A00575,Knapsack Sprayer
+A00575,Pesticide
+A00576,Tools (Hoe/Panga)
+A00577,Hybrid Maize Seed
+A00578,Dairy Meal
+A00579,Knapsack Sprayer
+A00579,Pesticide
+A00579,Protective Gloves
+A00580,Hybrid Maize Seed
+A00581,Herbicide
+A00582,Tools (Hoe/Panga)
+A00582,Wheelbarrow
+A00583,Veterinary Drugs
+A00584,Fungicide
+A00584,Potato Seed
+A00585,DAP Fertilizer
+A00585,Fungicide
+A00585,Pesticide
+A00586,Acaricide
+A00586,Dairy Meal
+A00586,Mineral Lick
+A00587,Vegetable Seeds
+A00588,Acaricide
+A00589,DAP Fertilizer
+A00589,Fungicide
+A00589,Pesticide
+A00589,Potato Seed
+A00590,Dairy Meal
+A00590,Fungicide
+A00590,Herbicide
+A00590,Pesticide
+A00591,DAP Fertilizer
+A00591,Fungicide
+A00591,Potato Seed
+A00592,DAP Fertilizer
+A00592,Pesticide
+A00592,Potato Seed
+A00593,CAN Fertilizer
+A00594,Acaricide
+A00594,Dairy Meal
+A00595,CAN Fertilizer
+A00595,Herbicide
+A00595,Hybrid Maize Seed
+A00596,Fungicide
+A00596,Potato Seed
+A00597,CAN Fertilizer
+A00597,DAP Fertilizer
+A00597,Hybrid Maize Seed
+A00598,CAN Fertilizer
+A00598,Herbicide
+A00598,Protective Gloves
+A00599,Fungicide
+A00599,Protective Gloves
+A00600,Poultry Feed
+A00600,Veterinary Drugs
+A00601,CAN Fertilizer
+A00601,DAP Fertilizer
+A00601,Hybrid Maize Seed
+A00602,DAP Fertilizer
+A00602,Hybrid Maize Seed
+A00603,Drinkers & Feeders
+A00603,Poultry Feed
+A00604,DAP Fertilizer
+A00604,Hybrid Maize Seed
+A00605,Knapsack Sprayer
+A00605,Pesticide
+A00606,DAP Fertilizer
+A00606,Hybrid Maize Seed
+A00607,Acaricide
+A00607,Dairy Meal
+A00607,Mineral Lick
+A00607,Veterinary Drugs
+A00608,Acaricide
+A00608,Dairy Meal
+A00608,Mineral Lick
+A00608,Veterinary Drugs
+A00609,Potato Seed
+A00609,Veterinary Drugs
+A00610,Dairy Meal
+A00610,Mineral Lick
+A00610,Veterinary Drugs
+A00611,Poultry Feed
+A00612,Fungicide
+A00612,Knapsack Sprayer
+A00612,Pesticide
+A00612,Protective Gloves
+A00613,CAN Fertilizer
+A00613,DAP Fertilizer
+A00613,Herbicide
+A00613,Hybrid Maize Seed
+A00614,DAP Fertilizer
+A00614,Hybrid Maize Seed
+A00615,CAN Fertilizer
+A00615,Herbicide
+A00616,Acaricide
+A00616,Dairy Meal
+A00616,Mineral Lick
+A00617,Pesticide
+A00617,Potato Seed
+A00618,Dairy Meal
+A00618,Mineral Lick
+A00619,DAP Fertilizer
+A00620,DAP Fertilizer
+A00620,Hybrid Maize Seed
+A00621,Water Pump
+A00621,Wheelbarrow
+A00622,Tools (Hoe/Panga)
+A00623,Foliar Feed
+A00623,Pesticide
+A00623,Vegetable Seeds
+A00624,DAP Fertilizer
+A00624,Fungicide
+A00624,Potato Seed
+A00625,DAP Fertilizer
+A00625,Hybrid Maize Seed
+A00626,Foliar Feed
+A00626,Fungicide
+A00627,Hybrid Maize Seed
+A00628,CAN Fertilizer
+A00628,DAP Fertilizer
+A00629,CAN Fertilizer
+A00629,Veterinary Drugs
+A00630,Hybrid Maize Seed
+A00631,Tools (Hoe/Panga)
+A00632,CAN Fertilizer
+A00632,DAP Fertilizer
+A00632,Hybrid Maize Seed
+A00633,Fungicide
+A00633,Knapsack Sprayer
+A00633,Pesticide
+A00634,CAN Fertilizer
+A00634,Dairy Meal
+A00634,Hybrid Maize Seed
+A00635,DAP Fertilizer
+A00635,Pesticide
+A00635,Potato Seed
+A00636,DAP Fertilizer
+A00636,Herbicide
+A00637,Fungicide
+A00637,Potato Seed
+A00638,Dairy Meal
+A00639,Chick Starter
+A00639,Poultry Feed
+A00640,Dairy Meal
+A00640,Mineral Lick
+A00640,Veterinary Drugs
+A00641,Foliar Feed
+A00641,Fungicide
+A00641,Vegetable Seeds
+A00642,Drinkers & Feeders
+A00642,Poultry Feed
+A00643,DAP Fertilizer
+A00643,Hybrid Maize Seed
+A00644,CAN Fertilizer
+A00644,DAP Fertilizer
+A00644,Hybrid Maize Seed
+A00645,DAP Fertilizer
+A00645,Fungicide
+A00645,Potato Seed
+A00646,Protective Gloves
+A00646,Tools (Hoe/Panga)
+A00647,Foliar Feed
+A00647,Vegetable Seeds
+A00648,CAN Fertilizer
+A00648,DAP Fertilizer
+A00648,Hybrid Maize Seed
+A00649,CAN Fertilizer
+A00649,DAP Fertilizer
+A00649,Herbicide
+A00649,Hybrid Maize Seed
+A00650,Fungicide
+A00650,Vegetable Seeds
+A00651,Dairy Meal
+A00651,Mineral Lick
+A00651,Veterinary Drugs
+A00652,Fungicide
+A00652,Pesticide
+A00653,CAN Fertilizer
+A00653,DAP Fertilizer
+A00653,Hybrid Maize Seed
+A00654,CAN Fertilizer
+A00654,Herbicide
+A00655,Chick Starter
+A00655,Poultry Feed
+A00656,CAN Fertilizer
+A00656,Herbicide
+A00657,Dairy Meal
+A00658,Fungicide
+A00658,Knapsack Sprayer
+A00658,Pesticide
+A00658,Protective Gloves
+A00659,CAN Fertilizer
+A00659,DAP Fertilizer
+A00659,Hybrid Maize Seed
+A00660,Fungicide
+A00660,Pesticide
+A00661,Tools (Hoe/Panga)
+A00661,Water Pump
+A00662,Drip Kit
+A00662,Foliar Feed
+A00662,Vegetable Seeds
+A00663,Acaricide
+A00663,Dairy Meal
+A00663,Mineral Lick
+A00663,Veterinary Drugs
+A00664,Dairy Meal
+A00664,Mineral Lick
+A00664,Veterinary Drugs
+A00665,Chick Starter
+A00665,Poultry Feed
+A00665,Veterinary Drugs
+A00666,Tools (Hoe/Panga)
+A00667,Chick Starter
+A00667,Poultry Feed
+A00667,Protective Gloves
+A00667,Veterinary Drugs
+A00668,Knapsack Sprayer
+A00669,Chick Starter
+A00669,Pesticide
+A00669,Poultry Feed
+A00670,Fungicide
+A00670,Potato Seed
+A00670,Vegetable Seeds
+A00671,CAN Fertilizer
+A00672,Pesticide
+A00673,Protective Gloves
+A00673,Tools (Hoe/Panga)
+A00673,Wheelbarrow
+A00674,Vegetable Seeds
+A00675,Acaricide
+A00675,Dairy Meal
+A00675,Veterinary Drugs
+A00676,Fungicide
+A00676,Pesticide
+A00676,Protective Gloves
+A00677,Tools (Hoe/Panga)
+A00678,Dairy Meal
+A00678,Veterinary Drugs
+A00679,CAN Fertilizer
+A00679,DAP Fertilizer
+A00679,Hybrid Maize Seed
+A00680,CAN Fertilizer
+A00680,Herbicide
+A00680,Hybrid Maize Seed
+A00680,Veterinary Drugs
+A00681,Dairy Meal
+A00681,Mineral Lick
+A00682,Herbicide
+A00683,Drip Kit
+A00683,Vegetable Seeds
+A00684,Fungicide
+A00684,Vegetable Seeds
+A00685,DAP Fertilizer
+A00685,Fungicide
+A00685,Pesticide
+A00686,Knapsack Sprayer
+A00686,Pesticide
+A00687,Dairy Meal
+A00687,Mineral Lick
+A00688,Herbicide
+A00689,Acaricide
+A00689,Dairy Meal
+A00690,Drinkers & Feeders
+A00690,Poultry Feed
+A00690,Veterinary Drugs
+A00691,DAP Fertilizer
+A00691,Hybrid Maize Seed
+A00692,DAP Fertilizer
+A00692,Hybrid Maize Seed
+A00693,CAN Fertilizer
+A00693,Hybrid Maize Seed
+A00694,Knapsack Sprayer
+A00694,Pesticide
+A00694,Protective Gloves
+A00695,Tools (Hoe/Panga)
+A00696,CAN Fertilizer
+A00696,DAP Fertilizer
+A00696,Hybrid Maize Seed
+A00697,Dairy Meal
+A00697,Fungicide
+A00697,Potato Seed
+A00698,Acaricide
+A00698,Mineral Lick
+A00698,Veterinary Drugs
+A00699,CAN Fertilizer
+A00700,Dairy Meal
+A00700,Veterinary Drugs
+A00701,Fungicide
+A00701,Vegetable Seeds
+A00702,DAP Fertilizer
+A00702,Fungicide
+A00702,Potato Seed
+A00703,Acaricide
+A00703,Dairy Meal
+A00703,Mineral Lick
+A00703,Veterinary Drugs
+A00704,CAN Fertilizer
+A00704,DAP Fertilizer
+A00704,Hybrid Maize Seed
+A00705,Poultry Feed
+A00705,Veterinary Drugs
+A00706,Acaricide
+A00706,Mineral Lick
+A00706,Veterinary Drugs
+A00707,Tools (Hoe/Panga)
+A00707,Wheelbarrow
+A00708,Dairy Meal
+A00708,Mineral Lick
+A00708,Veterinary Drugs
+A00709,Fungicide
+A00709,Knapsack Sprayer
+A00709,Pesticide
+A00709,Protective Gloves
+A00710,DAP Fertilizer
+A00711,Fungicide
+A00711,Potato Seed
+A00711,Tools (Hoe/Panga)
+A00712,CAN Fertilizer
+A00712,Herbicide
+A00712,Hybrid Maize Seed
+A00713,CAN Fertilizer
+A00713,DAP Fertilizer
+A00713,Dairy Meal
+A00713,Herbicide
+A00713,Hybrid Maize Seed
+A00714,Knapsack Sprayer
+A00714,Pesticide
+A00714,Protective Gloves
+A00715,Knapsack Sprayer
+A00715,Pesticide
+A00715,Protective Gloves
+A00716,Fungicide
+A00716,Pesticide
+A00716,Protective Gloves
+A00717,Vegetable Seeds
+A00718,CAN Fertilizer
+A00718,DAP Fertilizer
+A00718,Hybrid Maize Seed
+A00718,Protective Gloves
+A00719,Acaricide
+A00719,Dairy Meal
+A00720,Fungicide
+A00720,Knapsack Sprayer
+A00720,Pesticide
+A00720,Protective Gloves
+A00721,Fungicide
+A00721,Knapsack Sprayer
+A00721,Pesticide
+A00721,Protective Gloves
+A00722,Poultry Feed
+A00723,DAP Fertilizer
+A00723,Fungicide
+A00723,Potato Seed
+A00724,Drip Kit
+A00724,Fungicide
+A00724,Pesticide
+A00724,Vegetable Seeds
+A00725,Fungicide
+A00725,Pesticide
+A00725,Protective Gloves
+A00726,CAN Fertilizer
+A00726,Herbicide
+A00726,Hybrid Maize Seed
+A00726,Protective Gloves
+A00727,CAN Fertilizer
+A00727,DAP Fertilizer
+A00727,Hybrid Maize Seed
+A00728,CAN Fertilizer
+A00728,Herbicide
+A00729,CAN Fertilizer
+A00729,Protective Gloves
+A00730,Fungicide
+A00730,Pesticide
+A00730,Protective Gloves
+A00731,Protective Gloves
+A00732,Poultry Feed
+A00733,Acaricide
+A00733,Dairy Meal
+A00734,CAN Fertilizer
+A00734,DAP Fertilizer
+A00734,Hybrid Maize Seed
+A00735,Chick Starter
+A00736,Pesticide
+A00736,Protective Gloves
+A00737,CAN Fertilizer
+A00737,Herbicide
+A00738,Pesticide
+A00739,Knapsack Sprayer
+A00739,Pesticide
+A00740,Knapsack Sprayer
+A00740,Pesticide
+A00741,Dairy Meal
+A00741,Veterinary Drugs
+A00742,CAN Fertilizer
+A00742,Herbicide
+A00743,DAP Fertilizer
+A00744,Dairy Meal
+A00745,CAN Fertilizer
+A00745,DAP Fertilizer
+A00745,Hybrid Maize Seed
+A00746,Drip Kit
+A00746,Fungicide
+A00746,Vegetable Seeds
+A00747,CAN Fertilizer
+A00747,Herbicide
+A00748,Fungicide
+A00748,Knapsack Sprayer
+A00748,Pesticide
+A00748,Protective Gloves
+A00749,Pesticide
+A00749,Protective Gloves
+A00750,DAP Fertilizer
+A00750,Pesticide
+A00751,DAP Fertilizer
+A00751,Hybrid Maize Seed
+A00752,Fungicide
+A00752,Pesticide
+A00752,Tools (Hoe/Panga)
+A00752,Veterinary Drugs
+A00753,Pesticide
+A00753,Potato Seed
+A00754,DAP Fertilizer
+A00754,Fungicide
+A00754,Pesticide
+A00754,Potato Seed
+A00755,CAN Fertilizer
+A00755,DAP Fertilizer
+A00755,Herbicide
+A00755,Hybrid Maize Seed
+A00756,Foliar Feed
+A00756,Fungicide
+A00756,Vegetable Seeds
+A00757,Knapsack Sprayer
+A00757,Pesticide
+A00757,Protective Gloves
+A00758,Pesticide
+A00758,Poultry Feed
+A00759,CAN Fertilizer
+A00759,DAP Fertilizer
+A00759,Hybrid Maize Seed
+A00760,Drip Kit
+A00760,Vegetable Seeds
+A00761,Knapsack Sprayer
+A00761,Pesticide
+A00761,Protective Gloves
+A00762,Fungicide
+A00762,Vegetable Seeds
+A00763,Fungicide
+A00763,Pesticide
+A00763,Protective Gloves
+A00764,CAN Fertilizer
+A00764,Herbicide
+A00764,Hybrid Maize Seed
+A00765,CAN Fertilizer
+A00765,DAP Fertilizer
+A00765,Hybrid Maize Seed
+A00765,Tools (Hoe/Panga)
+A00766,Dairy Meal
+A00766,Mineral Lick
+A00766,Veterinary Drugs
+A00767,Acaricide
+A00767,Dairy Meal
+A00767,Mineral Lick
+A00768,Drip Kit
+A00768,Foliar Feed
+A00768,Fungicide
+A00768,Vegetable Seeds
+A00769,Fungicide
+A00769,Potato Seed
+A00770,CAN Fertilizer
+A00771,Drip Kit
+A00771,Pesticide
+A00771,Vegetable Seeds
+A00772,Drip Kit
+A00772,Foliar Feed
+A00772,Pesticide
+A00773,Tools (Hoe/Panga)
+A00774,Dairy Meal
+A00774,Mineral Lick
+A00774,Veterinary Drugs
+A00775,Fungicide
+A00775,Pesticide
+A00775,Protective Gloves
+A00776,CAN Fertilizer
+A00776,DAP Fertilizer
+A00776,Hybrid Maize Seed
+A00776,Pesticide
+A00777,Poultry Feed
+A00777,Veterinary Drugs
+A00778,Herbicide
+A00779,Veterinary Drugs
+A00780,Fungicide
+A00780,Knapsack Sprayer
+A00780,Pesticide
+A00781,CAN Fertilizer
+A00781,Hybrid Maize Seed
+A00781,Protective Gloves
+A00781,Tools (Hoe/Panga)
+A00782,Tools (Hoe/Panga)
+A00783,Fungicide
+A00783,Knapsack Sprayer
+A00783,Pesticide
+A00783,Protective Gloves
+A00784,Veterinary Drugs
+A00785,Chick Starter
+A00785,Poultry Feed
+A00786,Veterinary Drugs
+A00787,DAP Fertilizer
+A00787,Hybrid Maize Seed
+A00788,Drip Kit
+A00788,Fungicide
+A00788,Pesticide
+A00788,Vegetable Seeds
+A00789,Dairy Meal
+A00789,Mineral Lick
+A00790,Chick Starter
+A00790,Poultry Feed
+A00790,Veterinary Drugs
+A00791,DAP Fertilizer
+A00791,Hybrid Maize Seed
+A00792,Protective Gloves
+A00792,Tools (Hoe/Panga)
+A00792,Wheelbarrow
+A00793,Tools (Hoe/Panga)
+A00794,DAP Fertilizer
+A00794,Herbicide
+A00794,Hybrid Maize Seed
+A00795,Acaricide
+A00795,Dairy Meal
+A00795,Mineral Lick
+A00795,Veterinary Drugs
+A00796,Fungicide
+A00796,Vegetable Seeds
+A00797,Knapsack Sprayer
+A00797,Pesticide
+A00798,Protective Gloves
+A00799,DAP Fertilizer
+A00799,Hybrid Maize Seed
+A00800,CAN Fertilizer
+A00801,Protective Gloves
+A00801,Tools (Hoe/Panga)
+A00801,Wheelbarrow
+A00802,CAN Fertilizer
+A00802,DAP Fertilizer
+A00802,Hybrid Maize Seed
+A00803,Fungicide
+A00803,Knapsack Sprayer
+A00803,Pesticide
+A00803,Protective Gloves
+A00804,Vegetable Seeds
+A00805,DAP Fertilizer
+A00805,Herbicide
+A00806,Fungicide
+A00806,Vegetable Seeds
+A00807,CAN Fertilizer
+A00807,Herbicide
+A00807,Hybrid Maize Seed
+A00808,Pesticide
+A00809,CAN Fertilizer
+A00809,Herbicide
+A00809,Tools (Hoe/Panga)
+A00810,CAN Fertilizer
+A00810,DAP Fertilizer
+A00810,Hybrid Maize Seed
+A00810,Veterinary Drugs
+A00811,Tools (Hoe/Panga)
+A00811,Wheelbarrow
+A00812,Foliar Feed
+A00812,Vegetable Seeds
+A00813,DAP Fertilizer
+A00813,Potato Seed
+A00814,Protective Gloves
+A00814,Tools (Hoe/Panga)
+A00815,Fungicide
+A00815,Pesticide
+A00816,CAN Fertilizer
+A00816,DAP Fertilizer
+A00816,Hybrid Maize Seed
+A00816,Vegetable Seeds
+A00817,DAP Fertilizer
+A00817,Dairy Meal
+A00817,Fungicide
+A00817,Potato Seed
+A00818,Dairy Meal
+A00819,CAN Fertilizer
+A00819,Hybrid Maize Seed
+A00820,Drip Kit
+A00820,Vegetable Seeds
+A00821,Protective Gloves
+A00822,CAN Fertilizer
+A00822,DAP Fertilizer
+A00823,DAP Fertilizer
+A00823,Hybrid Maize Seed
+A00824,DAP Fertilizer
+A00824,Fungicide
+A00824,Potato Seed
+A00825,Chick Starter
+A00826,Chick Starter
+A00826,Poultry Feed
+A00827,DAP Fertilizer
+A00827,Hybrid Maize Seed
+A00828,CAN Fertilizer
+A00828,DAP Fertilizer
+A00828,Hybrid Maize Seed
+A00829,DAP Fertilizer
+A00829,Herbicide
+A00829,Hybrid Maize Seed
+A00829,Protective Gloves
+A00830,Dairy Meal
+A00831,DAP Fertilizer
+A00831,Hybrid Maize Seed
+A00831,Vegetable Seeds
+A00832,CAN Fertilizer
+A00832,Hybrid Maize Seed
+A00832,Protective Gloves
+A00833,Dairy Meal
+A00834,Fungicide
+A00834,Knapsack Sprayer
+A00834,Pesticide
+A00834,Protective Gloves
+A00835,Tools (Hoe/Panga)
+A00836,Protective Gloves
+A00836,Wheelbarrow
+A00837,Acaricide
+A00837,DAP Fertilizer
+A00837,Mineral Lick
+A00837,Veterinary Drugs
+A00838,DAP Fertilizer
+A00838,Herbicide
+A00838,Hybrid Maize Seed
+A00839,Fungicide
+A00839,Knapsack Sprayer
+A00839,Pesticide
+A00839,Protective Gloves
+A00840,Pesticide
+A00840,Vegetable Seeds
+A00841,CAN Fertilizer
+A00841,DAP Fertilizer
+A00841,Hybrid Maize Seed
+A00842,CAN Fertilizer
+A00842,DAP Fertilizer
+A00842,Hybrid Maize Seed
+A00843,Chick Starter
+A00843,Drinkers & Feeders
+A00843,Poultry Feed
+A00844,CAN Fertilizer
+A00844,DAP Fertilizer
+A00845,CAN Fertilizer
+A00845,DAP Fertilizer
+A00845,Herbicide
+A00845,Hybrid Maize Seed
+A00846,DAP Fertilizer
+A00846,Fungicide
+A00846,Potato Seed
+A00847,Dairy Meal
+A00847,Drinkers & Feeders
+A00847,Poultry Feed
+A00848,CAN Fertilizer
+A00848,Herbicide
+A00848,Hybrid Maize Seed
+A00849,DAP Fertilizer
+A00849,Fungicide
+A00849,Pesticide
+A00849,Potato Seed
+A00850,CAN Fertilizer
+A00850,Hybrid Maize Seed
+A00850,Veterinary Drugs
+A00851,Foliar Feed
+A00851,Fungicide
+A00851,Pesticide
+A00851,Vegetable Seeds
+A00852,Tools (Hoe/Panga)
+A00853,Chick Starter
+A00853,Poultry Feed
+A00853,Veterinary Drugs
+A00854,Poultry Feed
+A00854,Tools (Hoe/Panga)
+A00855,CAN Fertilizer
+A00855,DAP Fertilizer
+A00855,Herbicide
+A00855,Hybrid Maize Seed
+A00856,DAP Fertilizer
+A00857,CAN Fertilizer
+A00857,DAP Fertilizer
+A00857,Herbicide
+A00857,Hybrid Maize Seed
+A00858,Pesticide
+A00858,Potato Seed
+A00859,Foliar Feed
+A00859,Pesticide
+A00859,Vegetable Seeds
+A00860,CAN Fertilizer
+A00860,Herbicide
+A00861,Vegetable Seeds
+A00862,Pesticide
+A00862,Protective Gloves
+A00863,Vegetable Seeds
+A00864,CAN Fertilizer
+A00864,DAP Fertilizer
+A00864,Herbicide
+A00864,Hybrid Maize Seed
+A00865,CAN Fertilizer
+A00865,Hybrid Maize Seed
+A00866,Protective Gloves
+A00866,Tools (Hoe/Panga)
+A00867,Drip Kit
+A00867,Vegetable Seeds
+A00868,Fungicide
+A00868,Pesticide
+A00868,Protective Gloves
+A00869,CAN Fertilizer
+A00869,DAP Fertilizer
+A00870,Vegetable Seeds
+A00871,Acaricide
+A00871,Veterinary Drugs
+A00872,Fungicide
+A00872,Pesticide
+A00872,Potato Seed
+A00873,DAP Fertilizer
+A00873,Hybrid Maize Seed
+A00874,Chick Starter
+A00874,Poultry Feed
+A00875,Acaricide
+A00875,Dairy Meal
+A00875,Mineral Lick
+A00876,Fungicide
+A00876,Pesticide
+A00876,Vegetable Seeds
+A00877,Mineral Lick
+A00878,DAP Fertilizer
+A00878,Herbicide
+A00878,Hybrid Maize Seed
+A00879,Fungicide
+A00879,Vegetable Seeds
+A00880,CAN Fertilizer
+A00880,DAP Fertilizer
+A00880,Herbicide
+A00880,Hybrid Maize Seed
+A00881,CAN Fertilizer
+A00881,DAP Fertilizer
+A00881,Herbicide
+A00881,Hybrid Maize Seed
+A00882,Tools (Hoe/Panga)
+A00883,Mineral Lick
+A00883,Veterinary Drugs
+A00884,Foliar Feed
+A00884,Fungicide
+A00884,Pesticide
+A00884,Vegetable Seeds
+A00885,Fungicide
+A00885,Knapsack Sprayer
+A00885,Pesticide
+A00885,Protective Gloves
+A00886,Drip Kit
+A00886,Tools (Hoe/Panga)
+A00886,Vegetable Seeds
+A00887,Pesticide
+A00888,Drip Kit
+A00888,Foliar Feed
+A00888,Vegetable Seeds
+A00889,Dairy Meal
+A00890,Pesticide
+A00890,Protective Gloves
+A00891,Foliar Feed
+A00891,Fungicide
+A00891,Pesticide
+A00891,Vegetable Seeds
+A00892,Dairy Meal
+A00892,Mineral Lick
+A00893,Dairy Meal
+A00893,Mineral Lick
+A00893,Veterinary Drugs
+A00894,CAN Fertilizer
+A00894,DAP Fertilizer
+A00894,Hybrid Maize Seed
+A00895,Acaricide
+A00895,Dairy Meal
+A00895,Mineral Lick
+A00895,Veterinary Drugs
+A00896,CAN Fertilizer
+A00897,Dairy Meal
+A00898,CAN Fertilizer
+A00898,DAP Fertilizer
+A00898,Hybrid Maize Seed
+A00899,Veterinary Drugs
+A00900,Poultry Feed
+A00900,Tools (Hoe/Panga)
+A00900,Veterinary Drugs
+A00901,Hybrid Maize Seed
+A00902,Acaricide
+A00902,Mineral Lick
+A00903,Fungicide
+A00903,Pesticide
+A00903,Vegetable Seeds
+A00904,DAP Fertilizer
+A00904,Hybrid Maize Seed
+A00905,DAP Fertilizer
+A00905,Fungicide
+A00905,Potato Seed
+A00906,DAP Fertilizer
+A00906,Fungicide
+A00906,Pesticide
+A00906,Potato Seed
+A00907,Drinkers & Feeders
+A00907,Poultry Feed
+A00908,CAN Fertilizer
+A00908,DAP Fertilizer
+A00908,Veterinary Drugs
+A00909,Foliar Feed
+A00909,Fungicide
+A00909,Vegetable Seeds
+A00910,Knapsack Sprayer
+A00910,Veterinary Drugs
+A00911,CAN Fertilizer
+A00911,DAP Fertilizer
+A00911,Pesticide
+A00912,Dairy Meal
+A00912,Pesticide
+A00913,Vegetable Seeds
+A00914,Herbicide
+A00915,DAP Fertilizer
+A00915,Drip Kit
+A00915,Fungicide
+A00915,Vegetable Seeds
+A00916,Dairy Meal
+A00916,Mineral Lick
+A00917,DAP Fertilizer
+A00917,Hybrid Maize Seed
+A00918,DAP Fertilizer
+A00918,Hybrid Maize Seed
+A00919,Protective Gloves
+A00919,Tools (Hoe/Panga)
+A00919,Wheelbarrow
+A00920,Herbicide
+A00921,Foliar Feed
+A00921,Herbicide
+A00921,Pesticide
+A00921,Vegetable Seeds
+A00922,DAP Fertilizer
+A00922,Hybrid Maize Seed
+A00923,DAP Fertilizer
+A00923,Fungicide
+A00923,Potato Seed
+A00924,Fungicide
+A00924,Pesticide
+A00924,Protective Gloves
+A00925,Fungicide
+A00925,Knapsack Sprayer
+A00925,Pesticide
+A00925,Tools (Hoe/Panga)
+A00926,CAN Fertilizer
+A00926,DAP Fertilizer
+A00926,Herbicide
+A00926,Hybrid Maize Seed
+A00927,DAP Fertilizer
+A00927,Hybrid Maize Seed
+A00928,Foliar Feed
+A00929,Poultry Feed
+A00930,Protective Gloves
+A00930,Tools (Hoe/Panga)
+A00931,CAN Fertilizer
+A00931,DAP Fertilizer
+A00932,Acaricide
+A00932,Dairy Meal
+A00932,Mineral Lick
+A00933,CAN Fertilizer
+A00934,CAN Fertilizer
+A00934,Herbicide
+A00935,Chick Starter
+A00935,Drinkers & Feeders
+A00935,Poultry Feed
+A00935,Protective Gloves
+A00935,Veterinary Drugs
+A00936,CAN Fertilizer
+A00937,Foliar Feed
+A00937,Pesticide
+A00937,Vegetable Seeds
+A00938,Fungicide
+A00938,Pesticide
+A00938,Protective Gloves
+A00939,Dairy Meal
+A00939,Veterinary Drugs
+A00940,CAN Fertilizer
+A00940,DAP Fertilizer
+A00940,Hybrid Maize Seed
+A00940,Veterinary Drugs
+A00941,DAP Fertilizer
+A00941,Fungicide
+A00941,Potato Seed
+A00942,Protective Gloves
+A00943,Knapsack Sprayer
+A00943,Pesticide
+A00944,Acaricide
+A00944,Dairy Meal
+A00944,Mineral Lick
+A00944,Veterinary Drugs
+A00945,Herbicide
+A00945,Hybrid Maize Seed
+A00945,Veterinary Drugs
+A00946,Chick Starter
+A00946,Poultry Feed
+A00946,Veterinary Drugs
+A00947,Dairy Meal
+A00947,Mineral Lick
+A00948,DAP Fertilizer
+A00948,Hybrid Maize Seed
+A00949,CAN Fertilizer
+A00949,DAP Fertilizer
+A00949,Hybrid Maize Seed
+A00949,Veterinary Drugs
+A00950,CAN Fertilizer
+A00950,Herbicide
+A00950,Veterinary Drugs
+A00951,Fungicide
+A00951,Pesticide
+A00951,Protective Gloves
+A00951,Vegetable Seeds
+A00952,Vegetable Seeds
+A00953,Herbicide
+A00954,Fungicide
+A00954,Pesticide
+A00954,Protective Gloves
+A00955,Chick Starter
+A00955,Veterinary Drugs
+A00956,CAN Fertilizer
+A00956,Herbicide
+A00957,DAP Fertilizer
+A00958,DAP Fertilizer
+A00958,Herbicide
+A00958,Hybrid Maize Seed
+A00959,Fungicide
+A00959,Vegetable Seeds
+A00960,Dairy Meal
+A00961,Drip Kit
+A00961,Foliar Feed
+A00961,Fungicide
+A00961,Vegetable Seeds
+A00962,Hybrid Maize Seed
+A00963,DAP Fertilizer
+A00963,Hybrid Maize Seed
+A00964,CAN Fertilizer
+A00964,DAP Fertilizer
+A00964,Hybrid Maize Seed
+A00965,DAP Fertilizer
+A00965,Fungicide
+A00965,Potato Seed
+A00966,Foliar Feed
+A00966,Pesticide
+A00966,Vegetable Seeds
+A00967,Foliar Feed
+A00967,Fungicide
+A00967,Vegetable Seeds
+A00968,Fungicide
+A00968,Pesticide
+A00968,Potato Seed
+A00969,Veterinary Drugs
+A00970,Pesticide
+A00970,Protective Gloves
+A00971,DAP Fertilizer
+A00971,Hybrid Maize Seed
+A00972,CAN Fertilizer
+A00972,DAP Fertilizer
+A00972,Hybrid Maize Seed
+A00973,Chick Starter
+A00973,Pesticide
+A00973,Poultry Feed
+A00973,Veterinary Drugs
+A00974,Chick Starter
+A00974,DAP Fertilizer
+A00974,Poultry Feed
+A00975,Dairy Meal
+A00975,Mineral Lick
+A00976,Tools (Hoe/Panga)
+A00977,Tools (Hoe/Panga)
+A00978,DAP Fertilizer
+A00978,Fungicide
+A00978,Potato Seed
+A00978,Tools (Hoe/Panga)
+A00979,Herbicide
+A00980,CAN Fertilizer
+A00981,CAN Fertilizer
+A00981,Herbicide
+A00982,Fungicide
+A00982,Pesticide
+A00983,Pesticide
+A00983,Potato Seed
+A00983,Veterinary Drugs
+A00984,Foliar Feed
+A00984,Fungicide
+A00984,Vegetable Seeds
+A00984,Veterinary Drugs
+A00985,Herbicide
+A00985,Tools (Hoe/Panga)
+A00985,Water Pump
+A00986,Chick Starter
+A00986,Drinkers & Feeders
+A00986,Pesticide
+A00986,Poultry Feed
+A00986,Veterinary Drugs
+A00987,Fungicide
+A00987,Pesticide
+A00988,Foliar Feed
+A00988,Fungicide
+A00988,Vegetable Seeds
+A00989,DAP Fertilizer
+A00989,Hybrid Maize Seed
+A00989,Protective Gloves
+A00990,Fungicide
+A00990,Pesticide
+A00990,Potato Seed
+A00991,Dairy Meal
+A00991,Mineral Lick
+A00992,CAN Fertilizer
+A00992,DAP Fertilizer
+A00992,Hybrid Maize Seed
+A00993,DAP Fertilizer
+A00993,Hybrid Maize Seed
+A00994,CAN Fertilizer
+A00994,DAP Fertilizer
+A00994,Hybrid Maize Seed
+A00995,DAP Fertilizer
+A00995,Fungicide
+A00995,Pesticide
+A00995,Potato Seed
+A00996,CAN Fertilizer
+A00996,Herbicide
+A00996,Hybrid Maize Seed
+A00997,CAN Fertilizer
+A00998,Protective Gloves
+A00999,DAP Fertilizer
+A00999,Fungicide
+A01000,Knapsack Sprayer
+A01000,Pesticide
+A01000,Protective Gloves
+A01001,DAP Fertilizer
+A01001,Poultry Feed
+A01001,Veterinary Drugs
+A01002,Protective Gloves
+A01002,Tools (Hoe/Panga)
+A01002,Water Pump
+A01002,Wheelbarrow
+A01003,Pesticide
+A01003,Vegetable Seeds
+A01004,Chick Starter
+A01004,Poultry Feed
+A01004,Protective Gloves
+A01005,Poultry Feed
+A01005,Veterinary Drugs
+A01006,DAP Fertilizer
+A01006,Fungicide
+A01006,Potato Seed
+A01007,DAP Fertilizer
+A01007,Hybrid Maize Seed
+A01008,Acaricide
+A01008,Dairy Meal
+A01009,DAP Fertilizer
+A01009,Hybrid Maize Seed
+A01009,Veterinary Drugs
+A01010,CAN Fertilizer
+A01011,Chick Starter
+A01011,Poultry Feed
+A01011,Veterinary Drugs
+A01012,Foliar Feed
+A01012,Fungicide
+A01013,Fungicide
+A01013,Knapsack Sprayer
+A01013,Pesticide
+A01014,Foliar Feed
+A01015,CAN Fertilizer
+A01015,Hybrid Maize Seed
+A01016,CAN Fertilizer
+A01016,DAP Fertilizer
+A01016,Hybrid Maize Seed
+A01017,Foliar Feed
+A01017,Vegetable Seeds
+A01018,CAN Fertilizer
+A01018,Herbicide
+A01019,Pesticide
+A01019,Tools (Hoe/Panga)
+A01019,Vegetable Seeds
+A01020,Chick Starter
+A01020,Poultry Feed
+A01020,Vegetable Seeds
+A01020,Veterinary Drugs
+A01021,Acaricide
+A01021,Dairy Meal
+A01022,Knapsack Sprayer
+A01023,CAN Fertilizer
+A01023,DAP Fertilizer
+A01023,Hybrid Maize Seed
+A01024,Chick Starter
+A01024,Drinkers & Feeders
+A01024,Poultry Feed
+A01025,Dairy Meal
+A01025,Mineral Lick
+A01026,Acaricide
+A01026,Dairy Meal
+A01027,Foliar Feed
+A01028,DAP Fertilizer
+A01028,Potato Seed
+A01029,Tools (Hoe/Panga)
+A01030,Fungicide
+A01030,Knapsack Sprayer
+A01030,Pesticide
+A01031,Chick Starter
+A01031,Drinkers & Feeders
+A01031,Poultry Feed
+A01031,Veterinary Drugs
+A01032,Poultry Feed
+A01032,Veterinary Drugs
+A01033,CAN Fertilizer
+A01033,DAP Fertilizer
+A01033,Hybrid Maize Seed
+A01033,Pesticide
+A01034,Protective Gloves
+A01035,Tools (Hoe/Panga)
+A01036,CAN Fertilizer
+A01036,DAP Fertilizer
+A01036,Hybrid Maize Seed
+A01037,Drip Kit
+A01037,Vegetable Seeds
+A01038,Fungicide
+A01038,Pesticide
+A01038,Protective Gloves
+A01038,Veterinary Drugs
+A01039,CAN Fertilizer
+A01039,Herbicide
+A01040,Poultry Feed
+A01040,Veterinary Drugs
+A01041,DAP Fertilizer
+A01041,Hybrid Maize Seed
+A01042,Tools (Hoe/Panga)
+A01043,DAP Fertilizer
+A01043,Fungicide
+A01043,Potato Seed
+A01044,CAN Fertilizer
+A01044,DAP Fertilizer
+A01045,DAP Fertilizer
+A01045,Hybrid Maize Seed
+A01046,Dairy Meal
+A01047,CAN Fertilizer
+A01047,DAP Fertilizer
+A01047,Herbicide
+A01048,Drip Kit
+A01048,Fungicide
+A01048,Vegetable Seeds
+A01049,CAN Fertilizer
+A01050,Fungicide
+A01050,Pesticide
+A01051,CAN Fertilizer
+A01052,DAP Fertilizer
+A01052,Potato Seed
+A01053,Acaricide
+A01053,Dairy Meal
+A01053,Mineral Lick
+A01053,Veterinary Drugs
+A01054,Dairy Meal
+A01054,Mineral Lick
+A01055,Poultry Feed
+A01056,Foliar Feed
+A01056,Pesticide
+A01056,Vegetable Seeds
+A01057,CAN Fertilizer
+A01057,Hybrid Maize Seed
+A01058,Knapsack Sprayer
+A01058,Pesticide
+A01059,Poultry Feed
+A01060,Dairy Meal
+A01060,Mineral Lick
+A01060,Veterinary Drugs
+A01061,Acaricide
+A01061,Dairy Meal
+A01062,CAN Fertilizer
+A01062,DAP Fertilizer
+A01062,Hybrid Maize Seed
+A01063,DAP Fertilizer
+A01063,Potato Seed
+A01064,Acaricide
+A01064,Dairy Meal
+A01064,Mineral Lick
+A01064,Veterinary Drugs
+A01065,Chick Starter
+A01065,Poultry Feed
+A01065,Veterinary Drugs
+A01066,Dairy Meal
+A01067,Poultry Feed
+A01067,Protective Gloves
+A01068,Drip Kit
+A01068,Foliar Feed
+A01068,Pesticide
+A01068,Vegetable Seeds
+A01069,DAP Fertilizer
+A01069,Fungicide
+A01069,Potato Seed
+A01070,Herbicide
+A01071,CAN Fertilizer
+A01072,DAP Fertilizer
+A01072,Fungicide
+A01072,Potato Seed
+A01072,Protective Gloves
+A01073,DAP Fertilizer
+A01073,Herbicide
+A01073,Hybrid Maize Seed
+A01074,Foliar Feed
+A01074,Pesticide
+A01074,Vegetable Seeds
+A01075,Fungicide
+A01075,Knapsack Sprayer
+A01075,Pesticide
+A01075,Protective Gloves
+A01075,Tools (Hoe/Panga)
+A01076,DAP Fertilizer
+A01076,Protective Gloves
+A01077,Drip Kit
+A01077,Foliar Feed
+A01077,Veterinary Drugs
+A01078,Herbicide
+A01079,Veterinary Drugs
+A01080,Chick Starter
+A01080,Poultry Feed
+A01081,Hybrid Maize Seed
+A01082,Fungicide
+A01082,Potato Seed
+A01083,Veterinary Drugs
+A01084,DAP Fertilizer
+A01084,Dairy Meal
+A01085,CAN Fertilizer
+A01085,DAP Fertilizer
+A01085,Herbicide
+A01086,Tools (Hoe/Panga)
+A01086,Wheelbarrow
+A01087,Herbicide
+A01088,CAN Fertilizer
+A01089,CAN Fertilizer
+A01090,Dairy Meal
+A01090,Mineral Lick
+A01091,Chick Starter
+A01091,Poultry Feed
+A01091,Veterinary Drugs
+A01092,Tools (Hoe/Panga)
+A01093,Drip Kit
+A01093,Foliar Feed
+A01093,Vegetable Seeds
+A01094,Knapsack Sprayer
+A01094,Pesticide
+A01094,Protective Gloves
+A01095,Fungicide
+A01095,Herbicide
+A01095,Knapsack Sprayer
+A01096,CAN Fertilizer
+A01096,DAP Fertilizer
+A01096,Herbicide
+A01096,Hybrid Maize Seed
+A01097,DAP Fertilizer
+A01097,Fungicide
+A01097,Pesticide
+A01098,Drip Kit
+A01098,Foliar Feed
+A01098,Fungicide
+A01098,Pesticide
+A01098,Vegetable Seeds
+A01099,Knapsack Sprayer
+A01100,CAN Fertilizer
+A01100,DAP Fertilizer
+A01100,Hybrid Maize Seed
+A01101,CAN Fertilizer
+A01102,Herbicide
+A01103,Foliar Feed
+A01103,Fungicide
+A01103,Pesticide
+A01103,Vegetable Seeds
+A01104,Dairy Meal
+A01104,Tools (Hoe/Panga)
+A01105,DAP Fertilizer
+A01105,Hybrid Maize Seed
+A01106,Fungicide
+A01106,Knapsack Sprayer
+A01106,Pesticide
+A01107,Foliar Feed
+A01107,Fungicide
+A01107,Pesticide
+A01107,Vegetable Seeds
+A01108,Fungicide
+A01108,Potato Seed
+A01109,Acaricide
+A01109,Dairy Meal
+A01109,Mineral Lick
+A01110,Dairy Meal
+A01111,Fungicide
+A01111,Knapsack Sprayer
+A01111,Pesticide
+A01111,Tools (Hoe/Panga)
+A01111,Veterinary Drugs
+A01112,CAN Fertilizer
+A01112,DAP Fertilizer
+A01112,Hybrid Maize Seed
+A01113,DAP Fertilizer
+A01113,Fungicide
+A01113,Potato Seed
+A01114,Fungicide
+A01114,Pesticide
+A01114,Tools (Hoe/Panga)
+A01115,CAN Fertilizer
+A01116,Fungicide
+A01116,Potato Seed
+A01117,CAN Fertilizer
+A01117,DAP Fertilizer
+A01117,Herbicide
+A01117,Hybrid Maize Seed
+A01118,CAN Fertilizer
+A01119,Pesticide
+A01120,Tools (Hoe/Panga)
+A01121,DAP Fertilizer
+A01121,Hybrid Maize Seed
+A01122,Acaricide
+A01122,Dairy Meal
+A01122,Mineral Lick
+A01122,Veterinary Drugs
+A01123,DAP Fertilizer
+A01123,Potato Seed
+A01124,Drip Kit
+A01124,Vegetable Seeds
+A01125,Herbicide
+A01126,Hybrid Maize Seed
+A01127,Chick Starter
+A01127,Poultry Feed
+A01128,CAN Fertilizer
+A01128,Hybrid Maize Seed
+A01129,Foliar Feed
+A01129,Pesticide
+A01129,Vegetable Seeds
+A01130,Chick Starter
+A01130,Poultry Feed
+A01130,Veterinary Drugs
+A01131,Fungicide
+A01131,Pesticide
+A01131,Protective Gloves
+A01132,Dairy Meal
+A01132,Protective Gloves
+A01132,Wheelbarrow
+A01133,DAP Fertilizer
+A01133,Herbicide
+A01133,Hybrid Maize Seed
+A01134,Knapsack Sprayer
+A01134,Pesticide
+A01134,Protective Gloves
+A01135,CAN Fertilizer
+A01135,Herbicide
+A01136,Wheelbarrow
+A01137,DAP Fertilizer
+A01137,Hybrid Maize Seed
+A01138,CAN Fertilizer
+A01138,Vegetable Seeds
+A01139,Knapsack Sprayer
+A01139,Protective Gloves
+A01139,Vegetable Seeds
+A01140,CAN Fertilizer
+A01140,DAP Fertilizer
+A01140,Herbicide
+A01140,Hybrid Maize Seed
+A01141,CAN Fertilizer
+A01141,DAP Fertilizer
+A01141,Herbicide
+A01141,Hybrid Maize Seed
+A01142,Acaricide
+A01142,Dairy Meal
+A01142,Mineral Lick
+A01142,Veterinary Drugs
+A01143,CAN Fertilizer
+A01143,DAP Fertilizer
+A01143,Hybrid Maize Seed
+A01144,Dairy Meal
+A01144,Mineral Lick
+A01145,Dairy Meal
+A01145,Mineral Lick
+A01146,Poultry Feed
+A01146,Veterinary Drugs
+A01147,DAP Fertilizer
+A01147,Fungicide
+A01147,Knapsack Sprayer
+A01147,Pesticide
+A01147,Protective Gloves
+A01148,Foliar Feed
+A01148,Fungicide
+A01148,Pesticide
+A01148,Vegetable Seeds
+A01149,DAP Fertilizer
+A01149,Pesticide
+A01149,Potato Seed
+A01149,Veterinary Drugs
+A01150,CAN Fertilizer
+A01150,DAP Fertilizer
+A01150,Herbicide
+A01150,Pesticide
+A01150,Veterinary Drugs
+A01151,CAN Fertilizer
+A01151,DAP Fertilizer
+A01151,Hybrid Maize Seed
+A01152,Drip Kit
+A01152,Foliar Feed
+A01152,Fungicide
+A01152,Vegetable Seeds
+A01153,Dairy Meal
+A01153,Vegetable Seeds
+A01154,Hybrid Maize Seed
+A01155,Drip Kit
+A01155,Foliar Feed
+A01155,Vegetable Seeds
+A01156,Pesticide
+A01157,Acaricide
+A01157,Dairy Meal
+A01157,Mineral Lick
+A01158,CAN Fertilizer
+A01158,DAP Fertilizer
+A01158,Hybrid Maize Seed
+A01159,CAN Fertilizer
+A01160,CAN Fertilizer
+A01160,DAP Fertilizer
+A01160,Herbicide
+A01160,Veterinary Drugs
+A01161,CAN Fertilizer
+A01161,DAP Fertilizer
+A01162,CAN Fertilizer
+A01163,CAN Fertilizer
+A01164,Fungicide
+A01164,Knapsack Sprayer
+A01164,Pesticide
+A01165,Dairy Meal
+A01165,Foliar Feed
+A01165,Protective Gloves
+A01165,Vegetable Seeds
+A01166,Drip Kit
+A01166,Foliar Feed
+A01166,Pesticide
+A01166,Tools (Hoe/Panga)
+A01166,Vegetable Seeds
+A01167,Foliar Feed
+A01167,Pesticide
+A01167,Vegetable Seeds
+A01168,DAP Fertilizer
+A01168,Fungicide
+A01168,Potato Seed
+A01169,Drip Kit
+A01169,Foliar Feed
+A01169,Vegetable Seeds
+A01170,Acaricide
+A01170,Dairy Meal
+A01170,Veterinary Drugs
+A01171,Fungicide
+A01171,Pesticide
+A01171,Protective Gloves
+A01172,Drip Kit
+A01172,Foliar Feed
+A01172,Pesticide
+A01172,Vegetable Seeds
+A01173,CAN Fertilizer
+A01173,Herbicide
+A01174,Pesticide
+A01175,Fungicide
+A01175,Knapsack Sprayer
+A01175,Pesticide
+A01175,Protective Gloves
+A01176,DAP Fertilizer
+A01176,Pesticide
+A01176,Potato Seed
+A01177,Potato Seed
+A01178,Knapsack Sprayer
+A01178,Pesticide
+A01178,Protective Gloves
+A01179,CAN Fertilizer
+A01179,DAP Fertilizer
+A01179,Hybrid Maize Seed
+A01180,Fungicide
+A01180,Knapsack Sprayer
+A01180,Pesticide
+A01180,Protective Gloves
+A01181,Drinkers & Feeders
+A01181,Poultry Feed
+A01181,Veterinary Drugs
+A01182,DAP Fertilizer
+A01182,Dairy Meal
+A01182,Veterinary Drugs
+A01183,Poultry Feed
+A01183,Veterinary Drugs
+A01184,Foliar Feed
+A01184,Vegetable Seeds
+A01185,CAN Fertilizer
+A01186,Fungicide
+A01186,Pesticide
+A01186,Protective Gloves
+A01187,Acaricide
+A01187,Dairy Meal
+A01188,Acaricide
+A01188,Dairy Meal
+A01188,Veterinary Drugs
+A01189,Dairy Meal
+A01190,Acaricide
+A01190,Dairy Meal
+A01190,Tools (Hoe/Panga)
+A01191,DAP Fertilizer
+A01191,Hybrid Maize Seed
+A01192,Drip Kit
+A01192,Pesticide
+A01192,Vegetable Seeds
+A01193,CAN Fertilizer
+A01193,Herbicide
+A01194,Pesticide
+A01194,Protective Gloves
+A01195,Chick Starter
+A01195,Veterinary Drugs
+A01196,Fungicide
+A01196,Knapsack Sprayer
+A01196,Pesticide
+A01197,Dairy Meal
+A01197,Mineral Lick
+A01198,DAP Fertilizer
+A01198,Hybrid Maize Seed
+A01199,DAP Fertilizer
+A01199,Pesticide
+A01199,Potato Seed
+A01200,Pesticide
+A01201,Chick Starter
+A01201,Drinkers & Feeders
+A01201,Poultry Feed
+A01201,Veterinary Drugs
+A01202,Foliar Feed
+A01202,Vegetable Seeds
+A01203,CAN Fertilizer
+A01203,Veterinary Drugs
+A01204,Acaricide
+A01204,Dairy Meal
+A01204,Mineral Lick
+A01205,Fungicide
+A01205,Veterinary Drugs
+A01206,CAN Fertilizer
+A01206,Herbicide
+A01207,Vegetable Seeds
+A01208,Drinkers & Feeders
+A01208,Herbicide
+A01208,Poultry Feed
+A01209,Dairy Meal
+A01209,Mineral Lick
+A01210,Tools (Hoe/Panga)
+A01211,Poultry Feed
+A01211,Veterinary Drugs
+A01212,DAP Fertilizer
+A01212,Fungicide
+A01213,CAN Fertilizer
+A01214,Poultry Feed
+A01215,Fungicide
+A01215,Pesticide
+A01215,Protective Gloves
+A01215,Vegetable Seeds
+A01216,Acaricide
+A01216,Veterinary Drugs
+A01217,Dairy Meal
+A01217,Mineral Lick
+A01217,Pesticide
+A01218,CAN Fertilizer
+A01218,DAP Fertilizer
+A01218,Herbicide
+A01218,Hybrid Maize Seed
+A01219,CAN Fertilizer
+A01219,Protective Gloves
+A01220,CAN Fertilizer
+A01220,Hybrid Maize Seed
+A01220,Tools (Hoe/Panga)
+A01221,DAP Fertilizer
+A01221,Fungicide
+A01221,Pesticide
+A01221,Potato Seed
+A01221,Vegetable Seeds
+A01222,CAN Fertilizer
+A01222,Dairy Meal
+A01223,CAN Fertilizer
+A01224,Herbicide
+A01225,CAN Fertilizer
+A01225,DAP Fertilizer
+A01225,Herbicide
+A01225,Hybrid Maize Seed
+A01226,DAP Fertilizer
+A01226,Hybrid Maize Seed
+A01227,DAP Fertilizer
+A01227,Fungicide
+A01227,Potato Seed
+A01228,Acaricide
+A01228,Pesticide
+A01228,Veterinary Drugs
+A01229,Herbicide
+A01229,Mineral Lick
+A01230,CAN Fertilizer
+A01230,DAP Fertilizer
+A01230,Herbicide
+A01230,Hybrid Maize Seed
+A01231,Knapsack Sprayer
+A01231,Pesticide
+A01232,DAP Fertilizer
+A01233,CAN Fertilizer
+A01233,DAP Fertilizer
+A01234,Acaricide
+A01234,Dairy Meal
+A01234,Vegetable Seeds
+A01234,Veterinary Drugs
+A01235,DAP Fertilizer
+A01235,Pesticide
+A01235,Potato Seed
+A01236,Dairy Meal
+A01236,Veterinary Drugs
+A01237,DAP Fertilizer
+A01237,Hybrid Maize Seed
+A01237,Vegetable Seeds
+A01238,Vegetable Seeds
+A01239,DAP Fertilizer
+A01239,Potato Seed
+A01239,Vegetable Seeds
+A01240,Tools (Hoe/Panga)
+A01241,Chick Starter
+A01241,Drinkers & Feeders
+A01241,Poultry Feed
+A01241,Vegetable Seeds
+A01242,DAP Fertilizer
+A01242,Herbicide
+A01242,Hybrid Maize Seed
+A01242,Tools (Hoe/Panga)
+A01243,Fungicide
+A01243,Pesticide
+A01243,Protective Gloves
+A01244,Vegetable Seeds
+A01245,DAP Fertilizer
+A01245,Potato Seed
+A01246,DAP Fertilizer
+A01246,Fungicide
+A01246,Potato Seed
+A01247,Foliar Feed
+A01247,Fungicide
+A01247,Pesticide
+A01247,Vegetable Seeds
+A01248,Chick Starter
+A01248,Poultry Feed
+A01249,CAN Fertilizer
+A01249,Hybrid Maize Seed
+A01250,Chick Starter
+A01250,Drinkers & Feeders
+A01250,Poultry Feed
+A01250,Protective Gloves
+A01250,Veterinary Drugs
+A01251,Tools (Hoe/Panga)
+A01251,Wheelbarrow
+A01252,DAP Fertilizer
+A01252,Pesticide
+A01252,Potato Seed
+A01253,CAN Fertilizer
+A01253,Hybrid Maize Seed
+A01254,CAN Fertilizer
+A01254,Herbicide
+A01255,Foliar Feed
+A01255,Fungicide
+A01255,Pesticide
+A01255,Vegetable Seeds
+A01256,Drinkers & Feeders
+A01256,Poultry Feed
+A01257,CAN Fertilizer
+A01257,DAP Fertilizer
+A01257,Herbicide
+A01257,Hybrid Maize Seed
+A01258,Acaricide
+A01258,Dairy Meal
+A01258,Mineral Lick
+A01258,Veterinary Drugs
+A01259,CAN Fertilizer
+A01259,DAP Fertilizer
+A01259,Hybrid Maize Seed
+A01260,DAP Fertilizer
+A01260,Fungicide
+A01260,Potato Seed
+A01260,Protective Gloves
+A01261,CAN Fertilizer
+A01261,DAP Fertilizer
+A01261,Hybrid Maize Seed
+A01262,Drinkers & Feeders
+A01262,Poultry Feed
+A01262,Veterinary Drugs
+A01263,Tools (Hoe/Panga)
+A01264,Drinkers & Feeders
+A01264,Poultry Feed
+A01264,Veterinary Drugs
+A01265,Acaricide
+A01265,Dairy Meal
+A01265,Veterinary Drugs
+A01266,Fungicide
+A01266,Pesticide
+A01266,Protective Gloves
+A01267,Herbicide
+A01268,DAP Fertilizer
+A01269,Acaricide
+A01269,Dairy Meal
+A01269,Mineral Lick
+A01270,DAP Fertilizer
+A01270,Fungicide
+A01270,Potato Seed
+A01271,Veterinary Drugs
+A01272,Dairy Meal
+A01272,Veterinary Drugs
+A01273,Fungicide
+A01273,Pesticide
+A01274,Pesticide
+A01274,Protective Gloves
+A01275,Herbicide
+A01276,Foliar Feed
+A01276,Fungicide
+A01276,Herbicide
+A01276,Vegetable Seeds
+A01277,Pesticide
+A01277,Potato Seed
+A01278,Dairy Meal
+A01278,Mineral Lick
+A01278,Veterinary Drugs
+A01279,DAP Fertilizer
+A01279,Fungicide
+A01279,Potato Seed
+A01280,Knapsack Sprayer
+A01280,Pesticide
+A01280,Protective Gloves
+A01281,DAP Fertilizer
+A01281,Fungicide
+A01281,Potato Seed
+A01282,Fungicide
+A01282,Potato Seed
+A01283,Knapsack Sprayer
+A01283,Pesticide
+A01284,DAP Fertilizer
+A01284,Hybrid Maize Seed
+A01285,Acaricide
+A01285,Dairy Meal
+A01285,Veterinary Drugs
+A01286,Mineral Lick
+A01286,Veterinary Drugs
+A01287,Pesticide
+A01287,Protective Gloves
+A01288,CAN Fertilizer
+A01288,Herbicide
+A01288,Hybrid Maize Seed
+A01289,CAN Fertilizer
+A01289,Herbicide
+A01289,Hybrid Maize Seed
+A01290,CAN Fertilizer
+A01290,Herbicide
+A01290,Protective Gloves
+A01290,Veterinary Drugs
+A01291,CAN Fertilizer
+A01291,DAP Fertilizer
+A01291,Hybrid Maize Seed
+A01291,Veterinary Drugs
+A01292,Tools (Hoe/Panga)
+A01292,Water Pump
+A01293,Foliar Feed
+A01293,Vegetable Seeds
+A01294,CAN Fertilizer
+A01294,Herbicide
+A01294,Vegetable Seeds
+A01295,CAN Fertilizer
+A01296,Chick Starter
+A01296,Poultry Feed
+A01297,DAP Fertilizer
+A01297,Fungicide
+A01297,Potato Seed
+A01298,DAP Fertilizer
+A01298,Herbicide
+A01298,Hybrid Maize Seed
+A01299,Wheelbarrow
+A01300,CAN Fertilizer
+A01300,DAP Fertilizer
+A01300,Hybrid Maize Seed
+A01301,Dairy Meal
+A01301,Mineral Lick
+A01302,DAP Fertilizer
+A01302,Fungicide
+A01302,Pesticide
+A01302,Potato Seed
+A01303,DAP Fertilizer
+A01303,Potato Seed
+A01304,Dairy Meal
+A01304,Pesticide
+A01304,Protective Gloves
+A01305,Dairy Meal
+A01305,Mineral Lick
+A01305,Veterinary Drugs
+A01306,DAP Fertilizer
+A01306,Fungicide
+A01306,Pesticide
+A01306,Protective Gloves
+A01307,Drip Kit
+A01307,Pesticide
+A01307,Vegetable Seeds
+A01308,Dairy Meal
+A01308,Mineral Lick
+A01309,Acaricide
+A01309,Dairy Meal
+A01310,Dairy Meal
+A01310,Pesticide
+A01311,DAP Fertilizer
+A01311,Herbicide
+A01311,Hybrid Maize Seed
+A01312,Fungicide
+A01312,Vegetable Seeds
+A01313,CAN Fertilizer
+A01313,DAP Fertilizer
+A01313,Hybrid Maize Seed
+A01314,Fungicide
+A01314,Knapsack Sprayer
+A01314,Pesticide
+A01315,CAN Fertilizer
+A01315,DAP Fertilizer
+A01315,Hybrid Maize Seed
+A01316,Tools (Hoe/Panga)
+A01316,Water Pump
+A01317,CAN Fertilizer
+A01317,DAP Fertilizer
+A01317,Herbicide
+A01317,Hybrid Maize Seed
+A01318,Tools (Hoe/Panga)
+A01319,Knapsack Sprayer
+A01319,Pesticide
+A01320,Dairy Meal
+A01320,Mineral Lick
+A01321,Poultry Feed
+A01321,Veterinary Drugs
+A01322,Vegetable Seeds
+A01323,Vegetable Seeds
+A01324,Protective Gloves
+A01324,Tools (Hoe/Panga)
+A01325,Foliar Feed
+A01325,Fungicide
+A01325,Vegetable Seeds
+A01326,CAN Fertilizer
+A01326,Herbicide
+A01326,Veterinary Drugs
+A01327,CAN Fertilizer
+A01327,DAP Fertilizer
+A01327,Hybrid Maize Seed
+A01328,CAN Fertilizer
+A01328,Herbicide
+A01329,Dairy Meal
+A01329,Veterinary Drugs
+A01330,Pesticide
+A01331,DAP Fertilizer
+A01331,Dairy Meal
+A01331,Potato Seed
+A01332,DAP Fertilizer
+A01332,Hybrid Maize Seed
+A01333,Knapsack Sprayer
+A01333,Pesticide
+A01333,Protective Gloves
+A01334,CAN Fertilizer
+A01334,DAP Fertilizer
+A01334,Hybrid Maize Seed
+A01335,Fungicide
+A01335,Knapsack Sprayer
+A01335,Pesticide
+A01335,Protective Gloves
+A01336,CAN Fertilizer
+A01336,Herbicide
+A01336,Hybrid Maize Seed
+A01337,Vegetable Seeds
+A01338,CAN Fertilizer
+A01338,Herbicide
+A01339,DAP Fertilizer
+A01340,DAP Fertilizer
+A01340,Pesticide
+A01340,Potato Seed
+A01341,Chick Starter
+A01341,Poultry Feed
+A01341,Veterinary Drugs
+A01342,Chick Starter
+A01342,Drinkers & Feeders
+A01342,Pesticide
+A01342,Poultry Feed
+A01342,Veterinary Drugs
+A01343,Tools (Hoe/Panga)
+A01344,Tools (Hoe/Panga)
+A01345,Fungicide
+A01345,Pesticide
+A01346,Vegetable Seeds
+A01347,Mineral Lick
+A01347,Veterinary Drugs
+A01348,CAN Fertilizer
+A01348,DAP Fertilizer
+A01348,Hybrid Maize Seed
+A01349,Tools (Hoe/Panga)
+A01350,CAN Fertilizer
+A01350,Herbicide
+A01351,DAP Fertilizer
+A01351,Hybrid Maize Seed
+A01352,Fungicide
+A01352,Pesticide
+A01352,Protective Gloves
+A01353,Drip Kit
+A01353,Foliar Feed
+A01353,Fungicide
+A01353,Pesticide
+A01353,Vegetable Seeds
+A01354,DAP Fertilizer
+A01354,Hybrid Maize Seed
+A01355,Veterinary Drugs
+A01356,CAN Fertilizer
+A01356,DAP Fertilizer
+A01356,Hybrid Maize Seed
+A01357,CAN Fertilizer
+A01358,Drinkers & Feeders
+A01358,Poultry Feed
+A01358,Tools (Hoe/Panga)
+A01359,Protective Gloves
+A01359,Tools (Hoe/Panga)
+A01359,Wheelbarrow
+A01360,DAP Fertilizer
+A01360,Herbicide
+A01360,Hybrid Maize Seed
+A01361,CAN Fertilizer
+A01361,Herbicide
+A01361,Hybrid Maize Seed
+A01362,Foliar Feed
+A01362,Fungicide
+A01362,Pesticide
+A01362,Tools (Hoe/Panga)
+A01362,Vegetable Seeds
+A01363,DAP Fertilizer
+A01363,Hybrid Maize Seed
+A01363,Protective Gloves
+A01363,Tools (Hoe/Panga)
+A01363,Veterinary Drugs
+A01364,Chick Starter
+A01364,Drinkers & Feeders
+A01364,Poultry Feed
+A01365,Foliar Feed
+A01365,Fungicide
+A01365,Vegetable Seeds
+A01366,Acaricide
+A01367,Fungicide
+A01367,Herbicide
+A01367,Potato Seed
+A01368,Dairy Meal
+A01368,Tools (Hoe/Panga)
+A01368,Wheelbarrow
+A01369,Drinkers & Feeders
+A01369,Poultry Feed
+A01370,Fungicide
+A01370,Pesticide
+A01370,Vegetable Seeds
+A01371,Drinkers & Feeders
+A01371,Poultry Feed
+A01372,Fungicide
+A01372,Pesticide
+A01373,Fungicide
+A01373,Knapsack Sprayer
+A01373,Pesticide
+A01374,Poultry Feed
+A01375,Fungicide
+A01375,Potato Seed
+A01376,Dairy Meal
+A01376,Mineral Lick
+A01377,Poultry Feed
+A01377,Veterinary Drugs
+A01378,CAN Fertilizer
+A01378,DAP Fertilizer
+A01378,Hybrid Maize Seed
+A01379,Protective Gloves
+A01379,Tools (Hoe/Panga)
+A01380,Drinkers & Feeders
+A01380,Poultry Feed
+A01380,Veterinary Drugs
+A01381,Tools (Hoe/Panga)
+A01382,Fungicide
+A01382,Potato Seed
+A01383,CAN Fertilizer
+A01384,Potato Seed
+A01385,DAP Fertilizer
+A01385,Fungicide
+A01385,Potato Seed
+A01386,Pesticide
+A01387,CAN Fertilizer
+A01387,DAP Fertilizer
+A01387,Hybrid Maize Seed
+A01387,Vegetable Seeds
+A01388,Fungicide
+A01388,Pesticide
+A01388,Vegetable Seeds
+A01389,Drip Kit
+A01389,Vegetable Seeds
+A01390,Tools (Hoe/Panga)
+A01391,DAP Fertilizer
+A01391,Hybrid Maize Seed
+A01392,CAN Fertilizer
+A01393,Fungicide
+A01393,Pesticide
+A01394,Drinkers & Feeders
+A01394,Poultry Feed
+A01394,Veterinary Drugs
+A01395,Tools (Hoe/Panga)
+A01396,CAN Fertilizer
+A01396,Herbicide
+A01397,Protective Gloves
+A01397,Tools (Hoe/Panga)
+A01397,Water Pump
+A01398,Fungicide
+A01399,CAN Fertilizer
+A01399,DAP Fertilizer
+A01399,Herbicide
+A01399,Hybrid Maize Seed
+A01400,CAN Fertilizer
+A01400,DAP Fertilizer
+A01400,Hybrid Maize Seed
+A01401,Chick Starter
+A01401,Drinkers & Feeders
+A01401,Poultry Feed
+A01401,Veterinary Drugs
+A01402,CAN Fertilizer
+A01402,DAP Fertilizer
+A01402,Herbicide
+A01402,Hybrid Maize Seed
+A01403,Dairy Meal
+A01404,Pesticide
+A01405,Fungicide
+A01405,Knapsack Sprayer
+A01406,Pesticide
+A01406,Protective Gloves
+A01407,Fungicide
+A01407,Pesticide
+A01407,Vegetable Seeds
+A01408,DAP Fertilizer
+A01408,Fungicide
+A01408,Pesticide
+A01408,Potato Seed
+A01409,Fungicide
+A01409,Potato Seed
+A01410,DAP Fertilizer
+A01410,Drip Kit
+A01410,Foliar Feed
+A01410,Vegetable Seeds
+A01411,Drip Kit
+A01411,Foliar Feed
+A01411,Pesticide
+A01411,Vegetable Seeds
+A01412,Chick Starter
+A01412,Poultry Feed
+A01413,Drinkers & Feeders
+A01413,Poultry Feed
+A01413,Veterinary Drugs
+A01414,DAP Fertilizer
+A01414,Dairy Meal
+A01414,Hybrid Maize Seed
+A01415,Dairy Meal
+A01415,Mineral Lick
+A01415,Veterinary Drugs
+A01416,Chick Starter
+A01416,Poultry Feed
+A01416,Veterinary Drugs
+A01417,Drinkers & Feeders
+A01417,Poultry Feed
+A01417,Veterinary Drugs
+A01418,Knapsack Sprayer
+A01418,Pesticide
+A01419,CAN Fertilizer
+A01419,DAP Fertilizer
+A01419,Herbicide
+A01420,DAP Fertilizer
+A01420,Pesticide
+A01420,Tools (Hoe/Panga)
+A01421,DAP Fertilizer
+A01421,Dairy Meal
+A01421,Veterinary Drugs
+A01422,Fungicide
+A01423,Pesticide
+A01423,Protective Gloves
+A01424,DAP Fertilizer
+A01424,Hybrid Maize Seed
+A01424,Pesticide
+A01425,Chick Starter
+A01425,Drinkers & Feeders
+A01425,Poultry Feed
+A01426,Acaricide
+A01426,Dairy Meal
+A01426,Veterinary Drugs
+A01427,CAN Fertilizer
+A01427,DAP Fertilizer
+A01427,Hybrid Maize Seed
+A01428,Acaricide
+A01428,Dairy Meal
+A01428,Veterinary Drugs
+A01429,Protective Gloves
+A01429,Tools (Hoe/Panga)
+A01429,Wheelbarrow
+A01430,Protective Gloves
+A01430,Tools (Hoe/Panga)
+A01431,Dairy Meal
+A01431,Herbicide
+A01432,Chick Starter
+A01432,Poultry Feed
+A01433,CAN Fertilizer
+A01433,DAP Fertilizer
+A01433,Hybrid Maize Seed
+A01434,Tools (Hoe/Panga)
+A01435,Acaricide
+A01435,Dairy Meal
+A01435,Mineral Lick
+A01436,Veterinary Drugs
+A01437,Tools (Hoe/Panga)
+A01438,Acaricide
+A01438,Dairy Meal
+A01439,CAN Fertilizer
+A01440,Drinkers & Feeders
+A01440,Poultry Feed
+A01440,Veterinary Drugs
+A01441,Fungicide
+A01441,Potato Seed
+A01442,Foliar Feed
+A01442,Fungicide
+A01442,Vegetable Seeds
+A01443,DAP Fertilizer
+A01443,Herbicide
+A01443,Hybrid Maize Seed
+A01444,CAN Fertilizer
+A01444,Hybrid Maize Seed
+A01445,Fungicide
+A01445,Pesticide
+A01445,Protective Gloves
+A01446,Drinkers & Feeders
+A01446,Poultry Feed
+A01446,Veterinary Drugs
+A01447,Dairy Meal
+A01447,Mineral Lick
+A01447,Veterinary Drugs
+A01448,DAP Fertilizer
+A01448,Foliar Feed
+A01448,Vegetable Seeds
+A01449,DAP Fertilizer
+A01449,Pesticide
+A01449,Potato Seed
+A01450,CAN Fertilizer
+A01451,Dairy Meal
+A01451,Mineral Lick
+A01451,Veterinary Drugs
+A01452,Acaricide
+A01452,Dairy Meal
+A01452,Mineral Lick
+A01453,Drinkers & Feeders
+A01453,Poultry Feed
+A01454,Fungicide
+A01454,Pesticide
+A01455,DAP Fertilizer
+A01455,Hybrid Maize Seed
+A01456,CAN Fertilizer
+A01456,DAP Fertilizer
+A01456,Hybrid Maize Seed
+A01456,Protective Gloves
+A01456,Tools (Hoe/Panga)
+A01457,Drip Kit
+A01457,Foliar Feed
+A01457,Vegetable Seeds
+A01458,Chick Starter
+A01458,Poultry Feed
+A01459,Dairy Meal
+A01459,Mineral Lick
+A01459,Veterinary Drugs
+A01460,Acaricide
+A01460,Dairy Meal
+A01461,Pesticide
+A01462,Dairy Meal
+A01462,Mineral Lick
+A01462,Veterinary Drugs
+A01463,Poultry Feed
+A01464,Drip Kit
+A01464,Foliar Feed
+A01464,Fungicide
+A01464,Pesticide
+A01464,Vegetable Seeds
+A01465,CAN Fertilizer
+A01465,DAP Fertilizer
+A01465,Herbicide
+A01466,Herbicide
+A01467,CAN Fertilizer
+A01468,Chick Starter
+A01469,Chick Starter
+A01469,DAP Fertilizer
+A01469,Poultry Feed
+A01470,Dairy Meal
+A01470,Mineral Lick
+A01470,Veterinary Drugs
+A01471,Drip Kit
+A01471,Fungicide
+A01471,Vegetable Seeds
+A01472,Knapsack Sprayer
+A01472,Protective Gloves
+A01473,Fungicide
+A01473,Pesticide
+A01473,Protective Gloves
+A01474,Acaricide
+A01474,Dairy Meal
+A01474,Mineral Lick
+A01474,Veterinary Drugs
+A01475,Fungicide
+A01475,Knapsack Sprayer
+A01475,Pesticide
+A01475,Protective Gloves
+A01476,Fungicide
+A01476,Pesticide
+A01477,DAP Fertilizer
+A01477,Potato Seed
+A01478,CAN Fertilizer
+A01479,CAN Fertilizer
+A01479,Herbicide
+A01480,Fungicide
+A01480,Pesticide
+A01480,Protective Gloves
+A01481,Herbicide
+A01481,Hybrid Maize Seed
+A01482,CAN Fertilizer
+A01482,DAP Fertilizer
+A01482,Hybrid Maize Seed
+A01483,CAN Fertilizer
+A01483,DAP Fertilizer
+A01483,Hybrid Maize Seed
+A01483,Tools (Hoe/Panga)
+A01484,DAP Fertilizer
+A01484,Potato Seed
+A01485,Pesticide
+A01486,DAP Fertilizer
+A01486,Hybrid Maize Seed
+A01487,Drinkers & Feeders
+A01487,Poultry Feed
+A01487,Veterinary Drugs
+A01488,Pesticide
+A01489,DAP Fertilizer
+A01489,Fungicide
+A01489,Pesticide
+A01489,Potato Seed
+A01490,Tools (Hoe/Panga)
+A01491,Fungicide
+A01491,Pesticide
+A01491,Protective Gloves
+A01492,Acaricide
+A01492,DAP Fertilizer
+A01492,Dairy Meal
+A01492,Tools (Hoe/Panga)
+A01492,Veterinary Drugs
+A01493,Fungicide
+A01493,Tools (Hoe/Panga)
+A01493,Vegetable Seeds
+A01494,Dairy Meal
+A01494,Mineral Lick
+A01494,Veterinary Drugs
+A01495,Protective Gloves
+A01496,CAN Fertilizer
+A01496,Herbicide
+A01497,Fungicide
+A01497,Tools (Hoe/Panga)
+A01497,Vegetable Seeds
+A01498,CAN Fertilizer
+A01498,Herbicide
+A01499,DAP Fertilizer
+A01499,Hybrid Maize Seed
+A01500,Chick Starter
+A01500,Dairy Meal
+A01500,Drinkers & Feeders
+A01500,Poultry Feed
+A01500,Veterinary Drugs
+A01501,Drip Kit
+A01501,Herbicide
+A01501,Vegetable Seeds
+A01502,Dairy Meal
+A01502,Mineral Lick
+A01503,Herbicide
+A01503,Protective Gloves
+A01504,DAP Fertilizer
+A01504,Fungicide
+A01504,Pesticide
+A01504,Potato Seed
+A01505,Fungicide
+A01505,Pesticide
+A01506,DAP Fertilizer
+A01506,Fungicide
+A01506,Pesticide
+A01506,Protective Gloves
+A01507,Fungicide
+A01507,Pesticide
+A01507,Protective Gloves
+A01508,Fungicide
+A01508,Pesticide
+A01508,Protective Gloves
+A01509,Knapsack Sprayer
+A01509,Pesticide
+A01509,Protective Gloves
+A01510,DAP Fertilizer
+A01510,Fungicide
+A01510,Pesticide
+A01510,Potato Seed
+A01510,Veterinary Drugs
+A01511,DAP Fertilizer
+A01512,Acaricide
+A01512,Dairy Meal
+A01512,Mineral Lick
+A01513,Chick Starter
+A01513,Drinkers & Feeders
+A01513,Poultry Feed
+A01513,Veterinary Drugs
+A01514,Dairy Meal
+A01514,Mineral Lick
+A01515,CAN Fertilizer
+A01516,DAP Fertilizer
+A01516,Fungicide
+A01516,Knapsack Sprayer
+A01516,Pesticide
+A01516,Protective Gloves
+A01517,Mineral Lick
+A01518,Knapsack Sprayer
+A01519,DAP Fertilizer
+A01519,Herbicide
+A01519,Hybrid Maize Seed
+A01520,Chick Starter
+A01520,Drinkers & Feeders
+A01520,Poultry Feed
+A01520,Veterinary Drugs
+A01521,DAP Fertilizer
+A01521,Pesticide
+A01521,Potato Seed
+A01522,Tools (Hoe/Panga)
+A01522,Water Pump
+A01522,Wheelbarrow
+A01523,DAP Fertilizer
+A01523,Fungicide
+A01523,Potato Seed
+A01524,DAP Fertilizer
+A01524,Pesticide
+A01524,Protective Gloves
+A01525,Fungicide
+A01525,Knapsack Sprayer
+A01525,Pesticide
+A01525,Protective Gloves
+A01526,Vegetable Seeds
+A01527,DAP Fertilizer
+A01527,Fungicide
+A01527,Potato Seed
+A01528,Drip Kit
+A01528,Foliar Feed
+A01528,Protective Gloves
+A01528,Vegetable Seeds
+A01529,CAN Fertilizer
+A01529,DAP Fertilizer
+A01529,Herbicide
+A01530,Poultry Feed
+A01531,DAP Fertilizer
+A01531,Fungicide
+A01531,Potato Seed
+A01532,CAN Fertilizer
+A01532,DAP Fertilizer
+A01532,Hybrid Maize Seed
+A01533,Chick Starter
+A01533,Drinkers & Feeders
+A01533,Poultry Feed
+A01534,CAN Fertilizer
+A01534,DAP Fertilizer
+A01534,Hybrid Maize Seed
+A01535,DAP Fertilizer
+A01535,Foliar Feed
+A01536,CAN Fertilizer
+A01536,DAP Fertilizer
+A01536,Hybrid Maize Seed
+A01537,Knapsack Sprayer
+A01537,Pesticide
+A01537,Protective Gloves
+A01538,Acaricide
+A01538,Dairy Meal
+A01538,Mineral Lick
+A01538,Veterinary Drugs
+A01539,Vegetable Seeds
+A01540,Chick Starter
+A01540,Pesticide
+A01540,Poultry Feed
+A01541,Wheelbarrow
+A01542,Chick Starter
+A01542,Drinkers & Feeders
+A01542,Poultry Feed
+A01543,Foliar Feed
+A01543,Fungicide
+A01543,Pesticide
+A01543,Vegetable Seeds
+A01544,Tools (Hoe/Panga)
+A01544,Veterinary Drugs
+A01545,Pesticide
+A01545,Tools (Hoe/Panga)
+A01546,Vegetable Seeds
+A01547,CAN Fertilizer
+A01547,Herbicide
+A01548,DAP Fertilizer
+A01548,Hybrid Maize Seed
+A01549,Fungicide
+A01549,Knapsack Sprayer
+A01549,Pesticide
+A01549,Protective Gloves
+A01550,CAN Fertilizer
+A01550,DAP Fertilizer
+A01550,Dairy Meal
+A01550,Hybrid Maize Seed
+A01550,Veterinary Drugs
+A01551,DAP Fertilizer
+A01552,CAN Fertilizer
+A01552,Herbicide
+A01553,DAP Fertilizer
+A01553,Fungicide
+A01553,Pesticide
+A01553,Potato Seed
+A01553,Tools (Hoe/Panga)
+A01554,Fungicide
+A01554,Pesticide
+A01554,Potato Seed
+A01555,Dairy Meal
+A01555,Veterinary Drugs
+A01556,DAP Fertilizer
+A01556,Hybrid Maize Seed
+A01557,Tools (Hoe/Panga)
+A01558,CAN Fertilizer
+A01558,DAP Fertilizer
+A01558,Hybrid Maize Seed
+A01559,Herbicide
+A01559,Hybrid Maize Seed
+A01560,CAN Fertilizer
+A01560,Hybrid Maize Seed
+A01561,Dairy Meal
+A01561,Mineral Lick
+A01561,Veterinary Drugs
+A01562,Tools (Hoe/Panga)
+A01563,DAP Fertilizer
+A01563,Potato Seed
+A01564,Foliar Feed
+A01564,Vegetable Seeds
+A01565,CAN Fertilizer
+A01565,DAP Fertilizer
+A01565,Hybrid Maize Seed
+A01566,Fungicide
+A01566,Knapsack Sprayer
+A01566,Pesticide
+A01566,Veterinary Drugs
+A01567,DAP Fertilizer
+A01567,Hybrid Maize Seed
+A01568,DAP Fertilizer
+A01568,Hybrid Maize Seed
+A01569,Protective Gloves
+A01569,Water Pump
+A01570,Foliar Feed
+A01570,Pesticide
+A01570,Vegetable Seeds
+A01571,DAP Fertilizer
+A01571,Herbicide
+A01571,Hybrid Maize Seed
+A01572,CAN Fertilizer
+A01572,DAP Fertilizer
+A01572,Hybrid Maize Seed
+A01573,CAN Fertilizer
+A01574,DAP Fertilizer
+A01574,Potato Seed
+A01574,Protective Gloves
+A01575,CAN Fertilizer
+A01576,Acaricide
+A01576,Dairy Meal
+A01576,Protective Gloves
+A01577,DAP Fertilizer
+A01577,Hybrid Maize Seed
+A01578,DAP Fertilizer
+A01578,Fungicide
+A01578,Potato Seed
+A01579,Acaricide
+A01579,Dairy Meal
+A01579,Mineral Lick
+A01580,Protective Gloves
+A01581,Fungicide
+A01581,Potato Seed
+A01582,CAN Fertilizer
+A01582,DAP Fertilizer
+A01582,Hybrid Maize Seed
+A01583,Tools (Hoe/Panga)
+A01584,CAN Fertilizer
+A01584,Herbicide
+A01584,Hybrid Maize Seed
+A01585,CAN Fertilizer
+A01585,DAP Fertilizer
+A01585,Herbicide
+A01585,Hybrid Maize Seed
+A01586,DAP Fertilizer
+A01586,Fungicide
+A01586,Potato Seed
+A01587,CAN Fertilizer
+A01587,Herbicide
+A01588,Chick Starter
+A01588,Drinkers & Feeders
+A01588,Poultry Feed
+A01588,Tools (Hoe/Panga)
+A01589,CAN Fertilizer
+A01589,Herbicide
+A01590,DAP Fertilizer
+A01590,Fungicide
+A01590,Potato Seed
+A01591,DAP Fertilizer
+A01591,Hybrid Maize Seed
+A01592,DAP Fertilizer
+A01592,Fungicide
+A01592,Potato Seed
+A01593,CAN Fertilizer
+A01593,Herbicide
+A01594,CAN Fertilizer
+A01594,DAP Fertilizer
+A01594,Herbicide
+A01594,Hybrid Maize Seed
+A01595,Drinkers & Feeders
+A01595,Poultry Feed
+A01596,Protective Gloves
+A01597,Knapsack Sprayer
+A01597,Pesticide
+A01598,Fungicide
+A01598,Knapsack Sprayer
+A01598,Pesticide
+A01598,Protective Gloves
+A01599,Chick Starter
+A01599,Poultry Feed
+A01600,Drip Kit
+A01600,Fungicide
+A01600,Pesticide
+A01601,Fungicide
+A01601,Pesticide
+A01601,Protective Gloves
+A01602,Drip Kit
+A01602,Foliar Feed
+A01602,Fungicide
+A01602,Vegetable Seeds
+A01603,Veterinary Drugs
+A01604,DAP Fertilizer
+A01604,Potato Seed
+A01605,DAP Fertilizer
+A01605,Fungicide
+A01605,Potato Seed
+A01606,CAN Fertilizer
+A01607,Knapsack Sprayer
+A01607,Pesticide
+A01608,CAN Fertilizer
+A01608,DAP Fertilizer
+A01608,Hybrid Maize Seed
+A01609,DAP Fertilizer
+A01609,Hybrid Maize Seed
+A01609,Pesticide
+A01610,DAP Fertilizer
+A01610,Hybrid Maize Seed
+A01611,CAN Fertilizer
+A01611,DAP Fertilizer
+A01611,Herbicide
+A01611,Protective Gloves
+A01612,DAP Fertilizer
+A01612,Hybrid Maize Seed
+A01613,CAN Fertilizer
+A01613,DAP Fertilizer
+A01613,Herbicide
+A01613,Hybrid Maize Seed
+A01614,CAN Fertilizer
+A01614,DAP Fertilizer
+A01614,Hybrid Maize Seed
+A01615,DAP Fertilizer
+A01615,Pesticide
+A01615,Potato Seed
+A01616,Tools (Hoe/Panga)
+A01617,Drip Kit
+A01617,Foliar Feed
+A01617,Vegetable Seeds
+A01618,Tools (Hoe/Panga)
+A01618,Veterinary Drugs
+A01618,Water Pump
+A01619,Fungicide
+A01619,Knapsack Sprayer
+A01619,Pesticide
+A01619,Protective Gloves
+A01620,CAN Fertilizer
+A01620,DAP Fertilizer
+A01620,Herbicide
+A01621,DAP Fertilizer
+A01621,Fungicide
+A01621,Potato Seed
+A01622,Fungicide
+A01622,Knapsack Sprayer
+A01622,Pesticide
+A01623,Fungicide
+A01623,Vegetable Seeds
+A01624,Dairy Meal
+A01624,Mineral Lick
+A01624,Veterinary Drugs
+A01625,CAN Fertilizer
+A01626,DAP Fertilizer
+A01626,Hybrid Maize Seed
+A01627,Protective Gloves
+A01628,Poultry Feed
+A01628,Veterinary Drugs
+A01629,CAN Fertilizer
+A01629,DAP Fertilizer
+A01629,Herbicide
+A01629,Hybrid Maize Seed
+A01630,Foliar Feed
+A01630,Pesticide
+A01630,Vegetable Seeds
+A01631,CAN Fertilizer
+A01632,Chick Starter
+A01633,Drip Kit
+A01633,Foliar Feed
+A01633,Pesticide
+A01633,Vegetable Seeds
+A01634,Acaricide
+A01634,Dairy Meal
+A01634,Mineral Lick
+A01634,Veterinary Drugs
+A01635,Foliar Feed
+A01635,Pesticide
+A01635,Vegetable Seeds
+A01636,DAP Fertilizer
+A01636,Hybrid Maize Seed
+A01637,CAN Fertilizer
+A01637,Hybrid Maize Seed
+A01638,CAN Fertilizer
+A01638,DAP Fertilizer
+A01638,Hybrid Maize Seed
+A01639,Acaricide
+A01639,Dairy Meal
+A01639,Pesticide
+A01639,Veterinary Drugs
+A01640,CAN Fertilizer
+A01640,DAP Fertilizer
+A01641,Protective Gloves
+A01641,Tools (Hoe/Panga)
+A01641,Wheelbarrow
+A01642,CAN Fertilizer
+A01643,Dairy Meal
+A01643,Veterinary Drugs
+A01644,Protective Gloves
+A01644,Tools (Hoe/Panga)
+A01645,Poultry Feed
+A01645,Veterinary Drugs
+A01646,Veterinary Drugs
+A01647,Fungicide
+A01647,Pesticide
+A01647,Potato Seed
+A01648,CAN Fertilizer
+A01648,Herbicide
+A01648,Pesticide
+A01649,CAN Fertilizer
+A01649,Hybrid Maize Seed
+A01650,Acaricide
+A01650,Dairy Meal
+A01650,Mineral Lick
+A01650,Veterinary Drugs
+A01651,Foliar Feed
+A01651,Fungicide
+A01651,Pesticide
+A01651,Vegetable Seeds
+A01652,CAN Fertilizer
+A01652,Herbicide
+A01653,Chick Starter
+A01653,Drinkers & Feeders
+A01653,Poultry Feed
+A01654,Acaricide
+A01654,Mineral Lick
+A01654,Veterinary Drugs
+A01655,Poultry Feed
+A01656,Dairy Meal
+A01656,Herbicide
+A01656,Mineral Lick
+A01656,Veterinary Drugs
+A01657,Acaricide
+A01657,Dairy Meal
+A01658,Potato Seed
+A01659,Protective Gloves
+A01659,Tools (Hoe/Panga)
+A01660,Acaricide
+A01660,Dairy Meal
+A01660,Mineral Lick
+A01661,Vegetable Seeds
+A01662,Protective Gloves
+A01663,Dairy Meal
+A01663,Mineral Lick
+A01664,DAP Fertilizer
+A01664,Fungicide
+A01664,Pesticide
+A01664,Potato Seed
+A01665,CAN Fertilizer
+A01665,DAP Fertilizer
+A01665,Herbicide
+A01666,Poultry Feed
+A01667,CAN Fertilizer
+A01667,Herbicide
+A01668,Foliar Feed
+A01668,Fungicide
+A01668,Vegetable Seeds
+A01669,Herbicide
+A01669,Protective Gloves
+A01669,Wheelbarrow
+A01670,DAP Fertilizer
+A01670,Fungicide
+A01670,Pesticide
+A01670,Potato Seed
+A01671,Acaricide
+A01671,Dairy Meal
+A01671,Mineral Lick
+A01672,DAP Fertilizer
+A01672,Herbicide
+A01672,Hybrid Maize Seed
+A01673,CAN Fertilizer
+A01673,Herbicide
+A01673,Hybrid Maize Seed
+A01673,Veterinary Drugs
+A01674,Foliar Feed
+A01674,Pesticide
+A01674,Vegetable Seeds
+A01675,Chick Starter
+A01675,Poultry Feed
+A01676,Dairy Meal
+A01676,Mineral Lick
+A01676,Protective Gloves
+A01677,Poultry Feed
+A01678,Chick Starter
+A01678,Poultry Feed
+A01678,Veterinary Drugs
+A01679,Protective Gloves
+A01679,Tools (Hoe/Panga)
+A01680,CAN Fertilizer
+A01680,DAP Fertilizer
+A01681,Acaricide
+A01681,Dairy Meal
+A01681,Mineral Lick
+A01682,CAN Fertilizer
+A01682,DAP Fertilizer
+A01682,Hybrid Maize Seed
+A01683,Pesticide
+A01684,Vegetable Seeds
+A01685,Herbicide
+A01686,Vegetable Seeds
+A01687,DAP Fertilizer
+A01687,Fungicide
+A01687,Pesticide
+A01687,Potato Seed
+A01688,Foliar Feed
+A01688,Vegetable Seeds
+A01689,CAN Fertilizer
+A01689,Herbicide
+A01690,Acaricide
+A01690,Dairy Meal
+A01691,DAP Fertilizer
+A01691,Fungicide
+A01691,Potato Seed
+A01692,Fungicide
+A01692,Potato Seed
+A01693,Acaricide
+A01693,Dairy Meal
+A01693,Mineral Lick
+A01694,DAP Fertilizer
+A01694,Fungicide
+A01694,Pesticide
+A01694,Potato Seed
+A01695,Tools (Hoe/Panga)
+A01696,CAN Fertilizer
+A01696,Herbicide
+A01696,Hybrid Maize Seed
+A01696,Pesticide
+A01696,Protective Gloves
+A01697,DAP Fertilizer
+A01697,Hybrid Maize Seed
+A01698,Acaricide
+A01698,Dairy Meal
+A01699,DAP Fertilizer
+A01699,Hybrid Maize Seed
+A01700,Fungicide
+A01700,Pesticide
+A01700,Protective Gloves
+A01701,Dairy Meal
+A01701,Mineral Lick
+A01701,Veterinary Drugs
+A01702,Herbicide
+A01703,DAP Fertilizer
+A01703,Hybrid Maize Seed
+A01704,Tools (Hoe/Panga)
+A01704,Veterinary Drugs
+A01705,Fungicide
+A01705,Knapsack Sprayer
+A01705,Pesticide
+A01705,Protective Gloves
+A01706,Chick Starter
+A01706,Drinkers & Feeders
+A01706,Poultry Feed
+A01706,Veterinary Drugs
+A01707,Fungicide
+A01707,Knapsack Sprayer
+A01707,Pesticide
+A01708,DAP Fertilizer
+A01708,Hybrid Maize Seed
+A01709,Foliar Feed
+A01709,Fungicide
+A01709,Pesticide
+A01709,Vegetable Seeds
+A01710,DAP Fertilizer
+A01710,Hybrid Maize Seed
+A01710,Tools (Hoe/Panga)
+A01711,Acaricide
+A01711,Dairy Meal
+A01711,Veterinary Drugs
+A01712,DAP Fertilizer
+A01713,Dairy Meal
+A01713,Mineral Lick
+A01714,Fungicide
+A01714,Herbicide
+A01714,Knapsack Sprayer
+A01714,Pesticide
+A01715,Fungicide
+A01715,Pesticide
+A01716,Chick Starter
+A01716,Veterinary Drugs
+A01717,Chick Starter
+A01717,Drinkers & Feeders
+A01718,Chick Starter
+A01718,Drinkers & Feeders
+A01718,Poultry Feed
+A01718,Tools (Hoe/Panga)
+A01718,Veterinary Drugs
+A01719,Acaricide
+A01719,Dairy Meal
+A01719,Mineral Lick
+A01720,Acaricide
+A01720,Dairy Meal
+A01720,Veterinary Drugs
+A01721,Acaricide
+A01721,Dairy Meal
+A01721,Mineral Lick
+A01721,Veterinary Drugs
+A01722,Dairy Meal
+A01722,Mineral Lick
+A01723,CAN Fertilizer
+A01723,Hybrid Maize Seed
+A01724,Fungicide
+A01724,Vegetable Seeds
+A01725,DAP Fertilizer
+A01725,Fungicide
+A01725,Potato Seed
+A01726,CAN Fertilizer
+A01726,DAP Fertilizer
+A01726,Herbicide
+A01726,Hybrid Maize Seed
+A01727,DAP Fertilizer
+A01727,Dairy Meal
+A01727,Herbicide
+A01727,Hybrid Maize Seed
+A01728,Poultry Feed
+A01729,CAN Fertilizer
+A01729,Herbicide
+A01730,Chick Starter
+A01730,Poultry Feed
+A01730,Vegetable Seeds
+A01731,Knapsack Sprayer
+A01732,CAN Fertilizer
+A01732,DAP Fertilizer
+A01732,Hybrid Maize Seed
+A01733,CAN Fertilizer
+A01734,Drip Kit
+A01734,Pesticide
+A01734,Vegetable Seeds
+A01735,Vegetable Seeds
+A01736,Fungicide
+A01736,Knapsack Sprayer
+A01736,Pesticide
+A01736,Protective Gloves
+A01737,Drip Kit
+A01737,Foliar Feed
+A01737,Vegetable Seeds
+A01738,Acaricide
+A01738,Dairy Meal
+A01738,Mineral Lick
+A01738,Pesticide
+A01738,Veterinary Drugs
+A01739,Dairy Meal
+A01739,Mineral Lick
+A01739,Tools (Hoe/Panga)
+A01740,Chick Starter
+A01740,Drinkers & Feeders
+A01740,Poultry Feed
+A01741,Fungicide
+A01741,Knapsack Sprayer
+A01741,Pesticide
+A01741,Protective Gloves
+A01741,Vegetable Seeds
+A01742,Foliar Feed
+A01742,Pesticide
+A01742,Vegetable Seeds
+A01743,Wheelbarrow
+A01744,CAN Fertilizer
+A01745,Pesticide
+A01745,Protective Gloves
+A01746,CAN Fertilizer
+A01746,DAP Fertilizer
+A01746,Hybrid Maize Seed
+A01747,Pesticide
+A01747,Protective Gloves
+A01747,Tools (Hoe/Panga)
+A01748,DAP Fertilizer
+A01748,Pesticide
+A01748,Potato Seed
+A01749,CAN Fertilizer
+A01749,Herbicide
+A01749,Hybrid Maize Seed
+A01749,Pesticide
+A01750,Fungicide
+A01750,Knapsack Sprayer
+A01750,Pesticide
+A01750,Protective Gloves
+A01750,Veterinary Drugs
+A01751,CAN Fertilizer
+A01751,DAP Fertilizer
+A01751,Hybrid Maize Seed
+A01751,Pesticide
+A01751,Protective Gloves
+A01752,Pesticide
+A01752,Protective Gloves
+A01753,Pesticide
+A01753,Vegetable Seeds
+A01754,Dairy Meal
+A01755,Foliar Feed
+A01755,Fungicide
+A01755,Vegetable Seeds
+A01756,DAP Fertilizer
+A01756,Potato Seed
+A01757,DAP Fertilizer
+A01757,Fungicide
+A01757,Potato Seed
+A01758,Tools (Hoe/Panga)
+A01758,Water Pump
+A01759,Protective Gloves
+A01759,Tools (Hoe/Panga)
+A01760,CAN Fertilizer
+A01760,Herbicide
+A01761,CAN Fertilizer
+A01761,DAP Fertilizer
+A01761,Hybrid Maize Seed
+A01762,Knapsack Sprayer
+A01762,Protective Gloves
+A01763,CAN Fertilizer
+A01763,Hybrid Maize Seed
+A01764,CAN Fertilizer
+A01764,Vegetable Seeds
+A01765,Fungicide
+A01766,Fungicide
+A01766,Pesticide
+A01767,Foliar Feed
+A01767,Fungicide
+A01768,Foliar Feed
+A01768,Fungicide
+A01768,Vegetable Seeds
+A01769,Tools (Hoe/Panga)
+A01770,Chick Starter
+A01770,Drinkers & Feeders
+A01771,CAN Fertilizer
+A01771,DAP Fertilizer
+A01771,Herbicide
+A01771,Hybrid Maize Seed
+A01772,Acaricide
+A01772,Dairy Meal
+A01772,Mineral Lick
+A01773,DAP Fertilizer
+A01773,Hybrid Maize Seed
+A01774,Acaricide
+A01774,Dairy Meal
+A01774,Mineral Lick
+A01774,Veterinary Drugs
+A01775,Foliar Feed
+A01776,Chick Starter
+A01776,Poultry Feed
+A01777,Pesticide
+A01777,Protective Gloves
+A01777,Vegetable Seeds
+A01778,Fungicide
+A01778,Knapsack Sprayer
+A01778,Pesticide
+A01778,Protective Gloves
+A01779,Foliar Feed
+A01779,Fungicide
+A01779,Pesticide
+A01779,Vegetable Seeds
+A01780,DAP Fertilizer
+A01780,Pesticide
+A01780,Veterinary Drugs
+A01781,Dairy Meal
+A01781,Pesticide
+A01781,Protective Gloves
+A01782,Poultry Feed
+A01782,Veterinary Drugs
+A01783,Fungicide
+A01783,Vegetable Seeds
+A01784,Tools (Hoe/Panga)
+A01785,Drip Kit
+A01785,Foliar Feed
+A01785,Fungicide
+A01785,Protective Gloves
+A01785,Vegetable Seeds
+A01786,Protective Gloves
+A01786,Tools (Hoe/Panga)
+A01787,Acaricide
+A01787,Dairy Meal
+A01787,Mineral Lick
+A01788,Tools (Hoe/Panga)
+A01788,Wheelbarrow
+A01789,Fungicide
+A01789,Pesticide
+A01790,Drip Kit
+A01790,Foliar Feed
+A01790,Fungicide
+A01790,Vegetable Seeds
+A01791,Herbicide
+A01791,Hybrid Maize Seed
+A01791,Vegetable Seeds
+A01792,Tools (Hoe/Panga)
+A01793,Drinkers & Feeders
+A01793,Poultry Feed
+A01793,Veterinary Drugs
+A01794,Drip Kit
+A01794,Foliar Feed
+A01794,Fungicide
+A01794,Vegetable Seeds
+A01795,Foliar Feed
+A01795,Pesticide
+A01795,Vegetable Seeds
+A01796,Fungicide
+A01796,Potato Seed
+A01797,Poultry Feed
+A01797,Veterinary Drugs
+A01798,Chick Starter
+A01798,Drinkers & Feeders
+A01798,Poultry Feed
+A01798,Veterinary Drugs
+A01799,Knapsack Sprayer
+A01799,Pesticide
+A01799,Protective Gloves
+A01800,Drinkers & Feeders
+A01800,Poultry Feed
+A01800,Veterinary Drugs
+A01801,DAP Fertilizer
+A01801,Pesticide
+A01801,Protective Gloves
+A01802,Potato Seed
+A01802,Veterinary Drugs
+A01803,DAP Fertilizer
+A01803,Hybrid Maize Seed
+A01804,Fungicide
+A01804,Knapsack Sprayer
+A01804,Pesticide
+A01805,DAP Fertilizer
+A01805,Herbicide
+A01805,Hybrid Maize Seed
+A01806,CAN Fertilizer
+A01807,Fungicide
+A01807,Knapsack Sprayer
+A01807,Pesticide
+A01807,Protective Gloves
+A01808,Protective Gloves
+A01808,Wheelbarrow
+A01809,Dairy Meal
+A01809,Mineral Lick
+A01810,CAN Fertilizer
+A01810,DAP Fertilizer
+A01810,Hybrid Maize Seed
+A01811,Vegetable Seeds
+A01812,Dairy Meal
+A01812,Mineral Lick
+A01813,CAN Fertilizer
+A01813,DAP Fertilizer
+A01813,Hybrid Maize Seed
+A01814,CAN Fertilizer
+A01814,DAP Fertilizer
+A01814,Hybrid Maize Seed
+A01814,Veterinary Drugs
+A01815,Pesticide
+A01815,Protective Gloves
+A01815,Water Pump
+A01815,Wheelbarrow
+A01816,CAN Fertilizer
+A01816,DAP Fertilizer
+A01816,Herbicide
+A01816,Hybrid Maize Seed
+A01817,CAN Fertilizer
+A01817,Herbicide
+A01818,Tools (Hoe/Panga)
+A01818,Water Pump
+A01819,DAP Fertilizer
+A01819,Hybrid Maize Seed
+A01819,Tools (Hoe/Panga)
+A01820,CAN Fertilizer
+A01820,DAP Fertilizer
+A01820,Hybrid Maize Seed
+A01821,Pesticide
+A01822,Fungicide
+A01822,Pesticide
+A01822,Potato Seed
+A01822,Tools (Hoe/Panga)
+A01823,CAN Fertilizer
+A01823,Dairy Meal
+A01824,Pesticide
+A01825,DAP Fertilizer
+A01825,Hybrid Maize Seed
+A01826,CAN Fertilizer
+A01826,DAP Fertilizer
+A01826,Hybrid Maize Seed
+A01827,Chick Starter
+A01827,Poultry Feed
+A01828,Fungicide
+A01828,Vegetable Seeds
+A01829,DAP Fertilizer
+A01829,Herbicide
+A01829,Hybrid Maize Seed
+A01830,Dairy Meal
+A01830,Pesticide
+A01831,Tools (Hoe/Panga)
+A01832,Acaricide
+A01832,Dairy Meal
+A01832,Mineral Lick
+A01832,Veterinary Drugs
+A01833,DAP Fertilizer
+A01833,Potato Seed
+A01833,Protective Gloves
+A01834,Drip Kit
+A01834,Pesticide
+A01834,Vegetable Seeds
+A01835,DAP Fertilizer
+A01835,Dairy Meal
+A01836,Chick Starter
+A01836,Drinkers & Feeders
+A01836,Poultry Feed
+A01837,Dairy Meal
+A01837,Mineral Lick
+A01837,Veterinary Drugs
+A01838,DAP Fertilizer
+A01838,Fungicide
+A01838,Pesticide
+A01839,Foliar Feed
+A01839,Fungicide
+A01839,Vegetable Seeds
+A01840,CAN Fertilizer
+A01840,DAP Fertilizer
+A01840,Hybrid Maize Seed
+A01841,Fungicide
+A01841,Knapsack Sprayer
+A01841,Pesticide
+A01842,CAN Fertilizer
+A01843,DAP Fertilizer
+A01843,Potato Seed
+A01844,CAN Fertilizer
+A01844,DAP Fertilizer
+A01844,Hybrid Maize Seed
+A01845,CAN Fertilizer
+A01846,Tools (Hoe/Panga)
+A01846,Veterinary Drugs
+A01847,Fungicide
+A01847,Pesticide
+A01848,Hybrid Maize Seed
+A01849,Fungicide
+A01849,Vegetable Seeds
+A01850,CAN Fertilizer
+A01850,Herbicide
+A01851,Drip Kit
+A01851,Foliar Feed
+A01851,Pesticide
+A01851,Vegetable Seeds
+A01852,Pesticide
+A01852,Protective Gloves
+A01853,CAN Fertilizer
+A01853,DAP Fertilizer
+A01853,Herbicide
+A01853,Hybrid Maize Seed
+A01854,Pesticide
+A01854,Vegetable Seeds
+A01855,DAP Fertilizer
+A01855,Hybrid Maize Seed
+A01856,Herbicide
+A01857,DAP Fertilizer
+A01857,Fungicide
+A01857,Pesticide
+A01857,Potato Seed
+A01858,CAN Fertilizer
+A01858,DAP Fertilizer
+A01858,Hybrid Maize Seed
+A01859,DAP Fertilizer
+A01859,Fungicide
+A01859,Pesticide
+A01859,Potato Seed
+A01860,CAN Fertilizer
+A01860,Herbicide
+A01861,Acaricide
+A01861,Dairy Meal
+A01861,Mineral Lick
+A01861,Vegetable Seeds
+A01861,Veterinary Drugs
+A01862,CAN Fertilizer
+A01862,DAP Fertilizer
+A01862,Dairy Meal
+A01862,Hybrid Maize Seed
+A01863,Drip Kit
+A01863,Foliar Feed
+A01863,Fungicide
+A01863,Pesticide
+A01863,Vegetable Seeds
+A01864,Hybrid Maize Seed
+A01865,DAP Fertilizer
+A01865,Fungicide
+A01865,Pesticide
+A01865,Potato Seed
+A01866,Acaricide
+A01866,Dairy Meal
+A01866,Mineral Lick
+A01866,Veterinary Drugs
+A01867,Foliar Feed
+A01867,Fungicide
+A01867,Pesticide
+A01867,Tools (Hoe/Panga)
+A01867,Vegetable Seeds
+A01868,Vegetable Seeds
+A01869,CAN Fertilizer
+A01869,Herbicide
+A01870,Acaricide
+A01871,DAP Fertilizer
+A01871,Fungicide
+A01871,Pesticide
+A01871,Potato Seed
+A01872,DAP Fertilizer
+A01872,Pesticide
+A01872,Vegetable Seeds
+A01873,CAN Fertilizer
+A01873,DAP Fertilizer
+A01874,Foliar Feed
+A01874,Fungicide
+A01874,Vegetable Seeds
+A01875,DAP Fertilizer
+A01875,Hybrid Maize Seed
+A01876,DAP Fertilizer
+A01876,Foliar Feed
+A01876,Vegetable Seeds
+A01877,Dairy Meal
+A01877,Mineral Lick
+A01877,Veterinary Drugs
+A01878,DAP Fertilizer
+A01878,Hybrid Maize Seed
+A01878,Veterinary Drugs
+A01879,Dairy Meal
+A01879,Mineral Lick
+A01880,Chick Starter
+A01880,Drinkers & Feeders
+A01880,Poultry Feed
+A01881,Fungicide
+A01881,Pesticide
+A01882,Fungicide
+A01882,Potato Seed
+A01883,DAP Fertilizer
+A01883,Hybrid Maize Seed
+A01884,CAN Fertilizer
+A01884,DAP Fertilizer
+A01884,Hybrid Maize Seed
+A01884,Veterinary Drugs
+A01885,CAN Fertilizer
+A01885,DAP Fertilizer
+A01885,Hybrid Maize Seed
+A01885,Veterinary Drugs
+A01886,DAP Fertilizer
+A01886,Hybrid Maize Seed
+A01887,Knapsack Sprayer
+A01887,Pesticide
+A01888,DAP Fertilizer
+A01888,Fungicide
+A01888,Potato Seed
+A01889,Fungicide
+A01889,Protective Gloves
+A01890,Pesticide
+A01890,Potato Seed
+A01891,Drip Kit
+A01891,Fungicide
+A01891,Pesticide
+A01891,Vegetable Seeds
+A01892,Drip Kit
+A01892,Foliar Feed
+A01892,Pesticide
+A01892,Tools (Hoe/Panga)
+A01893,Pesticide
+A01893,Tools (Hoe/Panga)
+A01894,Protective Gloves
+A01895,DAP Fertilizer
+A01895,Fungicide
+A01895,Knapsack Sprayer
+A01895,Protective Gloves
+A01896,Pesticide
+A01896,Protective Gloves
+A01897,CAN Fertilizer
+A01897,Herbicide
+A01897,Protective Gloves
+A01898,DAP Fertilizer
+A01898,Drinkers & Feeders
+A01898,Poultry Feed
+A01899,Fungicide
+A01899,Knapsack Sprayer
+A01899,Pesticide
+A01899,Protective Gloves
+A01900,DAP Fertilizer
+A01900,Potato Seed
+A01901,CAN Fertilizer
+A01901,DAP Fertilizer
+A01901,Hybrid Maize Seed
+A01902,DAP Fertilizer
+A01902,Herbicide
+A01902,Hybrid Maize Seed
+A01903,Hybrid Maize Seed
+A01904,Foliar Feed
+A01904,Pesticide
+A01904,Vegetable Seeds
+A01905,CAN Fertilizer
+A01906,Chick Starter
+A01906,Drinkers & Feeders
+A01906,Poultry Feed
+A01907,Fungicide
+A01907,Knapsack Sprayer
+A01907,Pesticide
+A01908,Protective Gloves
+A01908,Tools (Hoe/Panga)
+A01909,Dairy Meal
+A01909,Mineral Lick
+A01910,Vegetable Seeds
+A01911,Drinkers & Feeders
+A01911,Poultry Feed
+A01912,Poultry Feed
+A01912,Vegetable Seeds
+A01913,Tools (Hoe/Panga)
+A01913,Wheelbarrow
+A01914,Chick Starter
+A01915,Dairy Meal
+A01915,Veterinary Drugs
+A01916,Foliar Feed
+A01916,Fungicide
+A01916,Pesticide
+A01916,Vegetable Seeds
+A01917,Dairy Meal
+A01917,Mineral Lick
+A01918,Herbicide
+A01918,Hybrid Maize Seed
+A01919,CAN Fertilizer
+A01919,Herbicide
+A01920,DAP Fertilizer
+A01920,Herbicide
+A01920,Potato Seed
+A01921,CAN Fertilizer
+A01921,Herbicide
+A01922,Dairy Meal
+A01923,CAN Fertilizer
+A01923,DAP Fertilizer
+A01923,Herbicide
+A01923,Hybrid Maize Seed
+A01924,Fungicide
+A01924,Knapsack Sprayer
+A01924,Pesticide
+A01924,Protective Gloves
+A01925,DAP Fertilizer
+A01925,Hybrid Maize Seed
+A01926,CAN Fertilizer
+A01926,Herbicide
+A01927,CAN Fertilizer
+A01927,DAP Fertilizer
+A01927,Hybrid Maize Seed
+A01928,Herbicide
+A01928,Hybrid Maize Seed
+A01929,DAP Fertilizer
+A01929,Fungicide
+A01929,Potato Seed
+A01929,Veterinary Drugs
+A01930,CAN Fertilizer
+A01930,Pesticide
+A01931,Acaricide
+A01931,Dairy Meal
+A01931,Veterinary Drugs
+A01932,DAP Fertilizer
+A01932,Hybrid Maize Seed
+A01933,Chick Starter
+A01933,Poultry Feed
+A01933,Veterinary Drugs
+A01934,Knapsack Sprayer
+A01934,Pesticide
+A01935,Dairy Meal
+A01936,CAN Fertilizer
+A01937,CAN Fertilizer
+A01937,DAP Fertilizer
+A01937,Hybrid Maize Seed
+A01938,Pesticide
+A01938,Potato Seed
+A01939,Hybrid Maize Seed
+A01940,Mineral Lick
+A01941,CAN Fertilizer
+A01941,DAP Fertilizer
+A01941,Hybrid Maize Seed
+A01942,CAN Fertilizer
+A01942,Herbicide
+A01943,Dairy Meal
+A01944,Chick Starter
+A01944,Poultry Feed
+A01944,Veterinary Drugs
+A01945,Pesticide
+A01945,Protective Gloves
+A01945,Vegetable Seeds
+A01946,Poultry Feed
+A01946,Tools (Hoe/Panga)
+A01946,Veterinary Drugs
+A01947,CAN Fertilizer
+A01947,Herbicide
+A01948,Herbicide
+A01949,Dairy Meal
+A01949,Veterinary Drugs
+A01950,DAP Fertilizer
+A01950,Hybrid Maize Seed
+A01951,Foliar Feed
+A01951,Vegetable Seeds
+A01952,CAN Fertilizer
+A01952,DAP Fertilizer
+A01952,Vegetable Seeds
+A01953,Drinkers & Feeders
+A01953,Poultry Feed
+A01953,Veterinary Drugs
+A01954,CAN Fertilizer
+A01954,Hybrid Maize Seed
+A01954,Veterinary Drugs
+A01955,DAP Fertilizer
+A01955,Hybrid Maize Seed
+A01956,Poultry Feed
+A01957,Foliar Feed
+A01957,Vegetable Seeds
+A01958,Drip Kit
+A01958,Foliar Feed
+A01958,Fungicide
+A01958,Pesticide
+A01958,Vegetable Seeds
+A01959,CAN Fertilizer
+A01959,DAP Fertilizer
+A01959,Hybrid Maize Seed
+A01959,Protective Gloves
+A01960,Foliar Feed
+A01960,Fungicide
+A01961,CAN Fertilizer
+A01961,Herbicide
+A01962,Drip Kit
+A01962,Vegetable Seeds
+A01963,Fungicide
+A01963,Pesticide
+A01963,Vegetable Seeds
+A01964,CAN Fertilizer
+A01964,DAP Fertilizer
+A01964,Herbicide
+A01964,Hybrid Maize Seed
+A01965,CAN Fertilizer
+A01966,Acaricide
+A01966,Dairy Meal
+A01966,Veterinary Drugs
+A01967,CAN Fertilizer
+A01967,Herbicide
+A01967,Hybrid Maize Seed
+A01968,Drip Kit
+A01968,Foliar Feed
+A01968,Vegetable Seeds
+A01969,DAP Fertilizer
+A01969,Foliar Feed
+A01969,Fungicide
+A01969,Vegetable Seeds
+A01970,Acaricide
+A01970,Mineral Lick
+A01970,Pesticide
+A01970,Veterinary Drugs
+A01971,Chick Starter
+A01971,Veterinary Drugs
+A01972,Knapsack Sprayer
+A01972,Pesticide
+A01973,Protective Gloves
+A01973,Tools (Hoe/Panga)
+A01973,Wheelbarrow
+A01974,Chick Starter
+A01974,Drinkers & Feeders
+A01974,Poultry Feed
+A01974,Veterinary Drugs
+A01975,Fungicide
+A01975,Potato Seed
+A01976,CAN Fertilizer
+A01976,Herbicide
+A01976,Hybrid Maize Seed
+A01977,Hybrid Maize Seed
+A01978,Foliar Feed
+A01978,Vegetable Seeds
+A01979,DAP Fertilizer
+A01979,Fungicide
+A01979,Potato Seed
+A01979,Veterinary Drugs
+A01980,DAP Fertilizer
+A01980,Fungicide
+A01980,Pesticide
+A01980,Potato Seed
+A01981,CAN Fertilizer
+A01981,DAP Fertilizer
+A01981,Hybrid Maize Seed
+A01981,Protective Gloves
+A01981,Veterinary Drugs
+A01982,Chick Starter
+A01982,Poultry Feed
+A01982,Veterinary Drugs
+A01983,DAP Fertilizer
+A01983,Hybrid Maize Seed
+A01984,CAN Fertilizer
+A01984,DAP Fertilizer
+A01984,Herbicide
+A01984,Hybrid Maize Seed
+A01985,Dairy Meal
+A01986,Dairy Meal
+A01986,Mineral Lick
+A01986,Veterinary Drugs
+A01987,Pesticide
+A01988,CAN Fertilizer
+A01988,DAP Fertilizer
+A01988,Herbicide
+A01988,Hybrid Maize Seed
+A01989,Protective Gloves
+A01989,Wheelbarrow
+A01990,Drip Kit
+A01990,Foliar Feed
+A01990,Pesticide
+A01990,Protective Gloves
+A01990,Vegetable Seeds
+A01991,Chick Starter
+A01991,Drinkers & Feeders
+A01991,Poultry Feed
+A01992,DAP Fertilizer
+A01992,Hybrid Maize Seed
+A01993,CAN Fertilizer
+A01993,DAP Fertilizer
+A01993,Herbicide
+A01993,Hybrid Maize Seed
+A01994,CAN Fertilizer
+A01994,DAP Fertilizer
+A01994,Hybrid Maize Seed
+A01995,CAN Fertilizer
+A01995,DAP Fertilizer
+A01996,Fungicide
+A01996,Vegetable Seeds
+A01997,Acaricide
+A01997,Dairy Meal
+A01997,Mineral Lick
+A01998,Dairy Meal
+A01999,Protective Gloves
+A01999,Tools (Hoe/Panga)
+A02000,CAN Fertilizer
+A02000,Hybrid Maize Seed
+A02001,CAN Fertilizer
+A02001,Herbicide
+A02002,DAP Fertilizer
+A02002,Fungicide
+A02002,Potato Seed
+A02003,Chick Starter
+A02003,Poultry Feed
+A02004,CAN Fertilizer
+A02004,DAP Fertilizer
+A02004,Hybrid Maize Seed
+A02005,Foliar Feed
+A02005,Vegetable Seeds
+A02006,Tools (Hoe/Panga)
+A02007,DAP Fertilizer
+A02007,Herbicide
+A02007,Hybrid Maize Seed
+A02008,DAP Fertilizer
+A02008,Potato Seed
+A02009,DAP Fertilizer
+A02009,Hybrid Maize Seed
+A02010,Fungicide
+A02010,Knapsack Sprayer
+A02010,Pesticide
+A02010,Protective Gloves
+A02011,Pesticide
+A02011,Protective Gloves
+A02012,CAN Fertilizer
+A02013,DAP Fertilizer
+A02013,Hybrid Maize Seed
+A02014,Drip Kit
+A02014,Vegetable Seeds
+A02015,Acaricide
+A02015,DAP Fertilizer
+A02015,Dairy Meal
+A02015,Veterinary Drugs
+A02016,Protective Gloves
+A02017,Fungicide
+A02017,Pesticide
+A02017,Potato Seed
+A02018,CAN Fertilizer
+A02018,DAP Fertilizer
+A02018,Hybrid Maize Seed
+A02019,CAN Fertilizer
+A02019,DAP Fertilizer
+A02019,Herbicide
+A02019,Hybrid Maize Seed
+A02020,Dairy Meal
+A02021,Drip Kit
+A02021,Foliar Feed
+A02021,Pesticide
+A02021,Vegetable Seeds
+A02022,Pesticide
+A02022,Vegetable Seeds
+A02023,DAP Fertilizer
+A02023,Fungicide
+A02023,Pesticide
+A02023,Potato Seed
+A02024,CAN Fertilizer
+A02024,DAP Fertilizer
+A02024,Hybrid Maize Seed
+A02025,CAN Fertilizer
+A02026,CAN Fertilizer
+A02026,Hybrid Maize Seed
+A02027,Dairy Meal
+A02027,Mineral Lick
+A02028,DAP Fertilizer
+A02029,Protective Gloves
+A02029,Tools (Hoe/Panga)
+A02030,Tools (Hoe/Panga)
+A02031,CAN Fertilizer
+A02031,DAP Fertilizer
+A02031,Hybrid Maize Seed
+A02032,Fungicide
+A02032,Pesticide
+A02032,Protective Gloves
+A02033,CAN Fertilizer
+A02034,CAN Fertilizer
+A02034,Hybrid Maize Seed
+A02034,Pesticide
+A02035,Vegetable Seeds
+A02036,DAP Fertilizer
+A02036,Hybrid Maize Seed
+A02037,Poultry Feed
+A02038,Fungicide
+A02038,Pesticide
+A02039,CAN Fertilizer
+A02039,Protective Gloves
+A02040,Acaricide
+A02040,Dairy Meal
+A02040,Mineral Lick
+A02041,Herbicide
+A02041,Tools (Hoe/Panga)
+A02042,DAP Fertilizer
+A02042,Fungicide
+A02042,Potato Seed
+A02043,DAP Fertilizer
+A02043,Hybrid Maize Seed
+A02044,Fungicide
+A02044,Knapsack Sprayer
+A02044,Pesticide
+A02044,Protective Gloves
+A02045,Knapsack Sprayer
+A02045,Pesticide
+A02046,Acaricide
+A02046,Veterinary Drugs
+A02047,Protective Gloves
+A02048,Poultry Feed
+A02048,Veterinary Drugs
+A02049,Dairy Meal
+A02049,Mineral Lick
+A02049,Veterinary Drugs
+A02050,Dairy Meal
+A02050,Mineral Lick
+A02050,Veterinary Drugs
+A02051,DAP Fertilizer
+A02051,Fungicide
+A02051,Pesticide
+A02051,Potato Seed
+A02052,DAP Fertilizer
+A02052,Drip Kit
+A02052,Fungicide
+A02052,Pesticide
+A02052,Vegetable Seeds
+A02052,Veterinary Drugs
+A02053,Acaricide
+A02053,Dairy Meal
+A02053,Mineral Lick
+A02053,Veterinary Drugs
+A02054,Fungicide
+A02054,Potato Seed
+A02055,Protective Gloves
+A02055,Tools (Hoe/Panga)
+A02055,Water Pump
+A02056,CAN Fertilizer
+A02056,Hybrid Maize Seed
+A02057,CAN Fertilizer
+A02057,DAP Fertilizer
+A02057,Dairy Meal
+A02057,Herbicide
+A02057,Hybrid Maize Seed
+A02057,Veterinary Drugs
+A02058,Fungicide
+A02058,Knapsack Sprayer
+A02058,Pesticide
+A02058,Tools (Hoe/Panga)
+A02059,Fungicide
+A02059,Knapsack Sprayer
+A02059,Protective Gloves
+A02060,Pesticide
+A02060,Vegetable Seeds
+A02061,CAN Fertilizer
+A02061,Herbicide
+A02061,Protective Gloves
+A02062,Tools (Hoe/Panga)
+A02062,Wheelbarrow
+A02063,Herbicide
+A02063,Vegetable Seeds
+A02064,Pesticide
+A02065,Dairy Meal
+A02065,Veterinary Drugs
+A02066,Fungicide
+A02066,Knapsack Sprayer
+A02066,Pesticide
+A02066,Protective Gloves
+A02067,Drip Kit
+A02067,Pesticide
+A02067,Protective Gloves
+A02068,Vegetable Seeds
+A02069,DAP Fertilizer
+A02069,Dairy Meal
+A02069,Potato Seed
+A02070,Knapsack Sprayer
+A02070,Pesticide
+A02071,Herbicide
+A02072,Herbicide
+A02072,Pesticide
+A02073,Dairy Meal
+A02073,Mineral Lick
+A02073,Veterinary Drugs
+A02074,Dairy Meal
+A02074,Mineral Lick
+A02075,Pesticide
+A02075,Protective Gloves
+A02075,Veterinary Drugs
+A02076,CAN Fertilizer
+A02076,DAP Fertilizer
+A02076,Hybrid Maize Seed
+A02077,Fungicide
+A02077,Pesticide
+A02077,Protective Gloves
+A02078,Drinkers & Feeders
+A02078,Poultry Feed
+A02079,CAN Fertilizer
+A02079,DAP Fertilizer
+A02079,Herbicide
+A02079,Hybrid Maize Seed
+A02080,Fungicide
+A02080,Pesticide
+A02080,Potato Seed
+A02081,Poultry Feed
+A02082,Chick Starter
+A02082,Poultry Feed
+A02082,Protective Gloves
+A02083,CAN Fertilizer
+A02084,CAN Fertilizer
+A02084,Hybrid Maize Seed
+A02085,Fungicide
+A02085,Knapsack Sprayer
+A02085,Pesticide
+A02086,Chick Starter
+A02086,Poultry Feed
+A02086,Veterinary Drugs
+A02087,DAP Fertilizer
+A02087,Hybrid Maize Seed
+A02088,CAN Fertilizer
+A02089,DAP Fertilizer
+A02089,Dairy Meal
+A02089,Hybrid Maize Seed
+A02090,Pesticide
+A02090,Potato Seed
+A02091,Chick Starter
+A02091,Poultry Feed
+A02091,Veterinary Drugs
+A02092,DAP Fertilizer
+A02092,Hybrid Maize Seed
+A02092,Pesticide
+A02093,Foliar Feed
+A02093,Vegetable Seeds
+A02094,Dairy Meal
+A02094,Mineral Lick
+A02094,Veterinary Drugs
+A02095,DAP Fertilizer
+A02095,Pesticide
+A02095,Potato Seed
+A02095,Tools (Hoe/Panga)
+A02096,Acaricide
+A02096,Dairy Meal
+A02096,Protective Gloves
+A02097,Tools (Hoe/Panga)
+A02097,Wheelbarrow
+A02098,CAN Fertilizer
+A02098,Herbicide
+A02099,CAN Fertilizer
+A02099,DAP Fertilizer
+A02099,Hybrid Maize Seed
+A02099,Protective Gloves
+A02100,Fungicide
+A02101,Chick Starter
+A02101,Drinkers & Feeders
+A02101,Poultry Feed
+A02102,DAP Fertilizer
+A02102,Hybrid Maize Seed
+A02103,DAP Fertilizer
+A02103,Fungicide
+A02103,Pesticide
+A02103,Potato Seed
+A02104,Drip Kit
+A02104,Foliar Feed
+A02104,Vegetable Seeds
+A02105,Poultry Feed
+A02106,Fungicide
+A02106,Potato Seed
+A02107,DAP Fertilizer
+A02107,Dairy Meal
+A02107,Drinkers & Feeders
+A02107,Poultry Feed
+A02108,Acaricide
+A02108,Dairy Meal
+A02109,CAN Fertilizer
+A02110,Foliar Feed
+A02110,Fungicide
+A02110,Pesticide
+A02110,Vegetable Seeds
+A02111,Fungicide
+A02111,Potato Seed
+A02112,Pesticide
+A02113,CAN Fertilizer
+A02113,DAP Fertilizer
+A02113,Hybrid Maize Seed
+A02114,Protective Gloves
+A02114,Tools (Hoe/Panga)
+A02115,CAN Fertilizer
+A02115,DAP Fertilizer
+A02116,Vegetable Seeds
+A02117,Dairy Meal
+A02117,Poultry Feed
+A02117,Veterinary Drugs
+A02118,Protective Gloves
+A02118,Tools (Hoe/Panga)
+A02118,Wheelbarrow
+A02119,Acaricide
+A02119,DAP Fertilizer
+A02119,Dairy Meal
+A02120,Protective Gloves
+A02121,DAP Fertilizer
+A02121,Herbicide
+A02122,Tools (Hoe/Panga)
+A02123,DAP Fertilizer
+A02123,Potato Seed
+A02124,Acaricide
+A02124,Dairy Meal
+A02124,Mineral Lick
+A02124,Veterinary Drugs
+A02125,CAN Fertilizer
+A02125,DAP Fertilizer
+A02125,Hybrid Maize Seed
+A02126,CAN Fertilizer
+A02126,DAP Fertilizer
+A02126,Hybrid Maize Seed
+A02127,Herbicide
+A02128,DAP Fertilizer
+A02128,Dairy Meal
+A02128,Mineral Lick
+A02128,Veterinary Drugs
+A02129,DAP Fertilizer
+A02129,Protective Gloves
+A02129,Tools (Hoe/Panga)
+A02130,Pesticide
+A02131,Herbicide
+A02132,Vegetable Seeds
+A02133,CAN Fertilizer
+A02133,DAP Fertilizer
+A02133,Hybrid Maize Seed
+A02134,Dairy Meal
+A02134,Veterinary Drugs
+A02135,Acaricide
+A02135,Mineral Lick
+A02135,Veterinary Drugs
+A02136,Chick Starter
+A02136,Drinkers & Feeders
+A02137,Pesticide
+A02138,Dairy Meal
+A02139,Chick Starter
+A02139,Poultry Feed
+A02139,Veterinary Drugs
+A02140,DAP Fertilizer
+A02140,Fungicide
+A02140,Potato Seed
+A02141,Fungicide
+A02141,Potato Seed
+A02141,Vegetable Seeds
+A02142,Dairy Meal
+A02142,Mineral Lick
+A02142,Veterinary Drugs
+A02143,Knapsack Sprayer
+A02143,Pesticide
+A02144,Herbicide
+A02145,Dairy Meal
+A02146,DAP Fertilizer
+A02146,Hybrid Maize Seed
+A02147,Tools (Hoe/Panga)
+A02148,Fungicide
+A02148,Vegetable Seeds
+A02149,Drip Kit
+A02149,Foliar Feed
+A02149,Vegetable Seeds
+A02150,Drinkers & Feeders
+A02150,Poultry Feed
+A02150,Veterinary Drugs
+A02151,CAN Fertilizer
+A02152,Protective Gloves
+A02152,Tools (Hoe/Panga)
+A02153,Dairy Meal
+A02153,Fungicide
+A02153,Pesticide
+A02153,Vegetable Seeds
+A02154,Acaricide
+A02154,DAP Fertilizer
+A02154,Dairy Meal
+A02154,Veterinary Drugs
+A02155,Chick Starter
+A02155,Drinkers & Feeders
+A02155,Poultry Feed
+A02156,Knapsack Sprayer
+A02156,Pesticide
+A02157,DAP Fertilizer
+A02157,Fungicide
+A02157,Potato Seed
+A02158,Poultry Feed
+A02159,Drip Kit
+A02159,Fungicide
+A02159,Vegetable Seeds
+A02160,Pesticide
+A02161,Protective Gloves
+A02161,Tools (Hoe/Panga)
+A02161,Veterinary Drugs
+A02162,Acaricide
+A02162,Dairy Meal
+A02162,Mineral Lick
+A02162,Veterinary Drugs
+A02163,CAN Fertilizer
+A02163,DAP Fertilizer
+A02163,Hybrid Maize Seed
+A02164,Drip Kit
+A02164,Foliar Feed
+A02164,Pesticide
+A02164,Vegetable Seeds
+A02165,CAN Fertilizer
+A02165,DAP Fertilizer
+A02165,Hybrid Maize Seed
+A02166,Knapsack Sprayer
+A02166,Pesticide
+A02167,Drip Kit
+A02167,Vegetable Seeds
+A02168,Potato Seed
+A02169,CAN Fertilizer
+A02169,DAP Fertilizer
+A02170,CAN Fertilizer
+A02170,Herbicide
+A02171,Drip Kit
+A02171,Vegetable Seeds
+A02172,Dairy Meal
+A02172,Poultry Feed
+A02173,Fungicide
+A02173,Knapsack Sprayer
+A02173,Pesticide
+A02174,Poultry Feed
+A02174,Veterinary Drugs
+A02175,Dairy Meal
+A02175,Mineral Lick
+A02176,Dairy Meal
+A02176,Veterinary Drugs
+A02177,CAN Fertilizer
+A02177,Herbicide
+A02178,CAN Fertilizer
+A02179,Dairy Meal
+A02180,Acaricide
+A02180,Dairy Meal
+A02181,Dairy Meal
+A02182,CAN Fertilizer
+A02182,Herbicide
+A02183,Foliar Feed
+A02183,Fungicide
+A02184,CAN Fertilizer
+A02185,Vegetable Seeds
+A02186,CAN Fertilizer
+A02186,Herbicide
+A02187,CAN Fertilizer
+A02187,Hybrid Maize Seed
+A02188,Acaricide
+A02188,Dairy Meal
+A02189,Acaricide
+A02189,Dairy Meal
+A02189,Veterinary Drugs
+A02190,Knapsack Sprayer
+A02190,Pesticide
+A02190,Protective Gloves
+A02191,Tools (Hoe/Panga)
+A02192,Acaricide
+A02192,Veterinary Drugs
+A02193,Fungicide
+A02193,Pesticide
+A02193,Protective Gloves
+A02194,Drip Kit
+A02194,Foliar Feed
+A02194,Fungicide
+A02195,Knapsack Sprayer
+A02195,Pesticide
+A02195,Protective Gloves
+A02196,Tools (Hoe/Panga)
+A02197,Protective Gloves
+A02198,Pesticide
+A02199,Chick Starter
+A02199,Poultry Feed
+A02200,Protective Gloves
+A02201,CAN Fertilizer
+A02202,DAP Fertilizer
+A02202,Potato Seed
+A02203,DAP Fertilizer
+A02203,Herbicide
+A02203,Hybrid Maize Seed
+A02203,Veterinary Drugs
+A02204,DAP Fertilizer
+A02204,Hybrid Maize Seed
+A02205,Protective Gloves
+A02205,Tools (Hoe/Panga)
+A02206,Fungicide
+A02206,Pesticide
+A02206,Protective Gloves
+A02207,Drinkers & Feeders
+A02207,Poultry Feed
+A02207,Veterinary Drugs
+A02208,Poultry Feed
+A02208,Veterinary Drugs
+A02209,Chick Starter
+A02209,Drinkers & Feeders
+A02209,Herbicide
+A02209,Poultry Feed
+A02210,Drip Kit
+A02210,Foliar Feed
+A02210,Pesticide
+A02211,Herbicide
+A02211,Pesticide
+A02212,Pesticide
+A02213,CAN Fertilizer
+A02213,DAP Fertilizer
+A02213,Hybrid Maize Seed
+A02214,Pesticide
+A02214,Protective Gloves
+A02215,CAN Fertilizer
+A02215,DAP Fertilizer
+A02215,Hybrid Maize Seed
+A02216,Drip Kit
+A02216,Foliar Feed
+A02216,Pesticide
+A02216,Protective Gloves
+A02216,Vegetable Seeds
+A02217,CAN Fertilizer
+A02218,DAP Fertilizer
+A02218,Potato Seed
+A02219,Drip Kit
+A02219,Fungicide
+A02219,Vegetable Seeds
+A02220,Acaricide
+A02221,CAN Fertilizer
+A02221,DAP Fertilizer
+A02221,Hybrid Maize Seed
+A02222,Dairy Meal
+A02222,Mineral Lick
+A02222,Veterinary Drugs
+A02223,CAN Fertilizer
+A02223,DAP Fertilizer
+A02223,Herbicide
+A02223,Hybrid Maize Seed
+A02224,Fungicide
+A02224,Pesticide
+A02225,DAP Fertilizer
+A02225,Hybrid Maize Seed
+A02226,Tools (Hoe/Panga)
+A02227,Dairy Meal
+A02227,Fungicide
+A02227,Pesticide
+A02228,Poultry Feed
+A02228,Veterinary Drugs
+A02229,Acaricide
+A02229,Dairy Meal
+A02230,CAN Fertilizer
+A02230,DAP Fertilizer
+A02230,Hybrid Maize Seed
+A02231,Poultry Feed
+A02231,Veterinary Drugs
+A02232,Chick Starter
+A02232,Poultry Feed
+A02233,Fungicide
+A02233,Knapsack Sprayer
+A02233,Pesticide
+A02234,Chick Starter
+A02234,Veterinary Drugs
+A02235,Drip Kit
+A02235,Pesticide
+A02235,Vegetable Seeds
+A02236,Hybrid Maize Seed
+A02237,DAP Fertilizer
+A02237,Herbicide
+A02237,Hybrid Maize Seed
+A02237,Pesticide
+A02237,Vegetable Seeds
+A02238,Hybrid Maize Seed
+A02239,Chick Starter
+A02239,Drinkers & Feeders
+A02239,Poultry Feed
+A02239,Veterinary Drugs
+A02240,Drip Kit
+A02240,Foliar Feed
+A02240,Vegetable Seeds
+A02241,DAP Fertilizer
+A02242,Acaricide
+A02242,Dairy Meal
+A02242,Mineral Lick
+A02242,Veterinary Drugs
+A02243,CAN Fertilizer
+A02243,DAP Fertilizer
+A02243,Herbicide
+A02243,Hybrid Maize Seed
+A02243,Pesticide
+A02244,Tools (Hoe/Panga)
+A02245,Potato Seed
+A02245,Tools (Hoe/Panga)
+A02246,DAP Fertilizer
+A02246,Potato Seed
+A02247,Fungicide
+A02247,Potato Seed
+A02248,Fungicide
+A02248,Pesticide
+A02249,Fungicide
+A02249,Knapsack Sprayer
+A02249,Pesticide
+A02250,CAN Fertilizer
+A02250,Herbicide
+A02250,Protective Gloves
+A02251,Dairy Meal
+A02251,Mineral Lick
+A02252,Dairy Meal
+A02252,Mineral Lick
+A02253,DAP Fertilizer
+A02253,Fungicide
+A02253,Potato Seed
+A02254,Acaricide
+A02254,Dairy Meal
+A02254,Mineral Lick
+A02254,Vegetable Seeds
+A02255,CAN Fertilizer
+A02255,DAP Fertilizer
+A02255,Hybrid Maize Seed
+A02256,Fungicide
+A02256,Knapsack Sprayer
+A02256,Vegetable Seeds
+A02257,Fungicide
+A02257,Potato Seed
+A02258,DAP Fertilizer
+A02258,Hybrid Maize Seed
+A02259,CAN Fertilizer
+A02259,DAP Fertilizer
+A02259,Herbicide
+A02259,Hybrid Maize Seed
+A02260,Fungicide
+A02261,CAN Fertilizer
+A02261,Herbicide
+A02262,Chick Starter
+A02262,Drinkers & Feeders
+A02262,Veterinary Drugs
+A02263,DAP Fertilizer
+A02263,Pesticide
+A02263,Potato Seed
+A02264,Tools (Hoe/Panga)
+A02265,Knapsack Sprayer
+A02266,Drip Kit
+A02266,Foliar Feed
+A02266,Pesticide
+A02266,Vegetable Seeds
+A02267,DAP Fertilizer
+A02267,Hybrid Maize Seed
+A02268,DAP Fertilizer
+A02269,Drip Kit
+A02269,Vegetable Seeds
+A02270,CAN Fertilizer
+A02270,DAP Fertilizer
+A02270,Hybrid Maize Seed
+A02271,Drinkers & Feeders
+A02271,Poultry Feed
+A02271,Vegetable Seeds
+A02271,Veterinary Drugs
+A02272,Dairy Meal
+A02272,Fungicide
+A02272,Knapsack Sprayer
+A02272,Protective Gloves
+A02273,Drip Kit
+A02273,Fungicide
+A02273,Pesticide
+A02274,Fungicide
+A02274,Pesticide
+A02274,Vegetable Seeds
+A02275,CAN Fertilizer
+A02275,DAP Fertilizer
+A02275,Hybrid Maize Seed
+A02276,DAP Fertilizer
+A02276,Hybrid Maize Seed
+A02277,Acaricide
+A02277,Dairy Meal
+A02277,Mineral Lick
+A02278,Drinkers & Feeders
+A02279,Fungicide
+A02280,Fungicide
+A02280,Pesticide
+A02280,Protective Gloves
+A02281,Fungicide
+A02281,Knapsack Sprayer
+A02281,Pesticide
+A02281,Protective Gloves
+A02282,Dairy Meal
+A02283,Fungicide
+A02283,Pesticide
+A02283,Potato Seed
+A02284,Chick Starter
+A02284,Drinkers & Feeders
+A02284,Poultry Feed
+A02285,CAN Fertilizer
+A02285,Herbicide
+A02285,Vegetable Seeds
+A02286,Tools (Hoe/Panga)
+A02287,Dairy Meal
+A02288,Chick Starter
+A02288,Poultry Feed
+A02289,Herbicide
+A02289,Hybrid Maize Seed
+A02290,Fungicide
+A02290,Knapsack Sprayer
+A02290,Pesticide
+A02290,Protective Gloves
+A02291,Poultry Feed
+A02292,Knapsack Sprayer
+A02292,Pesticide
+A02292,Protective Gloves
+A02292,Veterinary Drugs
+A02293,Fungicide
+A02293,Vegetable Seeds
+A02294,Protective Gloves
+A02294,Tools (Hoe/Panga)
+A02295,Dairy Meal
+A02295,Mineral Lick
+A02295,Veterinary Drugs
+A02296,DAP Fertilizer
+A02296,Hybrid Maize Seed
+A02297,Dairy Meal
+A02297,Mineral Lick
+A02297,Veterinary Drugs
+A02298,Foliar Feed
+A02299,DAP Fertilizer
+A02299,Hybrid Maize Seed
+A02300,CAN Fertilizer
+A02300,DAP Fertilizer
+A02300,Hybrid Maize Seed
+A02301,CAN Fertilizer
+A02302,Poultry Feed
+A02302,Veterinary Drugs
+A02303,Chick Starter
+A02303,Poultry Feed
+A02303,Veterinary Drugs
+A02304,CAN Fertilizer
+A02304,DAP Fertilizer
+A02304,Hybrid Maize Seed
+A02305,Fungicide
+A02305,Pesticide
+A02306,Dairy Meal
+A02306,Mineral Lick
+A02306,Veterinary Drugs
+A02307,DAP Fertilizer
+A02307,Hybrid Maize Seed
+A02308,DAP Fertilizer
+A02308,Fungicide
+A02308,Potato Seed
+A02309,Fungicide
+A02309,Knapsack Sprayer
+A02309,Pesticide
+A02309,Protective Gloves
+A02310,CAN Fertilizer
+A02311,Pesticide
+A02311,Vegetable Seeds
+A02312,Chick Starter
+A02312,Drinkers & Feeders
+A02313,Chick Starter
+A02313,Drinkers & Feeders
+A02313,Poultry Feed
+A02314,DAP Fertilizer
+A02314,Fungicide
+A02314,Pesticide
+A02314,Potato Seed
+A02315,Chick Starter
+A02315,Poultry Feed
+A02315,Protective Gloves
+A02316,Protective Gloves
+A02316,Tools (Hoe/Panga)
+A02316,Veterinary Drugs
+A02316,Wheelbarrow
+A02317,Tools (Hoe/Panga)
+A02318,CAN Fertilizer
+A02318,Herbicide
+A02319,Potato Seed
+A02320,CAN Fertilizer
+A02320,Pesticide
+A02321,DAP Fertilizer
+A02321,Hybrid Maize Seed
+A02322,DAP Fertilizer
+A02322,Fungicide
+A02322,Potato Seed
+A02322,Veterinary Drugs
+A02323,DAP Fertilizer
+A02323,Potato Seed
+A02323,Tools (Hoe/Panga)
+A02324,CAN Fertilizer
+A02325,CAN Fertilizer
+A02325,Herbicide
+A02326,CAN Fertilizer
+A02326,Pesticide
+A02326,Tools (Hoe/Panga)
+A02327,Tools (Hoe/Panga)
+A02328,DAP Fertilizer
+A02328,Potato Seed
+A02329,Acaricide
+A02329,Dairy Meal
+A02329,Mineral Lick
+A02329,Veterinary Drugs
+A02330,Potato Seed
+A02331,Dairy Meal
+A02331,Veterinary Drugs
+A02332,Drip Kit
+A02332,Foliar Feed
+A02332,Fungicide
+A02332,Vegetable Seeds
+A02333,Drip Kit
+A02333,Foliar Feed
+A02333,Fungicide
+A02334,Pesticide
+A02334,Potato Seed
+A02335,DAP Fertilizer
+A02335,Herbicide
+A02335,Hybrid Maize Seed
+A02336,Knapsack Sprayer
+A02336,Pesticide
+A02336,Protective Gloves
+A02336,Veterinary Drugs
+A02337,CAN Fertilizer
+A02337,Dairy Meal
+A02337,Tools (Hoe/Panga)
+A02338,CAN Fertilizer
+A02339,Fungicide
+A02339,Pesticide
+A02340,Acaricide
+A02340,Dairy Meal
+A02340,Veterinary Drugs
+A02341,Drinkers & Feeders
+A02341,Veterinary Drugs
+A02342,Herbicide
+A02343,Chick Starter
+A02343,Poultry Feed
+A02344,DAP Fertilizer
+A02344,Potato Seed
+A02345,DAP Fertilizer
+A02345,Fungicide
+A02345,Potato Seed
+A02346,Dairy Meal
+A02346,Mineral Lick
+A02346,Veterinary Drugs
+A02347,Chick Starter
+A02347,Poultry Feed
+A02348,DAP Fertilizer
+A02348,Pesticide
+A02348,Potato Seed
+A02349,Tools (Hoe/Panga)
+A02350,Herbicide
+A02350,Pesticide
+A02351,Acaricide
+A02351,Dairy Meal
+A02351,Mineral Lick
+A02351,Veterinary Drugs
+A02352,Tools (Hoe/Panga)
+A02353,DAP Fertilizer
+A02354,Herbicide
+A02355,Protective Gloves
+A02355,Tools (Hoe/Panga)
+A02356,Knapsack Sprayer
+A02356,Pesticide
+A02357,Acaricide
+A02357,Dairy Meal
+A02358,DAP Fertilizer
+A02358,Pesticide
+A02359,Fungicide
+A02359,Pesticide
+A02359,Protective Gloves
+A02360,DAP Fertilizer
+A02360,Fungicide
+A02360,Potato Seed
+A02361,DAP Fertilizer
+A02361,Fungicide
+A02361,Potato Seed
+A02362,DAP Fertilizer
+A02362,Hybrid Maize Seed
+A02363,CAN Fertilizer
+A02363,Herbicide
+A02364,Tools (Hoe/Panga)
+A02364,Wheelbarrow
+A02365,Dairy Meal
+A02366,Dairy Meal
+A02366,Mineral Lick
+A02366,Veterinary Drugs
+A02367,Drinkers & Feeders
+A02367,Poultry Feed
+A02368,Dairy Meal
+A02368,Mineral Lick
+A02369,Drinkers & Feeders
+A02369,Poultry Feed
+A02370,Pesticide
+A02370,Protective Gloves
+A02371,CAN Fertilizer
+A02371,Hybrid Maize Seed
+A02372,CAN Fertilizer
+A02372,DAP Fertilizer
+A02372,Herbicide
+A02372,Hybrid Maize Seed
+A02373,CAN Fertilizer
+A02373,DAP Fertilizer
+A02373,Hybrid Maize Seed
+A02374,CAN Fertilizer
+A02374,DAP Fertilizer
+A02374,Hybrid Maize Seed
+A02375,Drip Kit
+A02375,Foliar Feed
+A02375,Fungicide
+A02375,Vegetable Seeds
+A02376,Dairy Meal
+A02376,Mineral Lick
+A02376,Tools (Hoe/Panga)
+A02376,Veterinary Drugs
+A02377,CAN Fertilizer
+A02377,Dairy Meal
+A02378,Veterinary Drugs
+A02379,CAN Fertilizer
+A02379,DAP Fertilizer
+A02379,Herbicide
+A02379,Hybrid Maize Seed
+A02380,Tools (Hoe/Panga)
+A02381,Pesticide
+A02381,Tools (Hoe/Panga)
+A02381,Wheelbarrow
+A02382,Fungicide
+A02382,Pesticide
+A02382,Potato Seed
+A02383,Herbicide
+A02384,Tools (Hoe/Panga)
+A02385,Fungicide
+A02385,Potato Seed
+A02386,CAN Fertilizer
+A02386,Herbicide
+A02386,Hybrid Maize Seed
+A02387,Dairy Meal
+A02388,Drinkers & Feeders
+A02388,Poultry Feed
+A02389,DAP Fertilizer
+A02389,Fungicide
+A02390,DAP Fertilizer
+A02390,Dairy Meal
+A02390,Hybrid Maize Seed
+A02391,Vegetable Seeds
+A02391,Wheelbarrow
+A02392,DAP Fertilizer
+A02392,Hybrid Maize Seed
+A02393,Poultry Feed
+A02394,Poultry Feed
+A02394,Veterinary Drugs
+A02395,Poultry Feed
+A02396,CAN Fertilizer
+A02396,Herbicide
+A02397,Drinkers & Feeders
+A02397,Poultry Feed
+A02397,Veterinary Drugs
+A02398,Dairy Meal
+A02399,Dairy Meal
+A02399,Mineral Lick
+A02399,Veterinary Drugs
+A02400,Chick Starter
+A02400,Poultry Feed
+A02400,Veterinary Drugs
+A02401,Knapsack Sprayer
+A02401,Pesticide
+A02401,Protective Gloves
+A02402,DAP Fertilizer
+A02402,Pesticide
+A02403,Dairy Meal
+A02403,Veterinary Drugs
+A02404,DAP Fertilizer
+A02404,Potato Seed
+A02405,Fungicide
+A02405,Herbicide
+A02405,Pesticide
+A02406,CAN Fertilizer
+A02406,DAP Fertilizer
+A02406,Hybrid Maize Seed
+A02407,Fungicide
+A02407,Knapsack Sprayer
+A02407,Pesticide
+A02408,Poultry Feed
+A02408,Veterinary Drugs
+A02409,Acaricide
+A02409,Dairy Meal
+A02409,Mineral Lick
+A02409,Vegetable Seeds
+A02409,Veterinary Drugs
+A02410,CAN Fertilizer
+A02410,Herbicide
+A02411,DAP Fertilizer
+A02411,Fungicide
+A02411,Knapsack Sprayer
+A02411,Pesticide
+A02411,Protective Gloves
+A02411,Veterinary Drugs
+A02412,Drip Kit
+A02412,Pesticide
+A02413,Fungicide
+A02413,Potato Seed
+A02413,Veterinary Drugs
+A02414,Pesticide
+A02415,DAP Fertilizer
+A02415,Fungicide
+A02415,Potato Seed
+A02416,Drinkers & Feeders
+A02416,Poultry Feed
+A02416,Veterinary Drugs
+A02417,Knapsack Sprayer
+A02417,Pesticide
+A02417,Protective Gloves
+A02418,Foliar Feed
+A02418,Fungicide
+A02418,Vegetable Seeds
+A02419,Herbicide
+A02419,Veterinary Drugs
+A02420,Dairy Meal
+A02421,Fungicide
+A02421,Pesticide
+A02421,Protective Gloves
+A02422,CAN Fertilizer
+A02422,DAP Fertilizer
+A02422,Hybrid Maize Seed
+A02423,Drip Kit
+A02423,Pesticide
+A02423,Vegetable Seeds
+A02424,CAN Fertilizer
+A02424,DAP Fertilizer
+A02425,Protective Gloves
+A02426,Acaricide
+A02426,Dairy Meal
+A02427,DAP Fertilizer
+A02427,Potato Seed
+A02427,Veterinary Drugs
+A02428,Hybrid Maize Seed
+A02429,DAP Fertilizer
+A02429,Fungicide
+A02429,Potato Seed
+A02430,Fungicide
+A02430,Pesticide
+A02430,Protective Gloves
+A02431,DAP Fertilizer
+A02431,Hybrid Maize Seed
+A02432,CAN Fertilizer
+A02432,DAP Fertilizer
+A02432,Hybrid Maize Seed
+A02433,Knapsack Sprayer
+A02433,Pesticide
+A02433,Protective Gloves
+A02434,Dairy Meal
+A02434,Veterinary Drugs
+A02435,Chick Starter
+A02435,Poultry Feed
+A02436,Protective Gloves
+A02436,Tools (Hoe/Panga)
+A02436,Wheelbarrow
+A02437,CAN Fertilizer
+A02437,Hybrid Maize Seed
+A02438,Fungicide
+A02438,Pesticide
+A02438,Protective Gloves
+A02439,Fungicide
+A02439,Knapsack Sprayer
+A02439,Protective Gloves
+A02440,Hybrid Maize Seed
+A02440,Veterinary Drugs
+A02441,Hybrid Maize Seed
+A02442,Fungicide
+A02442,Knapsack Sprayer
+A02442,Pesticide
+A02442,Protective Gloves
+A02443,Chick Starter
+A02443,Poultry Feed
+A02443,Veterinary Drugs
+A02444,Chick Starter
+A02444,Pesticide
+A02444,Poultry Feed
+A02445,Drinkers & Feeders
+A02445,Poultry Feed
+A02445,Veterinary Drugs
+A02446,CAN Fertilizer
+A02447,DAP Fertilizer
+A02448,Knapsack Sprayer
+A02449,Acaricide
+A02449,Dairy Meal
+A02449,Mineral Lick
+A02449,Veterinary Drugs
+A02450,Vegetable Seeds
+A02451,Fungicide
+A02451,Pesticide
+A02452,CAN Fertilizer
+A02452,Herbicide
+A02452,Hybrid Maize Seed
+A02453,Pesticide
+A02453,Protective Gloves
+A02454,DAP Fertilizer
+A02454,Herbicide
+A02454,Hybrid Maize Seed
+A02455,Potato Seed
+A02456,Dairy Meal
+A02456,Herbicide
+A02456,Mineral Lick
+A02456,Veterinary Drugs
+A02457,CAN Fertilizer
+A02457,DAP Fertilizer
+A02457,Hybrid Maize Seed
+A02458,Drip Kit
+A02458,Foliar Feed
+A02458,Vegetable Seeds
+A02459,Drinkers & Feeders
+A02459,Poultry Feed
+A02459,Veterinary Drugs
+A02460,CAN Fertilizer
+A02461,DAP Fertilizer
+A02461,Pesticide
+A02461,Potato Seed
+A02461,Veterinary Drugs
+A02462,CAN Fertilizer
+A02462,DAP Fertilizer
+A02462,Hybrid Maize Seed
+A02463,Dairy Meal
+A02464,Tools (Hoe/Panga)
+A02464,Water Pump
+A02465,CAN Fertilizer
+A02465,Herbicide
+A02466,Chick Starter
+A02466,Poultry Feed
+A02466,Veterinary Drugs
+A02467,Protective Gloves
+A02467,Tools (Hoe/Panga)
+A02468,Fungicide
+A02468,Pesticide
+A02469,CAN Fertilizer
+A02469,DAP Fertilizer
+A02469,Hybrid Maize Seed
+A02469,Tools (Hoe/Panga)
+A02470,DAP Fertilizer
+A02470,Hybrid Maize Seed
+A02471,Fungicide
+A02471,Pesticide
+A02472,DAP Fertilizer
+A02472,Herbicide
+A02472,Hybrid Maize Seed
+A02473,CAN Fertilizer
+A02473,Herbicide
+A02474,CAN Fertilizer
+A02474,DAP Fertilizer
+A02474,Hybrid Maize Seed
+A02475,Fungicide
+A02475,Pesticide
+A02475,Protective Gloves
+A02475,Veterinary Drugs
+A02476,Fungicide
+A02476,Pesticide
+A02477,CAN Fertilizer
+A02477,DAP Fertilizer
+A02477,Hybrid Maize Seed
+A02478,DAP Fertilizer
+A02478,Herbicide
+A02478,Hybrid Maize Seed
+A02479,Chick Starter
+A02479,Poultry Feed
+A02480,DAP Fertilizer
+A02480,Hybrid Maize Seed
+A02481,DAP Fertilizer
+A02481,Fungicide
+A02481,Potato Seed
+A02482,CAN Fertilizer
+A02482,DAP Fertilizer
+A02483,Chick Starter
+A02483,Poultry Feed
+A02483,Veterinary Drugs
+A02484,Wheelbarrow
+A02485,Fungicide
+A02485,Pesticide
+A02485,Protective Gloves
+A02486,DAP Fertilizer
+A02486,Fungicide
+A02486,Potato Seed
+A02487,Foliar Feed
+A02487,Fungicide
+A02487,Pesticide
+A02487,Vegetable Seeds
+A02488,Tools (Hoe/Panga)
+A02489,Foliar Feed
+A02489,Fungicide
+A02489,Vegetable Seeds
+A02489,Veterinary Drugs
+A02490,Fungicide
+A02490,Potato Seed
+A02491,Fungicide
+A02491,Pesticide
+A02492,Acaricide
+A02492,Dairy Meal
+A02492,Mineral Lick
+A02492,Veterinary Drugs
+A02493,Fungicide
+A02493,Knapsack Sprayer
+A02493,Pesticide
+A02494,DAP Fertilizer
+A02494,Foliar Feed
+A02494,Vegetable Seeds
+A02495,Fungicide
+A02495,Knapsack Sprayer
+A02495,Protective Gloves
+A02496,Knapsack Sprayer
+A02496,Pesticide
+A02496,Protective Gloves
+A02497,Chick Starter
+A02497,Poultry Feed
+A02498,Drip Kit
+A02498,Fungicide
+A02498,Pesticide
+A02498,Vegetable Seeds
+A02499,DAP Fertilizer
+A02499,Hybrid Maize Seed
+A02500,Protective Gloves
+A02501,Acaricide
+A02501,Dairy Meal
+A02501,Mineral Lick
+A02501,Veterinary Drugs
+A02502,Fungicide
+A02503,Chick Starter
+A02503,Drinkers & Feeders
+A02503,Veterinary Drugs
+A02504,Tools (Hoe/Panga)
+A02505,Fungicide
+A02505,Potato Seed
+A02506,DAP Fertilizer
+A02506,Potato Seed
+A02507,CAN Fertilizer
+A02507,Herbicide
+A02508,CAN Fertilizer
+A02508,DAP Fertilizer
+A02508,Hybrid Maize Seed
+A02509,Acaricide
+A02509,Dairy Meal
+A02509,Veterinary Drugs
+A02510,Herbicide
+A02511,Pesticide
+A02511,Protective Gloves
+A02512,Acaricide
+A02512,Dairy Meal
+A02512,Mineral Lick
+A02513,DAP Fertilizer
+A02513,Hybrid Maize Seed
+A02514,CAN Fertilizer
+A02514,Herbicide
+A02515,CAN Fertilizer
+A02515,Herbicide
+A02516,Dairy Meal
+A02516,Mineral Lick
+A02516,Veterinary Drugs
+A02517,CAN Fertilizer
+A02517,Herbicide
+A02518,Dairy Meal
+A02518,Mineral Lick
+A02518,Veterinary Drugs
+A02519,Drip Kit
+A02519,Fungicide
+A02519,Vegetable Seeds
+A02520,DAP Fertilizer
+A02520,Fungicide
+A02520,Potato Seed
+A02521,Protective Gloves
+A02521,Tools (Hoe/Panga)
+A02522,DAP Fertilizer
+A02522,Hybrid Maize Seed
+A02523,CAN Fertilizer
+A02523,Herbicide
+A02523,Pesticide
+A02524,Foliar Feed
+A02524,Vegetable Seeds
+A02525,DAP Fertilizer
+A02525,Potato Seed
+A02526,CAN Fertilizer
+A02526,Herbicide
+A02527,Fungicide
+A02527,Herbicide
+A02527,Potato Seed
+A02528,CAN Fertilizer
+A02528,Herbicide
+A02529,Tools (Hoe/Panga)
+A02530,CAN Fertilizer
+A02530,DAP Fertilizer
+A02530,Herbicide
+A02530,Hybrid Maize Seed
+A02531,CAN Fertilizer
+A02531,DAP Fertilizer
+A02531,Herbicide
+A02531,Hybrid Maize Seed
+A02532,Knapsack Sprayer
+A02532,Pesticide
+A02532,Protective Gloves
+A02533,Acaricide
+A02533,Dairy Meal
+A02533,Mineral Lick
+A02534,Chick Starter
+A02534,Drinkers & Feeders
+A02534,Poultry Feed
+A02534,Veterinary Drugs
+A02535,Foliar Feed
+A02535,Fungicide
+A02535,Vegetable Seeds
+A02536,CAN Fertilizer
+A02537,DAP Fertilizer
+A02537,Herbicide
+A02537,Hybrid Maize Seed
+A02538,DAP Fertilizer
+A02538,Hybrid Maize Seed
+A02539,Acaricide
+A02539,Dairy Meal
+A02539,Veterinary Drugs
+A02540,Acaricide
+A02540,Dairy Meal
+A02540,Mineral Lick
+A02540,Vegetable Seeds
+A02540,Veterinary Drugs
+A02541,CAN Fertilizer
+A02541,DAP Fertilizer
+A02541,Hybrid Maize Seed
+A02542,Pesticide
+A02543,Pesticide
+A02543,Protective Gloves
+A02544,Dairy Meal
+A02544,Protective Gloves
+A02544,Veterinary Drugs
+A02545,CAN Fertilizer
+A02545,DAP Fertilizer
+A02545,Hybrid Maize Seed
+A02546,CAN Fertilizer
+A02546,Protective Gloves
+A02546,Vegetable Seeds
+A02547,Drinkers & Feeders
+A02547,Pesticide
+A02547,Poultry Feed
+A02547,Veterinary Drugs
+A02548,Fungicide
+A02548,Knapsack Sprayer
+A02548,Pesticide
+A02548,Protective Gloves
+A02548,Vegetable Seeds
+A02549,Fungicide
+A02549,Pesticide
+A02550,CAN Fertilizer
+A02550,DAP Fertilizer
+A02550,Hybrid Maize Seed
+A02551,Drinkers & Feeders
+A02551,Poultry Feed
+A02551,Veterinary Drugs
+A02552,Herbicide
+A02553,Foliar Feed
+A02553,Fungicide
+A02553,Pesticide
+A02553,Vegetable Seeds
+A02554,Foliar Feed
+A02555,DAP Fertilizer
+A02555,Fungicide
+A02555,Potato Seed
+A02556,DAP Fertilizer
+A02556,Herbicide
+A02556,Hybrid Maize Seed
+A02556,Tools (Hoe/Panga)
+A02557,CAN Fertilizer
+A02557,Herbicide
+A02558,CAN Fertilizer
+A02558,DAP Fertilizer
+A02558,Hybrid Maize Seed
+A02559,Drip Kit
+A02560,Dairy Meal
+A02561,Dairy Meal
+A02561,Mineral Lick
+A02562,Drip Kit
+A02562,Veterinary Drugs
+A02563,CAN Fertilizer
+A02564,DAP Fertilizer
+A02564,Pesticide
+A02565,Drinkers & Feeders
+A02565,Poultry Feed
+A02566,Drip Kit
+A02566,Herbicide
+A02566,Pesticide
+A02566,Vegetable Seeds
+A02567,Herbicide
+A02568,DAP Fertilizer
+A02568,Herbicide
+A02568,Hybrid Maize Seed
+A02569,Pesticide
+A02569,Protective Gloves
+A02570,DAP Fertilizer
+A02570,Fungicide
+A02570,Pesticide
+A02570,Potato Seed
+A02571,Pesticide
+A02572,Drip Kit
+A02572,Pesticide
+A02573,Pesticide
+A02574,CAN Fertilizer
+A02574,Hybrid Maize Seed
+A02575,Pesticide
+A02575,Protective Gloves
+A02576,CAN Fertilizer
+A02576,DAP Fertilizer
+A02576,Hybrid Maize Seed
+A02577,Dairy Meal
+A02577,Fungicide
+A02577,Pesticide
+A02577,Potato Seed
+A02578,Drip Kit
+A02578,Foliar Feed
+A02578,Vegetable Seeds
+A02579,DAP Fertilizer
+A02579,Hybrid Maize Seed
+A02580,CAN Fertilizer
+A02580,Herbicide
+A02580,Pesticide
+A02580,Protective Gloves
+A02581,CAN Fertilizer
+A02581,Herbicide
+A02582,DAP Fertilizer
+A02582,Fungicide
+A02582,Potato Seed
+A02583,DAP Fertilizer
+A02583,Fungicide
+A02583,Potato Seed
+A02584,CAN Fertilizer
+A02584,DAP Fertilizer
+A02584,Hybrid Maize Seed
+A02585,Wheelbarrow
+A02586,CAN Fertilizer
+A02586,DAP Fertilizer
+A02586,Hybrid Maize Seed
+A02587,Herbicide
+A02588,Dairy Meal
+A02588,Mineral Lick
+A02589,Protective Gloves
+A02590,Herbicide
+A02590,Protective Gloves
+A02590,Tools (Hoe/Panga)
+A02591,Herbicide
+A02592,Fungicide
+A02592,Knapsack Sprayer
+A02592,Pesticide
+A02592,Protective Gloves
+A02593,Pesticide
+A02594,CAN Fertilizer
+A02594,DAP Fertilizer
+A02594,Vegetable Seeds
+A02595,DAP Fertilizer
+A02595,Fungicide
+A02595,Potato Seed
+A02596,Fungicide
+A02596,Knapsack Sprayer
+A02596,Pesticide
+A02596,Protective Gloves
+A02597,DAP Fertilizer
+A02598,CAN Fertilizer
+A02598,Herbicide
+A02599,Acaricide
+A02599,Dairy Meal
+A02599,Mineral Lick
+A02599,Veterinary Drugs
+A02600,CAN Fertilizer
+A02600,Herbicide
+A02600,Hybrid Maize Seed
+A02601,Tools (Hoe/Panga)
+A02601,Water Pump
+A02602,Potato Seed
+A02603,Acaricide
+A02603,Dairy Meal
+A02603,Herbicide
+A02604,Dairy Meal
+A02604,Mineral Lick
+A02605,Pesticide
+A02605,Vegetable Seeds
+A02606,DAP Fertilizer
+A02606,Fungicide
+A02606,Potato Seed
+A02607,Dairy Meal
+A02607,Veterinary Drugs
+A02608,CAN Fertilizer
+A02608,Herbicide
+A02609,Dairy Meal
+A02609,Mineral Lick
+A02610,Fungicide
+A02611,Dairy Meal
+A02611,Mineral Lick
+A02612,Foliar Feed
+A02612,Vegetable Seeds
+A02613,DAP Fertilizer
+A02613,Hybrid Maize Seed
+A02613,Veterinary Drugs
+A02614,Knapsack Sprayer
+A02614,Pesticide
+A02614,Protective Gloves
+A02614,Vegetable Seeds
+A02615,Foliar Feed
+A02615,Pesticide
+A02615,Vegetable Seeds
+A02615,Veterinary Drugs
+A02616,Pesticide
+A02616,Protective Gloves
+A02617,Drip Kit
+A02617,Foliar Feed
+A02617,Fungicide
+A02617,Pesticide
+A02618,Drinkers & Feeders
+A02619,Vegetable Seeds
+A02620,CAN Fertilizer
+A02620,Herbicide
+A02621,Pesticide
+A02621,Vegetable Seeds
+A02622,Vegetable Seeds
+A02622,Veterinary Drugs
+A02623,Protective Gloves
+A02623,Tools (Hoe/Panga)
+A02624,DAP Fertilizer
+A02624,Hybrid Maize Seed
+A02625,Dairy Meal
+A02625,Foliar Feed
+A02625,Fungicide
+A02625,Pesticide
+A02625,Vegetable Seeds
+A02625,Veterinary Drugs
+A02626,Drip Kit
+A02626,Foliar Feed
+A02626,Protective Gloves
+A02626,Vegetable Seeds
+A02627,CAN Fertilizer
+A02627,DAP Fertilizer
+A02627,Herbicide
+A02627,Hybrid Maize Seed
+A02627,Pesticide
+A02628,DAP Fertilizer
+A02628,Pesticide
+A02628,Potato Seed
+A02629,DAP Fertilizer
+A02629,Hybrid Maize Seed
+A02629,Tools (Hoe/Panga)
+A02630,Drip Kit
+A02630,Fungicide
+A02630,Vegetable Seeds
+A02631,Acaricide
+A02631,Dairy Meal
+A02631,Mineral Lick
+A02632,Drinkers & Feeders
+A02632,Poultry Feed
+A02632,Veterinary Drugs
+A02633,CAN Fertilizer
+A02633,Herbicide
+A02633,Veterinary Drugs
+A02634,Poultry Feed
+A02635,Drinkers & Feeders
+A02635,Poultry Feed
+A02635,Veterinary Drugs
+A02636,Knapsack Sprayer
+A02637,DAP Fertilizer
+A02637,Pesticide
+A02637,Potato Seed
+A02638,Acaricide
+A02638,Dairy Meal
+A02638,Mineral Lick
+A02638,Veterinary Drugs
+A02639,Veterinary Drugs
+A02640,Dairy Meal
+A02641,Dairy Meal
+A02641,Protective Gloves
+A02642,CAN Fertilizer
+A02642,DAP Fertilizer
+A02642,Hybrid Maize Seed
+A02643,CAN Fertilizer
+A02643,DAP Fertilizer
+A02643,Hybrid Maize Seed
+A02644,Dairy Meal
+A02644,Veterinary Drugs
+A02645,CAN Fertilizer
+A02645,DAP Fertilizer
+A02646,CAN Fertilizer
+A02646,Herbicide
+A02647,Foliar Feed
+A02647,Vegetable Seeds
+A02648,Herbicide
+A02649,Fungicide
+A02649,Knapsack Sprayer
+A02649,Protective Gloves
+A02650,CAN Fertilizer
+A02650,DAP Fertilizer
+A02650,Herbicide
+A02650,Hybrid Maize Seed
+A02650,Protective Gloves
+A02651,CAN Fertilizer
+A02651,Herbicide
+A02651,Hybrid Maize Seed
+A02652,Foliar Feed
+A02652,Vegetable Seeds
+A02653,Fungicide
+A02653,Pesticide
+A02654,Fungicide
+A02654,Pesticide
+A02655,Fungicide
+A02655,Potato Seed
+A02656,Acaricide
+A02656,Dairy Meal
+A02657,Drip Kit
+A02657,Foliar Feed
+A02657,Pesticide
+A02657,Vegetable Seeds
+A02658,Drip Kit
+A02658,Pesticide
+A02658,Vegetable Seeds
+A02659,Dairy Meal
+A02659,Mineral Lick
+A02659,Veterinary Drugs
+A02660,Acaricide
+A02660,Dairy Meal
+A02660,Mineral Lick
+A02661,Dairy Meal
+A02661,Veterinary Drugs
+A02662,Pesticide
+A02663,Herbicide
+A02663,Pesticide
+A02664,DAP Fertilizer
+A02665,Drip Kit
+A02665,Protective Gloves
+A02666,Fungicide
+A02666,Vegetable Seeds
+A02667,Dairy Meal
+A02668,CAN Fertilizer
+A02669,Fungicide
+A02669,Knapsack Sprayer
+A02669,Pesticide
+A02669,Veterinary Drugs
+A02670,Chick Starter
+A02670,Drinkers & Feeders
+A02670,Poultry Feed
+A02671,Chick Starter
+A02671,Poultry Feed
+A02671,Veterinary Drugs
+A02672,Pesticide
+A02672,Potato Seed
+A02673,DAP Fertilizer
+A02673,Hybrid Maize Seed
+A02674,Tools (Hoe/Panga)
+A02675,Chick Starter
+A02675,Poultry Feed
+A02675,Veterinary Drugs
+A02676,Poultry Feed
+A02676,Veterinary Drugs
+A02677,Hybrid Maize Seed
+A02678,DAP Fertilizer
+A02678,Fungicide
+A02678,Potato Seed
+A02679,Drip Kit
+A02679,Fungicide
+A02679,Vegetable Seeds
+A02680,Dairy Meal
+A02680,Mineral Lick
+A02681,Chick Starter
+A02681,DAP Fertilizer
+A02681,Herbicide
+A02681,Poultry Feed
+A02681,Veterinary Drugs
+A02682,DAP Fertilizer
+A02683,Dairy Meal
+A02683,Mineral Lick
+A02684,Herbicide
+A02685,CAN Fertilizer
+A02685,DAP Fertilizer
+A02685,Pesticide
+A02686,DAP Fertilizer
+A02686,Fungicide
+A02686,Herbicide
+A02686,Knapsack Sprayer
+A02686,Pesticide
+A02686,Protective Gloves
+A02687,Drinkers & Feeders
+A02687,Tools (Hoe/Panga)
+A02688,Protective Gloves
+A02689,Acaricide
+A02689,Dairy Meal
+A02689,Mineral Lick
+A02690,Dairy Meal
+A02690,Veterinary Drugs
+A02691,CAN Fertilizer
+A02691,DAP Fertilizer
+A02691,Herbicide
+A02691,Hybrid Maize Seed
+A02692,CAN Fertilizer
+A02692,DAP Fertilizer
+A02692,Hybrid Maize Seed
+A02692,Veterinary Drugs
+A02693,CAN Fertilizer
+A02694,DAP Fertilizer
+A02695,Poultry Feed
+A02696,Drip Kit
+A02696,Pesticide
+A02696,Vegetable Seeds
+A02697,Veterinary Drugs
+A02698,DAP Fertilizer
+A02698,Hybrid Maize Seed
+A02699,Pesticide
+A02699,Vegetable Seeds
+A02700,Foliar Feed
+A02700,Fungicide
+A02700,Vegetable Seeds
+A02701,Acaricide
+A02701,Dairy Meal
+A02701,Mineral Lick
+A02701,Pesticide
+A02702,Herbicide
+A02703,Poultry Feed
+A02703,Veterinary Drugs
+A02704,Drinkers & Feeders
+A02704,Poultry Feed
+A02705,DAP Fertilizer
+A02705,Fungicide
+A02706,Dairy Meal
+A02706,Veterinary Drugs
+A02707,CAN Fertilizer
+A02707,DAP Fertilizer
+A02707,Hybrid Maize Seed
+A02708,Fungicide
+A02708,Pesticide
+A02708,Vegetable Seeds
+A02709,Protective Gloves
+A02710,Acaricide
+A02710,Dairy Meal
+A02710,Veterinary Drugs
+A02711,Vegetable Seeds
+A02712,DAP Fertilizer
+A02712,Fungicide
+A02713,Drip Kit
+A02713,Foliar Feed
+A02713,Fungicide
+A02714,Dairy Meal
+A02715,DAP Fertilizer
+A02715,Fungicide
+A02715,Pesticide
+A02715,Potato Seed
+A02715,Veterinary Drugs
+A02716,Fungicide
+A02716,Potato Seed
+A02717,DAP Fertilizer
+A02717,Dairy Meal
+A02717,Potato Seed
+A02718,Pesticide
+A02718,Vegetable Seeds
+A02719,CAN Fertilizer
+A02720,Herbicide
+A02721,Dairy Meal
+A02721,Veterinary Drugs
+A02722,Dairy Meal
+A02722,Mineral Lick
+A02723,Fungicide
+A02723,Pesticide
+A02723,Protective Gloves
+A02724,DAP Fertilizer
+A02724,Hybrid Maize Seed
+A02725,CAN Fertilizer
+A02725,Herbicide
+A02726,Foliar Feed
+A02726,Vegetable Seeds
+A02727,Chick Starter
+A02727,Poultry Feed
+A02727,Tools (Hoe/Panga)
+A02728,CAN Fertilizer
+A02728,Herbicide
+A02729,DAP Fertilizer
+A02729,Hybrid Maize Seed
+A02729,Pesticide
+A02730,Acaricide
+A02730,Dairy Meal
+A02730,Veterinary Drugs
+A02731,CAN Fertilizer
+A02731,DAP Fertilizer
+A02731,Hybrid Maize Seed
+A02732,Pesticide
+A02732,Protective Gloves
+A02733,Acaricide
+A02733,DAP Fertilizer
+A02733,Dairy Meal
+A02733,Mineral Lick
+A02733,Veterinary Drugs
+A02734,Tools (Hoe/Panga)
+A02735,Dairy Meal
+A02735,Veterinary Drugs
+A02736,Pesticide
+A02736,Protective Gloves
+A02737,Fungicide
+A02737,Pesticide
+A02738,CAN Fertilizer
+A02738,Herbicide
+A02739,Fungicide
+A02739,Potato Seed
+A02740,DAP Fertilizer
+A02740,Hybrid Maize Seed
+A02740,Protective Gloves
+A02741,DAP Fertilizer
+A02741,Hybrid Maize Seed
+A02742,CAN Fertilizer
+A02742,DAP Fertilizer
+A02742,Herbicide
+A02742,Hybrid Maize Seed
+A02743,Fungicide
+A02743,Vegetable Seeds
+A02744,Acaricide
+A02744,Dairy Meal
+A02744,Mineral Lick
+A02744,Veterinary Drugs
+A02745,Tools (Hoe/Panga)
+A02745,Wheelbarrow
+A02746,Fungicide
+A02746,Pesticide
+A02746,Protective Gloves
+A02747,Foliar Feed
+A02747,Vegetable Seeds
+A02748,Dairy Meal
+A02749,DAP Fertilizer
+A02749,Hybrid Maize Seed
+A02750,DAP Fertilizer
+A02750,Hybrid Maize Seed
+A02751,Poultry Feed
+A02752,DAP Fertilizer
+A02752,Tools (Hoe/Panga)
+A02753,DAP Fertilizer
+A02753,Fungicide
+A02754,DAP Fertilizer
+A02754,Hybrid Maize Seed
+A02755,DAP Fertilizer
+A02755,Fungicide
+A02755,Pesticide
+A02755,Potato Seed
+A02756,Chick Starter
+A02756,Drinkers & Feeders
+A02756,Poultry Feed
+A02757,Drip Kit
+A02757,Vegetable Seeds
+A02758,Dairy Meal
+A02759,Vegetable Seeds
+A02760,Drinkers & Feeders
+A02760,Poultry Feed
+A02760,Veterinary Drugs
+A02761,Fungicide
+A02761,Knapsack Sprayer
+A02761,Pesticide
+A02761,Protective Gloves
+A02762,DAP Fertilizer
+A02763,CAN Fertilizer
+A02763,Herbicide
+A02764,DAP Fertilizer
+A02764,Dairy Meal
+A02764,Mineral Lick
+A02765,CAN Fertilizer
+A02765,Herbicide
+A02765,Hybrid Maize Seed
+A02766,DAP Fertilizer
+A02766,Herbicide
+A02766,Hybrid Maize Seed
+A02767,CAN Fertilizer
+A02767,DAP Fertilizer
+A02767,Hybrid Maize Seed
+A02768,Fungicide
+A02768,Knapsack Sprayer
+A02768,Pesticide
+A02769,CAN Fertilizer
+A02769,DAP Fertilizer
+A02769,Herbicide
+A02769,Hybrid Maize Seed
+A02770,Fungicide
+A02770,Knapsack Sprayer
+A02770,Pesticide
+A02771,Hybrid Maize Seed
+A02771,Protective Gloves
+A02772,DAP Fertilizer
+A02772,Hybrid Maize Seed
+A02773,DAP Fertilizer
+A02773,Hybrid Maize Seed
+A02774,Herbicide
+A02775,Acaricide
+A02775,Dairy Meal
+A02775,Mineral Lick
+A02776,Pesticide
+A02776,Protective Gloves
+A02777,Knapsack Sprayer
+A02777,Protective Gloves
+A02778,DAP Fertilizer
+A02778,Hybrid Maize Seed
+A02779,DAP Fertilizer
+A02779,Hybrid Maize Seed
+A02780,CAN Fertilizer
+A02780,DAP Fertilizer
+A02780,Hybrid Maize Seed
+A02781,Fungicide
+A02781,Knapsack Sprayer
+A02781,Pesticide
+A02781,Protective Gloves
+A02782,Pesticide
+A02783,Acaricide
+A02783,Dairy Meal
+A02783,Mineral Lick
+A02784,Tools (Hoe/Panga)
+A02784,Wheelbarrow
+A02785,Knapsack Sprayer
+A02785,Pesticide
+A02786,DAP Fertilizer
+A02787,Herbicide
+A02787,Hybrid Maize Seed
+A02788,DAP Fertilizer
+A02788,Pesticide
+A02788,Potato Seed
+A02789,DAP Fertilizer
+A02789,Fungicide
+A02789,Pesticide
+A02789,Potato Seed
+A02790,Drip Kit
+A02790,Vegetable Seeds
+A02791,Tools (Hoe/Panga)
+A02792,Drip Kit
+A02792,Foliar Feed
+A02792,Pesticide
+A02792,Vegetable Seeds
+A02793,Pesticide
+A02794,CAN Fertilizer
+A02794,DAP Fertilizer
+A02794,Hybrid Maize Seed
+A02795,Potato Seed
+A02796,Knapsack Sprayer
+A02796,Pesticide
+A02796,Protective Gloves
+A02796,Vegetable Seeds
+A02797,Chick Starter
+A02797,Poultry Feed
+A02797,Veterinary Drugs
+A02798,CAN Fertilizer
+A02798,Herbicide
+A02798,Pesticide
+A02799,DAP Fertilizer
+A02799,Fungicide
+A02800,Knapsack Sprayer
+A02800,Pesticide
+A02801,CAN Fertilizer
+A02801,Herbicide
+A02802,CAN Fertilizer
+A02802,DAP Fertilizer
+A02802,Hybrid Maize Seed
+A02803,Chick Starter
+A02803,Poultry Feed
+A02803,Veterinary Drugs
+A02804,DAP Fertilizer
+A02804,Veterinary Drugs
+A02805,Pesticide
+A02805,Protective Gloves
+A02806,Fungicide
+A02806,Pesticide
+A02806,Protective Gloves
+A02807,Chick Starter
+A02807,Poultry Feed
+A02808,CAN Fertilizer
+A02808,DAP Fertilizer
+A02808,Herbicide
+A02808,Hybrid Maize Seed
+A02809,Dairy Meal
+A02809,Poultry Feed
+A02809,Veterinary Drugs
+A02810,Chick Starter
+A02810,Poultry Feed
+A02811,Knapsack Sprayer
+A02811,Pesticide
+A02811,Veterinary Drugs
+A02812,Hybrid Maize Seed
+A02813,Fungicide
+A02813,Potato Seed
+A02814,Dairy Meal
+A02814,Mineral Lick
+A02815,DAP Fertilizer
+A02815,Hybrid Maize Seed
+A02816,Acaricide
+A02816,Dairy Meal
+A02816,Mineral Lick
+A02816,Veterinary Drugs
+A02817,Vegetable Seeds
+A02818,Veterinary Drugs
+A02819,DAP Fertilizer
+A02820,Foliar Feed
+A02820,Fungicide
+A02820,Vegetable Seeds
+A02821,DAP Fertilizer
+A02821,Fungicide
+A02821,Potato Seed
+A02822,Chick Starter
+A02822,Drinkers & Feeders
+A02822,Poultry Feed
+A02822,Veterinary Drugs
+A02823,CAN Fertilizer
+A02823,DAP Fertilizer
+A02823,Hybrid Maize Seed
+A02824,Tools (Hoe/Panga)
+A02824,Wheelbarrow
+A02825,Tools (Hoe/Panga)
+A02825,Wheelbarrow
+A02826,Knapsack Sprayer
+A02826,Pesticide
+A02826,Protective Gloves
+A02826,Vegetable Seeds
+A02827,Chick Starter
+A02828,CAN Fertilizer
+A02828,DAP Fertilizer
+A02828,Hybrid Maize Seed
+A02829,Dairy Meal
+A02829,Mineral Lick
+A02830,Acaricide
+A02831,CAN Fertilizer
+A02831,DAP Fertilizer
+A02831,Herbicide
+A02831,Hybrid Maize Seed
+A02832,CAN Fertilizer
+A02832,DAP Fertilizer
+A02832,Hybrid Maize Seed
+A02833,DAP Fertilizer
+A02833,Fungicide
+A02833,Herbicide
+A02833,Pesticide
+A02833,Potato Seed
+A02834,Fungicide
+A02834,Pesticide
+A02834,Protective Gloves
+A02835,Protective Gloves
+A02836,DAP Fertilizer
+A02836,Hybrid Maize Seed
+A02837,DAP Fertilizer
+A02837,Herbicide
+A02837,Hybrid Maize Seed
+A02838,CAN Fertilizer
+A02839,Tools (Hoe/Panga)
+A02839,Veterinary Drugs
+A02840,CAN Fertilizer
+A02840,DAP Fertilizer
+A02840,Hybrid Maize Seed
+A02841,Protective Gloves
+A02842,Drip Kit
+A02842,Foliar Feed
+A02842,Fungicide
+A02842,Vegetable Seeds
+A02843,Acaricide
+A02843,Dairy Meal
+A02843,Mineral Lick
+A02844,Dairy Meal
+A02844,Mineral Lick
+A02844,Veterinary Drugs
+A02845,CAN Fertilizer
+A02846,DAP Fertilizer
+A02847,Herbicide
+A02848,CAN Fertilizer
+A02848,DAP Fertilizer
+A02848,Herbicide
+A02848,Hybrid Maize Seed
+A02849,CAN Fertilizer
+A02849,Hybrid Maize Seed
+A02850,Vegetable Seeds
+A02851,CAN Fertilizer
+A02852,Acaricide
+A02852,Dairy Meal
+A02853,Drip Kit
+A02853,Pesticide
+A02853,Vegetable Seeds
+A02854,DAP Fertilizer
+A02854,Potato Seed
+A02854,Protective Gloves
+A02855,Fungicide
+A02855,Pesticide
+A02855,Protective Gloves
+A02855,Tools (Hoe/Panga)
+A02856,CAN Fertilizer
+A02856,Herbicide
+A02856,Hybrid Maize Seed
+A02857,CAN Fertilizer
+A02857,DAP Fertilizer
+A02857,Herbicide
+A02858,Dairy Meal
+A02858,Mineral Lick
+A02859,DAP Fertilizer
+A02859,Potato Seed
+A02860,DAP Fertilizer
+A02861,Foliar Feed
+A02861,Fungicide
+A02861,Pesticide
+A02862,Poultry Feed
+A02862,Veterinary Drugs
+A02863,Chick Starter
+A02863,Drinkers & Feeders
+A02863,Poultry Feed
+A02863,Veterinary Drugs
+A02864,Fungicide
+A02864,Knapsack Sprayer
+A02864,Protective Gloves
+A02865,Acaricide
+A02865,Dairy Meal
+A02865,Mineral Lick
+A02866,Protective Gloves
+A02866,Tools (Hoe/Panga)
+A02866,Water Pump
+A02867,Drinkers & Feeders
+A02867,Poultry Feed
+A02868,Foliar Feed
+A02868,Pesticide
+A02868,Vegetable Seeds
+A02869,DAP Fertilizer
+A02869,Drip Kit
+A02869,Pesticide
+A02869,Vegetable Seeds
+A02870,Herbicide
+A02870,Protective Gloves
+A02871,Fungicide
+A02871,Pesticide
+A02871,Potato Seed
+A02872,DAP Fertilizer
+A02872,Poultry Feed
+A02872,Veterinary Drugs
+A02873,CAN Fertilizer
+A02873,DAP Fertilizer
+A02873,Hybrid Maize Seed
+A02874,Dairy Meal
+A02874,Mineral Lick
+A02875,Poultry Feed
+A02875,Veterinary Drugs
+A02876,Foliar Feed
+A02877,Pesticide
+A02877,Vegetable Seeds
+A02878,Vegetable Seeds
+A02879,CAN Fertilizer
+A02879,DAP Fertilizer
+A02879,Hybrid Maize Seed
+A02880,CAN Fertilizer
+A02880,Herbicide
+A02881,Drip Kit
+A02881,Foliar Feed
+A02881,Protective Gloves
+A02881,Vegetable Seeds
+A02882,CAN Fertilizer
+A02882,Herbicide
+A02883,Foliar Feed
+A02883,Vegetable Seeds
+A02884,Dairy Meal
+A02884,Mineral Lick
+A02885,DAP Fertilizer
+A02885,Hybrid Maize Seed
+A02885,Pesticide
+A02886,CAN Fertilizer
+A02886,DAP Fertilizer
+A02886,Hybrid Maize Seed
+A02887,CAN Fertilizer
+A02887,DAP Fertilizer
+A02887,Herbicide
+A02887,Hybrid Maize Seed
+A02888,Fungicide
+A02888,Vegetable Seeds
+A02889,Drip Kit
+A02889,Pesticide
+A02889,Vegetable Seeds
+A02890,CAN Fertilizer
+A02890,Hybrid Maize Seed
+A02891,CAN Fertilizer
+A02891,Hybrid Maize Seed
+A02892,Fungicide
+A02892,Knapsack Sprayer
+A02892,Pesticide
+A02892,Protective Gloves
+A02893,Tools (Hoe/Panga)
+A02893,Vegetable Seeds
+A02894,DAP Fertilizer
+A02895,CAN Fertilizer
+A02895,Herbicide
+A02896,DAP Fertilizer
+A02897,CAN Fertilizer
+A02897,DAP Fertilizer
+A02897,Hybrid Maize Seed
+A02898,Acaricide
+A02898,Dairy Meal
+A02898,Veterinary Drugs
+A02899,DAP Fertilizer
+A02899,Hybrid Maize Seed
+A02899,Protective Gloves
+A02900,Vegetable Seeds
+A02901,Dairy Meal
+A02901,Mineral Lick
+A02901,Veterinary Drugs
+A02902,Knapsack Sprayer
+A02902,Protective Gloves
+A02903,Fungicide
+A02903,Knapsack Sprayer
+A02903,Pesticide
+A02903,Protective Gloves
+A02903,Tools (Hoe/Panga)
+A02904,DAP Fertilizer
+A02904,Hybrid Maize Seed
+A02905,DAP Fertilizer
+A02905,Hybrid Maize Seed
+A02906,Acaricide
+A02906,Dairy Meal
+A02906,Veterinary Drugs
+A02907,Fungicide
+A02907,Pesticide
+A02907,Potato Seed
+A02908,Chick Starter
+A02908,Drinkers & Feeders
+A02908,Poultry Feed
+A02908,Veterinary Drugs
+A02909,Knapsack Sprayer
+A02909,Pesticide
+A02909,Protective Gloves
+A02910,Chick Starter
+A02910,Poultry Feed
+A02910,Veterinary Drugs
+A02911,Fungicide
+A02911,Pesticide
+A02912,Protective Gloves
+A02912,Tools (Hoe/Panga)
+A02913,Acaricide
+A02913,Dairy Meal
+A02913,Mineral Lick
+A02913,Vegetable Seeds
+A02913,Veterinary Drugs
+A02914,Drip Kit
+A02914,Fungicide
+A02914,Pesticide
+A02914,Vegetable Seeds
+A02915,Fungicide
+A02915,Herbicide
+A02915,Vegetable Seeds
+A02916,Chick Starter
+A02916,Drinkers & Feeders
+A02916,Poultry Feed
+A02916,Veterinary Drugs
+A02917,DAP Fertilizer
+A02917,Fungicide
+A02917,Potato Seed
+A02918,DAP Fertilizer
+A02918,Dairy Meal
+A02918,Potato Seed
+A02918,Protective Gloves
+A02919,DAP Fertilizer
+A02919,Hybrid Maize Seed
+A02920,Dairy Meal
+A02920,Veterinary Drugs
+A02921,Chick Starter
+A02921,Poultry Feed
+A02922,Pesticide
+A02923,Knapsack Sprayer
+A02923,Pesticide
+A02923,Protective Gloves
+A02924,Dairy Meal
+A02924,Mineral Lick
+A02924,Veterinary Drugs
+A02925,DAP Fertilizer
+A02925,Pesticide
+A02925,Potato Seed
+A02926,Chick Starter
+A02927,Drip Kit
+A02927,Foliar Feed
+A02927,Vegetable Seeds
+A02928,Tools (Hoe/Panga)
+A02929,Knapsack Sprayer
+A02929,Pesticide
+A02930,Dairy Meal
+A02930,Mineral Lick
+A02931,CAN Fertilizer
+A02932,DAP Fertilizer
+A02932,Pesticide
+A02933,Chick Starter
+A02933,Drinkers & Feeders
+A02933,Pesticide
+A02933,Poultry Feed
+A02933,Veterinary Drugs
+A02934,Drip Kit
+A02934,Foliar Feed
+A02934,Fungicide
+A02934,Vegetable Seeds
+A02935,Herbicide
+A02936,CAN Fertilizer
+A02937,Knapsack Sprayer
+A02937,Pesticide
+A02938,Tools (Hoe/Panga)
+A02939,Protective Gloves
+A02940,Acaricide
+A02940,Mineral Lick
+A02940,Protective Gloves
+A02940,Veterinary Drugs
+A02941,Drip Kit
+A02941,Pesticide
+A02941,Tools (Hoe/Panga)
+A02942,Fungicide
+A02942,Pesticide
+A02943,CAN Fertilizer
+A02943,Herbicide
+A02943,Veterinary Drugs
+A02944,CAN Fertilizer
+A02944,Herbicide
+A02945,CAN Fertilizer
+A02945,Herbicide
+A02945,Protective Gloves
+A02946,CAN Fertilizer
+A02946,Hybrid Maize Seed
+A02946,Tools (Hoe/Panga)
+A02947,Dairy Meal
+A02947,Mineral Lick
+A02947,Veterinary Drugs
+A02948,Drip Kit
+A02948,Fungicide
+A02948,Tools (Hoe/Panga)
+A02948,Vegetable Seeds
+A02949,DAP Fertilizer
+A02949,Potato Seed
+A02950,Chick Starter
+A02950,Drinkers & Feeders
+A02950,Poultry Feed
+A02951,Chick Starter
+A02951,Poultry Feed
+A02952,Foliar Feed
+A02952,Fungicide
+A02952,Pesticide
+A02952,Vegetable Seeds
+A02953,Herbicide
+A02953,Pesticide
+A02953,Poultry Feed
+A02954,Mineral Lick
+A02955,CAN Fertilizer
+A02955,DAP Fertilizer
+A02955,Hybrid Maize Seed
+A02956,Tools (Hoe/Panga)
+A02957,DAP Fertilizer
+A02957,Pesticide
+A02957,Potato Seed
+A02958,Acaricide
+A02958,Dairy Meal
+A02958,Mineral Lick
+A02958,Pesticide
+A02958,Veterinary Drugs
+A02959,Fungicide
+A02959,Knapsack Sprayer
+A02959,Pesticide
+A02959,Protective Gloves
+A02960,CAN Fertilizer
+A02960,Herbicide
+A02961,Pesticide
+A02962,Pesticide
+A02962,Protective Gloves
+A02963,DAP Fertilizer
+A02963,Dairy Meal
+A02964,Fungicide
+A02964,Knapsack Sprayer
+A02964,Pesticide
+A02964,Protective Gloves
+A02965,DAP Fertilizer
+A02965,Fungicide
+A02965,Potato Seed
+A02965,Veterinary Drugs
+A02966,Fungicide
+A02966,Pesticide
+A02966,Potato Seed
+A02967,Dairy Meal
+A02967,Mineral Lick
+A02967,Veterinary Drugs
+A02968,DAP Fertilizer
+A02968,Fungicide
+A02968,Potato Seed
+A02968,Tools (Hoe/Panga)
+A02969,CAN Fertilizer
+A02969,DAP Fertilizer
+A02969,Hybrid Maize Seed
+A02969,Tools (Hoe/Panga)
+A02970,Tools (Hoe/Panga)
+A02971,CAN Fertilizer
+A02971,DAP Fertilizer
+A02971,Hybrid Maize Seed
+A02972,Fungicide
+A02972,Potato Seed
+A02973,CAN Fertilizer
+A02973,Herbicide
+A02973,Hybrid Maize Seed
+A02973,Pesticide
+A02974,Veterinary Drugs
+A02975,Chick Starter
+A02975,Drinkers & Feeders
+A02975,Poultry Feed
+A02975,Tools (Hoe/Panga)
+A02976,Veterinary Drugs
+A02977,DAP Fertilizer
+A02977,Pesticide
+A02977,Potato Seed
+A02978,Poultry Feed
+A02978,Vegetable Seeds
+A02978,Veterinary Drugs
+A02979,DAP Fertilizer
+A02979,Hybrid Maize Seed
+A02980,Dairy Meal
+A02981,CAN Fertilizer
+A02981,Dairy Meal
+A02981,Hybrid Maize Seed
+A02982,Drip Kit
+A02982,Foliar Feed
+A02982,Pesticide
+A02982,Vegetable Seeds
+A02983,DAP Fertilizer
+A02983,Hybrid Maize Seed
+A02984,Dairy Meal
+A02984,Drinkers & Feeders
+A02984,Poultry Feed
+A02984,Veterinary Drugs
+A02985,Drip Kit
+A02985,Foliar Feed
+A02985,Vegetable Seeds
+A02986,Protective Gloves
+A02986,Tools (Hoe/Panga)
+A02986,Wheelbarrow
+A02987,Fungicide
+A02987,Knapsack Sprayer
+A02987,Protective Gloves
+A02988,Dairy Meal
+A02988,Mineral Lick
+A02988,Veterinary Drugs
+A02989,Vegetable Seeds
+A02990,Pesticide
+A02990,Protective Gloves
+A02991,DAP Fertilizer
+A02991,Dairy Meal
+A02991,Mineral Lick
+A02992,Dairy Meal
+A02992,Mineral Lick
+A02992,Veterinary Drugs
+A02993,Tools (Hoe/Panga)
+A02994,Drip Kit
+A02994,Fungicide
+A02994,Pesticide
+A02995,Knapsack Sprayer
+A02995,Pesticide
+A02996,Knapsack Sprayer
+A02996,Pesticide
+A02997,DAP Fertilizer
+A02997,Hybrid Maize Seed
+A02998,DAP Fertilizer
+A02998,Fungicide
+A02998,Potato Seed
+A02999,Tools (Hoe/Panga)
+A02999,Wheelbarrow
+A03000,Vegetable Seeds
